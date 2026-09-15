@@ -94,9 +94,9 @@ flowchart TD
     subgraph R["Regular use — generate_search_strings.py (every run)"]
         B1["Load pok.csv"] --> B3
         B2["Load PVPoke rankings CSVs\n(latest date)"] --> B3
-        B3 --> B4["Match based on PvPoke name\n→ takes region/shadow into account"]
-        B4 --> B5["Search_optimizer"]
-        B5 --> B6["Print optimized search string"]
+        B3["Match based on PvPoke name\n→ takes region/shadow into account"] --> B4
+        B4["Search_optimizer"] --> B5
+        B5["Print optimized search string"]
     end
 
     A5 -.-> B1

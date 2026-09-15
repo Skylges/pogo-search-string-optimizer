@@ -79,6 +79,29 @@ data/raw/                       # Downloaded rankings + forms CSVs (gitignored b
 data/processed/pok.csv          # The lookup table
 ```
 
+## Workflow
+
+```mermaid
+flowchart TD
+    subgraph M["Maintenance — update_lookup_table.py (occasional, after a game update)"]
+        A1["Fetch forms from pogoapi"]
+        A1 --> A2["Save data/raw/pokemon_forms_MM_YYYY.csv"]
+        A2 --> A3["Build_lookup_table"]
+        A3 --> A4["Validate against PvPoke display names"]
+        A4 --> A5["Save pok.csv"]
+    end
+
+    subgraph R["Regular use — generate_search_strings.py (every run)"]
+        B1["Load pok.csv"] --> B3
+        B2["Load PVPoke rankings CSVs\n(latest date)"] --> B3
+        B3 --> B4["Match based on PvPoke name\n→ takes region/shadow into account"]
+        B4 --> B5["Search_optimizer"]
+        B5 --> B6["Print optimized search string"]
+    end
+
+    A5 -.-> B1
+```
+
 ## Running tests
 
 ```bash

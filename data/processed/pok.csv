@@ -1,0 +1,2279 @@
+dex,name,form,shadow,pvpoke_name,evo_ids,search_string
+1,Bulbasaur,Normal,False,Bulbasaur,[1],1&!shadow
+1,Bulbasaur,Normal,True,Bulbasaur (Shadow),[1],1&shadow
+2,Ivysaur,Normal,False,Ivysaur,"[1, 2]","1,2&!shadow"
+2,Ivysaur,Normal,True,Ivysaur (Shadow),"[1, 2]","1,2&shadow"
+3,Venusaur,Normal,False,Venusaur,"[1, 2, 3]","1,2,3&!shadow"
+3,Venusaur,Normal,True,Venusaur (Shadow),"[1, 2, 3]","1,2,3&shadow"
+4,Charmander,Normal,False,Charmander,[4],4&!shadow
+4,Charmander,Normal,True,Charmander (Shadow),[4],4&shadow
+5,Charmeleon,Normal,False,Charmeleon,"[4, 5]","4,5&!shadow"
+5,Charmeleon,Normal,True,Charmeleon (Shadow),"[4, 5]","4,5&shadow"
+6,Charizard,Normal,False,Charizard,"[4, 5, 6]","4,5,6&!shadow"
+6,Charizard,Normal,True,Charizard (Shadow),"[4, 5, 6]","4,5,6&shadow"
+7,Squirtle,Normal,False,Squirtle,[7],7&!shadow
+7,Squirtle,Normal,True,Squirtle (Shadow),[7],7&shadow
+8,Wartortle,Normal,False,Wartortle,"[7, 8]","7,8&!shadow"
+8,Wartortle,Normal,True,Wartortle (Shadow),"[7, 8]","7,8&shadow"
+9,Blastoise,Normal,False,Blastoise,"[7, 8, 9]","7,8,9&!shadow"
+9,Blastoise,Normal,True,Blastoise (Shadow),"[7, 8, 9]","7,8,9&shadow"
+10,Caterpie,Normal,False,Caterpie,[10],10&!shadow
+10,Caterpie,Normal,True,Caterpie (Shadow),[10],10&shadow
+11,Metapod,Normal,False,Metapod,"[10, 11]","10,11&!shadow"
+11,Metapod,Normal,True,Metapod (Shadow),"[10, 11]","10,11&shadow"
+12,Butterfree,Normal,False,Butterfree,"[10, 11, 12]","10,11,12&!shadow"
+12,Butterfree,Normal,True,Butterfree (Shadow),"[10, 11, 12]","10,11,12&shadow"
+13,Weedle,Normal,False,Weedle,[13],13&!shadow
+13,Weedle,Normal,True,Weedle (Shadow),[13],13&shadow
+14,Kakuna,Normal,False,Kakuna,"[13, 14]","13,14&!shadow"
+14,Kakuna,Normal,True,Kakuna (Shadow),"[13, 14]","13,14&shadow"
+15,Beedrill,Normal,False,Beedrill,"[13, 14, 15]","13,14,15&!shadow"
+15,Beedrill,Normal,True,Beedrill (Shadow),"[13, 14, 15]","13,14,15&shadow"
+16,Pidgey,Normal,False,Pidgey,[16],16&!shadow
+16,Pidgey,Normal,True,Pidgey (Shadow),[16],16&shadow
+17,Pidgeotto,Normal,False,Pidgeotto,"[16, 17]","16,17&!shadow"
+17,Pidgeotto,Normal,True,Pidgeotto (Shadow),"[16, 17]","16,17&shadow"
+18,Pidgeot,Normal,False,Pidgeot,"[16, 17, 18]","16,17,18&!shadow"
+18,Pidgeot,Normal,True,Pidgeot (Shadow),"[16, 17, 18]","16,17,18&shadow"
+19,Rattata,Alola,False,Rattata (Alolan),[19],19&alola&!shadow
+19,Rattata,Alola,True,Rattata (Alolan) (Shadow),[19],19&alola&shadow
+19,Rattata,Normal,False,Rattata,[19],19&!alola&!shadow
+19,Rattata,Normal,True,Rattata (Shadow),[19],19&!alola&shadow
+20,Raticate,Alola,False,Raticate (Alolan),"[19, 20]","19,20&alola&!shadow"
+20,Raticate,Alola,True,Raticate (Alolan) (Shadow),"[19, 20]","19,20&alola&shadow"
+20,Raticate,Normal,False,Raticate,"[19, 20]","19,20&!alola&!shadow"
+20,Raticate,Normal,True,Raticate (Shadow),"[19, 20]","19,20&!alola&shadow"
+21,Spearow,Normal,False,Spearow,[21],21&!shadow
+21,Spearow,Normal,True,Spearow (Shadow),[21],21&shadow
+22,Fearow,Normal,False,Fearow,"[21, 22]","21,22&!shadow"
+22,Fearow,Normal,True,Fearow (Shadow),"[21, 22]","21,22&shadow"
+23,Ekans,Normal,False,Ekans,[23],23&!shadow
+23,Ekans,Normal,True,Ekans (Shadow),[23],23&shadow
+24,Arbok,Normal,False,Arbok,"[23, 24]","23,24&!shadow"
+24,Arbok,Normal,True,Arbok (Shadow),"[23, 24]","23,24&shadow"
+25,Pikachu,Normal,False,Pikachu,"[25, 172]","25,172&!shadow"
+25,Pikachu,Normal,True,Pikachu (Shadow),"[25, 172]","25,172&shadow"
+26,Raichu,Alola,False,Raichu (Alolan),"[25, 26]","25,26&alola&!shadow"
+26,Raichu,Alola,True,Raichu (Alolan) (Shadow),"[25, 26]","25,26&alola&shadow"
+26,Raichu,Normal,False,Raichu,"[25, 26, 172]","25,26,172&!alola&!shadow"
+26,Raichu,Normal,True,Raichu (Shadow),"[25, 26, 172]","25,26,172&!alola&shadow"
+27,Sandshrew,Alola,False,Sandshrew (Alolan),[27],27&alola&!shadow
+27,Sandshrew,Alola,True,Sandshrew (Alolan) (Shadow),[27],27&alola&shadow
+27,Sandshrew,Normal,False,Sandshrew,[27],27&!alola&!shadow
+27,Sandshrew,Normal,True,Sandshrew (Shadow),[27],27&!alola&shadow
+28,Sandslash,Alola,False,Sandslash (Alolan),"[27, 28]","27,28&alola&!shadow"
+28,Sandslash,Alola,True,Sandslash (Alolan) (Shadow),"[27, 28]","27,28&alola&shadow"
+28,Sandslash,Normal,False,Sandslash,"[27, 28]","27,28&!alola&!shadow"
+28,Sandslash,Normal,True,Sandslash (Shadow),"[27, 28]","27,28&!alola&shadow"
+29,Nidoran♀,Normal,False,Nidoran Female,[29],29&!shadow
+29,Nidoran♀,Normal,True,Nidoran Female (Shadow),[29],29&shadow
+30,Nidorina,Normal,False,Nidorina,"[29, 30]","29,30&!shadow"
+30,Nidorina,Normal,True,Nidorina (Shadow),"[29, 30]","29,30&shadow"
+31,Nidoqueen,Normal,False,Nidoqueen,"[29, 30, 31]","29,30,31&!shadow"
+31,Nidoqueen,Normal,True,Nidoqueen (Shadow),"[29, 30, 31]","29,30,31&shadow"
+32,Nidoran♂,Normal,False,Nidoran Male,[32],32&!shadow
+32,Nidoran♂,Normal,True,Nidoran Male (Shadow),[32],32&shadow
+33,Nidorino,Normal,False,Nidorino,"[32, 33]","32,33&!shadow"
+33,Nidorino,Normal,True,Nidorino (Shadow),"[32, 33]","32,33&shadow"
+34,Nidoking,Normal,False,Nidoking,"[32, 33, 34]","32,33,34&!shadow"
+34,Nidoking,Normal,True,Nidoking (Shadow),"[32, 33, 34]","32,33,34&shadow"
+35,Clefairy,Normal,False,Clefairy,"[35, 173]","35,173&!shadow"
+35,Clefairy,Normal,True,Clefairy (Shadow),"[35, 173]","35,173&shadow"
+36,Clefable,Normal,False,Clefable,"[35, 36, 173]","35,36,173&!shadow"
+36,Clefable,Normal,True,Clefable (Shadow),"[35, 36, 173]","35,36,173&shadow"
+37,Vulpix,Alola,False,Vulpix (Alolan),[37],37&alola&!shadow
+37,Vulpix,Alola,True,Vulpix (Alolan) (Shadow),[37],37&alola&shadow
+37,Vulpix,Normal,False,Vulpix,[37],37&!alola&!shadow
+37,Vulpix,Normal,True,Vulpix (Shadow),[37],37&!alola&shadow
+38,Ninetales,Alola,False,Ninetales (Alolan),"[37, 38]","37,38&alola&!shadow"
+38,Ninetales,Alola,True,Ninetales (Alolan) (Shadow),"[37, 38]","37,38&alola&shadow"
+38,Ninetales,Normal,False,Ninetales,"[37, 38]","37,38&!alola&!shadow"
+38,Ninetales,Normal,True,Ninetales (Shadow),"[37, 38]","37,38&!alola&shadow"
+39,Jigglypuff,Normal,False,Jigglypuff,"[39, 174]","39,174&!shadow"
+39,Jigglypuff,Normal,True,Jigglypuff (Shadow),"[39, 174]","39,174&shadow"
+40,Wigglytuff,Normal,False,Wigglytuff,"[39, 40, 174]","39,40,174&!shadow"
+40,Wigglytuff,Normal,True,Wigglytuff (Shadow),"[39, 40, 174]","39,40,174&shadow"
+41,Zubat,Normal,False,Zubat,[41],41&!shadow
+41,Zubat,Normal,True,Zubat (Shadow),[41],41&shadow
+42,Golbat,Normal,False,Golbat,"[41, 42]","41,42&!shadow"
+42,Golbat,Normal,True,Golbat (Shadow),"[41, 42]","41,42&shadow"
+43,Oddish,Normal,False,Oddish,[43],43&!shadow
+43,Oddish,Normal,True,Oddish (Shadow),[43],43&shadow
+44,Gloom,Normal,False,Gloom,"[43, 44]","43,44&!shadow"
+44,Gloom,Normal,True,Gloom (Shadow),"[43, 44]","43,44&shadow"
+45,Vileplume,Normal,False,Vileplume,"[43, 44, 45]","43,44,45&!shadow"
+45,Vileplume,Normal,True,Vileplume (Shadow),"[43, 44, 45]","43,44,45&shadow"
+46,Paras,Normal,False,Paras,[46],46&!shadow
+46,Paras,Normal,True,Paras (Shadow),[46],46&shadow
+47,Parasect,Normal,False,Parasect,"[46, 47]","46,47&!shadow"
+47,Parasect,Normal,True,Parasect (Shadow),"[46, 47]","46,47&shadow"
+48,Venonat,Normal,False,Venonat,[48],48&!shadow
+48,Venonat,Normal,True,Venonat (Shadow),[48],48&shadow
+49,Venomoth,Normal,False,Venomoth,"[48, 49]","48,49&!shadow"
+49,Venomoth,Normal,True,Venomoth (Shadow),"[48, 49]","48,49&shadow"
+50,Diglett,Alola,False,Diglett (Alolan),[50],50&alola&!shadow
+50,Diglett,Alola,True,Diglett (Alolan) (Shadow),[50],50&alola&shadow
+50,Diglett,Normal,False,Diglett,[50],50&!alola&!shadow
+50,Diglett,Normal,True,Diglett (Shadow),[50],50&!alola&shadow
+51,Dugtrio,Alola,False,Dugtrio (Alolan),"[50, 51]","50,51&alola&!shadow"
+51,Dugtrio,Alola,True,Dugtrio (Alolan) (Shadow),"[50, 51]","50,51&alola&shadow"
+51,Dugtrio,Normal,False,Dugtrio,"[50, 51]","50,51&!alola&!shadow"
+51,Dugtrio,Normal,True,Dugtrio (Shadow),"[50, 51]","50,51&!alola&shadow"
+52,Meowth,Alola,False,Meowth (Alolan),[52],52&alola&!shadow
+52,Meowth,Alola,True,Meowth (Alolan) (Shadow),[52],52&alola&shadow
+52,Meowth,Galarian,False,Meowth (Galarian),[52],52&galar&!shadow
+52,Meowth,Galarian,True,Meowth (Galarian) (Shadow),[52],52&galar&shadow
+52,Meowth,Normal,False,Meowth,[52],52&!galar&!alola&!shadow
+52,Meowth,Normal,True,Meowth (Shadow),[52],52&!galar&!alola&shadow
+53,Persian,Alola,False,Persian (Alolan),"[52, 53]","52,53&alola&!shadow"
+53,Persian,Alola,True,Persian (Alolan) (Shadow),"[52, 53]","52,53&alola&shadow"
+53,Persian,Normal,False,Persian,"[52, 53]","52,53&!alola&!shadow"
+53,Persian,Normal,True,Persian (Shadow),"[52, 53]","52,53&!alola&shadow"
+54,Psyduck,Normal,False,Psyduck,[54],54&!shadow
+54,Psyduck,Normal,True,Psyduck (Shadow),[54],54&shadow
+55,Golduck,Normal,False,Golduck,"[54, 55]","54,55&!shadow"
+55,Golduck,Normal,True,Golduck (Shadow),"[54, 55]","54,55&shadow"
+56,Mankey,Normal,False,Mankey,[56],56&!shadow
+56,Mankey,Normal,True,Mankey (Shadow),[56],56&shadow
+57,Primeape,Normal,False,Primeape,"[56, 57]","56,57&!shadow"
+57,Primeape,Normal,True,Primeape (Shadow),"[56, 57]","56,57&shadow"
+58,Growlithe,Hisuian,False,Growlithe (Hisuian),[58],58&hisui&!shadow
+58,Growlithe,Hisuian,True,Growlithe (Hisuian) (Shadow),[58],58&hisui&shadow
+58,Growlithe,Normal,False,Growlithe,[58],58&!hisui&!shadow
+58,Growlithe,Normal,True,Growlithe (Shadow),[58],58&!hisui&shadow
+59,Arcanine,Hisuian,False,Arcanine (Hisuian),"[58, 59]","58,59&hisui&!shadow"
+59,Arcanine,Hisuian,True,Arcanine (Hisuian) (Shadow),"[58, 59]","58,59&hisui&shadow"
+59,Arcanine,Normal,False,Arcanine,"[58, 59]","58,59&!hisui&!shadow"
+59,Arcanine,Normal,True,Arcanine (Shadow),"[58, 59]","58,59&!hisui&shadow"
+60,Poliwag,Normal,False,Poliwag,[60],60&!shadow
+60,Poliwag,Normal,True,Poliwag (Shadow),[60],60&shadow
+61,Poliwhirl,Normal,False,Poliwhirl,"[60, 61]","60,61&!shadow"
+61,Poliwhirl,Normal,True,Poliwhirl (Shadow),"[60, 61]","60,61&shadow"
+62,Poliwrath,Normal,False,Poliwrath,"[60, 61, 62]","60,61,62&!shadow"
+62,Poliwrath,Normal,True,Poliwrath (Shadow),"[60, 61, 62]","60,61,62&shadow"
+63,Abra,Normal,False,Abra,[63],63&!shadow
+63,Abra,Normal,True,Abra (Shadow),[63],63&shadow
+64,Kadabra,Normal,False,Kadabra,"[63, 64]","63,64&!shadow"
+64,Kadabra,Normal,True,Kadabra (Shadow),"[63, 64]","63,64&shadow"
+65,Alakazam,Normal,False,Alakazam,"[63, 64, 65]","63,64,65&!shadow"
+65,Alakazam,Normal,True,Alakazam (Shadow),"[63, 64, 65]","63,64,65&shadow"
+66,Machop,Normal,False,Machop,[66],66&!shadow
+66,Machop,Normal,True,Machop (Shadow),[66],66&shadow
+67,Machoke,Normal,False,Machoke,"[66, 67]","66,67&!shadow"
+67,Machoke,Normal,True,Machoke (Shadow),"[66, 67]","66,67&shadow"
+68,Machamp,Normal,False,Machamp,"[66, 67, 68]","66,67,68&!shadow"
+68,Machamp,Normal,True,Machamp (Shadow),"[66, 67, 68]","66,67,68&shadow"
+69,Bellsprout,Normal,False,Bellsprout,[69],69&!shadow
+69,Bellsprout,Normal,True,Bellsprout (Shadow),[69],69&shadow
+70,Weepinbell,Normal,False,Weepinbell,"[69, 70]","69,70&!shadow"
+70,Weepinbell,Normal,True,Weepinbell (Shadow),"[69, 70]","69,70&shadow"
+71,Victreebel,Normal,False,Victreebel,"[69, 70, 71]","69,70,71&!shadow"
+71,Victreebel,Normal,True,Victreebel (Shadow),"[69, 70, 71]","69,70,71&shadow"
+72,Tentacool,Normal,False,Tentacool,[72],72&!shadow
+72,Tentacool,Normal,True,Tentacool (Shadow),[72],72&shadow
+73,Tentacruel,Normal,False,Tentacruel,"[72, 73]","72,73&!shadow"
+73,Tentacruel,Normal,True,Tentacruel (Shadow),"[72, 73]","72,73&shadow"
+74,Geodude,Alola,False,Geodude (Alolan),[74],74&alola&!shadow
+74,Geodude,Alola,True,Geodude (Alolan) (Shadow),[74],74&alola&shadow
+74,Geodude,Normal,False,Geodude,[74],74&!alola&!shadow
+74,Geodude,Normal,True,Geodude (Shadow),[74],74&!alola&shadow
+75,Graveler,Alola,False,Graveler (Alolan),"[74, 75]","74,75&alola&!shadow"
+75,Graveler,Alola,True,Graveler (Alolan) (Shadow),"[74, 75]","74,75&alola&shadow"
+75,Graveler,Normal,False,Graveler,"[74, 75]","74,75&!alola&!shadow"
+75,Graveler,Normal,True,Graveler (Shadow),"[74, 75]","74,75&!alola&shadow"
+76,Golem,Alola,False,Golem (Alolan),"[74, 75, 76]","74,75,76&alola&!shadow"
+76,Golem,Alola,True,Golem (Alolan) (Shadow),"[74, 75, 76]","74,75,76&alola&shadow"
+76,Golem,Normal,False,Golem,"[74, 75, 76]","74,75,76&!alola&!shadow"
+76,Golem,Normal,True,Golem (Shadow),"[74, 75, 76]","74,75,76&!alola&shadow"
+77,Ponyta,Galarian,False,Ponyta (Galarian),[77],77&galar&!shadow
+77,Ponyta,Galarian,True,Ponyta (Galarian) (Shadow),[77],77&galar&shadow
+77,Ponyta,Normal,False,Ponyta,[77],77&!galar&!shadow
+77,Ponyta,Normal,True,Ponyta (Shadow),[77],77&!galar&shadow
+78,Rapidash,Galarian,False,Rapidash (Galarian),"[77, 78]","77,78&galar&!shadow"
+78,Rapidash,Galarian,True,Rapidash (Galarian) (Shadow),"[77, 78]","77,78&galar&shadow"
+78,Rapidash,Normal,False,Rapidash,"[77, 78]","77,78&!galar&!shadow"
+78,Rapidash,Normal,True,Rapidash (Shadow),"[77, 78]","77,78&!galar&shadow"
+79,Slowpoke,Galarian,False,Slowpoke (Galarian),[79],79&galar&!shadow
+79,Slowpoke,Galarian,True,Slowpoke (Galarian) (Shadow),[79],79&galar&shadow
+79,Slowpoke,Normal,False,Slowpoke,[79],79&!galar&!shadow
+79,Slowpoke,Normal,True,Slowpoke (Shadow),[79],79&!galar&shadow
+80,Slowbro,Galarian,False,Slowbro (Galarian),"[79, 80]","79,80&galar&!shadow"
+80,Slowbro,Galarian,True,Slowbro (Galarian) (Shadow),"[79, 80]","79,80&galar&shadow"
+80,Slowbro,Normal,False,Slowbro,"[79, 80]","79,80&!galar&!shadow"
+80,Slowbro,Normal,True,Slowbro (Shadow),"[79, 80]","79,80&!galar&shadow"
+81,Magnemite,Normal,False,Magnemite,[81],81&!shadow
+81,Magnemite,Normal,True,Magnemite (Shadow),[81],81&shadow
+82,Magneton,Normal,False,Magneton,"[81, 82]","81,82&!shadow"
+82,Magneton,Normal,True,Magneton (Shadow),"[81, 82]","81,82&shadow"
+83,Farfetch'd,Galarian,False,Farfetch'd (Galarian),[83],83&galar&!shadow
+83,Farfetch'd,Galarian,True,Farfetch'd (Galarian) (Shadow),[83],83&galar&shadow
+83,Farfetch'd,Normal,False,Farfetch'd,[83],83&!galar&!shadow
+83,Farfetch'd,Normal,True,Farfetch'd (Shadow),[83],83&!galar&shadow
+84,Doduo,Normal,False,Doduo,[84],84&!shadow
+84,Doduo,Normal,True,Doduo (Shadow),[84],84&shadow
+85,Dodrio,Normal,False,Dodrio,"[84, 85]","84,85&!shadow"
+85,Dodrio,Normal,True,Dodrio (Shadow),"[84, 85]","84,85&shadow"
+86,Seel,Normal,False,Seel,[86],86&!shadow
+86,Seel,Normal,True,Seel (Shadow),[86],86&shadow
+87,Dewgong,Normal,False,Dewgong,"[86, 87]","86,87&!shadow"
+87,Dewgong,Normal,True,Dewgong (Shadow),"[86, 87]","86,87&shadow"
+88,Grimer,Alola,False,Grimer (Alolan),[88],88&alola&!shadow
+88,Grimer,Alola,True,Grimer (Alolan) (Shadow),[88],88&alola&shadow
+88,Grimer,Normal,False,Grimer,[88],88&!alola&!shadow
+88,Grimer,Normal,True,Grimer (Shadow),[88],88&!alola&shadow
+89,Muk,Alola,False,Muk (Alolan),"[88, 89]","88,89&alola&!shadow"
+89,Muk,Alola,True,Muk (Alolan) (Shadow),"[88, 89]","88,89&alola&shadow"
+89,Muk,Normal,False,Muk,"[88, 89]","88,89&!alola&!shadow"
+89,Muk,Normal,True,Muk (Shadow),"[88, 89]","88,89&!alola&shadow"
+90,Shellder,Normal,False,Shellder,[90],90&!shadow
+90,Shellder,Normal,True,Shellder (Shadow),[90],90&shadow
+91,Cloyster,Normal,False,Cloyster,"[90, 91]","90,91&!shadow"
+91,Cloyster,Normal,True,Cloyster (Shadow),"[90, 91]","90,91&shadow"
+92,Gastly,Normal,False,Gastly,[92],92&!shadow
+92,Gastly,Normal,True,Gastly (Shadow),[92],92&shadow
+93,Haunter,Normal,False,Haunter,"[92, 93]","92,93&!shadow"
+93,Haunter,Normal,True,Haunter (Shadow),"[92, 93]","92,93&shadow"
+94,Gengar,Normal,False,Gengar,"[92, 93, 94]","92,93,94&!shadow"
+94,Gengar,Normal,True,Gengar (Shadow),"[92, 93, 94]","92,93,94&shadow"
+95,Onix,Normal,False,Onix,[95],95&!shadow
+95,Onix,Normal,True,Onix (Shadow),[95],95&shadow
+96,Drowzee,Normal,False,Drowzee,[96],96&!shadow
+96,Drowzee,Normal,True,Drowzee (Shadow),[96],96&shadow
+97,Hypno,Normal,False,Hypno,"[96, 97]","96,97&!shadow"
+97,Hypno,Normal,True,Hypno (Shadow),"[96, 97]","96,97&shadow"
+98,Krabby,Normal,False,Krabby,[98],98&!shadow
+98,Krabby,Normal,True,Krabby (Shadow),[98],98&shadow
+99,Kingler,Normal,False,Kingler,"[98, 99]","98,99&!shadow"
+99,Kingler,Normal,True,Kingler (Shadow),"[98, 99]","98,99&shadow"
+100,Voltorb,Hisuian,False,Voltorb (Hisuian),[100],100&hisui&!shadow
+100,Voltorb,Hisuian,True,Voltorb (Hisuian) (Shadow),[100],100&hisui&shadow
+100,Voltorb,Normal,False,Voltorb,[100],100&!hisui&!shadow
+100,Voltorb,Normal,True,Voltorb (Shadow),[100],100&!hisui&shadow
+101,Electrode,Hisuian,False,Electrode (Hisuian),"[100, 101]","100,101&hisui&!shadow"
+101,Electrode,Hisuian,True,Electrode (Hisuian) (Shadow),"[100, 101]","100,101&hisui&shadow"
+101,Electrode,Normal,False,Electrode,"[100, 101]","100,101&!hisui&!shadow"
+101,Electrode,Normal,True,Electrode (Shadow),"[100, 101]","100,101&!hisui&shadow"
+102,Exeggcute,Normal,False,Exeggcute,[102],102&!shadow
+102,Exeggcute,Normal,True,Exeggcute (Shadow),[102],102&shadow
+103,Exeggutor,Alola,False,Exeggutor (Alolan),"[102, 103]","102,103&alola&!shadow"
+103,Exeggutor,Alola,True,Exeggutor (Alolan) (Shadow),"[102, 103]","102,103&alola&shadow"
+103,Exeggutor,Normal,False,Exeggutor,"[102, 103]","102,103&!alola&!shadow"
+103,Exeggutor,Normal,True,Exeggutor (Shadow),"[102, 103]","102,103&!alola&shadow"
+104,Cubone,Normal,False,Cubone,[104],104&!shadow
+104,Cubone,Normal,True,Cubone (Shadow),[104],104&shadow
+105,Marowak,Alola,False,Marowak (Alolan),"[104, 105]","104,105&alola&!shadow"
+105,Marowak,Alola,True,Marowak (Alolan) (Shadow),"[104, 105]","104,105&alola&shadow"
+105,Marowak,Normal,False,Marowak,"[104, 105]","104,105&!alola&!shadow"
+105,Marowak,Normal,True,Marowak (Shadow),"[104, 105]","104,105&!alola&shadow"
+106,Hitmonlee,Normal,False,Hitmonlee,"[106, 236]","106,236&!shadow"
+106,Hitmonlee,Normal,True,Hitmonlee (Shadow),"[106, 236]","106,236&shadow"
+107,Hitmonchan,Normal,False,Hitmonchan,"[107, 236]","107,236&!shadow"
+107,Hitmonchan,Normal,True,Hitmonchan (Shadow),"[107, 236]","107,236&shadow"
+108,Lickitung,Normal,False,Lickitung,[108],108&!shadow
+108,Lickitung,Normal,True,Lickitung (Shadow),[108],108&shadow
+109,Koffing,Normal,False,Koffing,[109],109&!shadow
+109,Koffing,Normal,True,Koffing (Shadow),[109],109&shadow
+110,Weezing,Galarian,False,Weezing (Galarian),"[109, 110]","109,110&galar&!shadow"
+110,Weezing,Galarian,True,Weezing (Galarian) (Shadow),"[109, 110]","109,110&galar&shadow"
+110,Weezing,Normal,False,Weezing,"[109, 110]","109,110&!galar&!shadow"
+110,Weezing,Normal,True,Weezing (Shadow),"[109, 110]","109,110&!galar&shadow"
+111,Rhyhorn,Normal,False,Rhyhorn,[111],111&!shadow
+111,Rhyhorn,Normal,True,Rhyhorn (Shadow),[111],111&shadow
+112,Rhydon,Normal,False,Rhydon,"[111, 112]","111,112&!shadow"
+112,Rhydon,Normal,True,Rhydon (Shadow),"[111, 112]","111,112&shadow"
+113,Chansey,Normal,False,Chansey,"[113, 440]","113,440&!shadow"
+113,Chansey,Normal,True,Chansey (Shadow),"[113, 440]","113,440&shadow"
+114,Tangela,Normal,False,Tangela,[114],114&!shadow
+114,Tangela,Normal,True,Tangela (Shadow),[114],114&shadow
+115,Kangaskhan,Normal,False,Kangaskhan,[115],115&!shadow
+115,Kangaskhan,Normal,True,Kangaskhan (Shadow),[115],115&shadow
+116,Horsea,Normal,False,Horsea,[116],116&!shadow
+116,Horsea,Normal,True,Horsea (Shadow),[116],116&shadow
+117,Seadra,Normal,False,Seadra,"[116, 117]","116,117&!shadow"
+117,Seadra,Normal,True,Seadra (Shadow),"[116, 117]","116,117&shadow"
+118,Goldeen,Normal,False,Goldeen,[118],118&!shadow
+118,Goldeen,Normal,True,Goldeen (Shadow),[118],118&shadow
+119,Seaking,Normal,False,Seaking,"[118, 119]","118,119&!shadow"
+119,Seaking,Normal,True,Seaking (Shadow),"[118, 119]","118,119&shadow"
+120,Staryu,Normal,False,Staryu,[120],120&!shadow
+120,Staryu,Normal,True,Staryu (Shadow),[120],120&shadow
+121,Starmie,Normal,False,Starmie,"[120, 121]","120,121&!shadow"
+121,Starmie,Normal,True,Starmie (Shadow),"[120, 121]","120,121&shadow"
+122,Mr. Mime,Galarian,False,Mr. Mime (Galarian),[122],122&galar&!shadow
+122,Mr. Mime,Galarian,True,Mr. Mime (Galarian) (Shadow),[122],122&galar&shadow
+122,Mr. Mime,Normal,False,Mr. Mime,"[122, 439]","122,439&!galar&!shadow"
+122,Mr. Mime,Normal,True,Mr. Mime (Shadow),"[122, 439]","122,439&!galar&shadow"
+123,Scyther,Normal,False,Scyther,[123],123&!shadow
+123,Scyther,Normal,True,Scyther (Shadow),[123],123&shadow
+124,Jynx,Normal,False,Jynx,"[124, 238]","124,238&!shadow"
+124,Jynx,Normal,True,Jynx (Shadow),"[124, 238]","124,238&shadow"
+125,Electabuzz,Normal,False,Electabuzz,"[125, 239]","125,239&!shadow"
+125,Electabuzz,Normal,True,Electabuzz (Shadow),"[125, 239]","125,239&shadow"
+126,Magmar,Normal,False,Magmar,"[126, 240]","126,240&!shadow"
+126,Magmar,Normal,True,Magmar (Shadow),"[126, 240]","126,240&shadow"
+127,Pinsir,Normal,False,Pinsir,[127],127&!shadow
+127,Pinsir,Normal,True,Pinsir (Shadow),[127],127&shadow
+128,Tauros,Normal,False,Tauros,[128],128&!shadow
+128,Tauros,Normal,True,Tauros (Shadow),[128],128&shadow
+128,Tauros,Paldea_aqua,False,Tauros (Aqua),[128],128&!shadow
+128,Tauros,Paldea_aqua,True,Tauros (Aqua) (Shadow),[128],128&shadow
+128,Tauros,Paldea_blaze,False,Tauros (Blaze),[128],128&!shadow
+128,Tauros,Paldea_blaze,True,Tauros (Blaze) (Shadow),[128],128&shadow
+128,Tauros,Paldea_combat,False,Tauros (Combat),[128],128&!shadow
+128,Tauros,Paldea_combat,True,Tauros (Combat) (Shadow),[128],128&shadow
+129,Magikarp,Normal,False,Magikarp,[129],129&!shadow
+129,Magikarp,Normal,True,Magikarp (Shadow),[129],129&shadow
+130,Gyarados,Normal,False,Gyarados,"[129, 130]","129,130&!shadow"
+130,Gyarados,Normal,True,Gyarados (Shadow),"[129, 130]","129,130&shadow"
+131,Lapras,Normal,False,Lapras,[131],131&!shadow
+131,Lapras,Normal,True,Lapras (Shadow),[131],131&shadow
+132,Ditto,Normal,False,Ditto,[132],132&!shadow
+132,Ditto,Normal,True,Ditto (Shadow),[132],132&shadow
+133,Eevee,Normal,False,Eevee,[133],133&!shadow
+133,Eevee,Normal,True,Eevee (Shadow),[133],133&shadow
+134,Vaporeon,Normal,False,Vaporeon,"[133, 134]","133,134&!shadow"
+134,Vaporeon,Normal,True,Vaporeon (Shadow),"[133, 134]","133,134&shadow"
+135,Jolteon,Normal,False,Jolteon,"[133, 135]","133,135&!shadow"
+135,Jolteon,Normal,True,Jolteon (Shadow),"[133, 135]","133,135&shadow"
+136,Flareon,Normal,False,Flareon,"[133, 136]","133,136&!shadow"
+136,Flareon,Normal,True,Flareon (Shadow),"[133, 136]","133,136&shadow"
+137,Porygon,Normal,False,Porygon,[137],137&!shadow
+137,Porygon,Normal,True,Porygon (Shadow),[137],137&shadow
+138,Omanyte,Normal,False,Omanyte,[138],138&!shadow
+138,Omanyte,Normal,True,Omanyte (Shadow),[138],138&shadow
+139,Omastar,Normal,False,Omastar,"[138, 139]","138,139&!shadow"
+139,Omastar,Normal,True,Omastar (Shadow),"[138, 139]","138,139&shadow"
+140,Kabuto,Normal,False,Kabuto,[140],140&!shadow
+140,Kabuto,Normal,True,Kabuto (Shadow),[140],140&shadow
+141,Kabutops,Normal,False,Kabutops,"[140, 141]","140,141&!shadow"
+141,Kabutops,Normal,True,Kabutops (Shadow),"[140, 141]","140,141&shadow"
+142,Aerodactyl,Normal,False,Aerodactyl,[142],142&!shadow
+142,Aerodactyl,Normal,True,Aerodactyl (Shadow),[142],142&shadow
+143,Snorlax,Normal,False,Snorlax,"[143, 446]","143,446&!shadow"
+143,Snorlax,Normal,True,Snorlax (Shadow),"[143, 446]","143,446&shadow"
+144,Articuno,Galarian,False,Articuno (Galarian),[144],144&galar&!shadow
+144,Articuno,Galarian,True,Articuno (Galarian) (Shadow),[144],144&galar&shadow
+144,Articuno,Normal,False,Articuno,[144],144&!galar&!shadow
+144,Articuno,Normal,True,Articuno (Shadow),[144],144&!galar&shadow
+145,Zapdos,Galarian,False,Zapdos (Galarian),[145],145&galar&!shadow
+145,Zapdos,Galarian,True,Zapdos (Galarian) (Shadow),[145],145&galar&shadow
+145,Zapdos,Normal,False,Zapdos,[145],145&!galar&!shadow
+145,Zapdos,Normal,True,Zapdos (Shadow),[145],145&!galar&shadow
+146,Moltres,Galarian,False,Moltres (Galarian),[146],146&galar&!shadow
+146,Moltres,Galarian,True,Moltres (Galarian) (Shadow),[146],146&galar&shadow
+146,Moltres,Normal,False,Moltres,[146],146&!galar&!shadow
+146,Moltres,Normal,True,Moltres (Shadow),[146],146&!galar&shadow
+147,Dratini,Normal,False,Dratini,[147],147&!shadow
+147,Dratini,Normal,True,Dratini (Shadow),[147],147&shadow
+148,Dragonair,Normal,False,Dragonair,"[147, 148]","147,148&!shadow"
+148,Dragonair,Normal,True,Dragonair (Shadow),"[147, 148]","147,148&shadow"
+149,Dragonite,Normal,False,Dragonite,"[147, 148, 149]","147,148,149&!shadow"
+149,Dragonite,Normal,True,Dragonite (Shadow),"[147, 148, 149]","147,148,149&shadow"
+150,Mewtwo,A,False,Mewtwo (Armored),[150],150&!shadow
+150,Mewtwo,A,True,Mewtwo (Armored) (Shadow),[150],150&shadow
+150,Mewtwo,Normal,False,Mewtwo,[150],150&!shadow
+150,Mewtwo,Normal,True,Mewtwo (Shadow),[150],150&shadow
+151,Mew,Normal,False,Mew,[151],151&!shadow
+151,Mew,Normal,True,Mew (Shadow),[151],151&shadow
+152,Chikorita,Normal,False,Chikorita,[152],152&!shadow
+152,Chikorita,Normal,True,Chikorita (Shadow),[152],152&shadow
+153,Bayleef,Normal,False,Bayleef,"[152, 153]","152,153&!shadow"
+153,Bayleef,Normal,True,Bayleef (Shadow),"[152, 153]","152,153&shadow"
+154,Meganium,Normal,False,Meganium,"[152, 153, 154]","152,153,154&!shadow"
+154,Meganium,Normal,True,Meganium (Shadow),"[152, 153, 154]","152,153,154&shadow"
+155,Cyndaquil,Normal,False,Cyndaquil,[155],155&!shadow
+155,Cyndaquil,Normal,True,Cyndaquil (Shadow),[155],155&shadow
+156,Quilava,Normal,False,Quilava,"[155, 156]","155,156&!shadow"
+156,Quilava,Normal,True,Quilava (Shadow),"[155, 156]","155,156&shadow"
+157,Typhlosion,Hisuian,False,Typhlosion (Hisuian),"[155, 156, 157]","155,156,157&hisui&!shadow"
+157,Typhlosion,Hisuian,True,Typhlosion (Hisuian) (Shadow),"[155, 156, 157]","155,156,157&hisui&shadow"
+157,Typhlosion,Normal,False,Typhlosion,"[155, 156, 157]","155,156,157&!hisui&!shadow"
+157,Typhlosion,Normal,True,Typhlosion (Shadow),"[155, 156, 157]","155,156,157&!hisui&shadow"
+158,Totodile,Normal,False,Totodile,[158],158&!shadow
+158,Totodile,Normal,True,Totodile (Shadow),[158],158&shadow
+159,Croconaw,Normal,False,Croconaw,"[158, 159]","158,159&!shadow"
+159,Croconaw,Normal,True,Croconaw (Shadow),"[158, 159]","158,159&shadow"
+160,Feraligatr,Normal,False,Feraligatr,"[158, 159, 160]","158,159,160&!shadow"
+160,Feraligatr,Normal,True,Feraligatr (Shadow),"[158, 159, 160]","158,159,160&shadow"
+161,Sentret,Normal,False,Sentret,[161],161&!shadow
+161,Sentret,Normal,True,Sentret (Shadow),[161],161&shadow
+162,Furret,Normal,False,Furret,"[161, 162]","161,162&!shadow"
+162,Furret,Normal,True,Furret (Shadow),"[161, 162]","161,162&shadow"
+163,Hoothoot,Normal,False,Hoothoot,[163],163&!shadow
+163,Hoothoot,Normal,True,Hoothoot (Shadow),[163],163&shadow
+164,Noctowl,Normal,False,Noctowl,"[163, 164]","163,164&!shadow"
+164,Noctowl,Normal,True,Noctowl (Shadow),"[163, 164]","163,164&shadow"
+165,Ledyba,Normal,False,Ledyba,[165],165&!shadow
+165,Ledyba,Normal,True,Ledyba (Shadow),[165],165&shadow
+166,Ledian,Normal,False,Ledian,"[165, 166]","165,166&!shadow"
+166,Ledian,Normal,True,Ledian (Shadow),"[165, 166]","165,166&shadow"
+167,Spinarak,Normal,False,Spinarak,[167],167&!shadow
+167,Spinarak,Normal,True,Spinarak (Shadow),[167],167&shadow
+168,Ariados,Normal,False,Ariados,"[167, 168]","167,168&!shadow"
+168,Ariados,Normal,True,Ariados (Shadow),"[167, 168]","167,168&shadow"
+169,Crobat,Normal,False,Crobat,"[41, 42, 169]","41,42,169&!shadow"
+169,Crobat,Normal,True,Crobat (Shadow),"[41, 42, 169]","41,42,169&shadow"
+170,Chinchou,Normal,False,Chinchou,[170],170&!shadow
+170,Chinchou,Normal,True,Chinchou (Shadow),[170],170&shadow
+171,Lanturn,Normal,False,Lanturn,"[170, 171]","170,171&!shadow"
+171,Lanturn,Normal,True,Lanturn (Shadow),"[170, 171]","170,171&shadow"
+172,Pichu,Normal,False,Pichu,[172],172&!shadow
+172,Pichu,Normal,True,Pichu (Shadow),[172],172&shadow
+173,Cleffa,Normal,False,Cleffa,[173],173&!shadow
+173,Cleffa,Normal,True,Cleffa (Shadow),[173],173&shadow
+174,Igglybuff,Normal,False,Igglybuff,[174],174&!shadow
+174,Igglybuff,Normal,True,Igglybuff (Shadow),[174],174&shadow
+175,Togepi,Normal,False,Togepi,[175],175&!shadow
+175,Togepi,Normal,True,Togepi (Shadow),[175],175&shadow
+176,Togetic,Normal,False,Togetic,"[175, 176]","175,176&!shadow"
+176,Togetic,Normal,True,Togetic (Shadow),"[175, 176]","175,176&shadow"
+177,Natu,Normal,False,Natu,[177],177&!shadow
+177,Natu,Normal,True,Natu (Shadow),[177],177&shadow
+178,Xatu,Normal,False,Xatu,"[177, 178]","177,178&!shadow"
+178,Xatu,Normal,True,Xatu (Shadow),"[177, 178]","177,178&shadow"
+179,Mareep,Normal,False,Mareep,[179],179&!shadow
+179,Mareep,Normal,True,Mareep (Shadow),[179],179&shadow
+180,Flaaffy,Normal,False,Flaaffy,"[179, 180]","179,180&!shadow"
+180,Flaaffy,Normal,True,Flaaffy (Shadow),"[179, 180]","179,180&shadow"
+181,Ampharos,Normal,False,Ampharos,"[179, 180, 181]","179,180,181&!shadow"
+181,Ampharos,Normal,True,Ampharos (Shadow),"[179, 180, 181]","179,180,181&shadow"
+182,Bellossom,Normal,False,Bellossom,"[43, 44, 182]","43,44,182&!shadow"
+182,Bellossom,Normal,True,Bellossom (Shadow),"[43, 44, 182]","43,44,182&shadow"
+183,Marill,Normal,False,Marill,"[183, 298]","183,298&!shadow"
+183,Marill,Normal,True,Marill (Shadow),"[183, 298]","183,298&shadow"
+184,Azumarill,Normal,False,Azumarill,"[183, 184, 298]","183,184,298&!shadow"
+184,Azumarill,Normal,True,Azumarill (Shadow),"[183, 184, 298]","183,184,298&shadow"
+185,Sudowoodo,Normal,False,Sudowoodo,"[185, 438]","185,438&!shadow"
+185,Sudowoodo,Normal,True,Sudowoodo (Shadow),"[185, 438]","185,438&shadow"
+186,Politoed,Normal,False,Politoed,"[60, 61, 186]","60,61,186&!shadow"
+186,Politoed,Normal,True,Politoed (Shadow),"[60, 61, 186]","60,61,186&shadow"
+187,Hoppip,Normal,False,Hoppip,[187],187&!shadow
+187,Hoppip,Normal,True,Hoppip (Shadow),[187],187&shadow
+188,Skiploom,Normal,False,Skiploom,"[187, 188]","187,188&!shadow"
+188,Skiploom,Normal,True,Skiploom (Shadow),"[187, 188]","187,188&shadow"
+189,Jumpluff,Normal,False,Jumpluff,"[187, 188, 189]","187,188,189&!shadow"
+189,Jumpluff,Normal,True,Jumpluff (Shadow),"[187, 188, 189]","187,188,189&shadow"
+190,Aipom,Normal,False,Aipom,[190],190&!shadow
+190,Aipom,Normal,True,Aipom (Shadow),[190],190&shadow
+191,Sunkern,Normal,False,Sunkern,[191],191&!shadow
+191,Sunkern,Normal,True,Sunkern (Shadow),[191],191&shadow
+192,Sunflora,Normal,False,Sunflora,"[191, 192]","191,192&!shadow"
+192,Sunflora,Normal,True,Sunflora (Shadow),"[191, 192]","191,192&shadow"
+193,Yanma,Normal,False,Yanma,[193],193&!shadow
+193,Yanma,Normal,True,Yanma (Shadow),[193],193&shadow
+194,Wooper,Normal,False,Wooper,[194],194&!paldea&!shadow
+194,Wooper,Normal,True,Wooper (Shadow),[194],194&!paldea&shadow
+194,Wooper,Paldea,False,Wooper (Paldean),[194],194&paldea&!shadow
+194,Wooper,Paldea,True,Wooper (Paldean) (Shadow),[194],194&paldea&shadow
+195,Quagsire,Normal,False,Quagsire,"[194, 195]","194,195&!shadow"
+195,Quagsire,Normal,True,Quagsire (Shadow),"[194, 195]","194,195&shadow"
+196,Espeon,Normal,False,Espeon,"[133, 196]","133,196&!shadow"
+196,Espeon,Normal,True,Espeon (Shadow),"[133, 196]","133,196&shadow"
+197,Umbreon,Normal,False,Umbreon,"[133, 197]","133,197&!shadow"
+197,Umbreon,Normal,True,Umbreon (Shadow),"[133, 197]","133,197&shadow"
+198,Murkrow,Normal,False,Murkrow,[198],198&!shadow
+198,Murkrow,Normal,True,Murkrow (Shadow),[198],198&shadow
+199,Slowking,Galarian,False,Slowking (Galarian),"[79, 199]","79,199&galar&!shadow"
+199,Slowking,Galarian,True,Slowking (Galarian) (Shadow),"[79, 199]","79,199&galar&shadow"
+199,Slowking,Normal,False,Slowking,"[79, 199]","79,199&!galar&!shadow"
+199,Slowking,Normal,True,Slowking (Shadow),"[79, 199]","79,199&!galar&shadow"
+200,Misdreavus,Normal,False,Misdreavus,[200],200&!shadow
+200,Misdreavus,Normal,True,Misdreavus (Shadow),[200],200&shadow
+201,Unown,A,False,Unown,[201],201&!shadow
+201,Unown,A,True,Unown (Shadow),[201],201&shadow
+202,Wobbuffet,Normal,False,Wobbuffet,"[202, 360]","202,360&!shadow"
+202,Wobbuffet,Normal,True,Wobbuffet (Shadow),"[202, 360]","202,360&shadow"
+203,Girafarig,Normal,False,Girafarig,[203],203&!shadow
+203,Girafarig,Normal,True,Girafarig (Shadow),[203],203&shadow
+204,Pineco,Normal,False,Pineco,[204],204&!shadow
+204,Pineco,Normal,True,Pineco (Shadow),[204],204&shadow
+205,Forretress,Normal,False,Forretress,"[204, 205]","204,205&!shadow"
+205,Forretress,Normal,True,Forretress (Shadow),"[204, 205]","204,205&shadow"
+206,Dunsparce,Normal,False,Dunsparce,[206],206&!shadow
+206,Dunsparce,Normal,True,Dunsparce (Shadow),[206],206&shadow
+207,Gligar,Normal,False,Gligar,[207],207&!shadow
+207,Gligar,Normal,True,Gligar (Shadow),[207],207&shadow
+208,Steelix,Normal,False,Steelix,"[95, 208]","95,208&!shadow"
+208,Steelix,Normal,True,Steelix (Shadow),"[95, 208]","95,208&shadow"
+209,Snubbull,Normal,False,Snubbull,[209],209&!shadow
+209,Snubbull,Normal,True,Snubbull (Shadow),[209],209&shadow
+210,Granbull,Normal,False,Granbull,"[209, 210]","209,210&!shadow"
+210,Granbull,Normal,True,Granbull (Shadow),"[209, 210]","209,210&shadow"
+211,Qwilfish,Hisuian,False,Qwilfish (Hisuian),[211],211&hisui&!shadow
+211,Qwilfish,Hisuian,True,Qwilfish (Hisuian) (Shadow),[211],211&hisui&shadow
+211,Qwilfish,Normal,False,Qwilfish,[211],211&!hisui&!shadow
+211,Qwilfish,Normal,True,Qwilfish (Shadow),[211],211&!hisui&shadow
+212,Scizor,Normal,False,Scizor,"[123, 212]","123,212&!shadow"
+212,Scizor,Normal,True,Scizor (Shadow),"[123, 212]","123,212&shadow"
+213,Shuckle,Normal,False,Shuckle,[213],213&!shadow
+213,Shuckle,Normal,True,Shuckle (Shadow),[213],213&shadow
+214,Heracross,Normal,False,Heracross,[214],214&!shadow
+214,Heracross,Normal,True,Heracross (Shadow),[214],214&shadow
+215,Sneasel,Hisuian,False,Sneasel (Hisuian),[215],215&hisui&!shadow
+215,Sneasel,Hisuian,True,Sneasel (Hisuian) (Shadow),[215],215&hisui&shadow
+215,Sneasel,Normal,False,Sneasel,[215],215&!hisui&!shadow
+215,Sneasel,Normal,True,Sneasel (Shadow),[215],215&!hisui&shadow
+216,Teddiursa,Normal,False,Teddiursa,[216],216&!shadow
+216,Teddiursa,Normal,True,Teddiursa (Shadow),[216],216&shadow
+217,Ursaring,Normal,False,Ursaring,"[216, 217]","216,217&!shadow"
+217,Ursaring,Normal,True,Ursaring (Shadow),"[216, 217]","216,217&shadow"
+218,Slugma,Normal,False,Slugma,[218],218&!shadow
+218,Slugma,Normal,True,Slugma (Shadow),[218],218&shadow
+219,Magcargo,Normal,False,Magcargo,"[218, 219]","218,219&!shadow"
+219,Magcargo,Normal,True,Magcargo (Shadow),"[218, 219]","218,219&shadow"
+220,Swinub,Normal,False,Swinub,[220],220&!shadow
+220,Swinub,Normal,True,Swinub (Shadow),[220],220&shadow
+221,Piloswine,Normal,False,Piloswine,"[220, 221]","220,221&!shadow"
+221,Piloswine,Normal,True,Piloswine (Shadow),"[220, 221]","220,221&shadow"
+222,Corsola,Galarian,False,Corsola (Galarian),[222],222&galar&!shadow
+222,Corsola,Galarian,True,Corsola (Galarian) (Shadow),[222],222&galar&shadow
+222,Corsola,Normal,False,Corsola,[222],222&!galar&!shadow
+222,Corsola,Normal,True,Corsola (Shadow),[222],222&!galar&shadow
+223,Remoraid,Normal,False,Remoraid,[223],223&!shadow
+223,Remoraid,Normal,True,Remoraid (Shadow),[223],223&shadow
+224,Octillery,Normal,False,Octillery,"[223, 224]","223,224&!shadow"
+224,Octillery,Normal,True,Octillery (Shadow),"[223, 224]","223,224&shadow"
+225,Delibird,Normal,False,Delibird,[225],225&!shadow
+225,Delibird,Normal,True,Delibird (Shadow),[225],225&shadow
+226,Mantine,Normal,False,Mantine,"[226, 458]","226,458&!shadow"
+226,Mantine,Normal,True,Mantine (Shadow),"[226, 458]","226,458&shadow"
+227,Skarmory,Normal,False,Skarmory,[227],227&!shadow
+227,Skarmory,Normal,True,Skarmory (Shadow),[227],227&shadow
+228,Houndour,Normal,False,Houndour,[228],228&!shadow
+228,Houndour,Normal,True,Houndour (Shadow),[228],228&shadow
+229,Houndoom,Normal,False,Houndoom,"[228, 229]","228,229&!shadow"
+229,Houndoom,Normal,True,Houndoom (Shadow),"[228, 229]","228,229&shadow"
+230,Kingdra,Normal,False,Kingdra,"[116, 117, 230]","116,117,230&!shadow"
+230,Kingdra,Normal,True,Kingdra (Shadow),"[116, 117, 230]","116,117,230&shadow"
+231,Phanpy,Normal,False,Phanpy,[231],231&!shadow
+231,Phanpy,Normal,True,Phanpy (Shadow),[231],231&shadow
+232,Donphan,Normal,False,Donphan,"[231, 232]","231,232&!shadow"
+232,Donphan,Normal,True,Donphan (Shadow),"[231, 232]","231,232&shadow"
+233,Porygon2,Normal,False,Porygon2,"[137, 233]","137,233&!shadow"
+233,Porygon2,Normal,True,Porygon2 (Shadow),"[137, 233]","137,233&shadow"
+234,Stantler,Normal,False,Stantler,[234],234&!shadow
+234,Stantler,Normal,True,Stantler (Shadow),[234],234&shadow
+235,Smeargle,Normal,False,Smeargle,[235],235&!shadow
+235,Smeargle,Normal,True,Smeargle (Shadow),[235],235&shadow
+236,Tyrogue,Normal,False,Tyrogue,[236],236&!shadow
+236,Tyrogue,Normal,True,Tyrogue (Shadow),[236],236&shadow
+237,Hitmontop,Normal,False,Hitmontop,"[236, 237]","236,237&!shadow"
+237,Hitmontop,Normal,True,Hitmontop (Shadow),"[236, 237]","236,237&shadow"
+238,Smoochum,Normal,False,Smoochum,[238],238&!shadow
+238,Smoochum,Normal,True,Smoochum (Shadow),[238],238&shadow
+239,Elekid,Normal,False,Elekid,[239],239&!shadow
+239,Elekid,Normal,True,Elekid (Shadow),[239],239&shadow
+240,Magby,Normal,False,Magby,[240],240&!shadow
+240,Magby,Normal,True,Magby (Shadow),[240],240&shadow
+241,Miltank,Normal,False,Miltank,[241],241&!shadow
+241,Miltank,Normal,True,Miltank (Shadow),[241],241&shadow
+242,Blissey,Normal,False,Blissey,"[113, 242, 440]","113,242,440&!shadow"
+242,Blissey,Normal,True,Blissey (Shadow),"[113, 242, 440]","113,242,440&shadow"
+243,Raikou,Normal,False,Raikou,[243],243&!shadow
+243,Raikou,Normal,True,Raikou (Shadow),[243],243&shadow
+244,Entei,Normal,False,Entei,[244],244&!shadow
+244,Entei,Normal,True,Entei (Shadow),[244],244&shadow
+245,Suicune,Normal,False,Suicune,[245],245&!shadow
+245,Suicune,Normal,True,Suicune (Shadow),[245],245&shadow
+246,Larvitar,Normal,False,Larvitar,[246],246&!shadow
+246,Larvitar,Normal,True,Larvitar (Shadow),[246],246&shadow
+247,Pupitar,Normal,False,Pupitar,"[246, 247]","246,247&!shadow"
+247,Pupitar,Normal,True,Pupitar (Shadow),"[246, 247]","246,247&shadow"
+248,Tyranitar,Normal,False,Tyranitar,"[246, 247, 248]","246,247,248&!shadow"
+248,Tyranitar,Normal,True,Tyranitar (Shadow),"[246, 247, 248]","246,247,248&shadow"
+249,Lugia,Normal,False,Lugia,[249],249&!shadow
+249,Lugia,Normal,True,Lugia (Shadow),[249],249&shadow
+250,Ho-Oh,Normal,False,Ho-Oh,[250],250&!shadow
+250,Ho-Oh,Normal,True,Ho-Oh (Shadow),[250],250&shadow
+251,Celebi,Normal,False,Celebi,[251],251&!shadow
+251,Celebi,Normal,True,Celebi (Shadow),[251],251&shadow
+252,Treecko,Normal,False,Treecko,[252],252&!shadow
+252,Treecko,Normal,True,Treecko (Shadow),[252],252&shadow
+253,Grovyle,Normal,False,Grovyle,"[252, 253]","252,253&!shadow"
+253,Grovyle,Normal,True,Grovyle (Shadow),"[252, 253]","252,253&shadow"
+254,Sceptile,Normal,False,Sceptile,"[252, 253, 254]","252,253,254&!shadow"
+254,Sceptile,Normal,True,Sceptile (Shadow),"[252, 253, 254]","252,253,254&shadow"
+255,Torchic,Normal,False,Torchic,[255],255&!shadow
+255,Torchic,Normal,True,Torchic (Shadow),[255],255&shadow
+256,Combusken,Normal,False,Combusken,"[255, 256]","255,256&!shadow"
+256,Combusken,Normal,True,Combusken (Shadow),"[255, 256]","255,256&shadow"
+257,Blaziken,Normal,False,Blaziken,"[255, 256, 257]","255,256,257&!shadow"
+257,Blaziken,Normal,True,Blaziken (Shadow),"[255, 256, 257]","255,256,257&shadow"
+258,Mudkip,Normal,False,Mudkip,[258],258&!shadow
+258,Mudkip,Normal,True,Mudkip (Shadow),[258],258&shadow
+259,Marshtomp,Normal,False,Marshtomp,"[258, 259]","258,259&!shadow"
+259,Marshtomp,Normal,True,Marshtomp (Shadow),"[258, 259]","258,259&shadow"
+260,Swampert,Normal,False,Swampert,"[258, 259, 260]","258,259,260&!shadow"
+260,Swampert,Normal,True,Swampert (Shadow),"[258, 259, 260]","258,259,260&shadow"
+261,Poochyena,Normal,False,Poochyena,[261],261&!shadow
+261,Poochyena,Normal,True,Poochyena (Shadow),[261],261&shadow
+262,Mightyena,Normal,False,Mightyena,"[261, 262]","261,262&!shadow"
+262,Mightyena,Normal,True,Mightyena (Shadow),"[261, 262]","261,262&shadow"
+263,Zigzagoon,Galarian,False,Zigzagoon (Galarian),[263],263&galar&!shadow
+263,Zigzagoon,Galarian,True,Zigzagoon (Galarian) (Shadow),[263],263&galar&shadow
+263,Zigzagoon,Normal,False,Zigzagoon,[263],263&!galar&!shadow
+263,Zigzagoon,Normal,True,Zigzagoon (Shadow),[263],263&!galar&shadow
+264,Linoone,Galarian,False,Linoone (Galarian),"[263, 264]","263,264&galar&!shadow"
+264,Linoone,Galarian,True,Linoone (Galarian) (Shadow),"[263, 264]","263,264&galar&shadow"
+264,Linoone,Normal,False,Linoone,"[263, 264]","263,264&!galar&!shadow"
+264,Linoone,Normal,True,Linoone (Shadow),"[263, 264]","263,264&!galar&shadow"
+265,Wurmple,Normal,False,Wurmple,[265],265&!shadow
+265,Wurmple,Normal,True,Wurmple (Shadow),[265],265&shadow
+266,Silcoon,Normal,False,Silcoon,"[265, 266]","265,266&!shadow"
+266,Silcoon,Normal,True,Silcoon (Shadow),"[265, 266]","265,266&shadow"
+267,Beautifly,Normal,False,Beautifly,"[265, 266, 267]","265,266,267&!shadow"
+267,Beautifly,Normal,True,Beautifly (Shadow),"[265, 266, 267]","265,266,267&shadow"
+268,Cascoon,Normal,False,Cascoon,"[265, 268]","265,268&!shadow"
+268,Cascoon,Normal,True,Cascoon (Shadow),"[265, 268]","265,268&shadow"
+269,Dustox,Normal,False,Dustox,"[265, 268, 269]","265,268,269&!shadow"
+269,Dustox,Normal,True,Dustox (Shadow),"[265, 268, 269]","265,268,269&shadow"
+270,Lotad,Normal,False,Lotad,[270],270&!shadow
+270,Lotad,Normal,True,Lotad (Shadow),[270],270&shadow
+271,Lombre,Normal,False,Lombre,"[270, 271]","270,271&!shadow"
+271,Lombre,Normal,True,Lombre (Shadow),"[270, 271]","270,271&shadow"
+272,Ludicolo,Normal,False,Ludicolo,"[270, 271, 272]","270,271,272&!shadow"
+272,Ludicolo,Normal,True,Ludicolo (Shadow),"[270, 271, 272]","270,271,272&shadow"
+273,Seedot,Normal,False,Seedot,[273],273&!shadow
+273,Seedot,Normal,True,Seedot (Shadow),[273],273&shadow
+274,Nuzleaf,Normal,False,Nuzleaf,"[273, 274]","273,274&!shadow"
+274,Nuzleaf,Normal,True,Nuzleaf (Shadow),"[273, 274]","273,274&shadow"
+275,Shiftry,Normal,False,Shiftry,"[273, 274, 275]","273,274,275&!shadow"
+275,Shiftry,Normal,True,Shiftry (Shadow),"[273, 274, 275]","273,274,275&shadow"
+276,Taillow,Normal,False,Taillow,[276],276&!shadow
+276,Taillow,Normal,True,Taillow (Shadow),[276],276&shadow
+277,Swellow,Normal,False,Swellow,"[276, 277]","276,277&!shadow"
+277,Swellow,Normal,True,Swellow (Shadow),"[276, 277]","276,277&shadow"
+278,Wingull,Normal,False,Wingull,[278],278&!shadow
+278,Wingull,Normal,True,Wingull (Shadow),[278],278&shadow
+279,Pelipper,Normal,False,Pelipper,"[278, 279]","278,279&!shadow"
+279,Pelipper,Normal,True,Pelipper (Shadow),"[278, 279]","278,279&shadow"
+280,Ralts,Normal,False,Ralts,[280],280&!shadow
+280,Ralts,Normal,True,Ralts (Shadow),[280],280&shadow
+281,Kirlia,Normal,False,Kirlia,"[280, 281]","280,281&!shadow"
+281,Kirlia,Normal,True,Kirlia (Shadow),"[280, 281]","280,281&shadow"
+282,Gardevoir,Normal,False,Gardevoir,"[280, 281, 282]","280,281,282&!shadow"
+282,Gardevoir,Normal,True,Gardevoir (Shadow),"[280, 281, 282]","280,281,282&shadow"
+283,Surskit,Normal,False,Surskit,[283],283&!shadow
+283,Surskit,Normal,True,Surskit (Shadow),[283],283&shadow
+284,Masquerain,Normal,False,Masquerain,"[283, 284]","283,284&!shadow"
+284,Masquerain,Normal,True,Masquerain (Shadow),"[283, 284]","283,284&shadow"
+285,Shroomish,Normal,False,Shroomish,[285],285&!shadow
+285,Shroomish,Normal,True,Shroomish (Shadow),[285],285&shadow
+286,Breloom,Normal,False,Breloom,"[285, 286]","285,286&!shadow"
+286,Breloom,Normal,True,Breloom (Shadow),"[285, 286]","285,286&shadow"
+287,Slakoth,Normal,False,Slakoth,[287],287&!shadow
+287,Slakoth,Normal,True,Slakoth (Shadow),[287],287&shadow
+288,Vigoroth,Normal,False,Vigoroth,"[287, 288]","287,288&!shadow"
+288,Vigoroth,Normal,True,Vigoroth (Shadow),"[287, 288]","287,288&shadow"
+289,Slaking,Normal,False,Slaking,"[287, 288, 289]","287,288,289&!shadow"
+289,Slaking,Normal,True,Slaking (Shadow),"[287, 288, 289]","287,288,289&shadow"
+290,Nincada,Normal,False,Nincada,[290],290&!shadow
+290,Nincada,Normal,True,Nincada (Shadow),[290],290&shadow
+291,Ninjask,Normal,False,Ninjask,"[290, 291]","290,291&!shadow"
+291,Ninjask,Normal,True,Ninjask (Shadow),"[290, 291]","290,291&shadow"
+292,Shedinja,Normal,False,Shedinja,"[290, 292]","290,292&!shadow"
+292,Shedinja,Normal,True,Shedinja (Shadow),"[290, 292]","290,292&shadow"
+293,Whismur,Normal,False,Whismur,[293],293&!shadow
+293,Whismur,Normal,True,Whismur (Shadow),[293],293&shadow
+294,Loudred,Normal,False,Loudred,"[293, 294]","293,294&!shadow"
+294,Loudred,Normal,True,Loudred (Shadow),"[293, 294]","293,294&shadow"
+295,Exploud,Normal,False,Exploud,"[293, 294, 295]","293,294,295&!shadow"
+295,Exploud,Normal,True,Exploud (Shadow),"[293, 294, 295]","293,294,295&shadow"
+296,Makuhita,Normal,False,Makuhita,[296],296&!shadow
+296,Makuhita,Normal,True,Makuhita (Shadow),[296],296&shadow
+297,Hariyama,Normal,False,Hariyama,"[296, 297]","296,297&!shadow"
+297,Hariyama,Normal,True,Hariyama (Shadow),"[296, 297]","296,297&shadow"
+298,Azurill,Normal,False,Azurill,[298],298&!shadow
+298,Azurill,Normal,True,Azurill (Shadow),[298],298&shadow
+299,Nosepass,Normal,False,Nosepass,[299],299&!shadow
+299,Nosepass,Normal,True,Nosepass (Shadow),[299],299&shadow
+300,Skitty,Normal,False,Skitty,[300],300&!shadow
+300,Skitty,Normal,True,Skitty (Shadow),[300],300&shadow
+301,Delcatty,Normal,False,Delcatty,"[300, 301]","300,301&!shadow"
+301,Delcatty,Normal,True,Delcatty (Shadow),"[300, 301]","300,301&shadow"
+302,Sableye,Normal,False,Sableye,[302],302&!shadow
+302,Sableye,Normal,True,Sableye (Shadow),[302],302&shadow
+303,Mawile,Normal,False,Mawile,[303],303&!shadow
+303,Mawile,Normal,True,Mawile (Shadow),[303],303&shadow
+304,Aron,Normal,False,Aron,[304],304&!shadow
+304,Aron,Normal,True,Aron (Shadow),[304],304&shadow
+305,Lairon,Normal,False,Lairon,"[304, 305]","304,305&!shadow"
+305,Lairon,Normal,True,Lairon (Shadow),"[304, 305]","304,305&shadow"
+306,Aggron,Normal,False,Aggron,"[304, 305, 306]","304,305,306&!shadow"
+306,Aggron,Normal,True,Aggron (Shadow),"[304, 305, 306]","304,305,306&shadow"
+307,Meditite,Normal,False,Meditite,[307],307&!shadow
+307,Meditite,Normal,True,Meditite (Shadow),[307],307&shadow
+308,Medicham,Normal,False,Medicham,"[307, 308]","307,308&!shadow"
+308,Medicham,Normal,True,Medicham (Shadow),"[307, 308]","307,308&shadow"
+309,Electrike,Normal,False,Electrike,[309],309&!shadow
+309,Electrike,Normal,True,Electrike (Shadow),[309],309&shadow
+310,Manectric,Normal,False,Manectric,"[309, 310]","309,310&!shadow"
+310,Manectric,Normal,True,Manectric (Shadow),"[309, 310]","309,310&shadow"
+311,Plusle,Normal,False,Plusle,[311],311&!shadow
+311,Plusle,Normal,True,Plusle (Shadow),[311],311&shadow
+312,Minun,Normal,False,Minun,[312],312&!shadow
+312,Minun,Normal,True,Minun (Shadow),[312],312&shadow
+313,Volbeat,Normal,False,Volbeat,[313],313&!shadow
+313,Volbeat,Normal,True,Volbeat (Shadow),[313],313&shadow
+314,Illumise,Normal,False,Illumise,[314],314&!shadow
+314,Illumise,Normal,True,Illumise (Shadow),[314],314&shadow
+315,Roselia,Normal,False,Roselia,"[315, 406]","315,406&!shadow"
+315,Roselia,Normal,True,Roselia (Shadow),"[315, 406]","315,406&shadow"
+316,Gulpin,Normal,False,Gulpin,[316],316&!shadow
+316,Gulpin,Normal,True,Gulpin (Shadow),[316],316&shadow
+317,Swalot,Normal,False,Swalot,"[316, 317]","316,317&!shadow"
+317,Swalot,Normal,True,Swalot (Shadow),"[316, 317]","316,317&shadow"
+318,Carvanha,Normal,False,Carvanha,[318],318&!shadow
+318,Carvanha,Normal,True,Carvanha (Shadow),[318],318&shadow
+319,Sharpedo,Normal,False,Sharpedo,"[318, 319]","318,319&!shadow"
+319,Sharpedo,Normal,True,Sharpedo (Shadow),"[318, 319]","318,319&shadow"
+320,Wailmer,Normal,False,Wailmer,[320],320&!shadow
+320,Wailmer,Normal,True,Wailmer (Shadow),[320],320&shadow
+321,Wailord,Normal,False,Wailord,"[320, 321]","320,321&!shadow"
+321,Wailord,Normal,True,Wailord (Shadow),"[320, 321]","320,321&shadow"
+322,Numel,Normal,False,Numel,[322],322&!shadow
+322,Numel,Normal,True,Numel (Shadow),[322],322&shadow
+323,Camerupt,Normal,False,Camerupt,"[322, 323]","322,323&!shadow"
+323,Camerupt,Normal,True,Camerupt (Shadow),"[322, 323]","322,323&shadow"
+324,Torkoal,Normal,False,Torkoal,[324],324&!shadow
+324,Torkoal,Normal,True,Torkoal (Shadow),[324],324&shadow
+325,Spoink,Normal,False,Spoink,[325],325&!shadow
+325,Spoink,Normal,True,Spoink (Shadow),[325],325&shadow
+326,Grumpig,Normal,False,Grumpig,"[325, 326]","325,326&!shadow"
+326,Grumpig,Normal,True,Grumpig (Shadow),"[325, 326]","325,326&shadow"
+327,Spinda,00,False,Spinda,[327],327&!shadow
+327,Spinda,00,True,Spinda (Shadow),[327],327&shadow
+328,Trapinch,Normal,False,Trapinch,[328],328&!shadow
+328,Trapinch,Normal,True,Trapinch (Shadow),[328],328&shadow
+329,Vibrava,Normal,False,Vibrava,"[328, 329]","328,329&!shadow"
+329,Vibrava,Normal,True,Vibrava (Shadow),"[328, 329]","328,329&shadow"
+330,Flygon,Normal,False,Flygon,"[328, 329, 330]","328,329,330&!shadow"
+330,Flygon,Normal,True,Flygon (Shadow),"[328, 329, 330]","328,329,330&shadow"
+331,Cacnea,Normal,False,Cacnea,[331],331&!shadow
+331,Cacnea,Normal,True,Cacnea (Shadow),[331],331&shadow
+332,Cacturne,Normal,False,Cacturne,"[331, 332]","331,332&!shadow"
+332,Cacturne,Normal,True,Cacturne (Shadow),"[331, 332]","331,332&shadow"
+333,Swablu,Normal,False,Swablu,[333],333&!shadow
+333,Swablu,Normal,True,Swablu (Shadow),[333],333&shadow
+334,Altaria,Normal,False,Altaria,"[333, 334]","333,334&!shadow"
+334,Altaria,Normal,True,Altaria (Shadow),"[333, 334]","333,334&shadow"
+335,Zangoose,Normal,False,Zangoose,[335],335&!shadow
+335,Zangoose,Normal,True,Zangoose (Shadow),[335],335&shadow
+336,Seviper,Normal,False,Seviper,[336],336&!shadow
+336,Seviper,Normal,True,Seviper (Shadow),[336],336&shadow
+337,Lunatone,Normal,False,Lunatone,[337],337&!shadow
+337,Lunatone,Normal,True,Lunatone (Shadow),[337],337&shadow
+338,Solrock,Normal,False,Solrock,[338],338&!shadow
+338,Solrock,Normal,True,Solrock (Shadow),[338],338&shadow
+339,Barboach,Normal,False,Barboach,[339],339&!shadow
+339,Barboach,Normal,True,Barboach (Shadow),[339],339&shadow
+340,Whiscash,Normal,False,Whiscash,"[339, 340]","339,340&!shadow"
+340,Whiscash,Normal,True,Whiscash (Shadow),"[339, 340]","339,340&shadow"
+341,Corphish,Normal,False,Corphish,[341],341&!shadow
+341,Corphish,Normal,True,Corphish (Shadow),[341],341&shadow
+342,Crawdaunt,Normal,False,Crawdaunt,"[341, 342]","341,342&!shadow"
+342,Crawdaunt,Normal,True,Crawdaunt (Shadow),"[341, 342]","341,342&shadow"
+343,Baltoy,Normal,False,Baltoy,[343],343&!shadow
+343,Baltoy,Normal,True,Baltoy (Shadow),[343],343&shadow
+344,Claydol,Normal,False,Claydol,"[343, 344]","343,344&!shadow"
+344,Claydol,Normal,True,Claydol (Shadow),"[343, 344]","343,344&shadow"
+345,Lileep,Normal,False,Lileep,[345],345&!shadow
+345,Lileep,Normal,True,Lileep (Shadow),[345],345&shadow
+346,Cradily,Normal,False,Cradily,"[345, 346]","345,346&!shadow"
+346,Cradily,Normal,True,Cradily (Shadow),"[345, 346]","345,346&shadow"
+347,Anorith,Normal,False,Anorith,[347],347&!shadow
+347,Anorith,Normal,True,Anorith (Shadow),[347],347&shadow
+348,Armaldo,Normal,False,Armaldo,"[347, 348]","347,348&!shadow"
+348,Armaldo,Normal,True,Armaldo (Shadow),"[347, 348]","347,348&shadow"
+349,Feebas,Normal,False,Feebas,[349],349&!shadow
+349,Feebas,Normal,True,Feebas (Shadow),[349],349&shadow
+350,Milotic,Normal,False,Milotic,"[349, 350]","349,350&!shadow"
+350,Milotic,Normal,True,Milotic (Shadow),"[349, 350]","349,350&shadow"
+351,Castform,Normal,False,Castform,[351],351&!shadow
+351,Castform,Normal,True,Castform (Shadow),[351],351&shadow
+351,Castform,Rainy,False,Castform (Rainy),[351],351&!shadow
+351,Castform,Rainy,True,Castform (Rainy) (Shadow),[351],351&shadow
+351,Castform,Snowy,False,Castform (Snowy),[351],351&!shadow
+351,Castform,Snowy,True,Castform (Snowy) (Shadow),[351],351&shadow
+351,Castform,Sunny,False,Castform (Sunny),[351],351&!shadow
+351,Castform,Sunny,True,Castform (Sunny) (Shadow),[351],351&shadow
+352,Kecleon,Normal,False,Kecleon,[352],352&!shadow
+352,Kecleon,Normal,True,Kecleon (Shadow),[352],352&shadow
+353,Shuppet,Normal,False,Shuppet,[353],353&!shadow
+353,Shuppet,Normal,True,Shuppet (Shadow),[353],353&shadow
+354,Banette,Normal,False,Banette,"[353, 354]","353,354&!shadow"
+354,Banette,Normal,True,Banette (Shadow),"[353, 354]","353,354&shadow"
+355,Duskull,Normal,False,Duskull,[355],355&!shadow
+355,Duskull,Normal,True,Duskull (Shadow),[355],355&shadow
+356,Dusclops,Normal,False,Dusclops,"[355, 356]","355,356&!shadow"
+356,Dusclops,Normal,True,Dusclops (Shadow),"[355, 356]","355,356&shadow"
+357,Tropius,Normal,False,Tropius,[357],357&!shadow
+357,Tropius,Normal,True,Tropius (Shadow),[357],357&shadow
+358,Chimecho,Normal,False,Chimecho,"[358, 433]","358,433&!shadow"
+358,Chimecho,Normal,True,Chimecho (Shadow),"[358, 433]","358,433&shadow"
+359,Absol,Normal,False,Absol,[359],359&!shadow
+359,Absol,Normal,True,Absol (Shadow),[359],359&shadow
+360,Wynaut,Normal,False,Wynaut,[360],360&!shadow
+360,Wynaut,Normal,True,Wynaut (Shadow),[360],360&shadow
+361,Snorunt,Normal,False,Snorunt,[361],361&!shadow
+361,Snorunt,Normal,True,Snorunt (Shadow),[361],361&shadow
+362,Glalie,Normal,False,Glalie,"[361, 362]","361,362&!shadow"
+362,Glalie,Normal,True,Glalie (Shadow),"[361, 362]","361,362&shadow"
+363,Spheal,Normal,False,Spheal,[363],363&!shadow
+363,Spheal,Normal,True,Spheal (Shadow),[363],363&shadow
+364,Sealeo,Normal,False,Sealeo,"[363, 364]","363,364&!shadow"
+364,Sealeo,Normal,True,Sealeo (Shadow),"[363, 364]","363,364&shadow"
+365,Walrein,Normal,False,Walrein,"[363, 364, 365]","363,364,365&!shadow"
+365,Walrein,Normal,True,Walrein (Shadow),"[363, 364, 365]","363,364,365&shadow"
+366,Clamperl,Normal,False,Clamperl,[366],366&!shadow
+366,Clamperl,Normal,True,Clamperl (Shadow),[366],366&shadow
+367,Huntail,Normal,False,Huntail,"[366, 367]","366,367&!shadow"
+367,Huntail,Normal,True,Huntail (Shadow),"[366, 367]","366,367&shadow"
+368,Gorebyss,Normal,False,Gorebyss,"[366, 368]","366,368&!shadow"
+368,Gorebyss,Normal,True,Gorebyss (Shadow),"[366, 368]","366,368&shadow"
+369,Relicanth,Normal,False,Relicanth,[369],369&!shadow
+369,Relicanth,Normal,True,Relicanth (Shadow),[369],369&shadow
+370,Luvdisc,Normal,False,Luvdisc,[370],370&!shadow
+370,Luvdisc,Normal,True,Luvdisc (Shadow),[370],370&shadow
+371,Bagon,Normal,False,Bagon,[371],371&!shadow
+371,Bagon,Normal,True,Bagon (Shadow),[371],371&shadow
+372,Shelgon,Normal,False,Shelgon,"[371, 372]","371,372&!shadow"
+372,Shelgon,Normal,True,Shelgon (Shadow),"[371, 372]","371,372&shadow"
+373,Salamence,Normal,False,Salamence,"[371, 372, 373]","371,372,373&!shadow"
+373,Salamence,Normal,True,Salamence (Shadow),"[371, 372, 373]","371,372,373&shadow"
+374,Beldum,Normal,False,Beldum,[374],374&!shadow
+374,Beldum,Normal,True,Beldum (Shadow),[374],374&shadow
+375,Metang,Normal,False,Metang,"[374, 375]","374,375&!shadow"
+375,Metang,Normal,True,Metang (Shadow),"[374, 375]","374,375&shadow"
+376,Metagross,Normal,False,Metagross,"[374, 375, 376]","374,375,376&!shadow"
+376,Metagross,Normal,True,Metagross (Shadow),"[374, 375, 376]","374,375,376&shadow"
+377,Regirock,Normal,False,Regirock,[377],377&!shadow
+377,Regirock,Normal,True,Regirock (Shadow),[377],377&shadow
+378,Regice,Normal,False,Regice,[378],378&!shadow
+378,Regice,Normal,True,Regice (Shadow),[378],378&shadow
+379,Registeel,Normal,False,Registeel,[379],379&!shadow
+379,Registeel,Normal,True,Registeel (Shadow),[379],379&shadow
+380,Latias,Normal,False,Latias,[380],380&!shadow
+380,Latias,Normal,True,Latias (Shadow),[380],380&shadow
+381,Latios,Normal,False,Latios,[381],381&!shadow
+381,Latios,Normal,True,Latios (Shadow),[381],381&shadow
+382,Kyogre,Normal,False,Kyogre,[382],382&!shadow
+382,Kyogre,Normal,True,Kyogre (Shadow),[382],382&shadow
+383,Groudon,Normal,False,Groudon,[383],383&!shadow
+383,Groudon,Normal,True,Groudon (Shadow),[383],383&shadow
+384,Rayquaza,Normal,False,Rayquaza,[384],384&!shadow
+384,Rayquaza,Normal,True,Rayquaza (Shadow),[384],384&shadow
+385,Jirachi,Normal,False,Jirachi,[385],385&!shadow
+385,Jirachi,Normal,True,Jirachi (Shadow),[385],385&shadow
+386,Deoxys,Attack,False,Deoxys (Attack),[386],386&!shadow
+386,Deoxys,Attack,True,Deoxys (Attack) (Shadow),[386],386&shadow
+386,Deoxys,Defense,False,Deoxys (Defense),[386],386&!shadow
+386,Deoxys,Defense,True,Deoxys (Defense) (Shadow),[386],386&shadow
+386,Deoxys,Normal,False,Deoxys,[386],386&!shadow
+386,Deoxys,Normal,True,Deoxys (Shadow),[386],386&shadow
+386,Deoxys,Speed,False,Deoxys (Speed),[386],386&!shadow
+386,Deoxys,Speed,True,Deoxys (Speed) (Shadow),[386],386&shadow
+387,Turtwig,Normal,False,Turtwig,[387],387&!shadow
+387,Turtwig,Normal,True,Turtwig (Shadow),[387],387&shadow
+388,Grotle,Normal,False,Grotle,"[387, 388]","387,388&!shadow"
+388,Grotle,Normal,True,Grotle (Shadow),"[387, 388]","387,388&shadow"
+389,Torterra,Normal,False,Torterra,"[387, 388, 389]","387,388,389&!shadow"
+389,Torterra,Normal,True,Torterra (Shadow),"[387, 388, 389]","387,388,389&shadow"
+390,Chimchar,Normal,False,Chimchar,[390],390&!shadow
+390,Chimchar,Normal,True,Chimchar (Shadow),[390],390&shadow
+391,Monferno,Normal,False,Monferno,"[390, 391]","390,391&!shadow"
+391,Monferno,Normal,True,Monferno (Shadow),"[390, 391]","390,391&shadow"
+392,Infernape,Normal,False,Infernape,"[390, 391, 392]","390,391,392&!shadow"
+392,Infernape,Normal,True,Infernape (Shadow),"[390, 391, 392]","390,391,392&shadow"
+393,Piplup,Normal,False,Piplup,[393],393&!shadow
+393,Piplup,Normal,True,Piplup (Shadow),[393],393&shadow
+394,Prinplup,Normal,False,Prinplup,"[393, 394]","393,394&!shadow"
+394,Prinplup,Normal,True,Prinplup (Shadow),"[393, 394]","393,394&shadow"
+395,Empoleon,Normal,False,Empoleon,"[393, 394, 395]","393,394,395&!shadow"
+395,Empoleon,Normal,True,Empoleon (Shadow),"[393, 394, 395]","393,394,395&shadow"
+396,Starly,Normal,False,Starly,[396],396&!shadow
+396,Starly,Normal,True,Starly (Shadow),[396],396&shadow
+397,Staravia,Normal,False,Staravia,"[396, 397]","396,397&!shadow"
+397,Staravia,Normal,True,Staravia (Shadow),"[396, 397]","396,397&shadow"
+398,Staraptor,Normal,False,Staraptor,"[396, 397, 398]","396,397,398&!shadow"
+398,Staraptor,Normal,True,Staraptor (Shadow),"[396, 397, 398]","396,397,398&shadow"
+399,Bidoof,Normal,False,Bidoof,[399],399&!shadow
+399,Bidoof,Normal,True,Bidoof (Shadow),[399],399&shadow
+400,Bibarel,Normal,False,Bibarel,"[399, 400]","399,400&!shadow"
+400,Bibarel,Normal,True,Bibarel (Shadow),"[399, 400]","399,400&shadow"
+401,Kricketot,Normal,False,Kricketot,[401],401&!shadow
+401,Kricketot,Normal,True,Kricketot (Shadow),[401],401&shadow
+402,Kricketune,Normal,False,Kricketune,"[401, 402]","401,402&!shadow"
+402,Kricketune,Normal,True,Kricketune (Shadow),"[401, 402]","401,402&shadow"
+403,Shinx,Normal,False,Shinx,[403],403&!shadow
+403,Shinx,Normal,True,Shinx (Shadow),[403],403&shadow
+404,Luxio,Normal,False,Luxio,"[403, 404]","403,404&!shadow"
+404,Luxio,Normal,True,Luxio (Shadow),"[403, 404]","403,404&shadow"
+405,Luxray,Normal,False,Luxray,"[403, 404, 405]","403,404,405&!shadow"
+405,Luxray,Normal,True,Luxray (Shadow),"[403, 404, 405]","403,404,405&shadow"
+406,Budew,Normal,False,Budew,[406],406&!shadow
+406,Budew,Normal,True,Budew (Shadow),[406],406&shadow
+407,Roserade,Normal,False,Roserade,"[315, 406, 407]","315,406,407&!shadow"
+407,Roserade,Normal,True,Roserade (Shadow),"[315, 406, 407]","315,406,407&shadow"
+408,Cranidos,Normal,False,Cranidos,[408],408&!shadow
+408,Cranidos,Normal,True,Cranidos (Shadow),[408],408&shadow
+409,Rampardos,Normal,False,Rampardos,"[408, 409]","408,409&!shadow"
+409,Rampardos,Normal,True,Rampardos (Shadow),"[408, 409]","408,409&shadow"
+410,Shieldon,Normal,False,Shieldon,[410],410&!shadow
+410,Shieldon,Normal,True,Shieldon (Shadow),[410],410&shadow
+411,Bastiodon,Normal,False,Bastiodon,"[410, 411]","410,411&!shadow"
+411,Bastiodon,Normal,True,Bastiodon (Shadow),"[410, 411]","410,411&shadow"
+412,Burmy,Plant,False,Burmy (Plant),[412],412&!shadow
+412,Burmy,Plant,True,Burmy (Plant) (Shadow),[412],412&shadow
+412,Burmy,Sandy,False,Burmy (Sandy),[412],412&!shadow
+412,Burmy,Sandy,True,Burmy (Sandy) (Shadow),[412],412&shadow
+412,Burmy,Trash,False,Burmy (Trash),[412],412&!shadow
+412,Burmy,Trash,True,Burmy (Trash) (Shadow),[412],412&shadow
+413,Wormadam,Plant,False,Wormadam (Plant),"[412, 413]","412,413&!shadow"
+413,Wormadam,Plant,True,Wormadam (Plant) (Shadow),"[412, 413]","412,413&shadow"
+413,Wormadam,Sandy,False,Wormadam (Sandy),"[412, 413]","412,413&!shadow"
+413,Wormadam,Sandy,True,Wormadam (Sandy) (Shadow),"[412, 413]","412,413&shadow"
+413,Wormadam,Trash,False,Wormadam (Trash),"[412, 413]","412,413&!shadow"
+413,Wormadam,Trash,True,Wormadam (Trash) (Shadow),"[412, 413]","412,413&shadow"
+414,Mothim,Normal,False,Mothim,"[412, 414]","412,414&!shadow"
+414,Mothim,Normal,True,Mothim (Shadow),"[412, 414]","412,414&shadow"
+415,Combee,Normal,False,Combee,[415],415&!shadow
+415,Combee,Normal,True,Combee (Shadow),[415],415&shadow
+416,Vespiquen,Normal,False,Vespiquen,"[415, 416]","415,416&!shadow"
+416,Vespiquen,Normal,True,Vespiquen (Shadow),"[415, 416]","415,416&shadow"
+417,Pachirisu,Normal,False,Pachirisu,[417],417&!shadow
+417,Pachirisu,Normal,True,Pachirisu (Shadow),[417],417&shadow
+418,Buizel,Normal,False,Buizel,[418],418&!shadow
+418,Buizel,Normal,True,Buizel (Shadow),[418],418&shadow
+419,Floatzel,Normal,False,Floatzel,"[418, 419]","418,419&!shadow"
+419,Floatzel,Normal,True,Floatzel (Shadow),"[418, 419]","418,419&shadow"
+420,Cherubi,Normal,False,Cherubi,[420],420&!shadow
+420,Cherubi,Normal,True,Cherubi (Shadow),[420],420&shadow
+421,Cherrim,Overcast,False,Cherrim (Overcast),"[420, 421]","420,421&!shadow"
+421,Cherrim,Overcast,True,Cherrim (Overcast) (Shadow),"[420, 421]","420,421&shadow"
+421,Cherrim,Sunshine,False,Cherrim (Sunshine),"[420, 421]","420,421&!shadow"
+421,Cherrim,Sunshine,True,Cherrim (Sunshine) (Shadow),"[420, 421]","420,421&shadow"
+422,Shellos,East_sea,False,Shellos,[422],422&!shadow
+422,Shellos,East_sea,True,Shellos (Shadow),[422],422&shadow
+422,Shellos,West_sea,False,Shellos,[422],422&!shadow
+422,Shellos,West_sea,True,Shellos (Shadow),[422],422&shadow
+423,Gastrodon,East_sea,False,Gastrodon,"[422, 423]","422,423&!shadow"
+423,Gastrodon,East_sea,True,Gastrodon (Shadow),"[422, 423]","422,423&shadow"
+423,Gastrodon,West_sea,False,Gastrodon,"[422, 423]","422,423&!shadow"
+423,Gastrodon,West_sea,True,Gastrodon (Shadow),"[422, 423]","422,423&shadow"
+424,Ambipom,Normal,False,Ambipom,"[190, 424]","190,424&!shadow"
+424,Ambipom,Normal,True,Ambipom (Shadow),"[190, 424]","190,424&shadow"
+425,Drifloon,Normal,False,Drifloon,[425],425&!shadow
+425,Drifloon,Normal,True,Drifloon (Shadow),[425],425&shadow
+426,Drifblim,Normal,False,Drifblim,"[425, 426]","425,426&!shadow"
+426,Drifblim,Normal,True,Drifblim (Shadow),"[425, 426]","425,426&shadow"
+427,Buneary,Normal,False,Buneary,[427],427&!shadow
+427,Buneary,Normal,True,Buneary (Shadow),[427],427&shadow
+428,Lopunny,Normal,False,Lopunny,"[427, 428]","427,428&!shadow"
+428,Lopunny,Normal,True,Lopunny (Shadow),"[427, 428]","427,428&shadow"
+429,Mismagius,Normal,False,Mismagius,"[200, 429]","200,429&!shadow"
+429,Mismagius,Normal,True,Mismagius (Shadow),"[200, 429]","200,429&shadow"
+430,Honchkrow,Normal,False,Honchkrow,"[198, 430]","198,430&!shadow"
+430,Honchkrow,Normal,True,Honchkrow (Shadow),"[198, 430]","198,430&shadow"
+431,Glameow,Normal,False,Glameow,[431],431&!shadow
+431,Glameow,Normal,True,Glameow (Shadow),[431],431&shadow
+432,Purugly,Normal,False,Purugly,"[431, 432]","431,432&!shadow"
+432,Purugly,Normal,True,Purugly (Shadow),"[431, 432]","431,432&shadow"
+433,Chingling,Normal,False,Chingling,[433],433&!shadow
+433,Chingling,Normal,True,Chingling (Shadow),[433],433&shadow
+434,Stunky,Normal,False,Stunky,[434],434&!shadow
+434,Stunky,Normal,True,Stunky (Shadow),[434],434&shadow
+435,Skuntank,Normal,False,Skuntank,"[434, 435]","434,435&!shadow"
+435,Skuntank,Normal,True,Skuntank (Shadow),"[434, 435]","434,435&shadow"
+436,Bronzor,Normal,False,Bronzor,[436],436&!shadow
+436,Bronzor,Normal,True,Bronzor (Shadow),[436],436&shadow
+437,Bronzong,Normal,False,Bronzong,"[436, 437]","436,437&!shadow"
+437,Bronzong,Normal,True,Bronzong (Shadow),"[436, 437]","436,437&shadow"
+438,Bonsly,Normal,False,Bonsly,[438],438&!shadow
+438,Bonsly,Normal,True,Bonsly (Shadow),[438],438&shadow
+439,Mime Jr.,Normal,False,Mime (Jr),[439],439&!shadow
+439,Mime Jr.,Normal,True,Mime (Jr) (Shadow),[439],439&shadow
+440,Happiny,Normal,False,Happiny,[440],440&!shadow
+440,Happiny,Normal,True,Happiny (Shadow),[440],440&shadow
+441,Chatot,Normal,False,Chatot,[441],441&!shadow
+441,Chatot,Normal,True,Chatot (Shadow),[441],441&shadow
+442,Spiritomb,Normal,False,Spiritomb,[442],442&!shadow
+442,Spiritomb,Normal,True,Spiritomb (Shadow),[442],442&shadow
+443,Gible,Normal,False,Gible,[443],443&!shadow
+443,Gible,Normal,True,Gible (Shadow),[443],443&shadow
+444,Gabite,Normal,False,Gabite,"[443, 444]","443,444&!shadow"
+444,Gabite,Normal,True,Gabite (Shadow),"[443, 444]","443,444&shadow"
+445,Garchomp,Normal,False,Garchomp,"[443, 444, 445]","443,444,445&!shadow"
+445,Garchomp,Normal,True,Garchomp (Shadow),"[443, 444, 445]","443,444,445&shadow"
+446,Munchlax,Normal,False,Munchlax,[446],446&!shadow
+446,Munchlax,Normal,True,Munchlax (Shadow),[446],446&shadow
+447,Riolu,Normal,False,Riolu,[447],447&!shadow
+447,Riolu,Normal,True,Riolu (Shadow),[447],447&shadow
+448,Lucario,Normal,False,Lucario,"[447, 448]","447,448&!shadow"
+448,Lucario,Normal,True,Lucario (Shadow),"[447, 448]","447,448&shadow"
+449,Hippopotas,Normal,False,Hippopotas,[449],449&!shadow
+449,Hippopotas,Normal,True,Hippopotas (Shadow),[449],449&shadow
+450,Hippowdon,Normal,False,Hippowdon,"[449, 450]","449,450&!shadow"
+450,Hippowdon,Normal,True,Hippowdon (Shadow),"[449, 450]","449,450&shadow"
+451,Skorupi,Normal,False,Skorupi,[451],451&!shadow
+451,Skorupi,Normal,True,Skorupi (Shadow),[451],451&shadow
+452,Drapion,Normal,False,Drapion,"[451, 452]","451,452&!shadow"
+452,Drapion,Normal,True,Drapion (Shadow),"[451, 452]","451,452&shadow"
+453,Croagunk,Normal,False,Croagunk,[453],453&!shadow
+453,Croagunk,Normal,True,Croagunk (Shadow),[453],453&shadow
+454,Toxicroak,Normal,False,Toxicroak,"[453, 454]","453,454&!shadow"
+454,Toxicroak,Normal,True,Toxicroak (Shadow),"[453, 454]","453,454&shadow"
+455,Carnivine,Normal,False,Carnivine,[455],455&!shadow
+455,Carnivine,Normal,True,Carnivine (Shadow),[455],455&shadow
+456,Finneon,Normal,False,Finneon,[456],456&!shadow
+456,Finneon,Normal,True,Finneon (Shadow),[456],456&shadow
+457,Lumineon,Normal,False,Lumineon,"[456, 457]","456,457&!shadow"
+457,Lumineon,Normal,True,Lumineon (Shadow),"[456, 457]","456,457&shadow"
+458,Mantyke,Normal,False,Mantyke,[458],458&!shadow
+458,Mantyke,Normal,True,Mantyke (Shadow),[458],458&shadow
+459,Snover,Normal,False,Snover,[459],459&!shadow
+459,Snover,Normal,True,Snover (Shadow),[459],459&shadow
+460,Abomasnow,Normal,False,Abomasnow,"[459, 460]","459,460&!shadow"
+460,Abomasnow,Normal,True,Abomasnow (Shadow),"[459, 460]","459,460&shadow"
+461,Weavile,Normal,False,Weavile,"[215, 461]","215,461&!shadow"
+461,Weavile,Normal,True,Weavile (Shadow),"[215, 461]","215,461&shadow"
+462,Magnezone,Normal,False,Magnezone,"[81, 82, 462]","81,82,462&!shadow"
+462,Magnezone,Normal,True,Magnezone (Shadow),"[81, 82, 462]","81,82,462&shadow"
+463,Lickilicky,Normal,False,Lickilicky,"[108, 463]","108,463&!shadow"
+463,Lickilicky,Normal,True,Lickilicky (Shadow),"[108, 463]","108,463&shadow"
+464,Rhyperior,Normal,False,Rhyperior,"[111, 112, 464]","111,112,464&!shadow"
+464,Rhyperior,Normal,True,Rhyperior (Shadow),"[111, 112, 464]","111,112,464&shadow"
+465,Tangrowth,Normal,False,Tangrowth,"[114, 465]","114,465&!shadow"
+465,Tangrowth,Normal,True,Tangrowth (Shadow),"[114, 465]","114,465&shadow"
+466,Electivire,Normal,False,Electivire,"[125, 239, 466]","125,239,466&!shadow"
+466,Electivire,Normal,True,Electivire (Shadow),"[125, 239, 466]","125,239,466&shadow"
+467,Magmortar,Normal,False,Magmortar,"[126, 240, 467]","126,240,467&!shadow"
+467,Magmortar,Normal,True,Magmortar (Shadow),"[126, 240, 467]","126,240,467&shadow"
+468,Togekiss,Normal,False,Togekiss,"[175, 176, 468]","175,176,468&!shadow"
+468,Togekiss,Normal,True,Togekiss (Shadow),"[175, 176, 468]","175,176,468&shadow"
+469,Yanmega,Normal,False,Yanmega,"[193, 469]","193,469&!shadow"
+469,Yanmega,Normal,True,Yanmega (Shadow),"[193, 469]","193,469&shadow"
+470,Leafeon,Normal,False,Leafeon,"[133, 470]","133,470&!shadow"
+470,Leafeon,Normal,True,Leafeon (Shadow),"[133, 470]","133,470&shadow"
+471,Glaceon,Normal,False,Glaceon,"[133, 471]","133,471&!shadow"
+471,Glaceon,Normal,True,Glaceon (Shadow),"[133, 471]","133,471&shadow"
+472,Gliscor,Normal,False,Gliscor,"[207, 472]","207,472&!shadow"
+472,Gliscor,Normal,True,Gliscor (Shadow),"[207, 472]","207,472&shadow"
+473,Mamoswine,Normal,False,Mamoswine,"[220, 221, 473]","220,221,473&!shadow"
+473,Mamoswine,Normal,True,Mamoswine (Shadow),"[220, 221, 473]","220,221,473&shadow"
+474,Porygon-Z,Normal,False,Porygon-Z,"[137, 233, 474]","137,233,474&!shadow"
+474,Porygon-Z,Normal,True,Porygon-Z (Shadow),"[137, 233, 474]","137,233,474&shadow"
+475,Gallade,Normal,False,Gallade,"[280, 281, 475]","280,281,475&!shadow"
+475,Gallade,Normal,True,Gallade (Shadow),"[280, 281, 475]","280,281,475&shadow"
+476,Probopass,Normal,False,Probopass,"[299, 476]","299,476&!shadow"
+476,Probopass,Normal,True,Probopass (Shadow),"[299, 476]","299,476&shadow"
+477,Dusknoir,Normal,False,Dusknoir,"[355, 356, 477]","355,356,477&!shadow"
+477,Dusknoir,Normal,True,Dusknoir (Shadow),"[355, 356, 477]","355,356,477&shadow"
+478,Froslass,Normal,False,Froslass,"[361, 478]","361,478&!shadow"
+478,Froslass,Normal,True,Froslass (Shadow),"[361, 478]","361,478&shadow"
+479,Rotom,Fan,False,Rotom (Fan),[479],479&!shadow
+479,Rotom,Fan,True,Rotom (Fan) (Shadow),[479],479&shadow
+479,Rotom,Frost,False,Rotom (Frost),[479],479&!shadow
+479,Rotom,Frost,True,Rotom (Frost) (Shadow),[479],479&shadow
+479,Rotom,Heat,False,Rotom (Heat),[479],479&!shadow
+479,Rotom,Heat,True,Rotom (Heat) (Shadow),[479],479&shadow
+479,Rotom,Mow,False,Rotom (Mow),[479],479&!shadow
+479,Rotom,Mow,True,Rotom (Mow) (Shadow),[479],479&shadow
+479,Rotom,Normal,False,Rotom,[479],479&!shadow
+479,Rotom,Normal,True,Rotom (Shadow),[479],479&shadow
+479,Rotom,Wash,False,Rotom (Wash),[479],479&!shadow
+479,Rotom,Wash,True,Rotom (Wash) (Shadow),[479],479&shadow
+480,Uxie,Normal,False,Uxie,[480],480&!shadow
+480,Uxie,Normal,True,Uxie (Shadow),[480],480&shadow
+481,Mesprit,Normal,False,Mesprit,[481],481&!shadow
+481,Mesprit,Normal,True,Mesprit (Shadow),[481],481&shadow
+482,Azelf,Normal,False,Azelf,[482],482&!shadow
+482,Azelf,Normal,True,Azelf (Shadow),[482],482&shadow
+483,Dialga,Normal,False,Dialga,[483],483&!shadow
+483,Dialga,Normal,True,Dialga (Shadow),[483],483&shadow
+483,Dialga,Origin,False,Dialga (Origin),[483],483&!shadow
+483,Dialga,Origin,True,Dialga (Origin) (Shadow),[483],483&shadow
+484,Palkia,Normal,False,Palkia,[484],484&!shadow
+484,Palkia,Normal,True,Palkia (Shadow),[484],484&shadow
+484,Palkia,Origin,False,Palkia (Origin),[484],484&!shadow
+484,Palkia,Origin,True,Palkia (Origin) (Shadow),[484],484&shadow
+485,Heatran,Normal,False,Heatran,[485],485&!shadow
+485,Heatran,Normal,True,Heatran (Shadow),[485],485&shadow
+486,Regigigas,Normal,False,Regigigas,[486],486&!shadow
+486,Regigigas,Normal,True,Regigigas (Shadow),[486],486&shadow
+487,Giratina,Altered,False,Giratina (Altered),[487],487&!shadow
+487,Giratina,Altered,True,Giratina (Altered) (Shadow),[487],487&shadow
+487,Giratina,Origin,False,Giratina (Origin),[487],487&!shadow
+487,Giratina,Origin,True,Giratina (Origin) (Shadow),[487],487&shadow
+488,Cresselia,Normal,False,Cresselia,[488],488&!shadow
+488,Cresselia,Normal,True,Cresselia (Shadow),[488],488&shadow
+489,Phione,Normal,False,Phione,[489],489&!shadow
+489,Phione,Normal,True,Phione (Shadow),[489],489&shadow
+490,Manaphy,Normal,False,Manaphy,[490],490&!shadow
+490,Manaphy,Normal,True,Manaphy (Shadow),[490],490&shadow
+491,Darkrai,Normal,False,Darkrai,[491],491&!shadow
+491,Darkrai,Normal,True,Darkrai (Shadow),[491],491&shadow
+492,Shaymin,Land,False,Shaymin (Land),[492],492&!shadow
+492,Shaymin,Land,True,Shaymin (Land) (Shadow),[492],492&shadow
+492,Shaymin,Sky,False,Shaymin (Sky),[492],492&!shadow
+492,Shaymin,Sky,True,Shaymin (Sky) (Shadow),[492],492&shadow
+493,Arceus,Normal,False,Arceus,[493],493&!shadow
+493,Arceus,Normal,True,Arceus (Shadow),[493],493&shadow
+494,Victini,Normal,False,Victini,[494],494&!shadow
+494,Victini,Normal,True,Victini (Shadow),[494],494&shadow
+495,Snivy,Normal,False,Snivy,[495],495&!shadow
+495,Snivy,Normal,True,Snivy (Shadow),[495],495&shadow
+496,Servine,Normal,False,Servine,"[495, 496]","495,496&!shadow"
+496,Servine,Normal,True,Servine (Shadow),"[495, 496]","495,496&shadow"
+497,Serperior,Normal,False,Serperior,"[495, 496, 497]","495,496,497&!shadow"
+497,Serperior,Normal,True,Serperior (Shadow),"[495, 496, 497]","495,496,497&shadow"
+498,Tepig,Normal,False,Tepig,[498],498&!shadow
+498,Tepig,Normal,True,Tepig (Shadow),[498],498&shadow
+499,Pignite,Normal,False,Pignite,"[498, 499]","498,499&!shadow"
+499,Pignite,Normal,True,Pignite (Shadow),"[498, 499]","498,499&shadow"
+500,Emboar,Normal,False,Emboar,"[498, 499, 500]","498,499,500&!shadow"
+500,Emboar,Normal,True,Emboar (Shadow),"[498, 499, 500]","498,499,500&shadow"
+501,Oshawott,Normal,False,Oshawott,[501],501&!shadow
+501,Oshawott,Normal,True,Oshawott (Shadow),[501],501&shadow
+502,Dewott,Normal,False,Dewott,"[501, 502]","501,502&!shadow"
+502,Dewott,Normal,True,Dewott (Shadow),"[501, 502]","501,502&shadow"
+503,Samurott,Hisuian,False,Samurott (Hisuian),"[501, 502, 503]","501,502,503&hisui&!shadow"
+503,Samurott,Hisuian,True,Samurott (Hisuian) (Shadow),"[501, 502, 503]","501,502,503&hisui&shadow"
+503,Samurott,Normal,False,Samurott,"[501, 502, 503]","501,502,503&!hisui&!shadow"
+503,Samurott,Normal,True,Samurott (Shadow),"[501, 502, 503]","501,502,503&!hisui&shadow"
+504,Patrat,Normal,False,Patrat,[504],504&!shadow
+504,Patrat,Normal,True,Patrat (Shadow),[504],504&shadow
+505,Watchog,Normal,False,Watchog,"[504, 505]","504,505&!shadow"
+505,Watchog,Normal,True,Watchog (Shadow),"[504, 505]","504,505&shadow"
+506,Lillipup,Normal,False,Lillipup,[506],506&!shadow
+506,Lillipup,Normal,True,Lillipup (Shadow),[506],506&shadow
+507,Herdier,Normal,False,Herdier,"[506, 507]","506,507&!shadow"
+507,Herdier,Normal,True,Herdier (Shadow),"[506, 507]","506,507&shadow"
+508,Stoutland,Normal,False,Stoutland,"[506, 507, 508]","506,507,508&!shadow"
+508,Stoutland,Normal,True,Stoutland (Shadow),"[506, 507, 508]","506,507,508&shadow"
+509,Purrloin,Normal,False,Purrloin,[509],509&!shadow
+509,Purrloin,Normal,True,Purrloin (Shadow),[509],509&shadow
+510,Liepard,Normal,False,Liepard,"[509, 510]","509,510&!shadow"
+510,Liepard,Normal,True,Liepard (Shadow),"[509, 510]","509,510&shadow"
+511,Pansage,Normal,False,Pansage,[511],511&!shadow
+511,Pansage,Normal,True,Pansage (Shadow),[511],511&shadow
+512,Simisage,Normal,False,Simisage,"[511, 512]","511,512&!shadow"
+512,Simisage,Normal,True,Simisage (Shadow),"[511, 512]","511,512&shadow"
+513,Pansear,Normal,False,Pansear,[513],513&!shadow
+513,Pansear,Normal,True,Pansear (Shadow),[513],513&shadow
+514,Simisear,Normal,False,Simisear,"[513, 514]","513,514&!shadow"
+514,Simisear,Normal,True,Simisear (Shadow),"[513, 514]","513,514&shadow"
+515,Panpour,Normal,False,Panpour,[515],515&!shadow
+515,Panpour,Normal,True,Panpour (Shadow),[515],515&shadow
+516,Simipour,Normal,False,Simipour,"[515, 516]","515,516&!shadow"
+516,Simipour,Normal,True,Simipour (Shadow),"[515, 516]","515,516&shadow"
+517,Munna,Normal,False,Munna,[517],517&!shadow
+517,Munna,Normal,True,Munna (Shadow),[517],517&shadow
+518,Musharna,Normal,False,Musharna,"[517, 518]","517,518&!shadow"
+518,Musharna,Normal,True,Musharna (Shadow),"[517, 518]","517,518&shadow"
+519,Pidove,Normal,False,Pidove,[519],519&!shadow
+519,Pidove,Normal,True,Pidove (Shadow),[519],519&shadow
+520,Tranquill,Normal,False,Tranquill,"[519, 520]","519,520&!shadow"
+520,Tranquill,Normal,True,Tranquill (Shadow),"[519, 520]","519,520&shadow"
+521,Unfezant,Normal,False,Unfezant,"[519, 520, 521]","519,520,521&!shadow"
+521,Unfezant,Normal,True,Unfezant (Shadow),"[519, 520, 521]","519,520,521&shadow"
+522,Blitzle,Normal,False,Blitzle,[522],522&!shadow
+522,Blitzle,Normal,True,Blitzle (Shadow),[522],522&shadow
+523,Zebstrika,Normal,False,Zebstrika,"[522, 523]","522,523&!shadow"
+523,Zebstrika,Normal,True,Zebstrika (Shadow),"[522, 523]","522,523&shadow"
+524,Roggenrola,Normal,False,Roggenrola,[524],524&!shadow
+524,Roggenrola,Normal,True,Roggenrola (Shadow),[524],524&shadow
+525,Boldore,Normal,False,Boldore,"[524, 525]","524,525&!shadow"
+525,Boldore,Normal,True,Boldore (Shadow),"[524, 525]","524,525&shadow"
+526,Gigalith,Normal,False,Gigalith,"[524, 525, 526]","524,525,526&!shadow"
+526,Gigalith,Normal,True,Gigalith (Shadow),"[524, 525, 526]","524,525,526&shadow"
+527,Woobat,Normal,False,Woobat,[527],527&!shadow
+527,Woobat,Normal,True,Woobat (Shadow),[527],527&shadow
+528,Swoobat,Normal,False,Swoobat,"[527, 528]","527,528&!shadow"
+528,Swoobat,Normal,True,Swoobat (Shadow),"[527, 528]","527,528&shadow"
+529,Drilbur,Normal,False,Drilbur,[529],529&!shadow
+529,Drilbur,Normal,True,Drilbur (Shadow),[529],529&shadow
+530,Excadrill,Normal,False,Excadrill,"[529, 530]","529,530&!shadow"
+530,Excadrill,Normal,True,Excadrill (Shadow),"[529, 530]","529,530&shadow"
+531,Audino,Normal,False,Audino,[531],531&!shadow
+531,Audino,Normal,True,Audino (Shadow),[531],531&shadow
+532,Timburr,Normal,False,Timburr,[532],532&!shadow
+532,Timburr,Normal,True,Timburr (Shadow),[532],532&shadow
+533,Gurdurr,Normal,False,Gurdurr,"[532, 533]","532,533&!shadow"
+533,Gurdurr,Normal,True,Gurdurr (Shadow),"[532, 533]","532,533&shadow"
+534,Conkeldurr,Normal,False,Conkeldurr,"[532, 533, 534]","532,533,534&!shadow"
+534,Conkeldurr,Normal,True,Conkeldurr (Shadow),"[532, 533, 534]","532,533,534&shadow"
+535,Tympole,Normal,False,Tympole,[535],535&!shadow
+535,Tympole,Normal,True,Tympole (Shadow),[535],535&shadow
+536,Palpitoad,Normal,False,Palpitoad,"[535, 536]","535,536&!shadow"
+536,Palpitoad,Normal,True,Palpitoad (Shadow),"[535, 536]","535,536&shadow"
+537,Seismitoad,Normal,False,Seismitoad,"[535, 536, 537]","535,536,537&!shadow"
+537,Seismitoad,Normal,True,Seismitoad (Shadow),"[535, 536, 537]","535,536,537&shadow"
+538,Throh,Normal,False,Throh,[538],538&!shadow
+538,Throh,Normal,True,Throh (Shadow),[538],538&shadow
+539,Sawk,Normal,False,Sawk,[539],539&!shadow
+539,Sawk,Normal,True,Sawk (Shadow),[539],539&shadow
+540,Sewaddle,Normal,False,Sewaddle,[540],540&!shadow
+540,Sewaddle,Normal,True,Sewaddle (Shadow),[540],540&shadow
+541,Swadloon,Normal,False,Swadloon,"[540, 541]","540,541&!shadow"
+541,Swadloon,Normal,True,Swadloon (Shadow),"[540, 541]","540,541&shadow"
+542,Leavanny,Normal,False,Leavanny,"[540, 541, 542]","540,541,542&!shadow"
+542,Leavanny,Normal,True,Leavanny (Shadow),"[540, 541, 542]","540,541,542&shadow"
+543,Venipede,Normal,False,Venipede,[543],543&!shadow
+543,Venipede,Normal,True,Venipede (Shadow),[543],543&shadow
+544,Whirlipede,Normal,False,Whirlipede,"[543, 544]","543,544&!shadow"
+544,Whirlipede,Normal,True,Whirlipede (Shadow),"[543, 544]","543,544&shadow"
+545,Scolipede,Normal,False,Scolipede,"[543, 544, 545]","543,544,545&!shadow"
+545,Scolipede,Normal,True,Scolipede (Shadow),"[543, 544, 545]","543,544,545&shadow"
+546,Cottonee,Normal,False,Cottonee,[546],546&!shadow
+546,Cottonee,Normal,True,Cottonee (Shadow),[546],546&shadow
+547,Whimsicott,Normal,False,Whimsicott,"[546, 547]","546,547&!shadow"
+547,Whimsicott,Normal,True,Whimsicott (Shadow),"[546, 547]","546,547&shadow"
+548,Petilil,Normal,False,Petilil,[548],548&!shadow
+548,Petilil,Normal,True,Petilil (Shadow),[548],548&shadow
+549,Lilligant,Hisuian,False,Lilligant (Hisuian),"[548, 549]","548,549&hisui&!shadow"
+549,Lilligant,Hisuian,True,Lilligant (Hisuian) (Shadow),"[548, 549]","548,549&hisui&shadow"
+549,Lilligant,Normal,False,Lilligant,"[548, 549]","548,549&!hisui&!shadow"
+549,Lilligant,Normal,True,Lilligant (Shadow),"[548, 549]","548,549&!hisui&shadow"
+550,Basculin,Blue_striped,False,Basculin,[550],550&!shadow
+550,Basculin,Blue_striped,True,Basculin (Shadow),[550],550&shadow
+551,Sandile,Normal,False,Sandile,[551],551&!shadow
+551,Sandile,Normal,True,Sandile (Shadow),[551],551&shadow
+552,Krokorok,Normal,False,Krokorok,"[551, 552]","551,552&!shadow"
+552,Krokorok,Normal,True,Krokorok (Shadow),"[551, 552]","551,552&shadow"
+553,Krookodile,Normal,False,Krookodile,"[551, 552, 553]","551,552,553&!shadow"
+553,Krookodile,Normal,True,Krookodile (Shadow),"[551, 552, 553]","551,552,553&shadow"
+554,Darumaka,Galarian,False,Darumaka (Galarian),[554],554&galar&!shadow
+554,Darumaka,Galarian,True,Darumaka (Galarian) (Shadow),[554],554&galar&shadow
+554,Darumaka,Normal,False,Darumaka,[554],554&!galar&!shadow
+554,Darumaka,Normal,True,Darumaka (Shadow),[554],554&!galar&shadow
+555,Darmanitan,Galarian_standard,False,Darmanitan (Galarian),"[554, 555]","554,555&!shadow"
+555,Darmanitan,Galarian_standard,True,Darmanitan (Galarian) (Shadow),"[554, 555]","554,555&shadow"
+555,Darmanitan,Standard,False,Darmanitan (Standard),"[554, 555]","554,555&!shadow"
+555,Darmanitan,Standard,True,Darmanitan (Standard) (Shadow),"[554, 555]","554,555&shadow"
+555,Darmanitan,Zen,False,Darmanitan (Zen),"[554, 555]","554,555&!shadow"
+555,Darmanitan,Zen,True,Darmanitan (Zen) (Shadow),"[554, 555]","554,555&shadow"
+556,Maractus,Normal,False,Maractus,[556],556&!shadow
+556,Maractus,Normal,True,Maractus (Shadow),[556],556&shadow
+557,Dwebble,Normal,False,Dwebble,[557],557&!shadow
+557,Dwebble,Normal,True,Dwebble (Shadow),[557],557&shadow
+558,Crustle,Normal,False,Crustle,"[557, 558]","557,558&!shadow"
+558,Crustle,Normal,True,Crustle (Shadow),"[557, 558]","557,558&shadow"
+559,Scraggy,Normal,False,Scraggy,[559],559&!shadow
+559,Scraggy,Normal,True,Scraggy (Shadow),[559],559&shadow
+560,Scrafty,Normal,False,Scrafty,"[559, 560]","559,560&!shadow"
+560,Scrafty,Normal,True,Scrafty (Shadow),"[559, 560]","559,560&shadow"
+561,Sigilyph,Normal,False,Sigilyph,[561],561&!shadow
+561,Sigilyph,Normal,True,Sigilyph (Shadow),[561],561&shadow
+562,Yamask,Galarian,False,Yamask (Galarian),[562],562&galar&!shadow
+562,Yamask,Galarian,True,Yamask (Galarian) (Shadow),[562],562&galar&shadow
+562,Yamask,Normal,False,Yamask,[562],562&!galar&!shadow
+562,Yamask,Normal,True,Yamask (Shadow),[562],562&!galar&shadow
+563,Cofagrigus,Normal,False,Cofagrigus,"[562, 563]","562,563&!shadow"
+563,Cofagrigus,Normal,True,Cofagrigus (Shadow),"[562, 563]","562,563&shadow"
+564,Tirtouga,Normal,False,Tirtouga,[564],564&!shadow
+564,Tirtouga,Normal,True,Tirtouga (Shadow),[564],564&shadow
+565,Carracosta,Normal,False,Carracosta,"[564, 565]","564,565&!shadow"
+565,Carracosta,Normal,True,Carracosta (Shadow),"[564, 565]","564,565&shadow"
+566,Archen,Normal,False,Archen,[566],566&!shadow
+566,Archen,Normal,True,Archen (Shadow),[566],566&shadow
+567,Archeops,Normal,False,Archeops,"[566, 567]","566,567&!shadow"
+567,Archeops,Normal,True,Archeops (Shadow),"[566, 567]","566,567&shadow"
+568,Trubbish,Normal,False,Trubbish,[568],568&!shadow
+568,Trubbish,Normal,True,Trubbish (Shadow),[568],568&shadow
+569,Garbodor,Normal,False,Garbodor,"[568, 569]","568,569&!shadow"
+569,Garbodor,Normal,True,Garbodor (Shadow),"[568, 569]","568,569&shadow"
+570,Zorua,Hisuian,False,Zorua (Hisuian),[570],570&hisui&!shadow
+570,Zorua,Hisuian,True,Zorua (Hisuian) (Shadow),[570],570&hisui&shadow
+570,Zorua,Normal,False,Zorua,[570],570&!hisui&!shadow
+570,Zorua,Normal,True,Zorua (Shadow),[570],570&!hisui&shadow
+571,Zoroark,Hisuian,False,Zoroark (Hisuian),"[570, 571]","570,571&hisui&!shadow"
+571,Zoroark,Hisuian,True,Zoroark (Hisuian) (Shadow),"[570, 571]","570,571&hisui&shadow"
+571,Zoroark,Normal,False,Zoroark,"[570, 571]","570,571&!hisui&!shadow"
+571,Zoroark,Normal,True,Zoroark (Shadow),"[570, 571]","570,571&!hisui&shadow"
+572,Minccino,Normal,False,Minccino,[572],572&!shadow
+572,Minccino,Normal,True,Minccino (Shadow),[572],572&shadow
+573,Cinccino,Normal,False,Cinccino,"[572, 573]","572,573&!shadow"
+573,Cinccino,Normal,True,Cinccino (Shadow),"[572, 573]","572,573&shadow"
+574,Gothita,Normal,False,Gothita,[574],574&!shadow
+574,Gothita,Normal,True,Gothita (Shadow),[574],574&shadow
+575,Gothorita,Normal,False,Gothorita,"[574, 575]","574,575&!shadow"
+575,Gothorita,Normal,True,Gothorita (Shadow),"[574, 575]","574,575&shadow"
+576,Gothitelle,Normal,False,Gothitelle,"[574, 575, 576]","574,575,576&!shadow"
+576,Gothitelle,Normal,True,Gothitelle (Shadow),"[574, 575, 576]","574,575,576&shadow"
+577,Solosis,Normal,False,Solosis,[577],577&!shadow
+577,Solosis,Normal,True,Solosis (Shadow),[577],577&shadow
+578,Duosion,Normal,False,Duosion,"[577, 578]","577,578&!shadow"
+578,Duosion,Normal,True,Duosion (Shadow),"[577, 578]","577,578&shadow"
+579,Reuniclus,Normal,False,Reuniclus,"[577, 578, 579]","577,578,579&!shadow"
+579,Reuniclus,Normal,True,Reuniclus (Shadow),"[577, 578, 579]","577,578,579&shadow"
+580,Ducklett,Normal,False,Ducklett,[580],580&!shadow
+580,Ducklett,Normal,True,Ducklett (Shadow),[580],580&shadow
+581,Swanna,Normal,False,Swanna,"[580, 581]","580,581&!shadow"
+581,Swanna,Normal,True,Swanna (Shadow),"[580, 581]","580,581&shadow"
+582,Vanillite,Normal,False,Vanillite,[582],582&!shadow
+582,Vanillite,Normal,True,Vanillite (Shadow),[582],582&shadow
+583,Vanillish,Normal,False,Vanillish,"[582, 583]","582,583&!shadow"
+583,Vanillish,Normal,True,Vanillish (Shadow),"[582, 583]","582,583&shadow"
+584,Vanilluxe,Normal,False,Vanilluxe,"[582, 583, 584]","582,583,584&!shadow"
+584,Vanilluxe,Normal,True,Vanilluxe (Shadow),"[582, 583, 584]","582,583,584&shadow"
+585,Deerling,Autumn,False,Deerling,[585],585&!shadow
+585,Deerling,Autumn,True,Deerling (Shadow),[585],585&shadow
+586,Sawsbuck,Autumn,False,Sawsbuck,"[585, 586]","585,586&!shadow"
+586,Sawsbuck,Autumn,True,Sawsbuck (Shadow),"[585, 586]","585,586&shadow"
+587,Emolga,Normal,False,Emolga,[587],587&!shadow
+587,Emolga,Normal,True,Emolga (Shadow),[587],587&shadow
+588,Karrablast,Normal,False,Karrablast,[588],588&!shadow
+588,Karrablast,Normal,True,Karrablast (Shadow),[588],588&shadow
+589,Escavalier,Normal,False,Escavalier,"[588, 589]","588,589&!shadow"
+589,Escavalier,Normal,True,Escavalier (Shadow),"[588, 589]","588,589&shadow"
+590,Foongus,Normal,False,Foongus,[590],590&!shadow
+590,Foongus,Normal,True,Foongus (Shadow),[590],590&shadow
+591,Amoonguss,Normal,False,Amoonguss,"[590, 591]","590,591&!shadow"
+591,Amoonguss,Normal,True,Amoonguss (Shadow),"[590, 591]","590,591&shadow"
+592,Frillish,Female,False,Frillish,[592],592&!shadow
+592,Frillish,Female,True,Frillish (Shadow),[592],592&shadow
+592,Frillish,Normal,False,Frillish,[592],592&!shadow
+592,Frillish,Normal,True,Frillish (Shadow),[592],592&shadow
+593,Jellicent,Female,False,Jellicent,"[592, 593]","592,593&!shadow"
+593,Jellicent,Female,True,Jellicent (Shadow),"[592, 593]","592,593&shadow"
+593,Jellicent,Normal,False,Jellicent,"[592, 593]","592,593&!shadow"
+593,Jellicent,Normal,True,Jellicent (Shadow),"[592, 593]","592,593&shadow"
+594,Alomomola,Normal,False,Alomomola,[594],594&!shadow
+594,Alomomola,Normal,True,Alomomola (Shadow),[594],594&shadow
+595,Joltik,Normal,False,Joltik,[595],595&!shadow
+595,Joltik,Normal,True,Joltik (Shadow),[595],595&shadow
+596,Galvantula,Normal,False,Galvantula,"[595, 596]","595,596&!shadow"
+596,Galvantula,Normal,True,Galvantula (Shadow),"[595, 596]","595,596&shadow"
+597,Ferroseed,Normal,False,Ferroseed,[597],597&!shadow
+597,Ferroseed,Normal,True,Ferroseed (Shadow),[597],597&shadow
+598,Ferrothorn,Normal,False,Ferrothorn,"[597, 598]","597,598&!shadow"
+598,Ferrothorn,Normal,True,Ferrothorn (Shadow),"[597, 598]","597,598&shadow"
+599,Klink,Normal,False,Klink,[599],599&!shadow
+599,Klink,Normal,True,Klink (Shadow),[599],599&shadow
+600,Klang,Normal,False,Klang,"[599, 600]","599,600&!shadow"
+600,Klang,Normal,True,Klang (Shadow),"[599, 600]","599,600&shadow"
+601,Klinklang,Normal,False,Klinklang,"[599, 600, 601]","599,600,601&!shadow"
+601,Klinklang,Normal,True,Klinklang (Shadow),"[599, 600, 601]","599,600,601&shadow"
+602,Tynamo,Normal,False,Tynamo,[602],602&!shadow
+602,Tynamo,Normal,True,Tynamo (Shadow),[602],602&shadow
+603,Eelektrik,Normal,False,Eelektrik,"[602, 603]","602,603&!shadow"
+603,Eelektrik,Normal,True,Eelektrik (Shadow),"[602, 603]","602,603&shadow"
+604,Eelektross,Normal,False,Eelektross,"[602, 603, 604]","602,603,604&!shadow"
+604,Eelektross,Normal,True,Eelektross (Shadow),"[602, 603, 604]","602,603,604&shadow"
+605,Elgyem,Normal,False,Elgyem,[605],605&!shadow
+605,Elgyem,Normal,True,Elgyem (Shadow),[605],605&shadow
+606,Beheeyem,Normal,False,Beheeyem,"[605, 606]","605,606&!shadow"
+606,Beheeyem,Normal,True,Beheeyem (Shadow),"[605, 606]","605,606&shadow"
+607,Litwick,Normal,False,Litwick,[607],607&!shadow
+607,Litwick,Normal,True,Litwick (Shadow),[607],607&shadow
+608,Lampent,Normal,False,Lampent,"[607, 608]","607,608&!shadow"
+608,Lampent,Normal,True,Lampent (Shadow),"[607, 608]","607,608&shadow"
+609,Chandelure,Normal,False,Chandelure,"[607, 608, 609]","607,608,609&!shadow"
+609,Chandelure,Normal,True,Chandelure (Shadow),"[607, 608, 609]","607,608,609&shadow"
+610,Axew,Normal,False,Axew,[610],610&!shadow
+610,Axew,Normal,True,Axew (Shadow),[610],610&shadow
+611,Fraxure,Normal,False,Fraxure,"[610, 611]","610,611&!shadow"
+611,Fraxure,Normal,True,Fraxure (Shadow),"[610, 611]","610,611&shadow"
+612,Haxorus,Normal,False,Haxorus,"[610, 611, 612]","610,611,612&!shadow"
+612,Haxorus,Normal,True,Haxorus (Shadow),"[610, 611, 612]","610,611,612&shadow"
+613,Cubchoo,Normal,False,Cubchoo,[613],613&!shadow
+613,Cubchoo,Normal,True,Cubchoo (Shadow),[613],613&shadow
+614,Beartic,Normal,False,Beartic,"[613, 614]","613,614&!shadow"
+614,Beartic,Normal,True,Beartic (Shadow),"[613, 614]","613,614&shadow"
+615,Cryogonal,Normal,False,Cryogonal,[615],615&!shadow
+615,Cryogonal,Normal,True,Cryogonal (Shadow),[615],615&shadow
+616,Shelmet,Normal,False,Shelmet,[616],616&!shadow
+616,Shelmet,Normal,True,Shelmet (Shadow),[616],616&shadow
+617,Accelgor,Normal,False,Accelgor,"[616, 617]","616,617&!shadow"
+617,Accelgor,Normal,True,Accelgor (Shadow),"[616, 617]","616,617&shadow"
+618,Stunfisk,Galarian,False,Stunfisk (Galarian),[618],618&galar&!shadow
+618,Stunfisk,Galarian,True,Stunfisk (Galarian) (Shadow),[618],618&galar&shadow
+618,Stunfisk,Normal,False,Stunfisk,[618],618&!galar&!shadow
+618,Stunfisk,Normal,True,Stunfisk (Shadow),[618],618&!galar&shadow
+619,Mienfoo,Normal,False,Mienfoo,[619],619&!shadow
+619,Mienfoo,Normal,True,Mienfoo (Shadow),[619],619&shadow
+620,Mienshao,Normal,False,Mienshao,"[619, 620]","619,620&!shadow"
+620,Mienshao,Normal,True,Mienshao (Shadow),"[619, 620]","619,620&shadow"
+621,Druddigon,Normal,False,Druddigon,[621],621&!shadow
+621,Druddigon,Normal,True,Druddigon (Shadow),[621],621&shadow
+622,Golett,Normal,False,Golett,[622],622&!shadow
+622,Golett,Normal,True,Golett (Shadow),[622],622&shadow
+623,Golurk,Normal,False,Golurk,"[622, 623]","622,623&!shadow"
+623,Golurk,Normal,True,Golurk (Shadow),"[622, 623]","622,623&shadow"
+624,Pawniard,Normal,False,Pawniard,[624],624&!shadow
+624,Pawniard,Normal,True,Pawniard (Shadow),[624],624&shadow
+625,Bisharp,Normal,False,Bisharp,"[624, 625]","624,625&!shadow"
+625,Bisharp,Normal,True,Bisharp (Shadow),"[624, 625]","624,625&shadow"
+626,Bouffalant,Normal,False,Bouffalant,[626],626&!shadow
+626,Bouffalant,Normal,True,Bouffalant (Shadow),[626],626&shadow
+627,Rufflet,Normal,False,Rufflet,[627],627&!shadow
+627,Rufflet,Normal,True,Rufflet (Shadow),[627],627&shadow
+628,Braviary,Hisuian,False,Braviary (Hisuian),"[627, 628]","627,628&hisui&!shadow"
+628,Braviary,Hisuian,True,Braviary (Hisuian) (Shadow),"[627, 628]","627,628&hisui&shadow"
+628,Braviary,Normal,False,Braviary,"[627, 628]","627,628&!hisui&!shadow"
+628,Braviary,Normal,True,Braviary (Shadow),"[627, 628]","627,628&!hisui&shadow"
+629,Vullaby,Normal,False,Vullaby,[629],629&!shadow
+629,Vullaby,Normal,True,Vullaby (Shadow),[629],629&shadow
+630,Mandibuzz,Normal,False,Mandibuzz,"[629, 630]","629,630&!shadow"
+630,Mandibuzz,Normal,True,Mandibuzz (Shadow),"[629, 630]","629,630&shadow"
+631,Heatmor,Normal,False,Heatmor,[631],631&!shadow
+631,Heatmor,Normal,True,Heatmor (Shadow),[631],631&shadow
+632,Durant,Normal,False,Durant,[632],632&!shadow
+632,Durant,Normal,True,Durant (Shadow),[632],632&shadow
+633,Deino,Normal,False,Deino,[633],633&!shadow
+633,Deino,Normal,True,Deino (Shadow),[633],633&shadow
+634,Zweilous,Normal,False,Zweilous,"[633, 634]","633,634&!shadow"
+634,Zweilous,Normal,True,Zweilous (Shadow),"[633, 634]","633,634&shadow"
+635,Hydreigon,Normal,False,Hydreigon,"[633, 634, 635]","633,634,635&!shadow"
+635,Hydreigon,Normal,True,Hydreigon (Shadow),"[633, 634, 635]","633,634,635&shadow"
+636,Larvesta,Normal,False,Larvesta,[636],636&!shadow
+636,Larvesta,Normal,True,Larvesta (Shadow),[636],636&shadow
+637,Volcarona,Normal,False,Volcarona,"[636, 637]","636,637&!shadow"
+637,Volcarona,Normal,True,Volcarona (Shadow),"[636, 637]","636,637&shadow"
+638,Cobalion,Normal,False,Cobalion,[638],638&!shadow
+638,Cobalion,Normal,True,Cobalion (Shadow),[638],638&shadow
+639,Terrakion,Normal,False,Terrakion,[639],639&!shadow
+639,Terrakion,Normal,True,Terrakion (Shadow),[639],639&shadow
+640,Virizion,Normal,False,Virizion,[640],640&!shadow
+640,Virizion,Normal,True,Virizion (Shadow),[640],640&shadow
+641,Tornadus,Incarnate,False,Tornadus (Incarnate),[641],641&!shadow
+641,Tornadus,Incarnate,True,Tornadus (Incarnate) (Shadow),[641],641&shadow
+641,Tornadus,Therian,False,Tornadus (Therian),[641],641&!shadow
+641,Tornadus,Therian,True,Tornadus (Therian) (Shadow),[641],641&shadow
+642,Thundurus,Incarnate,False,Thundurus (Incarnate),[642],642&!shadow
+642,Thundurus,Incarnate,True,Thundurus (Incarnate) (Shadow),[642],642&shadow
+642,Thundurus,Therian,False,Thundurus (Therian),[642],642&!shadow
+642,Thundurus,Therian,True,Thundurus (Therian) (Shadow),[642],642&shadow
+643,Reshiram,Normal,False,Reshiram,[643],643&!shadow
+643,Reshiram,Normal,True,Reshiram (Shadow),[643],643&shadow
+644,Zekrom,Normal,False,Zekrom,[644],644&!shadow
+644,Zekrom,Normal,True,Zekrom (Shadow),[644],644&shadow
+645,Landorus,Incarnate,False,Landorus (Incarnate),[645],645&!shadow
+645,Landorus,Incarnate,True,Landorus (Incarnate) (Shadow),[645],645&shadow
+645,Landorus,Therian,False,Landorus (Therian),[645],645&!shadow
+645,Landorus,Therian,True,Landorus (Therian) (Shadow),[645],645&shadow
+646,Kyurem,Black,False,Kyurem (Black),[646],646&!shadow
+646,Kyurem,Black,True,Kyurem (Black) (Shadow),[646],646&shadow
+646,Kyurem,Normal,False,Kyurem,[646],646&!shadow
+646,Kyurem,Normal,True,Kyurem (Shadow),[646],646&shadow
+646,Kyurem,White,False,Kyurem (White),[646],646&!shadow
+646,Kyurem,White,True,Kyurem (White) (Shadow),[646],646&shadow
+647,Keldeo,Ordinary,False,Keldeo (Ordinary),[647],647&!shadow
+647,Keldeo,Ordinary,True,Keldeo (Ordinary) (Shadow),[647],647&shadow
+647,Keldeo,Resolute,False,Keldeo (Resolute),[647],647&!shadow
+647,Keldeo,Resolute,True,Keldeo (Resolute) (Shadow),[647],647&shadow
+648,Meloetta,Aria,False,Meloetta (Aria),[648],648&!shadow
+648,Meloetta,Aria,True,Meloetta (Aria) (Shadow),[648],648&shadow
+649,Genesect,Burn,False,Genesect (Burn),[649],649&!shadow
+649,Genesect,Burn,True,Genesect (Burn) (Shadow),[649],649&shadow
+649,Genesect,Chill,False,Genesect (Chill),[649],649&!shadow
+649,Genesect,Chill,True,Genesect (Chill) (Shadow),[649],649&shadow
+649,Genesect,Douse,False,Genesect (Douse),[649],649&!shadow
+649,Genesect,Douse,True,Genesect (Douse) (Shadow),[649],649&shadow
+649,Genesect,Normal,False,Genesect,[649],649&!shadow
+649,Genesect,Normal,True,Genesect (Shadow),[649],649&shadow
+649,Genesect,Shock,False,Genesect (Shock),[649],649&!shadow
+649,Genesect,Shock,True,Genesect (Shock) (Shadow),[649],649&shadow
+650,Chespin,Normal,False,Chespin,[650],650&!shadow
+650,Chespin,Normal,True,Chespin (Shadow),[650],650&shadow
+651,Quilladin,Normal,False,Quilladin,"[650, 651]","650,651&!shadow"
+651,Quilladin,Normal,True,Quilladin (Shadow),"[650, 651]","650,651&shadow"
+652,Chesnaught,Normal,False,Chesnaught,"[650, 651, 652]","650,651,652&!shadow"
+652,Chesnaught,Normal,True,Chesnaught (Shadow),"[650, 651, 652]","650,651,652&shadow"
+653,Fennekin,Normal,False,Fennekin,[653],653&!shadow
+653,Fennekin,Normal,True,Fennekin (Shadow),[653],653&shadow
+654,Braixen,Normal,False,Braixen,"[653, 654]","653,654&!shadow"
+654,Braixen,Normal,True,Braixen (Shadow),"[653, 654]","653,654&shadow"
+655,Delphox,Normal,False,Delphox,"[653, 654, 655]","653,654,655&!shadow"
+655,Delphox,Normal,True,Delphox (Shadow),"[653, 654, 655]","653,654,655&shadow"
+656,Froakie,Normal,False,Froakie,[656],656&!shadow
+656,Froakie,Normal,True,Froakie (Shadow),[656],656&shadow
+657,Frogadier,Normal,False,Frogadier,"[656, 657]","656,657&!shadow"
+657,Frogadier,Normal,True,Frogadier (Shadow),"[656, 657]","656,657&shadow"
+658,Greninja,Normal,False,Greninja,"[656, 657, 658]","656,657,658&!shadow"
+658,Greninja,Normal,True,Greninja (Shadow),"[656, 657, 658]","656,657,658&shadow"
+659,Bunnelby,Normal,False,Bunnelby,[659],659&!shadow
+659,Bunnelby,Normal,True,Bunnelby (Shadow),[659],659&shadow
+660,Diggersby,Normal,False,Diggersby,"[659, 660]","659,660&!shadow"
+660,Diggersby,Normal,True,Diggersby (Shadow),"[659, 660]","659,660&shadow"
+661,Fletchling,Normal,False,Fletchling,[661],661&!shadow
+661,Fletchling,Normal,True,Fletchling (Shadow),[661],661&shadow
+662,Fletchinder,Normal,False,Fletchinder,"[661, 662]","661,662&!shadow"
+662,Fletchinder,Normal,True,Fletchinder (Shadow),"[661, 662]","661,662&shadow"
+663,Talonflame,Normal,False,Talonflame,"[661, 662, 663]","661,662,663&!shadow"
+663,Talonflame,Normal,True,Talonflame (Shadow),"[661, 662, 663]","661,662,663&shadow"
+664,Scatterbug,Archipelago,False,Scatterbug,[664],664&!shadow
+664,Scatterbug,Archipelago,True,Scatterbug (Shadow),[664],664&shadow
+665,Spewpa,Archipelago,False,Spewpa (Archipelago),"[664, 665]","664,665&!shadow"
+665,Spewpa,Archipelago,True,Spewpa (Archipelago) (Shadow),"[664, 665]","664,665&shadow"
+666,Vivillon,Archipelago,False,Vivillon,"[664, 665, 666]","664,665,666&!shadow"
+666,Vivillon,Archipelago,True,Vivillon (Shadow),"[664, 665, 666]","664,665,666&shadow"
+667,Litleo,Normal,False,Litleo,[667],667&!shadow
+667,Litleo,Normal,True,Litleo (Shadow),[667],667&shadow
+668,Pyroar,Female,False,Pyroar,"[667, 668]","667,668&!shadow"
+668,Pyroar,Female,True,Pyroar (Shadow),"[667, 668]","667,668&shadow"
+668,Pyroar,Normal,False,Pyroar,"[667, 668]","667,668&!shadow"
+668,Pyroar,Normal,True,Pyroar (Shadow),"[667, 668]","667,668&shadow"
+669,Flabebe,White,False,Flabebe,[669],669&!shadow
+669,Flabebe,White,True,Flabebe (Shadow),[669],669&shadow
+670,Floette,White,False,Floette,"[669, 670]","669,670&!shadow"
+670,Floette,White,True,Floette (Shadow),"[669, 670]","669,670&shadow"
+671,Florges,White,False,Florges,"[669, 670, 671]","669,670,671&!shadow"
+671,Florges,White,True,Florges (Shadow),"[669, 670, 671]","669,670,671&shadow"
+672,Skiddo,Normal,False,Skiddo,[672],672&!shadow
+672,Skiddo,Normal,True,Skiddo (Shadow),[672],672&shadow
+673,Gogoat,Normal,False,Gogoat,"[672, 673]","672,673&!shadow"
+673,Gogoat,Normal,True,Gogoat (Shadow),"[672, 673]","672,673&shadow"
+674,Pancham,Normal,False,Pancham,[674],674&!shadow
+674,Pancham,Normal,True,Pancham (Shadow),[674],674&shadow
+675,Pangoro,Normal,False,Pangoro,"[674, 675]","674,675&!shadow"
+675,Pangoro,Normal,True,Pangoro (Shadow),"[674, 675]","674,675&shadow"
+676,Furfrou,Dandy,False,Furfrou,[676],676&!shadow
+676,Furfrou,Dandy,True,Furfrou (Shadow),[676],676&shadow
+677,Espurr,Normal,False,Espurr,[677],677&!shadow
+677,Espurr,Normal,True,Espurr (Shadow),[677],677&shadow
+678,Meowstic,Female,False,Meowstic (Female),"[677, 678]","677,678&!shadow"
+678,Meowstic,Female,True,Meowstic (Female) (Shadow),"[677, 678]","677,678&shadow"
+678,Meowstic,Male,False,Meowstic (Male),"[677, 678]","677,678&!shadow"
+678,Meowstic,Male,True,Meowstic (Male) (Shadow),"[677, 678]","677,678&shadow"
+679,Honedge,Normal,False,Honedge,[679],679&!shadow
+679,Honedge,Normal,True,Honedge (Shadow),[679],679&shadow
+680,Doublade,Normal,False,Doublade,"[679, 680]","679,680&!shadow"
+680,Doublade,Normal,True,Doublade (Shadow),"[679, 680]","679,680&shadow"
+681,Aegislash,Shield,False,Aegislash (Shield),"[679, 680, 681]","679,680,681&!shadow"
+681,Aegislash,Shield,True,Aegislash (Shield) (Shadow),"[679, 680, 681]","679,680,681&shadow"
+682,Spritzee,Normal,False,Spritzee,[682],682&!shadow
+682,Spritzee,Normal,True,Spritzee (Shadow),[682],682&shadow
+683,Aromatisse,Normal,False,Aromatisse,"[682, 683]","682,683&!shadow"
+683,Aromatisse,Normal,True,Aromatisse (Shadow),"[682, 683]","682,683&shadow"
+684,Swirlix,Normal,False,Swirlix,[684],684&!shadow
+684,Swirlix,Normal,True,Swirlix (Shadow),[684],684&shadow
+685,Slurpuff,Normal,False,Slurpuff,"[684, 685]","684,685&!shadow"
+685,Slurpuff,Normal,True,Slurpuff (Shadow),"[684, 685]","684,685&shadow"
+686,Inkay,Normal,False,Inkay,[686],686&!shadow
+686,Inkay,Normal,True,Inkay (Shadow),[686],686&shadow
+687,Malamar,Normal,False,Malamar,"[686, 687]","686,687&!shadow"
+687,Malamar,Normal,True,Malamar (Shadow),"[686, 687]","686,687&shadow"
+688,Binacle,Normal,False,Binacle,[688],688&!shadow
+688,Binacle,Normal,True,Binacle (Shadow),[688],688&shadow
+689,Barbaracle,Normal,False,Barbaracle,"[688, 689]","688,689&!shadow"
+689,Barbaracle,Normal,True,Barbaracle (Shadow),"[688, 689]","688,689&shadow"
+690,Skrelp,Normal,False,Skrelp,[690],690&!shadow
+690,Skrelp,Normal,True,Skrelp (Shadow),[690],690&shadow
+691,Dragalge,Normal,False,Dragalge,"[690, 691]","690,691&!shadow"
+691,Dragalge,Normal,True,Dragalge (Shadow),"[690, 691]","690,691&shadow"
+692,Clauncher,Normal,False,Clauncher,[692],692&!shadow
+692,Clauncher,Normal,True,Clauncher (Shadow),[692],692&shadow
+693,Clawitzer,Normal,False,Clawitzer,"[692, 693]","692,693&!shadow"
+693,Clawitzer,Normal,True,Clawitzer (Shadow),"[692, 693]","692,693&shadow"
+694,Helioptile,Normal,False,Helioptile,[694],694&!shadow
+694,Helioptile,Normal,True,Helioptile (Shadow),[694],694&shadow
+695,Heliolisk,Normal,False,Heliolisk,"[694, 695]","694,695&!shadow"
+695,Heliolisk,Normal,True,Heliolisk (Shadow),"[694, 695]","694,695&shadow"
+696,Tyrunt,Normal,False,Tyrunt,[696],696&!shadow
+696,Tyrunt,Normal,True,Tyrunt (Shadow),[696],696&shadow
+697,Tyrantrum,Normal,False,Tyrantrum,"[696, 697]","696,697&!shadow"
+697,Tyrantrum,Normal,True,Tyrantrum (Shadow),"[696, 697]","696,697&shadow"
+698,Amaura,Normal,False,Amaura,[698],698&!shadow
+698,Amaura,Normal,True,Amaura (Shadow),[698],698&shadow
+699,Aurorus,Normal,False,Aurorus,"[698, 699]","698,699&!shadow"
+699,Aurorus,Normal,True,Aurorus (Shadow),"[698, 699]","698,699&shadow"
+700,Sylveon,Normal,False,Sylveon,"[133, 700]","133,700&!shadow"
+700,Sylveon,Normal,True,Sylveon (Shadow),"[133, 700]","133,700&shadow"
+701,Hawlucha,Normal,False,Hawlucha,[701],701&!shadow
+701,Hawlucha,Normal,True,Hawlucha (Shadow),[701],701&shadow
+702,Dedenne,Normal,False,Dedenne,[702],702&!shadow
+702,Dedenne,Normal,True,Dedenne (Shadow),[702],702&shadow
+703,Carbink,Normal,False,Carbink,[703],703&!shadow
+703,Carbink,Normal,True,Carbink (Shadow),[703],703&shadow
+704,Goomy,Normal,False,Goomy,[704],704&!shadow
+704,Goomy,Normal,True,Goomy (Shadow),[704],704&shadow
+705,Sliggoo,Normal,False,Sliggoo,"[704, 705]","704,705&!shadow"
+705,Sliggoo,Normal,True,Sliggoo (Shadow),"[704, 705]","704,705&shadow"
+706,Goodra,Normal,False,Goodra,"[704, 705, 706]","704,705,706&!shadow"
+706,Goodra,Normal,True,Goodra (Shadow),"[704, 705, 706]","704,705,706&shadow"
+707,Klefki,Normal,False,Klefki,[707],707&!shadow
+707,Klefki,Normal,True,Klefki (Shadow),[707],707&shadow
+708,Phantump,Normal,False,Phantump,[708],708&!shadow
+708,Phantump,Normal,True,Phantump (Shadow),[708],708&shadow
+709,Trevenant,Normal,False,Trevenant,"[708, 709]","708,709&!shadow"
+709,Trevenant,Normal,True,Trevenant (Shadow),"[708, 709]","708,709&shadow"
+710,Pumpkaboo,Average,False,Pumpkaboo (Average),[710],710&!shadow
+710,Pumpkaboo,Average,True,Pumpkaboo (Average) (Shadow),[710],710&shadow
+710,Pumpkaboo,Large,False,Pumpkaboo (Large),[710],710&!shadow
+710,Pumpkaboo,Large,True,Pumpkaboo (Large) (Shadow),[710],710&shadow
+710,Pumpkaboo,Small,False,Pumpkaboo (Small),[710],710&!shadow
+710,Pumpkaboo,Small,True,Pumpkaboo (Small) (Shadow),[710],710&shadow
+710,Pumpkaboo,Super,False,Pumpkaboo (Super),[710],710&!shadow
+710,Pumpkaboo,Super,True,Pumpkaboo (Super) (Shadow),[710],710&shadow
+711,Gourgeist,Average,False,Gourgeist (Average),"[710, 711]","710,711&!shadow"
+711,Gourgeist,Average,True,Gourgeist (Average) (Shadow),"[710, 711]","710,711&shadow"
+711,Gourgeist,Large,False,Gourgeist (Large),"[710, 711]","710,711&!shadow"
+711,Gourgeist,Large,True,Gourgeist (Large) (Shadow),"[710, 711]","710,711&shadow"
+711,Gourgeist,Small,False,Gourgeist (Small),"[710, 711]","710,711&!shadow"
+711,Gourgeist,Small,True,Gourgeist (Small) (Shadow),"[710, 711]","710,711&shadow"
+711,Gourgeist,Super,False,Gourgeist (Super),"[710, 711]","710,711&!shadow"
+711,Gourgeist,Super,True,Gourgeist (Super) (Shadow),"[710, 711]","710,711&shadow"
+712,Bergmite,Normal,False,Bergmite,[712],712&!shadow
+712,Bergmite,Normal,True,Bergmite (Shadow),[712],712&shadow
+713,Avalugg,Hisuian,False,Avalugg (Hisuian),"[712, 713]","712,713&hisui&!shadow"
+713,Avalugg,Hisuian,True,Avalugg (Hisuian) (Shadow),"[712, 713]","712,713&hisui&shadow"
+713,Avalugg,Normal,False,Avalugg,"[712, 713]","712,713&!hisui&!shadow"
+713,Avalugg,Normal,True,Avalugg (Shadow),"[712, 713]","712,713&!hisui&shadow"
+714,Noibat,Normal,False,Noibat,[714],714&!shadow
+714,Noibat,Normal,True,Noibat (Shadow),[714],714&shadow
+715,Noivern,Normal,False,Noivern,"[714, 715]","714,715&!shadow"
+715,Noivern,Normal,True,Noivern (Shadow),"[714, 715]","714,715&shadow"
+716,Xerneas,Normal,False,Xerneas,[716],716&!shadow
+716,Xerneas,Normal,True,Xerneas (Shadow),[716],716&shadow
+717,Yveltal,Normal,False,Yveltal,[717],717&!shadow
+717,Yveltal,Normal,True,Yveltal (Shadow),[717],717&shadow
+718,Zygarde,Complete,False,Zygarde (Complete Forme),[718],718&!shadow
+718,Zygarde,Complete,True,Zygarde (Complete Forme) (Shadow),[718],718&shadow
+718,Zygarde,Fifty_percent,False,Zygarde (50% Forme),[718],718&!shadow
+718,Zygarde,Fifty_percent,True,Zygarde (50% Forme) (Shadow),[718],718&shadow
+718,Zygarde,Ten_percent,False,Zygarde (10% Forme),[718],718&!shadow
+718,Zygarde,Ten_percent,True,Zygarde (10% Forme) (Shadow),[718],718&shadow
+719,Diancie,Normal,False,Diancie,[719],719&!shadow
+719,Diancie,Normal,True,Diancie (Shadow),[719],719&shadow
+720,Hoopa,Confined,False,Hoopa,[720],720&!shadow
+720,Hoopa,Confined,True,Hoopa (Shadow),[720],720&shadow
+720,Hoopa,Unbound,False,Hoopa (Unbound),[720],720&!shadow
+720,Hoopa,Unbound,True,Hoopa (Unbound) (Shadow),[720],720&shadow
+721,Volcanion,Normal,False,Volcanion,[721],721&!shadow
+721,Volcanion,Normal,True,Volcanion (Shadow),[721],721&shadow
+722,Rowlet,Normal,False,Rowlet,[722],722&!shadow
+722,Rowlet,Normal,True,Rowlet (Shadow),[722],722&shadow
+723,Dartrix,Normal,False,Dartrix,"[722, 723]","722,723&!shadow"
+723,Dartrix,Normal,True,Dartrix (Shadow),"[722, 723]","722,723&shadow"
+724,Decidueye,Hisuian,False,Decidueye (Hisuian),"[722, 723, 724]","722,723,724&hisui&!shadow"
+724,Decidueye,Hisuian,True,Decidueye (Hisuian) (Shadow),"[722, 723, 724]","722,723,724&hisui&shadow"
+724,Decidueye,Normal,False,Decidueye,"[722, 723, 724]","722,723,724&!hisui&!shadow"
+724,Decidueye,Normal,True,Decidueye (Shadow),"[722, 723, 724]","722,723,724&!hisui&shadow"
+725,Litten,Normal,False,Litten,[725],725&!shadow
+725,Litten,Normal,True,Litten (Shadow),[725],725&shadow
+726,Torracat,Normal,False,Torracat,"[725, 726]","725,726&!shadow"
+726,Torracat,Normal,True,Torracat (Shadow),"[725, 726]","725,726&shadow"
+727,Incineroar,Normal,False,Incineroar,"[725, 726, 727]","725,726,727&!shadow"
+727,Incineroar,Normal,True,Incineroar (Shadow),"[725, 726, 727]","725,726,727&shadow"
+728,Popplio,Normal,False,Popplio,[728],728&!shadow
+728,Popplio,Normal,True,Popplio (Shadow),[728],728&shadow
+729,Brionne,Normal,False,Brionne,"[728, 729]","728,729&!shadow"
+729,Brionne,Normal,True,Brionne (Shadow),"[728, 729]","728,729&shadow"
+730,Primarina,Normal,False,Primarina,"[728, 729, 730]","728,729,730&!shadow"
+730,Primarina,Normal,True,Primarina (Shadow),"[728, 729, 730]","728,729,730&shadow"
+731,Pikipek,Normal,False,Pikipek,[731],731&!shadow
+731,Pikipek,Normal,True,Pikipek (Shadow),[731],731&shadow
+732,Trumbeak,Normal,False,Trumbeak,"[731, 732]","731,732&!shadow"
+732,Trumbeak,Normal,True,Trumbeak (Shadow),"[731, 732]","731,732&shadow"
+733,Toucannon,Normal,False,Toucannon,"[731, 732, 733]","731,732,733&!shadow"
+733,Toucannon,Normal,True,Toucannon (Shadow),"[731, 732, 733]","731,732,733&shadow"
+734,Yungoos,Normal,False,Yungoos,[734],734&!shadow
+734,Yungoos,Normal,True,Yungoos (Shadow),[734],734&shadow
+735,Gumshoos,Normal,False,Gumshoos,"[734, 735]","734,735&!shadow"
+735,Gumshoos,Normal,True,Gumshoos (Shadow),"[734, 735]","734,735&shadow"
+736,Grubbin,Normal,False,Grubbin,[736],736&!shadow
+736,Grubbin,Normal,True,Grubbin (Shadow),[736],736&shadow
+737,Charjabug,Normal,False,Charjabug,"[736, 737]","736,737&!shadow"
+737,Charjabug,Normal,True,Charjabug (Shadow),"[736, 737]","736,737&shadow"
+738,Vikavolt,Normal,False,Vikavolt,"[736, 737, 738]","736,737,738&!shadow"
+738,Vikavolt,Normal,True,Vikavolt (Shadow),"[736, 737, 738]","736,737,738&shadow"
+739,Crabrawler,Normal,False,Crabrawler,[739],739&!shadow
+739,Crabrawler,Normal,True,Crabrawler (Shadow),[739],739&shadow
+740,Crabominable,Normal,False,Crabominable,"[739, 740]","739,740&!shadow"
+740,Crabominable,Normal,True,Crabominable (Shadow),"[739, 740]","739,740&shadow"
+741,Oricorio,Baile,False,Oricorio (Baile),[741],741&!shadow
+741,Oricorio,Baile,True,Oricorio (Baile) (Shadow),[741],741&shadow
+741,Oricorio,Pau,False,Oricorio (Pa'u),[741],741&!shadow
+741,Oricorio,Pau,True,Oricorio (Pa'u) (Shadow),[741],741&shadow
+741,Oricorio,Pompom,False,Oricorio (Pom-Pom),[741],741&!shadow
+741,Oricorio,Pompom,True,Oricorio (Pom-Pom) (Shadow),[741],741&shadow
+741,Oricorio,Sensu,False,Oricorio (Sensu),[741],741&!shadow
+741,Oricorio,Sensu,True,Oricorio (Sensu) (Shadow),[741],741&shadow
+742,Cutiefly,Normal,False,Cutiefly,[742],742&!shadow
+742,Cutiefly,Normal,True,Cutiefly (Shadow),[742],742&shadow
+743,Ribombee,Normal,False,Ribombee,"[742, 743]","742,743&!shadow"
+743,Ribombee,Normal,True,Ribombee (Shadow),"[742, 743]","742,743&shadow"
+744,Rockruff,Dusk,False,Rockruff (Dusk),[744],744&!shadow
+744,Rockruff,Dusk,True,Rockruff (Dusk) (Shadow),[744],744&shadow
+744,Rockruff,Normal,False,Rockruff,[744],744&!shadow
+744,Rockruff,Normal,True,Rockruff (Shadow),[744],744&shadow
+745,Lycanroc,Dusk,False,Lycanroc (Dusk),"[744, 745]","744,745&!shadow"
+745,Lycanroc,Dusk,True,Lycanroc (Dusk) (Shadow),"[744, 745]","744,745&shadow"
+745,Lycanroc,Midday,False,Lycanroc (Midday),"[744, 745]","744,745&!shadow"
+745,Lycanroc,Midday,True,Lycanroc (Midday) (Shadow),"[744, 745]","744,745&shadow"
+745,Lycanroc,Midnight,False,Lycanroc (Midnight),"[744, 745]","744,745&!shadow"
+745,Lycanroc,Midnight,True,Lycanroc (Midnight) (Shadow),"[744, 745]","744,745&shadow"
+747,Mareanie,Normal,False,Mareanie,[747],747&!shadow
+747,Mareanie,Normal,True,Mareanie (Shadow),[747],747&shadow
+748,Toxapex,Normal,False,Toxapex,"[747, 748]","747,748&!shadow"
+748,Toxapex,Normal,True,Toxapex (Shadow),"[747, 748]","747,748&shadow"
+749,Mudbray,Normal,False,Mudbray,[749],749&!shadow
+749,Mudbray,Normal,True,Mudbray (Shadow),[749],749&shadow
+750,Mudsdale,Normal,False,Mudsdale,"[749, 750]","749,750&!shadow"
+750,Mudsdale,Normal,True,Mudsdale (Shadow),"[749, 750]","749,750&shadow"
+751,Dewpider,Normal,False,Dewpider,[751],751&!shadow
+751,Dewpider,Normal,True,Dewpider (Shadow),[751],751&shadow
+752,Araquanid,Normal,False,Araquanid,"[751, 752]","751,752&!shadow"
+752,Araquanid,Normal,True,Araquanid (Shadow),"[751, 752]","751,752&shadow"
+753,Fomantis,Normal,False,Fomantis,[753],753&!shadow
+753,Fomantis,Normal,True,Fomantis (Shadow),[753],753&shadow
+754,Lurantis,Normal,False,Lurantis,"[753, 754]","753,754&!shadow"
+754,Lurantis,Normal,True,Lurantis (Shadow),"[753, 754]","753,754&shadow"
+755,Morelull,Normal,False,Morelull,[755],755&!shadow
+755,Morelull,Normal,True,Morelull (Shadow),[755],755&shadow
+756,Shiinotic,Normal,False,Shiinotic,"[755, 756]","755,756&!shadow"
+756,Shiinotic,Normal,True,Shiinotic (Shadow),"[755, 756]","755,756&shadow"
+757,Salandit,Normal,False,Salandit,[757],757&!shadow
+757,Salandit,Normal,True,Salandit (Shadow),[757],757&shadow
+758,Salazzle,Normal,False,Salazzle,"[757, 758]","757,758&!shadow"
+758,Salazzle,Normal,True,Salazzle (Shadow),"[757, 758]","757,758&shadow"
+759,Stufful,Normal,False,Stufful,[759],759&!shadow
+759,Stufful,Normal,True,Stufful (Shadow),[759],759&shadow
+760,Bewear,Normal,False,Bewear,"[759, 760]","759,760&!shadow"
+760,Bewear,Normal,True,Bewear (Shadow),"[759, 760]","759,760&shadow"
+761,Bounsweet,Normal,False,Bounsweet,[761],761&!shadow
+761,Bounsweet,Normal,True,Bounsweet (Shadow),[761],761&shadow
+762,Steenee,Normal,False,Steenee,"[761, 762]","761,762&!shadow"
+762,Steenee,Normal,True,Steenee (Shadow),"[761, 762]","761,762&shadow"
+763,Tsareena,Normal,False,Tsareena,"[761, 762, 763]","761,762,763&!shadow"
+763,Tsareena,Normal,True,Tsareena (Shadow),"[761, 762, 763]","761,762,763&shadow"
+764,Comfey,Normal,False,Comfey,[764],764&!shadow
+764,Comfey,Normal,True,Comfey (Shadow),[764],764&shadow
+765,Oranguru,Normal,False,Oranguru,[765],765&!shadow
+765,Oranguru,Normal,True,Oranguru (Shadow),[765],765&shadow
+766,Passimian,Normal,False,Passimian,[766],766&!shadow
+766,Passimian,Normal,True,Passimian (Shadow),[766],766&shadow
+767,Wimpod,Normal,False,Wimpod,[767],767&!shadow
+767,Wimpod,Normal,True,Wimpod (Shadow),[767],767&shadow
+768,Golisopod,Normal,False,Golisopod,"[767, 768]","767,768&!shadow"
+768,Golisopod,Normal,True,Golisopod (Shadow),"[767, 768]","767,768&shadow"
+769,Sandygast,Normal,False,Sandygast,[769],769&!shadow
+769,Sandygast,Normal,True,Sandygast (Shadow),[769],769&shadow
+770,Palossand,Normal,False,Palossand,"[769, 770]","769,770&!shadow"
+770,Palossand,Normal,True,Palossand (Shadow),"[769, 770]","769,770&shadow"
+771,Pyukumuku,Normal,False,Pyukumuku,[771],771&!shadow
+771,Pyukumuku,Normal,True,Pyukumuku (Shadow),[771],771&shadow
+772,Type: Null,Normal,False,Type: Null,[772],772&!shadow
+772,Type: Null,Normal,True,Type: Null (Shadow),[772],772&shadow
+773,Silvally,Normal,False,Silvally,"[772, 773]","772,773&!shadow"
+773,Silvally,Normal,True,Silvally (Shadow),"[772, 773]","772,773&shadow"
+775,Komala,Normal,False,Komala,[775],775&!shadow
+775,Komala,Normal,True,Komala (Shadow),[775],775&shadow
+776,Turtonator,Normal,False,Turtonator,[776],776&!shadow
+776,Turtonator,Normal,True,Turtonator (Shadow),[776],776&shadow
+777,Togedemaru,Normal,False,Togedemaru,[777],777&!shadow
+777,Togedemaru,Normal,True,Togedemaru (Shadow),[777],777&shadow
+778,Mimikyu,Disguised,False,Mimikyu,[778],778&!shadow
+778,Mimikyu,Disguised,True,Mimikyu (Shadow),[778],778&shadow
+779,Bruxish,Normal,False,Bruxish,[779],779&!shadow
+779,Bruxish,Normal,True,Bruxish (Shadow),[779],779&shadow
+780,Drampa,Normal,False,Drampa,[780],780&!shadow
+780,Drampa,Normal,True,Drampa (Shadow),[780],780&shadow
+781,Dhelmise,Normal,False,Dhelmise,[781],781&!shadow
+781,Dhelmise,Normal,True,Dhelmise (Shadow),[781],781&shadow
+782,Jangmo-o,Normal,False,Jangmo-o,[782],782&!shadow
+782,Jangmo-o,Normal,True,Jangmo-o (Shadow),[782],782&shadow
+783,Hakamo-o,Normal,False,Hakamo-o,"[782, 783]","782,783&!shadow"
+783,Hakamo-o,Normal,True,Hakamo-o (Shadow),"[782, 783]","782,783&shadow"
+784,Kommo-o,Normal,False,Kommo-o,"[782, 783, 784]","782,783,784&!shadow"
+784,Kommo-o,Normal,True,Kommo-o (Shadow),"[782, 783, 784]","782,783,784&shadow"
+785,Tapu Koko,Normal,False,Tapu Koko,[785],785&!shadow
+785,Tapu Koko,Normal,True,Tapu Koko (Shadow),[785],785&shadow
+786,Tapu Lele,Normal,False,Tapu Lele,[786],786&!shadow
+786,Tapu Lele,Normal,True,Tapu Lele (Shadow),[786],786&shadow
+787,Tapu Bulu,Normal,False,Tapu Bulu,[787],787&!shadow
+787,Tapu Bulu,Normal,True,Tapu Bulu (Shadow),[787],787&shadow
+788,Tapu Fini,Normal,False,Tapu Fini,[788],788&!shadow
+788,Tapu Fini,Normal,True,Tapu Fini (Shadow),[788],788&shadow
+789,Cosmog,Normal,False,Cosmog,[789],789&!shadow
+789,Cosmog,Normal,True,Cosmog (Shadow),[789],789&shadow
+790,Cosmoem,Normal,False,Cosmoem,"[789, 790]","789,790&!shadow"
+790,Cosmoem,Normal,True,Cosmoem (Shadow),"[789, 790]","789,790&shadow"
+791,Solgaleo,Normal,False,Solgaleo,"[789, 790, 791]","789,790,791&!shadow"
+791,Solgaleo,Normal,True,Solgaleo (Shadow),"[789, 790, 791]","789,790,791&shadow"
+792,Lunala,Normal,False,Lunala,"[789, 790, 792]","789,790,792&!shadow"
+792,Lunala,Normal,True,Lunala (Shadow),"[789, 790, 792]","789,790,792&shadow"
+793,Nihilego,Normal,False,Nihilego,[793],793&!shadow
+793,Nihilego,Normal,True,Nihilego (Shadow),[793],793&shadow
+794,Buzzwole,Normal,False,Buzzwole,[794],794&!shadow
+794,Buzzwole,Normal,True,Buzzwole (Shadow),[794],794&shadow
+795,Pheromosa,Normal,False,Pheromosa,[795],795&!shadow
+795,Pheromosa,Normal,True,Pheromosa (Shadow),[795],795&shadow
+796,Xurkitree,Normal,False,Xurkitree,[796],796&!shadow
+796,Xurkitree,Normal,True,Xurkitree (Shadow),[796],796&shadow
+797,Celesteela,Normal,False,Celesteela,[797],797&!shadow
+797,Celesteela,Normal,True,Celesteela (Shadow),[797],797&shadow
+798,Kartana,Normal,False,Kartana,[798],798&!shadow
+798,Kartana,Normal,True,Kartana (Shadow),[798],798&shadow
+799,Guzzlord,Normal,False,Guzzlord,[799],799&!shadow
+799,Guzzlord,Normal,True,Guzzlord (Shadow),[799],799&shadow
+800,Necrozma,Dawn_wings,False,Necrozma (Dawn Wings),[800],800&!shadow
+800,Necrozma,Dawn_wings,True,Necrozma (Dawn Wings) (Shadow),[800],800&shadow
+800,Necrozma,Dusk_mane,False,Necrozma (Dusk Mane),[800],800&!shadow
+800,Necrozma,Dusk_mane,True,Necrozma (Dusk Mane) (Shadow),[800],800&shadow
+800,Necrozma,Normal,False,Necrozma,[800],800&!shadow
+800,Necrozma,Normal,True,Necrozma (Shadow),[800],800&shadow
+801,Magearna,Normal,False,Magearna,[801],801&!shadow
+801,Magearna,Normal,True,Magearna (Shadow),[801],801&shadow
+802,Marshadow,Normal,False,Marshadow,[802],802&!shadow
+802,Marshadow,Normal,True,Marshadow (Shadow),[802],802&shadow
+803,Poipole,Normal,False,Poipole,[803],803&!shadow
+803,Poipole,Normal,True,Poipole (Shadow),[803],803&shadow
+804,Naganadel,Normal,False,Naganadel,"[803, 804]","803,804&!shadow"
+804,Naganadel,Normal,True,Naganadel (Shadow),"[803, 804]","803,804&shadow"
+805,Stakataka,Normal,False,Stakataka,[805],805&!shadow
+805,Stakataka,Normal,True,Stakataka (Shadow),[805],805&shadow
+806,Blacephalon,Normal,False,Blacephalon,[806],806&!shadow
+806,Blacephalon,Normal,True,Blacephalon (Shadow),[806],806&shadow
+807,Zeraora,Normal,False,Zeraora,[807],807&!shadow
+807,Zeraora,Normal,True,Zeraora (Shadow),[807],807&shadow
+808,Meltan,Normal,False,Meltan,[808],808&!shadow
+808,Meltan,Normal,True,Meltan (Shadow),[808],808&shadow
+809,Melmetal,Normal,False,Melmetal,"[808, 809]","808,809&!shadow"
+809,Melmetal,Normal,True,Melmetal (Shadow),"[808, 809]","808,809&shadow"
+810,Grookey,Normal,False,Grookey,[810],810&!shadow
+810,Grookey,Normal,True,Grookey (Shadow),[810],810&shadow
+811,Thwackey,Normal,False,Thwackey,"[810, 811]","810,811&!shadow"
+811,Thwackey,Normal,True,Thwackey (Shadow),"[810, 811]","810,811&shadow"
+812,Rillaboom,Normal,False,Rillaboom,"[810, 811, 812]","810,811,812&!shadow"
+812,Rillaboom,Normal,True,Rillaboom (Shadow),"[810, 811, 812]","810,811,812&shadow"
+813,Scorbunny,Normal,False,Scorbunny,[813],813&!shadow
+813,Scorbunny,Normal,True,Scorbunny (Shadow),[813],813&shadow
+814,Raboot,Normal,False,Raboot,"[813, 814]","813,814&!shadow"
+814,Raboot,Normal,True,Raboot (Shadow),"[813, 814]","813,814&shadow"
+815,Cinderace,Normal,False,Cinderace,"[813, 814, 815]","813,814,815&!shadow"
+815,Cinderace,Normal,True,Cinderace (Shadow),"[813, 814, 815]","813,814,815&shadow"
+816,Sobble,Normal,False,Sobble,[816],816&!shadow
+816,Sobble,Normal,True,Sobble (Shadow),[816],816&shadow
+817,Drizzile,Normal,False,Drizzile,"[816, 817]","816,817&!shadow"
+817,Drizzile,Normal,True,Drizzile (Shadow),"[816, 817]","816,817&shadow"
+818,Inteleon,Normal,False,Inteleon,"[816, 817, 818]","816,817,818&!shadow"
+818,Inteleon,Normal,True,Inteleon (Shadow),"[816, 817, 818]","816,817,818&shadow"
+819,Skwovet,Normal,False,Skwovet,[819],819&!shadow
+819,Skwovet,Normal,True,Skwovet (Shadow),[819],819&shadow
+820,Greedent,Normal,False,Greedent,"[819, 820]","819,820&!shadow"
+820,Greedent,Normal,True,Greedent (Shadow),"[819, 820]","819,820&shadow"
+821,Rookidee,Normal,False,Rookidee,[821],821&!shadow
+821,Rookidee,Normal,True,Rookidee (Shadow),[821],821&shadow
+822,Corvisquire,Normal,False,Corvisquire,"[821, 822]","821,822&!shadow"
+822,Corvisquire,Normal,True,Corvisquire (Shadow),"[821, 822]","821,822&shadow"
+823,Corviknight,Normal,False,Corviknight,"[821, 822, 823]","821,822,823&!shadow"
+823,Corviknight,Normal,True,Corviknight (Shadow),"[821, 822, 823]","821,822,823&shadow"
+824,Blipbug,Normal,False,Blipbug,[824],824&!shadow
+824,Blipbug,Normal,True,Blipbug (Shadow),[824],824&shadow
+825,Dottler,Normal,False,Dottler,"[824, 825]","824,825&!shadow"
+825,Dottler,Normal,True,Dottler (Shadow),"[824, 825]","824,825&shadow"
+826,Orbeetle,Normal,False,Orbeetle,"[824, 825, 826]","824,825,826&!shadow"
+826,Orbeetle,Normal,True,Orbeetle (Shadow),"[824, 825, 826]","824,825,826&shadow"
+827,Nickit,Normal,False,Nickit,[827],827&!shadow
+827,Nickit,Normal,True,Nickit (Shadow),[827],827&shadow
+828,Thievul,Normal,False,Thievul,"[827, 828]","827,828&!shadow"
+828,Thievul,Normal,True,Thievul (Shadow),"[827, 828]","827,828&shadow"
+829,Gossifleur,Normal,False,Gossifleur,[829],829&!shadow
+829,Gossifleur,Normal,True,Gossifleur (Shadow),[829],829&shadow
+830,Eldegoss,Normal,False,Eldegoss,"[829, 830]","829,830&!shadow"
+830,Eldegoss,Normal,True,Eldegoss (Shadow),"[829, 830]","829,830&shadow"
+831,Wooloo,Normal,False,Wooloo,[831],831&!shadow
+831,Wooloo,Normal,True,Wooloo (Shadow),[831],831&shadow
+832,Dubwool,Normal,False,Dubwool,"[831, 832]","831,832&!shadow"
+832,Dubwool,Normal,True,Dubwool (Shadow),"[831, 832]","831,832&shadow"
+833,Chewtle,Normal,False,Chewtle,[833],833&!shadow
+833,Chewtle,Normal,True,Chewtle (Shadow),[833],833&shadow
+834,Drednaw,Normal,False,Drednaw,"[833, 834]","833,834&!shadow"
+834,Drednaw,Normal,True,Drednaw (Shadow),"[833, 834]","833,834&shadow"
+835,Yamper,Normal,False,Yamper,[835],835&!shadow
+835,Yamper,Normal,True,Yamper (Shadow),[835],835&shadow
+836,Boltund,Normal,False,Boltund,"[835, 836]","835,836&!shadow"
+836,Boltund,Normal,True,Boltund (Shadow),"[835, 836]","835,836&shadow"
+837,Rolycoly,Normal,False,Rolycoly,[837],837&!shadow
+837,Rolycoly,Normal,True,Rolycoly (Shadow),[837],837&shadow
+838,Carkol,Normal,False,Carkol,"[837, 838]","837,838&!shadow"
+838,Carkol,Normal,True,Carkol (Shadow),"[837, 838]","837,838&shadow"
+839,Coalossal,Normal,False,Coalossal,"[837, 838, 839]","837,838,839&!shadow"
+839,Coalossal,Normal,True,Coalossal (Shadow),"[837, 838, 839]","837,838,839&shadow"
+840,Applin,Normal,False,Applin,[840],840&!shadow
+840,Applin,Normal,True,Applin (Shadow),[840],840&shadow
+841,Flapple,Normal,False,Flapple,"[840, 841]","840,841&!shadow"
+841,Flapple,Normal,True,Flapple (Shadow),"[840, 841]","840,841&shadow"
+842,Appletun,Normal,False,Appletun,"[840, 842]","840,842&!shadow"
+842,Appletun,Normal,True,Appletun (Shadow),"[840, 842]","840,842&shadow"
+843,Silicobra,Normal,False,Silicobra,[843],843&!shadow
+843,Silicobra,Normal,True,Silicobra (Shadow),[843],843&shadow
+844,Sandaconda,Normal,False,Sandaconda,"[843, 844]","843,844&!shadow"
+844,Sandaconda,Normal,True,Sandaconda (Shadow),"[843, 844]","843,844&shadow"
+845,Cramorant,Normal,False,Cramorant,[845],845&!shadow
+845,Cramorant,Normal,True,Cramorant (Shadow),[845],845&shadow
+846,Arrokuda,Normal,False,Arrokuda,[846],846&!shadow
+846,Arrokuda,Normal,True,Arrokuda (Shadow),[846],846&shadow
+847,Barraskewda,Normal,False,Barraskewda,"[846, 847]","846,847&!shadow"
+847,Barraskewda,Normal,True,Barraskewda (Shadow),"[846, 847]","846,847&shadow"
+848,Toxel,Normal,False,Toxel,[848],848&!shadow
+848,Toxel,Normal,True,Toxel (Shadow),[848],848&shadow
+849,Toxtricity,Amped,False,Toxtricity,"[848, 849]","848,849&!shadow"
+849,Toxtricity,Amped,True,Toxtricity (Shadow),"[848, 849]","848,849&shadow"
+850,Sizzlipede,Normal,False,Sizzlipede,[850],850&!shadow
+850,Sizzlipede,Normal,True,Sizzlipede (Shadow),[850],850&shadow
+851,Centiskorch,Normal,False,Centiskorch,"[850, 851]","850,851&!shadow"
+851,Centiskorch,Normal,True,Centiskorch (Shadow),"[850, 851]","850,851&shadow"
+852,Clobbopus,Normal,False,Clobbopus,[852],852&!shadow
+852,Clobbopus,Normal,True,Clobbopus (Shadow),[852],852&shadow
+853,Grapploct,Normal,False,Grapploct,"[852, 853]","852,853&!shadow"
+853,Grapploct,Normal,True,Grapploct (Shadow),"[852, 853]","852,853&shadow"
+854,Sinistea,Phony,False,Sinistea (Phony),[854],854&!shadow
+854,Sinistea,Phony,True,Sinistea (Phony) (Shadow),[854],854&shadow
+855,Polteageist,Phony,False,Polteageist,"[854, 855]","854,855&!shadow"
+855,Polteageist,Phony,True,Polteageist (Shadow),"[854, 855]","854,855&shadow"
+856,Hatenna,Normal,False,Hatenna,[856],856&!shadow
+856,Hatenna,Normal,True,Hatenna (Shadow),[856],856&shadow
+857,Hattrem,Normal,False,Hattrem,"[856, 857]","856,857&!shadow"
+857,Hattrem,Normal,True,Hattrem (Shadow),"[856, 857]","856,857&shadow"
+858,Hatterene,Normal,False,Hatterene,"[856, 857, 858]","856,857,858&!shadow"
+858,Hatterene,Normal,True,Hatterene (Shadow),"[856, 857, 858]","856,857,858&shadow"
+859,Impidimp,Normal,False,Impidimp,[859],859&!shadow
+859,Impidimp,Normal,True,Impidimp (Shadow),[859],859&shadow
+860,Morgrem,Normal,False,Morgrem,"[859, 860]","859,860&!shadow"
+860,Morgrem,Normal,True,Morgrem (Shadow),"[859, 860]","859,860&shadow"
+861,Grimmsnarl,Normal,False,Grimmsnarl,"[859, 860, 861]","859,860,861&!shadow"
+861,Grimmsnarl,Normal,True,Grimmsnarl (Shadow),"[859, 860, 861]","859,860,861&shadow"
+862,Obstagoon,Galarian,False,Obstagoon,"[263, 264, 862]","263,264,862&!shadow"
+862,Obstagoon,Galarian,True,Obstagoon (Shadow),"[263, 264, 862]","263,264,862&shadow"
+863,Perrserker,Galarian,False,Perrserker,"[52, 863]","52,863&!shadow"
+863,Perrserker,Galarian,True,Perrserker (Shadow),"[52, 863]","52,863&shadow"
+864,Cursola,Normal,False,Cursola,"[222, 864]","222,864&!shadow"
+864,Cursola,Normal,True,Cursola (Shadow),"[222, 864]","222,864&shadow"
+865,Sirfetch'd,Galarian,False,Sirfetch'd,"[83, 865]","83,865&!shadow"
+865,Sirfetch'd,Galarian,True,Sirfetch'd (Shadow),"[83, 865]","83,865&shadow"
+866,Mr. Rime,Galarian,False,Mr. Rime,"[122, 866]","122,866&!shadow"
+866,Mr. Rime,Galarian,True,Mr. Rime (Shadow),"[122, 866]","122,866&shadow"
+867,Runerigus,Galarian,False,Runerigus,"[562, 867]","562,867&!shadow"
+867,Runerigus,Galarian,True,Runerigus (Shadow),"[562, 867]","562,867&shadow"
+868,Milcery,Normal,False,Milcery,[868],868&!shadow
+868,Milcery,Normal,True,Milcery (Shadow),[868],868&shadow
+869,Alcremie,Normal,False,Alcremie,"[868, 869]","868,869&!shadow"
+869,Alcremie,Normal,True,Alcremie (Shadow),"[868, 869]","868,869&shadow"
+870,Falinks,Normal,False,Falinks,[870],870&!shadow
+870,Falinks,Normal,True,Falinks (Shadow),[870],870&shadow
+871,Pincurchin,Normal,False,Pincurchin,[871],871&!shadow
+871,Pincurchin,Normal,True,Pincurchin (Shadow),[871],871&shadow
+872,Snom,Normal,False,Snom,[872],872&!shadow
+872,Snom,Normal,True,Snom (Shadow),[872],872&shadow
+873,Frosmoth,Normal,False,Frosmoth,"[872, 873]","872,873&!shadow"
+873,Frosmoth,Normal,True,Frosmoth (Shadow),"[872, 873]","872,873&shadow"
+874,Stonjourner,Normal,False,Stonjourner,[874],874&!shadow
+874,Stonjourner,Normal,True,Stonjourner (Shadow),[874],874&shadow
+876,Indeedee,Female,False,Indeedee (Female),[876],876&!shadow
+876,Indeedee,Female,True,Indeedee (Female) (Shadow),[876],876&shadow
+876,Indeedee,Male,False,Indeedee (Male),[876],876&!shadow
+876,Indeedee,Male,True,Indeedee (Male) (Shadow),[876],876&shadow
+877,Morpeko,Full_belly,False,Morpeko (Full belly),[877],877&!shadow
+877,Morpeko,Full_belly,True,Morpeko (Full belly) (Shadow),[877],877&shadow
+878,Cufant,Normal,False,Cufant,[878],878&!shadow
+878,Cufant,Normal,True,Cufant (Shadow),[878],878&shadow
+879,Copperajah,Normal,False,Copperajah,"[878, 879]","878,879&!shadow"
+879,Copperajah,Normal,True,Copperajah (Shadow),"[878, 879]","878,879&shadow"
+880,Dracozolt,Normal,False,Dracozolt,[880],880&!shadow
+880,Dracozolt,Normal,True,Dracozolt (Shadow),[880],880&shadow
+881,Arctozolt,Normal,False,Arctozolt,[881],881&!shadow
+881,Arctozolt,Normal,True,Arctozolt (Shadow),[881],881&shadow
+882,Dracovish,Normal,False,Dracovish,[882],882&!shadow
+882,Dracovish,Normal,True,Dracovish (Shadow),[882],882&shadow
+883,Arctovish,Normal,False,Arctovish,[883],883&!shadow
+883,Arctovish,Normal,True,Arctovish (Shadow),[883],883&shadow
+884,Duraludon,Normal,False,Duraludon,[884],884&!shadow
+884,Duraludon,Normal,True,Duraludon (Shadow),[884],884&shadow
+885,Dreepy,Normal,False,Dreepy,[885],885&!shadow
+885,Dreepy,Normal,True,Dreepy (Shadow),[885],885&shadow
+886,Drakloak,Normal,False,Drakloak,"[885, 886]","885,886&!shadow"
+886,Drakloak,Normal,True,Drakloak (Shadow),"[885, 886]","885,886&shadow"
+887,Dragapult,Normal,False,Dragapult,"[885, 886, 887]","885,886,887&!shadow"
+887,Dragapult,Normal,True,Dragapult (Shadow),"[885, 886, 887]","885,886,887&shadow"
+888,Zacian,Crowned_sword,False,Zacian (Crowned Sword),[888],888&!shadow
+888,Zacian,Crowned_sword,True,Zacian (Crowned Sword) (Shadow),[888],888&shadow
+888,Zacian,Hero,False,Zacian (Hero),[888],888&!shadow
+888,Zacian,Hero,True,Zacian (Hero) (Shadow),[888],888&shadow
+889,Zamazenta,Crowned_shield,False,Zamazenta (Crowned Shield),[889],889&!shadow
+889,Zamazenta,Crowned_shield,True,Zamazenta (Crowned Shield) (Shadow),[889],889&shadow
+889,Zamazenta,Hero,False,Zamazenta (Hero),[889],889&!shadow
+889,Zamazenta,Hero,True,Zamazenta (Hero) (Shadow),[889],889&shadow
+890,Eternatus,Normal,False,Eternatus,[890],890&!shadow
+890,Eternatus,Normal,True,Eternatus (Shadow),[890],890&shadow
+891,Kubfu,Normal,False,Kubfu,[891],891&!shadow
+891,Kubfu,Normal,True,Kubfu (Shadow),[891],891&shadow
+892,Urshifu,Rapid_strike,False,Urshifu (Rapid strike),"[891, 892]","891,892&!shadow"
+892,Urshifu,Rapid_strike,True,Urshifu (Rapid strike) (Shadow),"[891, 892]","891,892&shadow"
+892,Urshifu,Single_strike,False,Urshifu (Single strike),"[891, 892]","891,892&!shadow"
+892,Urshifu,Single_strike,True,Urshifu (Single strike) (Shadow),"[891, 892]","891,892&shadow"
+893,Zarude,Normal,False,Zarude,[893],893&!shadow
+893,Zarude,Normal,True,Zarude (Shadow),[893],893&shadow
+894,Regieleki,Normal,False,Regieleki,[894],894&!shadow
+894,Regieleki,Normal,True,Regieleki (Shadow),[894],894&shadow
+895,Regidrago,Normal,False,Regidrago,[895],895&!shadow
+895,Regidrago,Normal,True,Regidrago (Shadow),[895],895&shadow
+896,Glastrier,Normal,False,Glastrier,[896],896&!shadow
+896,Glastrier,Normal,True,Glastrier (Shadow),[896],896&shadow
+897,Spectrier,Normal,False,Spectrier,[897],897&!shadow
+897,Spectrier,Normal,True,Spectrier (Shadow),[897],897&shadow
+898,Calyrex,Ice_rider,False,Calyrex (Ice rider),[898],898&!shadow
+898,Calyrex,Ice_rider,True,Calyrex (Ice rider) (Shadow),[898],898&shadow
+898,Calyrex,Normal,False,Calyrex,[898],898&!shadow
+898,Calyrex,Normal,True,Calyrex (Shadow),[898],898&shadow
+898,Calyrex,Shadow_rider,False,Calyrex (Shadow rider),[898],898&!shadow
+898,Calyrex,Shadow_rider,True,Calyrex (Shadow rider) (Shadow),[898],898&shadow
+899,Wyrdeer,Normal,False,Wyrdeer,"[234, 899]","234,899&!shadow"
+899,Wyrdeer,Normal,True,Wyrdeer (Shadow),"[234, 899]","234,899&shadow"
+900,Kleavor,Normal,False,Kleavor,"[123, 900]","123,900&!shadow"
+900,Kleavor,Normal,True,Kleavor (Shadow),"[123, 900]","123,900&shadow"
+901,Ursaluna,Normal,False,Ursaluna,"[216, 217, 901]","216,217,901&!shadow"
+901,Ursaluna,Normal,True,Ursaluna (Shadow),"[216, 217, 901]","216,217,901&shadow"
+903,Sneasler,Normal,False,Sneasler,"[215, 903]","215,903&!shadow"
+903,Sneasler,Normal,True,Sneasler (Shadow),"[215, 903]","215,903&shadow"
+904,Overqwil,Normal,False,Overqwil,"[211, 904]","211,904&!shadow"
+904,Overqwil,Normal,True,Overqwil (Shadow),"[211, 904]","211,904&shadow"
+905,Enamorus,Incarnate,False,Enamorus (Incarnate),[905],905&!shadow
+905,Enamorus,Incarnate,True,Enamorus (Incarnate) (Shadow),[905],905&shadow
+905,Enamorus,Therian,False,Enamorus (Therian),[905],905&!shadow
+905,Enamorus,Therian,True,Enamorus (Therian) (Shadow),[905],905&shadow
+906,Sprigatito,Normal,False,Sprigatito,[906],906&!shadow
+906,Sprigatito,Normal,True,Sprigatito (Shadow),[906],906&shadow
+907,Floragato,Normal,False,Floragato,"[906, 907]","906,907&!shadow"
+907,Floragato,Normal,True,Floragato (Shadow),"[906, 907]","906,907&shadow"
+908,Meowscarada,Normal,False,Meowscarada,"[906, 907, 908]","906,907,908&!shadow"
+908,Meowscarada,Normal,True,Meowscarada (Shadow),"[906, 907, 908]","906,907,908&shadow"
+909,Fuecoco,Normal,False,Fuecoco,[909],909&!shadow
+909,Fuecoco,Normal,True,Fuecoco (Shadow),[909],909&shadow
+910,Crocalor,Normal,False,Crocalor,"[909, 910]","909,910&!shadow"
+910,Crocalor,Normal,True,Crocalor (Shadow),"[909, 910]","909,910&shadow"
+911,Skeledirge,Normal,False,Skeledirge,"[909, 910, 911]","909,910,911&!shadow"
+911,Skeledirge,Normal,True,Skeledirge (Shadow),"[909, 910, 911]","909,910,911&shadow"
+912,Quaxly,Normal,False,Quaxly,[912],912&!shadow
+912,Quaxly,Normal,True,Quaxly (Shadow),[912],912&shadow
+913,Quaxwell,Normal,False,Quaxwell,"[912, 913]","912,913&!shadow"
+913,Quaxwell,Normal,True,Quaxwell (Shadow),"[912, 913]","912,913&shadow"
+914,Quaquaval,Normal,False,Quaquaval,"[912, 913, 914]","912,913,914&!shadow"
+914,Quaquaval,Normal,True,Quaquaval (Shadow),"[912, 913, 914]","912,913,914&shadow"
+915,Lechonk,Normal,False,Lechonk,[915],915&!shadow
+915,Lechonk,Normal,True,Lechonk (Shadow),[915],915&shadow
+916,Oinkologne,Female,False,Oinkologne (Female),"[915, 916]","915,916&!shadow"
+916,Oinkologne,Female,True,Oinkologne (Female) (Shadow),"[915, 916]","915,916&shadow"
+916,Oinkologne,Normal,False,Oinkologne,"[915, 916]","915,916&!shadow"
+916,Oinkologne,Normal,True,Oinkologne (Shadow),"[915, 916]","915,916&shadow"
+917,Tarountula,Normal,False,Tarountula,[917],917&!shadow
+917,Tarountula,Normal,True,Tarountula (Shadow),[917],917&shadow
+918,Spidops,Normal,False,Spidops,"[917, 918]","917,918&!shadow"
+918,Spidops,Normal,True,Spidops (Shadow),"[917, 918]","917,918&shadow"
+919,Nymble,Normal,False,Nymble,[919],919&!shadow
+919,Nymble,Normal,True,Nymble (Shadow),[919],919&shadow
+920,Lokix,Normal,False,Lokix,"[919, 920]","919,920&!shadow"
+920,Lokix,Normal,True,Lokix (Shadow),"[919, 920]","919,920&shadow"
+921,Pawmi,Normal,False,Pawmi,[921],921&!shadow
+921,Pawmi,Normal,True,Pawmi (Shadow),[921],921&shadow
+922,Pawmo,Normal,False,Pawmo,"[921, 922]","921,922&!shadow"
+922,Pawmo,Normal,True,Pawmo (Shadow),"[921, 922]","921,922&shadow"
+923,Pawmot,Normal,False,Pawmot,"[921, 922, 923]","921,922,923&!shadow"
+923,Pawmot,Normal,True,Pawmot (Shadow),"[921, 922, 923]","921,922,923&shadow"
+924,Tandemaus,Normal,False,Tandemaus,[924],924&!shadow
+924,Tandemaus,Normal,True,Tandemaus (Shadow),[924],924&shadow
+925,Maushold,Family_of_four,False,Maushold,"[924, 925]","924,925&!shadow"
+925,Maushold,Family_of_four,True,Maushold (Shadow),"[924, 925]","924,925&shadow"
+926,Fidough,Normal,False,Fidough,[926],926&!shadow
+926,Fidough,Normal,True,Fidough (Shadow),[926],926&shadow
+927,Dachsbun,Normal,False,Dachsbun,"[926, 927]","926,927&!shadow"
+927,Dachsbun,Normal,True,Dachsbun (Shadow),"[926, 927]","926,927&shadow"
+928,Smoliv,Normal,False,Smoliv,[928],928&!shadow
+928,Smoliv,Normal,True,Smoliv (Shadow),[928],928&shadow
+929,Dolliv,Normal,False,Dolliv,"[928, 929]","928,929&!shadow"
+929,Dolliv,Normal,True,Dolliv (Shadow),"[928, 929]","928,929&shadow"
+930,Arboliva,Normal,False,Arboliva,"[928, 929, 930]","928,929,930&!shadow"
+930,Arboliva,Normal,True,Arboliva (Shadow),"[928, 929, 930]","928,929,930&shadow"
+931,Squawkabilly,White,False,Squawkabilly,[931],931&!shadow
+931,Squawkabilly,White,True,Squawkabilly (Shadow),[931],931&shadow
+932,Nacli,Normal,False,Nacli,[932],932&!shadow
+932,Nacli,Normal,True,Nacli (Shadow),[932],932&shadow
+933,Naclstack,Normal,False,Naclstack,"[932, 933]","932,933&!shadow"
+933,Naclstack,Normal,True,Naclstack (Shadow),"[932, 933]","932,933&shadow"
+934,Garganacl,Normal,False,Garganacl,"[932, 933, 934]","932,933,934&!shadow"
+934,Garganacl,Normal,True,Garganacl (Shadow),"[932, 933, 934]","932,933,934&shadow"
+935,Charcadet,Normal,False,Charcadet,[935],935&!shadow
+935,Charcadet,Normal,True,Charcadet (Shadow),[935],935&shadow
+936,Armarouge,Normal,False,Armarouge,"[935, 936]","935,936&!shadow"
+936,Armarouge,Normal,True,Armarouge (Shadow),"[935, 936]","935,936&shadow"
+937,Ceruledge,Normal,False,Ceruledge,"[935, 937]","935,937&!shadow"
+937,Ceruledge,Normal,True,Ceruledge (Shadow),"[935, 937]","935,937&shadow"
+938,Tadbulb,Normal,False,Tadbulb,[938],938&!shadow
+938,Tadbulb,Normal,True,Tadbulb (Shadow),[938],938&shadow
+939,Bellibolt,Normal,False,Bellibolt,"[938, 939]","938,939&!shadow"
+939,Bellibolt,Normal,True,Bellibolt (Shadow),"[938, 939]","938,939&shadow"
+940,Wattrel,Normal,False,Wattrel,[940],940&!shadow
+940,Wattrel,Normal,True,Wattrel (Shadow),[940],940&shadow
+941,Kilowattrel,Normal,False,Kilowattrel,"[940, 941]","940,941&!shadow"
+941,Kilowattrel,Normal,True,Kilowattrel (Shadow),"[940, 941]","940,941&shadow"
+942,Maschiff,Normal,False,Maschiff,[942],942&!shadow
+942,Maschiff,Normal,True,Maschiff (Shadow),[942],942&shadow
+943,Mabosstiff,Normal,False,Mabosstiff,"[942, 943]","942,943&!shadow"
+943,Mabosstiff,Normal,True,Mabosstiff (Shadow),"[942, 943]","942,943&shadow"
+944,Shroodle,Normal,False,Shroodle,[944],944&!shadow
+944,Shroodle,Normal,True,Shroodle (Shadow),[944],944&shadow
+945,Grafaiai,Normal,False,Grafaiai,"[944, 945]","944,945&!shadow"
+945,Grafaiai,Normal,True,Grafaiai (Shadow),"[944, 945]","944,945&shadow"
+946,Bramblin,Normal,False,Bramblin,[946],946&!shadow
+946,Bramblin,Normal,True,Bramblin (Shadow),[946],946&shadow
+947,Brambleghast,Normal,False,Brambleghast,"[946, 947]","946,947&!shadow"
+947,Brambleghast,Normal,True,Brambleghast (Shadow),"[946, 947]","946,947&shadow"
+948,Toedscool,Normal,False,Toedscool,[948],948&!shadow
+948,Toedscool,Normal,True,Toedscool (Shadow),[948],948&shadow
+949,Toedscruel,Normal,False,Toedscruel,"[948, 949]","948,949&!shadow"
+949,Toedscruel,Normal,True,Toedscruel (Shadow),"[948, 949]","948,949&shadow"
+950,Klawf,Normal,False,Klawf,[950],950&!shadow
+950,Klawf,Normal,True,Klawf (Shadow),[950],950&shadow
+951,Capsakid,Normal,False,Capsakid,[951],951&!shadow
+951,Capsakid,Normal,True,Capsakid (Shadow),[951],951&shadow
+952,Scovillain,Normal,False,Scovillain,"[951, 952]","951,952&!shadow"
+952,Scovillain,Normal,True,Scovillain (Shadow),"[951, 952]","951,952&shadow"
+953,Rellor,Normal,False,Rellor,[953],953&!shadow
+953,Rellor,Normal,True,Rellor (Shadow),[953],953&shadow
+954,Rabsca,Normal,False,Rabsca,"[953, 954]","953,954&!shadow"
+954,Rabsca,Normal,True,Rabsca (Shadow),"[953, 954]","953,954&shadow"
+955,Flittle,Normal,False,Flittle,[955],955&!shadow
+955,Flittle,Normal,True,Flittle (Shadow),[955],955&shadow
+956,Espathra,Normal,False,Espathra,"[955, 956]","955,956&!shadow"
+956,Espathra,Normal,True,Espathra (Shadow),"[955, 956]","955,956&shadow"
+957,Tinkatink,Normal,False,Tinkatink,[957],957&!shadow
+957,Tinkatink,Normal,True,Tinkatink (Shadow),[957],957&shadow
+958,Tinkatuff,Normal,False,Tinkatuff,"[957, 958]","957,958&!shadow"
+958,Tinkatuff,Normal,True,Tinkatuff (Shadow),"[957, 958]","957,958&shadow"
+959,Tinkaton,Normal,False,Tinkaton,"[957, 958, 959]","957,958,959&!shadow"
+959,Tinkaton,Normal,True,Tinkaton (Shadow),"[957, 958, 959]","957,958,959&shadow"
+960,Wiglett,Normal,False,Wiglett,[960],960&!shadow
+960,Wiglett,Normal,True,Wiglett (Shadow),[960],960&shadow
+961,Wugtrio,Normal,False,Wugtrio,"[960, 961]","960,961&!shadow"
+961,Wugtrio,Normal,True,Wugtrio (Shadow),"[960, 961]","960,961&shadow"
+962,Bombirdier,Normal,False,Bombirdier,[962],962&!shadow
+962,Bombirdier,Normal,True,Bombirdier (Shadow),[962],962&shadow
+963,Finizen,Normal,False,Finizen,[963],963&!shadow
+963,Finizen,Normal,True,Finizen (Shadow),[963],963&shadow
+964,Palafin,Hero,False,Palafin (Hero),"[963, 964]","963,964&!shadow"
+964,Palafin,Hero,True,Palafin (Hero) (Shadow),"[963, 964]","963,964&shadow"
+965,Varoom,Normal,False,Varoom,[965],965&!shadow
+965,Varoom,Normal,True,Varoom (Shadow),[965],965&shadow
+966,Revavroom,Normal,False,Revavroom,"[965, 966]","965,966&!shadow"
+966,Revavroom,Normal,True,Revavroom (Shadow),"[965, 966]","965,966&shadow"
+967,Cyclizar,Normal,False,Cyclizar,[967],967&!shadow
+967,Cyclizar,Normal,True,Cyclizar (Shadow),[967],967&shadow
+968,Orthworm,Normal,False,Orthworm,[968],968&!shadow
+968,Orthworm,Normal,True,Orthworm (Shadow),[968],968&shadow
+969,Glimmet,Normal,False,Glimmet,[969],969&!shadow
+969,Glimmet,Normal,True,Glimmet (Shadow),[969],969&shadow
+970,Glimmora,Normal,False,Glimmora,"[969, 970]","969,970&!shadow"
+970,Glimmora,Normal,True,Glimmora (Shadow),"[969, 970]","969,970&shadow"
+971,Greavard,Normal,False,Greavard,[971],971&!shadow
+971,Greavard,Normal,True,Greavard (Shadow),[971],971&shadow
+972,Houndstone,Normal,False,Houndstone,"[971, 972]","971,972&!shadow"
+972,Houndstone,Normal,True,Houndstone (Shadow),"[971, 972]","971,972&shadow"
+973,Flamigo,Normal,False,Flamigo,[973],973&!shadow
+973,Flamigo,Normal,True,Flamigo (Shadow),[973],973&shadow
+974,Cetoddle,Normal,False,Cetoddle,[974],974&!shadow
+974,Cetoddle,Normal,True,Cetoddle (Shadow),[974],974&shadow
+975,Cetitan,Normal,False,Cetitan,"[974, 975]","974,975&!shadow"
+975,Cetitan,Normal,True,Cetitan (Shadow),"[974, 975]","974,975&shadow"
+976,Veluza,Normal,False,Veluza,[976],976&!shadow
+976,Veluza,Normal,True,Veluza (Shadow),[976],976&shadow
+977,Dondozo,Normal,False,Dondozo,[977],977&!shadow
+977,Dondozo,Normal,True,Dondozo (Shadow),[977],977&shadow
+978,Tatsugiri,Curly,False,Tatsugiri (Curly),[978],978&!shadow
+978,Tatsugiri,Curly,True,Tatsugiri (Curly) (Shadow),[978],978&shadow
+978,Tatsugiri,Droopy,False,Tatsugiri (Droopy),[978],978&!shadow
+978,Tatsugiri,Droopy,True,Tatsugiri (Droopy) (Shadow),[978],978&shadow
+978,Tatsugiri,Stretchy,False,Tatsugiri (Stretchy),[978],978&!shadow
+978,Tatsugiri,Stretchy,True,Tatsugiri (Stretchy) (Shadow),[978],978&shadow
+979,Annihilape,Normal,False,Annihilape,"[56, 57, 979]","56,57,979&!shadow"
+979,Annihilape,Normal,True,Annihilape (Shadow),"[56, 57, 979]","56,57,979&shadow"
+980,Clodsire,Normal,False,Clodsire,"[194, 980]","194,980&!shadow"
+980,Clodsire,Normal,True,Clodsire (Shadow),"[194, 980]","194,980&shadow"
+981,Farigiraf,Normal,False,Farigiraf,"[203, 981]","203,981&!shadow"
+981,Farigiraf,Normal,True,Farigiraf (Shadow),"[203, 981]","203,981&shadow"
+982,Dudunsparce,Three,False,Dudunsparce,"[206, 982]","206,982&!shadow"
+982,Dudunsparce,Three,True,Dudunsparce (Shadow),"[206, 982]","206,982&shadow"
+983,Kingambit,Normal,False,Kingambit,"[624, 625, 983]","624,625,983&!shadow"
+983,Kingambit,Normal,True,Kingambit (Shadow),"[624, 625, 983]","624,625,983&shadow"
+984,Great Tusk,Normal,False,Great Tusk,[984],984&!shadow
+984,Great Tusk,Normal,True,Great Tusk (Shadow),[984],984&shadow
+985,Scream Tail,Normal,False,Scream Tail,[985],985&!shadow
+985,Scream Tail,Normal,True,Scream Tail (Shadow),[985],985&shadow
+986,Brute Bonnet,Normal,False,Brute Bonnet,[986],986&!shadow
+986,Brute Bonnet,Normal,True,Brute Bonnet (Shadow),[986],986&shadow
+987,Flutter Mane,Normal,False,Flutter Mane,[987],987&!shadow
+987,Flutter Mane,Normal,True,Flutter Mane (Shadow),[987],987&shadow
+988,Slither Wing,Normal,False,Slither Wing,[988],988&!shadow
+988,Slither Wing,Normal,True,Slither Wing (Shadow),[988],988&shadow
+989,Sandy Shocks,Normal,False,Sandy Shocks,[989],989&!shadow
+989,Sandy Shocks,Normal,True,Sandy Shocks (Shadow),[989],989&shadow
+990,Iron Treads,Normal,False,Iron Treads,[990],990&!shadow
+990,Iron Treads,Normal,True,Iron Treads (Shadow),[990],990&shadow
+991,Iron Bundle,Normal,False,Iron Bundle,[991],991&!shadow
+991,Iron Bundle,Normal,True,Iron Bundle (Shadow),[991],991&shadow
+992,Iron Hands,Normal,False,Iron Hands,[992],992&!shadow
+992,Iron Hands,Normal,True,Iron Hands (Shadow),[992],992&shadow
+993,Iron Jugulis,Normal,False,Iron Jugulis,[993],993&!shadow
+993,Iron Jugulis,Normal,True,Iron Jugulis (Shadow),[993],993&shadow
+994,Iron Moth,Normal,False,Iron Moth,[994],994&!shadow
+994,Iron Moth,Normal,True,Iron Moth (Shadow),[994],994&shadow
+995,Iron Thorns,Normal,False,Iron Thorns,[995],995&!shadow
+995,Iron Thorns,Normal,True,Iron Thorns (Shadow),[995],995&shadow
+996,Frigibax,Normal,False,Frigibax,[996],996&!shadow
+996,Frigibax,Normal,True,Frigibax (Shadow),[996],996&shadow
+997,Arctibax,Normal,False,Arctibax,"[996, 997]","996,997&!shadow"
+997,Arctibax,Normal,True,Arctibax (Shadow),"[996, 997]","996,997&shadow"
+998,Baxcalibur,Normal,False,Baxcalibur,"[996, 997, 998]","996,997,998&!shadow"
+998,Baxcalibur,Normal,True,Baxcalibur (Shadow),"[996, 997, 998]","996,997,998&shadow"
+999,Gimmighoul,Normal,False,Gimmighoul,[999],999&!shadow
+999,Gimmighoul,Normal,True,Gimmighoul (Shadow),[999],999&shadow
+1000,Gholdengo,Normal,False,Gholdengo,"[999, 1000]","999,1000&!shadow"
+1000,Gholdengo,Normal,True,Gholdengo (Shadow),"[999, 1000]","999,1000&shadow"
+1001,Wo-Chien,Normal,False,Wo-Chien,[1001],1001&!shadow
+1001,Wo-Chien,Normal,True,Wo-Chien (Shadow),[1001],1001&shadow
+1002,Chien-Pao,Normal,False,Chien-Pao,[1002],1002&!shadow
+1002,Chien-Pao,Normal,True,Chien-Pao (Shadow),[1002],1002&shadow
+1003,Ting-Lu,Normal,False,Ting-Lu,[1003],1003&!shadow
+1003,Ting-Lu,Normal,True,Ting-Lu (Shadow),[1003],1003&shadow
+1004,Chi-Yu,Normal,False,Chi-Yu,[1004],1004&!shadow
+1004,Chi-Yu,Normal,True,Chi-Yu (Shadow),[1004],1004&shadow
+1005,Roaring Moon,Normal,False,Roaring Moon,[1005],1005&!shadow
+1005,Roaring Moon,Normal,True,Roaring Moon (Shadow),[1005],1005&shadow
+1006,Iron Valiant,Normal,False,Iron Valiant,[1006],1006&!shadow
+1006,Iron Valiant,Normal,True,Iron Valiant (Shadow),[1006],1006&shadow
+1009,Walking Wake,Normal,False,Walking Wake,[1009],1009&!shadow
+1009,Walking Wake,Normal,True,Walking Wake (Shadow),[1009],1009&shadow
+1010,Iron Leaves,Normal,False,Iron Leaves,[1010],1010&!shadow
+1010,Iron Leaves,Normal,True,Iron Leaves (Shadow),[1010],1010&shadow
+1011,Dipplin,Normal,False,Dipplin,"[840, 1011]","840,1011&!shadow"
+1011,Dipplin,Normal,True,Dipplin (Shadow),"[840, 1011]","840,1011&shadow"
+1013,Sinistcha,Masterpiece,False,Sinistcha,"[1012, 1013]","1012,1013&!shadow"
+1013,Sinistcha,Masterpiece,True,Sinistcha (Shadow),"[1012, 1013]","1012,1013&shadow"
+1013,Sinistcha,Unremarkable,False,Sinistcha,"[1012, 1013]","1012,1013&!shadow"
+1013,Sinistcha,Unremarkable,True,Sinistcha (Shadow),"[1012, 1013]","1012,1013&shadow"
+1014,Okidogi,Normal,False,Okidogi,[1014],1014&!shadow
+1014,Okidogi,Normal,True,Okidogi (Shadow),[1014],1014&shadow
+1015,Munkidori,Normal,False,Munkidori,[1015],1015&!shadow
+1015,Munkidori,Normal,True,Munkidori (Shadow),[1015],1015&shadow
+1016,Fezandipiti,Normal,False,Fezandipiti,[1016],1016&!shadow
+1016,Fezandipiti,Normal,True,Fezandipiti (Shadow),[1016],1016&shadow
+1017,Ogerpon,Normal,False,Ogerpon,[1017],1017&!shadow
+1017,Ogerpon,Normal,True,Ogerpon (Shadow),[1017],1017&shadow
+1018,Archaludon,Normal,False,Archaludon,"[884, 1018]","884,1018&!shadow"
+1018,Archaludon,Normal,True,Archaludon (Shadow),"[884, 1018]","884,1018&shadow"
+1019,Hydrapple,Normal,False,Hydrapple,"[840, 1011, 1019]","840,1011,1019&!shadow"
+1019,Hydrapple,Normal,True,Hydrapple (Shadow),"[840, 1011, 1019]","840,1011,1019&shadow"
+1020,Gouging Fire,Normal,False,Gouging Fire,[1020],1020&!shadow
+1020,Gouging Fire,Normal,True,Gouging Fire (Shadow),[1020],1020&shadow
+1021,Raging Bolt,Normal,False,Raging Bolt,[1021],1021&!shadow
+1021,Raging Bolt,Normal,True,Raging Bolt (Shadow),[1021],1021&shadow
+1022,Iron Boulder,Normal,False,Iron Boulder,[1022],1022&!shadow
+1022,Iron Boulder,Normal,True,Iron Boulder (Shadow),[1022],1022&shadow
+1023,Iron Crown,Normal,False,Iron Crown,[1023],1023&!shadow
+1023,Iron Crown,Normal,True,Iron Crown (Shadow),[1023],1023&shadow
+1024,Terapagos,Normal,False,Terapagos,[1024],1024&!shadow
+1024,Terapagos,Normal,True,Terapagos (Shadow),[1024],1024&shadow
+1025,Pecharunt,Normal,False,Pecharunt,[1025],1025&!shadow
+1025,Pecharunt,Normal,True,Pecharunt (Shadow),[1025],1025&shadow

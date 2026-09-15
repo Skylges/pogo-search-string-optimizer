@@ -6,6 +6,17 @@ This is the data pipeline behind pok.csv. Normal usage (generating
 search strings for the current rankings) only needs the finished
 pok.csv — this module is what scripts/update_lookup_table.py uses to
 regenerate it after a game content update.
+
+Two columns are easy to misread, so worth calling out up front:
+
+- `shadow`: every species/form gets both a normal and a Shadow row,
+  regardless of whether that Shadow variant actually exists in the
+  game yet. See build_base_table() for why.
+- `evo_ids`: NOT every Pokémon that could ever evolve from this dex
+  number. It's the specific pre-evolution chain that can become *this*
+  particular PvPoke-ranked form — e.g. Alolan Raichu's evo_ids is
+  [25, 26] (Pikachu, Raichu), not [172, 25, 26], because a regular
+  Pichu can't evolve into the Alolan form. See apply_evo_ids().
 """
 
 import logging
@@ -33,9 +44,13 @@ def build_base_table(forms_df):
     """
     Rename pogoapi columns to our schema and add shadow-variant rows.
 
-    Every Pokémon is treated as if it has a Shadow version. The
-    "which Pokémon can actually be Shadow" pogoapi endpoint is outdated,
-    so rather than under-report we generate a shadow row for everything.
+    IMPORTANT: every (dex, form) row is duplicated into a `shadow=True`
+    and `shadow=False` version unconditionally. This does NOT mean every
+    Pokémon actually has a Shadow form obtainable in-game — pogoapi's
+    "which Pokémon can be Shadow" data is outdated/incomplete, so rather
+    than under-report and miss real Shadow mons, every row gets a Shadow
+    variant. Treat the `shadow=True` rows as "if this exists as a
+    Shadow, here's its search string", not as a claim that it exists.
     """
     pok_df = forms_df.rename(columns={"pokemon_id": "dex", "pokemon_name": "name"}).copy()
 
@@ -81,6 +96,19 @@ def apply_evo_ids(pok_df, evo_cache, evo_exceptions=EVO_EXCEPTIONS):
     """
     Add the `evo_ids` column from a {dex: [evo_ids...]} cache, applying
     per-form overrides where the naive evolution walk is wrong.
+
+    IMPORTANT: `evo_ids` is not "every dex number this species can ever
+    become or come from" — it's the specific set of dex numbers that can
+    become *this exact row's* PvPoke-ranked form. This is what lets the
+    search string also catch an un-evolved copy sitting in storage (e.g.
+    Vulpix, dex 37, shows up when searching for Ninetales' string,
+    because 37 is a valid ancestor of 38).
+
+    Regional/form exceptions narrow this down further: Alolan Raichu's
+    evo_ids is [25, 26] (Pichu is excluded), not the full [172, 25, 26]
+    chain, because a normal Pichu/Pikachu cannot evolve into the Alolan
+    form. See EVO_EXCEPTIONS in config/forms.py for the full list of
+    these overrides.
     """
     pok_df = pok_df.copy()
     pok_df["evo_ids"] = pok_df["dex"].map(evo_cache)

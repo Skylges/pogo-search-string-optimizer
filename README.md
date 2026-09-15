@@ -3,7 +3,7 @@
 Generates an optimized Pokémon GO in-game search string for the top-ranked
 Pokémon in each PvP league (Little, Great, Ultra, Master), based on
 [PvPoke](https://pvpoke.com/) rankings. Instead of checking PvPoke for good species and going through your storage one by one,
-just paste the generated string into the game's search bar and it filters straight to them. 
+just paste the generated string into the game's search bar and it filters straight to them.
 This project created a database of search strings which include forms (galar, alolan, etc.) and shadow forms.
 By using a CNF-based search string optimizer, these can be searched for and combined in relatively short single string.
 
@@ -20,6 +20,25 @@ By using a CNF-based search string optimizer, these can be searched for and comb
 3. **`scripts/update_lookup_table.py`** rebuilds `pok.csv` from scratch.
    You only need this after a Pokémon GO content update adds new species
    or forms.
+
+## Notes & caveats
+
+- **Every entry has a Shadow row, whether or not it's real.** `pok.csv`
+  contains a `shadow=True` row for every single `(Pokémon, form)`
+  combination, not just the ones that actually exist as Shadow in the
+  game. pogoapi's "which Pokémon can be Shadow" data is outdated, so
+  rather than risk missing real Shadow mons, every row gets a Shadow
+  variant generated. A `shadow=True` row means "here's the search
+  string *if* this exists as a Shadow", not a guarantee it does.
+- **`evo_ids` is per-form, not per-species.** It lists only the dex
+  numbers that can actually evolve into *that specific row's* PvPoke
+  form — not every Pokémon the base species could ever become. This is
+  what lets the search string also catch an un-evolved copy sitting in
+  storage (e.g. Vulpix shows up when searching for Ninetales). Regional
+  forms narrow this further: Alolan Raichu's `evo_ids` is `[25, 26]`
+  (Pikachu, Raichu), not the full `[172, 25, 26]` chain, because a
+  regular Pichu can't evolve into the Alolan form. See
+  `EVO_EXCEPTIONS` in `config/forms.py` for these overrides.
 
 ## Setup
 
@@ -47,6 +66,12 @@ Adjust how many Pokémon per league:
 python scripts/generate_search_strings.py --top 20
 ```
 
+Only generate a string for one league:
+
+```bash
+python scripts/generate_search_strings.py --league GL
+```
+
 ## Updating after a game update
 
 ```bash
@@ -70,6 +95,7 @@ src/search_optimizer.py         # Pure CNF search-string combiner (tested)
 src/lookup_table.py             # Builds pok_df: naming + search strings
 src/league_search_strings.py    # Resolves a league's ranked list -> search strings
 src/rankings.py                 # Loads PvPoke rankings CSVs
+src/data_files.py               # Shared "find latest dated file" helper
 src/fetch_pogoapi.py            # One-time pogoapi.net form fetch
 src/fetch_evolutions.py         # One-time PokeAPI evolution-line fetch
 scripts/generate_search_strings.py   # Main entry point
@@ -103,6 +129,8 @@ flowchart TD
 ```
 
 ## Example output (PvPoke rankings September 2026)
+
+```
 ========================================
  LL - Top 30 Pokémon
 ========================================
@@ -122,3 +150,4 @@ flowchart TD
  ML - Top 30 Pokémon
 ========================================
 !shadow,216,217,249,374,375,376,443,444,445,484,643,901&216,217,249,250,374,375,376,382,383,443,444,445,483,484,643,644,646,647,716,718,789,790,792,800,802,808,809,888,889,890,901
+```

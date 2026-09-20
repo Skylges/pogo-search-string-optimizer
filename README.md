@@ -134,7 +134,7 @@ flowchart TD
 
     A5 -.-> B1
     D2 -.-> B2
-    classDef somePaddingClass padding-left:15em;
+    classDef somePaddingClass padding-top:15em;
 ```
 
 ## Example output (PvPoke rankings September 2026)

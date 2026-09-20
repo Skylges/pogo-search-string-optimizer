@@ -107,11 +107,12 @@ data/processed/pok.csv          # The lookup table
 
 ## Workflow
 ```mermaid
+---
 config:
   flowchart:
     subGraphTitleMargin:
       bottom: 30
-
+---
 flowchart TD
     subgraph M["Maintenance — update_lookup_table.py
     (occasional, after new Pokemon are added to the game)"]

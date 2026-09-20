@@ -109,7 +109,7 @@ data/processed/pok.csv          # The lookup table
 
 ```mermaid
 flowchart TD
-    subgraph M["Maintenance — update_lookup_table.py (occasional, after new Pokemon are added to the game)"]
+    subgraph M["Maintenance — update_lookup_table.py &nbsp;(occasional, after new Pokemon are added to the game)"]
         A1["fetch_pokemon_forms()\npogoapi.net"] --> A2["save_pokemon_forms()\ndata/raw/pokemon_forms_MM_YYYY.csv"]
         A2 --> A3["build_lookup_table()"]
         A3 --> A3a["filter_pvp_forms()\nbuild_base_table()\nbuild_pvpoke_names()"]

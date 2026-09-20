@@ -109,23 +109,30 @@ data/processed/pok.csv          # The lookup table
 
 ```mermaid
 flowchart TD
-    subgraph M["Maintenance — update_lookup_table.py (occasional, after a game update)"]
-        A1["Fetch forms from pogoapi"]
-        A1 --> A2["Save data/raw/pokemon_forms_MM_YYYY.csv"]
-        A2 --> A3["Build_lookup_table"]
-        A3 --> A4["Validate against PvPoke display names"]
-        A4 --> A5["Save pok.csv"]
+    subgraph M["Maintenance — update_lookup_table.py (occasional, after a game update adds new Pokémon)"]
+        A1["fetch_pokemon_forms()\npogoapi.net"] --> A2["save_pokemon_forms()\ndata/raw/pokemon_forms_MM_YYYY.csv"]
+        A2 --> A3["build_lookup_table()"]
+        A3 --> A3a["filter_pvp_forms()\nbuild_base_table()\nbuild_pvpoke_names()"]
+        A3a --> A3b["apply_evo_ids()\nbuild_evolution_cache()"]
+        A3b --> A3c["build_search_strings()"]
+        A3c --> A4["find_unmatched() / describe_unmatched()\nvalidate against rankings"]
+        A4 --> A5["pok_df.to_csv()\nSave data/processed/pok.csv"]
     end
 
-    subgraph R["Regular use — generate_search_strings.py (every run)"]
-        B1["Load pok.csv"] --> B3
-        B2["Load PVPoke rankings CSVs\n(latest date)"] --> B3
-        B3["Match based on PvPoke name\n→ takes region/shadow into account"] --> B4
-        B4["Search_optimizer"] --> B5
-        B5["Print optimized search strings"]
+    subgraph D["You — manual download (before each run with fresh data)"]
+        D1["Download 'overall rankings' CSV\nfrom pvpoke.com for each league"] --> D2["Save into data/raw/\nmatching cp*_overall_rankings_*.csv"]
+    end
+
+    subgraph R["Regular use — generate_search_strings.py (every run, no network)"]
+        B1["pd.read_csv()\nLoad pok.csv"] --> B4
+        B2["load_rankings()"] --> B2a["find_latest_file()\npicks newest CSV per league"]
+        B2a --> B4
+        B4["make_search_strings()\nmatch Pokemon → search_string\n(region/shadow aware)"] --> B5
+        B5["optimize_pokemon_search()\nparse_search_term() · is_tautology()\nremove_redundant_clauses()"] --> B6["Print optimized search string"]
     end
 
     A5 -.-> B1
+    D2 -.-> B2
 ```
 
 ## Example output (PvPoke rankings September 2026)

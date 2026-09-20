@@ -110,7 +110,7 @@ data/processed/pok.csv          # The lookup table
 ```mermaid
 flowchart TD
     subgraph M["Maintenance — update_lookup_table.py <br/>(occasional, after a game update adds new Pokémon)"]
-        A1["<br/>fetch_pokemon_forms()\npogoapi.net"] --> A2["save_pokemon_forms()\ndata/raw/pokemon_forms_MM_YYYY.csv"]
+        A1["fetch_pokemon_forms()\npogoapi.net"] --> A2["save_pokemon_forms()\ndata/raw/pokemon_forms_MM_YYYY.csv"]
         A2 --> A3["build_lookup_table()"]
         A3 --> A3a["filter_pvp_forms()\nbuild_base_table()\nbuild_pvpoke_names()"]
         A3a --> A3b["apply_evo_ids()\nbuild_evolution_cache()"]
@@ -133,6 +133,7 @@ flowchart TD
 
     A5 -.-> B1
     D2 -.-> B2
+    style ED color:#f66
 ```
 
 ## Example output (PvPoke rankings September 2026)

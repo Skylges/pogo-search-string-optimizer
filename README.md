@@ -109,7 +109,6 @@ data/processed/pok.csv          # The lookup table
 
 ```mermaid
 flowchart TD
-    M:::somePaddingClass
     subgraph M["Maintenance — update_lookup_table.py <br/>(occasional, after a game update adds new Pokémon)"]
         A1["fetch_pokemon_forms()\npogoapi.net"] --> A2["save_pokemon_forms()\ndata/raw/pokemon_forms_MM_YYYY.csv"]
         A2 --> A3["build_lookup_table()"]
@@ -134,7 +133,6 @@ flowchart TD
 
     A5 -.-> B1
     D2 -.-> B2
-    classDef somePaddingClass padding-top:15em;
 ```
 
 ## Example output (PvPoke rankings September 2026)

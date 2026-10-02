@@ -1,0 +1,632 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Best Overall Attackers - DialgaDex</title>
+    <meta name="description" content="The best Overall-type attackers in Pokémon Go, using the new eDPS metric.">
+    
+    <link rel="icon" type="image/png" href="/res/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/res/favicon.svg">
+    <link rel="shortcut icon" href="/res/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/res/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="DialgaDex">
+    <link rel="manifest" href="/res/site.webmanifest">
+
+    <link rel="stylesheet" href="/styles/darkmode.css">
+    <link rel="stylesheet" href="/styles/switch.css">
+    <link rel="stylesheet" href="/styles/togglebutton.css">
+    <link rel="stylesheet" href="/styles/tooltips.css">
+    <link rel="stylesheet" href="/styles/autocomplete.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/mobile.css" media="screen and (max-width:900px)">
+
+    <!--<link rel="preload" href="https://raw.githubusercontent.com/mgrann03/pokemon-resources/main/pogo_pkm_names.json" as="fetch" crossorigin />-->
+    <link rel="preload" href="https://raw.githubusercontent.com/mgrann03/pokemon-resources/main/pogo_pkm.min.json" as="fetch" crossorigin="">
+    <link rel="preload" href="https://raw.githubusercontent.com/mgrann03/pokemon-resources/main/pogo_fm.json" as="fetch" crossorigin="">
+    <link rel="preload" href="https://raw.githubusercontent.com/mgrann03/pokemon-resources/main/pogo_cm.json" as="fetch" crossorigin="">
+    <link rel="preload" href="/locales/en.json" as="fetch" crossorigin="">
+    <link rel="preload" href="/locales/pokedata/en.json" as="fetch" crossorigin="">
+
+    <script src="/lib/jquery-3.6.0.min.js"></script>
+    <script src="/lib/autoComplete.js"></script>
+    <script src="/lib/jenks.js"></script>
+    
+    <script src="/scripts/dataload.js"></script>
+    <script src="/scripts/translation.js"></script>
+    <script src="/scripts/settings.js"></script>
+    <script src="/scripts/pokemon_enums.js"></script>
+    <script src="/scripts/pokemon_utils.js"></script>
+    <script src="/scripts/dialogs.js"></script>
+    <script src="/scripts/calc.js"></script>
+    <script src="/scripts/rankings.js"></script>
+    <script src="/scripts/pokedex.js"></script>
+    <script src="/scripts/moves.js"></script>
+    <script src="index.js"></script>
+    
+    <script src="/components/type-selector.js"></script>
+</head>
+
+<body class="darkmode">
+<div id="loading-bar-c"><div id="loading-bar" style="width: 100%; display: none;"></div></div>
+<div id="overlay"></div>
+
+<dialog class="card" id="type-affinity-popup" style="white-space: nowrap;">
+<form autocomplete="off">
+    <div class="card-header">
+        <div class="card-title" data-i18n="type-affinity.title">Type Affinity</div>
+        <div class="drawer absolute-right v-middle dialog-close">
+            <img class="drawer-icon" src="imgs/close.svg" alt="X Button to close the dialog">
+        </div>
+    </div>
+    <div class="card-body">
+        <div id="affinity-table">
+            <span>&nbsp;</span>
+            <span class="affinity-header" data-i18n="type-affinity.weakness">Boss<br>Weakness</span>
+            <span class="affinity-header" data-i18n="type-affinity.damage">Boss<br>Damage</span>
+        <span class="type-text bg-Normal">Normal</span><div class="bar-fg" style="width: 44.558074034334766%">
+            <span class="bar-txt">0.89</span></div><div class="bar-fg" style="width: 18.401054677999014%">
+            <span class="bar-txt"> 9.2%</span></div><span class="type-text bg-Fire">Fire</span><div class="bar-fg" style="width: 52.91630944098012%">
+            <span class="bar-txt">1.06</span></div><div class="bar-fg" style="width: 15.273563439021911%">
+            <span class="bar-txt"> 7.6%</span></div><span class="type-text bg-Water">Water</span><div class="bar-fg" style="width: 50.013680496824655%">
+            <span class="bar-txt">1.00</span></div><div class="bar-fg" style="width: 7.985320696419416%">
+            <span class="bar-txt"> 4.0%</span></div><span class="type-text bg-Grass">Grass</span><div class="bar-fg" style="width: 42.23927057978933%">
+            <span class="bar-txt">0.84</span></div><div class="bar-fg" style="width: 10.677030288569837%">
+            <span class="bar-txt"> 5.3%</span></div><span class="type-text bg-Electric">Electric</span><div class="bar-fg" style="width: 47.70000691409722%">
+            <span class="bar-txt">0.95</span></div><div class="bar-fg" style="width: 12.268025627586006%">
+            <span class="bar-txt"> 6.1%</span></div><span class="type-text bg-Ice">Ice</span><div class="bar-fg" style="width: 55.35863785221853%">
+            <span class="bar-txt">1.11</span></div><div class="bar-fg" style="width: 7.9997143717759585%">
+            <span class="bar-txt"> 4.0%</span></div><span class="type-text bg-Fighting">Fighting</span><div class="bar-fg" style="width: 49.059885071182826%">
+            <span class="bar-txt">0.98</span></div><div class="bar-fg" style="width: 17.13629735445938%">
+            <span class="bar-txt"> 8.6%</span></div><span class="type-text bg-Poison">Poison</span><div class="bar-fg" style="width: 46.09896409791362%">
+            <span class="bar-txt">0.92</span></div><div class="bar-fg" style="width: 5.161280420715386%">
+            <span class="bar-txt"> 2.6%</span></div><span class="type-text bg-Ground">Ground</span><div class="bar-fg" style="width: 55.04635574807744%">
+            <span class="bar-txt">1.10</span></div><div class="bar-fg" style="width: 8.879396240486551%">
+            <span class="bar-txt"> 4.4%</span></div><span class="type-text bg-Flying">Flying</span><div class="bar-fg" style="width: 52.460434849937585%">
+            <span class="bar-txt">1.05</span></div><div class="bar-fg" style="width: 8.935187447076519%">
+            <span class="bar-txt"> 4.5%</span></div><span class="type-text bg-Psychic">Psychic</span><div class="bar-fg" style="width: 46.489706474264416%">
+            <span class="bar-txt">0.93</span></div><div class="bar-fg" style="width: 19.77990584490193%">
+            <span class="bar-txt"> 9.9%</span></div><span class="type-text bg-Bug">Bug</span><div class="bar-fg" style="width: 47.27601969446747%">
+            <span class="bar-txt">0.95</span></div><div class="bar-fg" style="width: 5.997955809313753%">
+            <span class="bar-txt"> 3.0%</span></div><span class="type-text bg-Rock">Rock</span><div class="bar-fg" style="width: 54.09200683875657%">
+            <span class="bar-txt">1.08</span></div><div class="bar-fg" style="width: 6.551248635500638%">
+            <span class="bar-txt"> 3.3%</span></div><span class="type-text bg-Ghost">Ghost</span><div class="bar-fg" style="width: 54.300831846413175%">
+            <span class="bar-txt">1.09</span></div><div class="bar-fg" style="width: 7.779646201505313%">
+            <span class="bar-txt"> 3.9%</span></div><span class="type-text bg-Dragon">Dragon</span><div class="bar-fg" style="width: 50.222807338005616%">
+            <span class="bar-txt">1.00</span></div><div class="bar-fg" style="width: 18.121550374353507%">
+            <span class="bar-txt"> 9.1%</span></div><span class="type-text bg-Dark">Dark</span><div class="bar-fg" style="width: 51.826314669438176%">
+            <span class="bar-txt">1.04</span></div><div class="bar-fg" style="width: 10.642805914256511%">
+            <span class="bar-txt"> 5.3%</span></div><span class="type-text bg-Steel">Steel</span><div class="bar-fg" style="width: 48.53138434081119%">
+            <span class="bar-txt">0.97</span></div><div class="bar-fg" style="width: 11.856812771166378%">
+            <span class="bar-txt"> 5.9%</span></div><span class="type-text bg-Fairy">Fairy</span><div class="bar-fg" style="width: 55.63546181837887%">
+            <span class="bar-txt">1.11</span></div><div class="bar-fg" style="width: 6.331259202119549%">
+            <span class="bar-txt"> 3.2%</span></div></div>
+    </div>
+</form>
+</dialog>
+<dialog class="card" id="moveset-edit" style="white-space: nowrap;">
+<form autocomplete="off">
+    <div class="card-header">
+        <div class="card-title" data-i18n="moveset-editor.title">Edit Moveset</div>
+        <div class="drawer absolute-right v-middle dialog-close">
+            <img class="drawer-icon" src="imgs/close.svg" alt="X Button to close the dialog">
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="column-l">
+                <h3 data-i18n="terms.fast-move-plural">Fast Moves</h3>
+                <div style="position: relative; margin-bottom: 0.5em;">
+                    <input id="fm-search-box" class="search-box" type="text" aria-label="FM Search">
+                    <img class="inlaid-icon search-icon" src="imgs/search.svg" alt="">
+                </div>
+                <ul class="move-select" id="fm-select"></ul>
+            </div>
+            <div class="column-r">
+                <h3 data-i18n="terms.charged-move-plural">Charged Moves</h3>
+                <div style="position: relative; margin-bottom: 0.5em;">
+                    <input id="cm-search-box" class="search-box" type="text" aria-label="CM Search">
+                    <img class="inlaid-icon search-icon" src="imgs/search.svg" alt="">
+                </div>
+                <ul class="move-select" id="cm-select"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer buttons">
+        <input type="button" value="Reset" id="move-reset" data-i18n="moveset-editor.reset">
+        <input type="submit" value="Apply" data-i18n="moveset-editor.apply" autofocus="" formmethod="dialog">
+    </div>
+</form>
+</dialog>
+<dialog class="card" id="move-edit" style="white-space: nowrap;">
+<form autocomplete="off">
+    <div class="card-header">
+        <div class="card-title" id="move-edit-title" data-i18n="move-editor.edit.title">Edit Move Data</div>
+        <div class="drawer absolute-right v-middle dialog-close">
+            <img class="drawer-icon" src="imgs/close.svg" alt="X Button to close the dialog">
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="move-form">
+            <label for="any-search-box"><span data-i18n="terms.name">Name</span>:</label>
+                <div style="position: relative;">
+                    <input type="text" class="search-box" name="display_name" id="any-search-box" aria-label="Move Name">
+                    <img class="inlaid-icon search-icon" src="imgs/search.svg" alt="">
+                    <input type="hidden" name="name" id="move-edit-name">
+                </div>
+            <label for="move-edit-type"><span data-i18n="terms.type">Type</span>:</label>
+                <div class="row" style="gap: 1em; white-space-collapse: collapse;">
+                    <select type="select" class="type-text bg-Normal" name="type" id="move-edit-type">
+                        <option value="Normal" class="bg-Normal" data-i18n="pokedata.types.Normal">Normal</option>
+                        <option value="Fire" class="bg-Fire" data-i18n="pokedata.types.Fire">Fire</option>
+                        <option value="Water" class="bg-Water" data-i18n="pokedata.types.Water">Water</option>
+                        <option value="Grass" class="bg-Grass" data-i18n="pokedata.types.Grass">Grass</option>
+                        <option value="Electric" class="bg-Electric" data-i18n="pokedata.types.Electric">Electric</option>
+                        <option value="Ice" class="bg-Ice" data-i18n="pokedata.types.Ice">Ice</option>
+                        <option value="Fighting" class="bg-Fighting" data-i18n="pokedata.types.Fighting">Fighting</option>
+                        <option value="Poison" class="bg-Poison" data-i18n="pokedata.types.Poison">Poison</option>
+                        <option value="Ground" class="bg-Ground" data-i18n="pokedata.types.Ground">Ground</option>
+                        <option value="Flying" class="bg-Flying" data-i18n="pokedata.types.Flying">Flying</option>
+                        <option value="Psychic" class="bg-Psychic" data-i18n="pokedata.types.Psychic">Psychic</option>
+                        <option value="Bug" class="bg-Bug" data-i18n="pokedata.types.Bug">Bug</option>
+                        <option value="Rock" class="bg-Rock" data-i18n="pokedata.types.Rock">Rock</option>
+                        <option value="Ghost" class="bg-Ghost" data-i18n="pokedata.types.Ghost">Ghost</option>
+                        <option value="Dragon" class="bg-Dragon" data-i18n="pokedata.types.Dragon">Dragon</option>
+                        <option value="Dark" class="bg-Dark" data-i18n="pokedata.types.Dark">Dark</option>
+                        <option value="Steel" class="bg-Steel" data-i18n="pokedata.types.Steel">Steel</option>
+                        <option value="Fairy" class="bg-Fairy" data-i18n="pokedata.types.Fairy">Fairy</option>
+                    </select>
+                    <input type="checkbox" class="toggling" value="fast" name="kind" id="move-edit-kind">
+                    <label class="togglebutton" for="move-edit-kind" tabindex="0">
+                        <div class="action">
+                            <span class="option-1" data-i18n="terms.fast">Fast</span>
+                            <span class="option-2" data-i18n="terms.charged">Charged</span>
+                        </div>
+                    </label>
+                </div>
+            <label for="move-edit-power"><span data-i18n="terms.power">Power</span>:</label>
+                <div class="num-input-group">
+                    <input type="button" data-id="move-edit-power" class="minus" value="–">
+                    <input type="number" name="power" id="move-edit-power" min="0" max="50" step="1">
+                    <input type="button" data-id="move-edit-power" class="plus" value="+">
+                </div>
+            <label for="move-edit-energy"><span data-i18n="terms.energy">Energy</span>:</label>
+                <div>
+                    <div class="bar-bg unselectable" id="move-edit-energybar"></div>
+                    <div class="num-input-group" id="move-edit-energygroup">
+                        <input type="button" data-id="move-edit-energy" class="minus" value="–">
+                        <input type="number" name="energy" id="move-edit-energy" min="0" max="100" step="1">
+                        <input type="button" data-id="move-edit-energy" class="plus" value="+">
+                    </div>
+                </div>
+            <label for="move-edit-duration"><span data-i18n="terms.duration">Duration</span>:</label>
+                <div class="num-input-group">
+                    <input type="button" data-id="move-edit-duration" class="minus" value="–">
+                    <input type="number" name="duration" id="move-edit-duration" min="0.5" max="5" step="0.5">
+                    <input type="button" data-id="move-edit-duration" class="plus" value="+">
+                </div>
+        </div>
+    </div>
+    <div class="card-footer buttons">
+        <input type="button" value="Clear" id="move-edit-clear" data-i18n="move-editor.clear">
+        <input type="button" value="Apply" id="move-edit-apply" style="background-color: var(--col-widget);" autofocus="" data-i18n="move-editor.apply">
+        <input type="button" value="Delete" id="move-edit-delete" data-i18n="move-editor.delete.action" style="background-color: var(--col-red);" hidden="">
+    </div>
+</form>
+</dialog>
+<dialog class="card" id="search-string-popup" style="white-space: nowrap;">
+<form autocomplete="off">
+    <div class="card-header">
+        <div class="card-title" data-i18n="search-string.title">Generate Search String</div>
+        <div class="drawer absolute-right v-middle dialog-close">
+            <img class="drawer-icon" src="imgs/close.svg" alt="X Button to close the dialog">
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="column-l">
+                <h3 data-i18n="search-string.settings">Settings</h3>
+                <div class="settings-list">
+                    <span data-i18n="search-string.incl-moves">Check Movesets</span>
+                        <label class="switch">
+                            <input type="checkbox" value="include-movesets" id="chk-include-movesets">
+                            <span class="slider"></span>
+                        </label>
+                    <span data-i18n="search-string.elite-only">Check Elite Moves Only</span>
+                        <label class="switch">
+                            <input type="checkbox" value="elite-movesets" id="chk-elite-movesets" checked="" disabled="">
+                            <span class="slider"></span>
+                        </label>
+                    <span class="settings-span" data-i18n="search-string.min-tier">Minimum Tier</span>
+                    <div class="tier-selector settings-span">
+                        <label class="tier-C tier-label">
+                            <input type="radio" name="min-tier" value="C">C
+                        </label>
+                        <label class="tier-B tier-label">
+                            <input type="radio" name="min-tier" value="B">B
+                        </label>
+                        <label class="tier-A tier-label">
+                            <input type="radio" name="min-tier" value="A" checked="">A
+                        </label>
+                        <label class="tier-S tier-label">
+                            <input type="radio" name="min-tier" value="S">S+
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="column-r col">
+                <h3 data-i18n="search-string.result-title">Search String</h3>
+                <textarea id="search-string-result" readonly=""></textarea>
+            </div>
+        </div>
+        <details id="search-string-issues">
+            <summary><h3 data-i18n="search-string.issues">Possible Issues</h3></summary>
+            <div id="string-length-issue" class="issue-highlight" data-i18n="search-string.length-issue">Generated search string exceeds the 5000 character limit.<br>Try tweaking the settings to be more restrictive.</div>
+            <div class="row">
+                <div class="column-l col" id="search-string-included-col">
+                    <h4 data-i18n="search-string.incl-msg">Incorrectly Included</h4>
+                    <div class="pkm-list" id="search-string-included"></div>
+                </div>
+                <div class="column-r col" id="search-string-excluded-col">
+                    <h4 data-i18n="search-string.excl-msg">Incorrectly Excluded</h4>
+                    <div class="pkm-list" id="search-string-excluded"></div>
+                </div>
+            </div>
+        </details>
+    </div>
+    <div class="card-footer buttons">
+        <input type="button" value="Copy" id="search-string-copy" style="background-color: var(--col-widget);" autofocus="" data-i18n="search-string.copy">
+    </div>
+</form>
+</dialog>
+<header>
+    <div class="site-size" id="header-content">
+        <a id="header-left" href="/">
+            <div class="header-area">
+                <img class="unselectable" id="logo" src="imgs/dialga.png" alt="Site Logo depicting Dialga">
+                <h2 id="site-name">Dialga<span class="contrast">Dex</span></h2>
+            </div>
+        </a>
+        <div class="header-area" id="header-right">
+            <form id="poke-search" autocomplete="off" class="v-middle">
+                <div class="autoComplete_wrapper" role="combobox" aria-owns="poke-suggestions" aria-haspopup="true" aria-expanded="false"><input id="poke-search-box" class="search-box" type="text" aria-label="Pokémon Search" aria-controls="poke-suggestions" aria-autocomplete="both"><table id="poke-suggestions" role="listbox" hidden="" class="suggestions"></table></div>
+                <img class="inlaid-icon search-icon" src="imgs/search.svg" alt="">
+            </form>
+            <nav>
+                <div id="site-settings-icon" class="drawer v-middle">
+                    <img class="drawer-icon" src="imgs/settings.svg" alt="Cogwheel button to open site settings">
+                    <div class="drawer-popup" id="settings">
+                        <!--<div class=settings-title>Settings</div>-->
+                        <div class="settings-list">
+                            <div class="settings-subtitle" data-i18n="settings.calculation">Calculation Settings</div>
+                            <span data-i18n="settings.metric">PvE Metric</span>
+                                <div class="col">
+                                    <span id="metric-dps" class="settings-opt tooltip unselectable"><span data-i18n="terms.dps">DPS</span>
+                                        <span class="tooltiptext">
+                                            <div class="tooltip-title" data-i18n="settings.dps-tooltip.title">Damage Per Second</div>
+                                            <ul>
+                                                <li data-i18n="settings.dps-tooltip.explanation">Speed of damage output</li>
+                                                <li data-i18n="settings.dps-tooltip.characteristic">Favors glass cannons</li>
+                                            </ul></span></span>
+                                    <span id="metric-tdo" class="settings-opt tooltip unselectable"><span data-i18n="terms.tdo">TDO</span>
+                                        <span class="tooltiptext">
+                                            <div class="tooltip-title" data-i18n="settings.tdo-tooltip.title">Total Damage Output</div>
+                                            <ul>
+                                                <li data-i18n="settings.tdo-tooltip.explanation">Amount of damage done before fainting</li>
+                                                <li data-i18n="settings.tdo-tooltip.characteristic">Favors bulk</li>
+                                            </ul></span></span>
+                                    <span id="metric-edps" class="settings-opt tooltip settings-opt-sel unselectable"><span data-i18n="terms.edps">eDPS</span>
+                                        <span class="tooltiptext">
+                                            <div class="tooltip-title" data-i18n="settings.edps-tooltip.title">Effective DPS</div>
+                                            <p data-i18n="settings.edps-tooltip.characteristic">In an infinite-length raid, this is the actual DPS that would be
+                                                achieved when accounting for the time lost relobbying.
+                                            </p></span></span>
+                                </div>
+                            <span data-i18n="settings.level">Pokémon Level</span>
+                                <div class="col">
+                                    <div class="setting-value">
+                                        <span id="lvl-30" class="settings-opt unselectable">30</span>
+                                        <span id="lvl-40" class="settings-opt settings-opt-sel unselectable">40</span>
+                                        <span id="lvl-50" class="settings-opt unselectable">50</span>
+                                    </div>
+                                    <span id="lvl-xl-budget" class="settings-opt unselectable tooltip"><span data-i18n="settings.budget50-tooltip.title">Budget50</span>
+                                        <span class="tooltiptext">
+                                            <div class="tooltip-title" data-i18n="settings.budget50-tooltip.explanation">Level 50 for Budget Pokémon</div>
+                                            <ul>
+                                                <li data-i18n="settings.budget50-tooltip.lv40">Use stats at Level 40 for Legendaries</li>
+                                                <li data-i18n="settings.budget50-tooltip.lv50">Use stats at Level 50 for non-Legendaries</li>
+                                                <li data-i18n="settings.budget50-tooltip.characteristic">Helps adjust for the scarcity of rare XL candies</li>
+                                            </ul></span></span>
+                                </div>
+                                <!--<span id=lvl-both class="settings-opt unselectable tooltip">40+50
+                                    <span class="tooltiptext">Shows both level 40 and level 50 entries in type ranks, otherwise uses level 40 for PokeDex</span></span>-->
+                            <!--<div class=settings-subtitle><i>Beta</i> Features</div>-->
+                            <span class="tooltip tooltip-left"><span data-i18n="settings.supermegalevel-tooltip.title">Super Mega Level</span>
+                                <span class="tooltiptext">
+                                    <p data-i18n="settings.supermegalevel-tooltip.explanation">Degree of Mega Evolution for Super Mega Pokémon</p>
+                                    <p><i data-i18n="settings.supermegalevel-tooltip.characteristic">Determines the damage multiplier (1.0/1.1/1.2/1.3x) for temporary Super Mega
+                                        charged attacks. Level 4 also temporarily grants +2 levels to the Pokémon.
+                                    </i></p></span>
+                            </span>
+                                <div class="setting-value">
+                                    <span id="supermegalevel-1" class="settings-opt settings-opt-sel unselectable">1</span>
+                                    <span id="supermegalevel-2" class="settings-opt unselectable">2</span>
+                                    <span id="supermegalevel-3" class="settings-opt unselectable">3</span>
+                                    <span id="supermegalevel-4" class="settings-opt unselectable">4</span>
+                                </div>
+                            <span class="tooltip tooltip-left"><span data-i18n="settings.affinity-tooltip.title">Type Affinity</span>
+                                <span class="tooltiptext">
+                                    <p data-i18n="settings.affinity-tooltip.explanation">Use real high-tier raid bosses when calculating rankings</p>
+                                    <p data-i18n="settings.affinity-tooltip.characteristic">Takes into account the actual types, attack types, attack strengths, and stats of
+                                        raid bosses based on the current scenario.</p></span>
+                            </span>
+                                <label class="switch">
+                                    <input type="checkbox" value="affinity" id="settings-affinity" checked="">
+                                    <span class="slider"></span>
+                                </label>
+                            <span class="tooltip tooltip-left"><span data-i18n="settings.pp-tooltip.title">Party Power</span>
+                                <span class="tooltiptext">
+                                    <p data-i18n="settings.pp-tooltip.explanation">Size of Party for party power boosts</p>
+                                    <p><i data-i18n="settings.pp-tooltip.characteristic">Boosts charged damage based on the ratio of fast:charged moves</i></p></span>
+                            </span>
+                                <div class="setting-value">
+                                    <span id="pp-1" class="settings-opt settings-opt-sel unselectable">1</span>
+                                    <span id="pp-2" class="settings-opt unselectable">2</span>
+                                    <span id="pp-3" class="settings-opt unselectable">3</span>
+                                    <span id="pp-4" class="settings-opt unselectable">4</span>
+                                </div>
+                            <span class="tooltip tooltip-left" id="settings-teamsize-header"><span data-i18n="settings.team-tooltip.title">Raid Team Size</span>
+                                <span class="tooltiptext">
+                                    <p data-i18n="settings.team-tooltip.explanation">Size of battle team for computing eDPS</p>
+                                    <p><i data-i18n="settings.team-tooltip.characteristic">Computes eDPS as if N identical copies of the Pokémon were in a battle team, and relobbying only occurred after each Nth death</i></p></span>
+                            </span>
+                                <div class="col" id="settings-teamsize">
+                                    <span id="rt-6" class="settings-opt settings-opt-sel unselectable" data-i18n="settings.6stack">6-Stack</span>
+                                    <span id="rt-1" class="settings-opt unselectable" data-i18n="settings.solo">Solo</span>
+                                    <span id="rt-m1" class="settings-opt unselectable tooltip"><span data-i18n="settings.megasolo-tooltip.title">MegaSolo</span>
+                                        <span class="tooltiptext">
+                                        <p data-i18n="settings.megasolo-tooltip.explanation">Use a 6-mon team for everything but Megas, which fight solo</p></span></span>
+                                </div>
+                            <span class="tooltip tooltip-left" id="settings-relobby-header"><span data-i18n="settings.relobby-tooltip.title">Relobby Time</span>
+                                <span class="tooltiptext" data-i18n="settings.relobby-tooltip.explanation">Time spent max reviving a full raid team and rejoining the battle</span>
+                            </span>
+                                <input type="number" id="relobby-time" class="settings-num" value="10" min="0" max="300" step="1">
+                            <div class="settings-subtitle" data-i18n="settings.site">Site Settings</div>
+                            <span data-i18n="settings.preview">Data Preview</span>
+                                <label class="switch">
+                                    <input type="checkbox" value="speculative" id="settings-speculative" checked="">
+                                    <span class="slider"></span>
+                                </label>
+                            <span data-i18n="settings.darkmode">Dark Mode</span>
+                                <label class="switch">
+                                    <input type="checkbox" value="theme" id="settings-darkmode" checked="">
+                                    <span class="slider"></span>
+                                </label>
+                            <span data-i18n="settings.language">Language</span>
+                                <div class="col">
+                                    <div class="setting-grid3">
+                                        <span id="lang-en" class="settings-opt settings-opt-sel unselectable">EN</span>
+                                        <span id="lang-es" class="settings-opt unselectable">ES</span>
+                                        <span id="lang-fr" class="settings-opt unselectable">FR</span>
+                                        <span class="settings-opt unselectable"></span>
+                                        <span id="lang-de" class="settings-opt unselectable">DE</span>
+                                        <span id="lang-it" class="settings-opt unselectable">IT</span>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu-icon" class="drawer v-middle">
+                    <img class="drawer-icon" src="imgs/menu.svg" alt="Menu button to open navigation menu to different pages">
+                    <div class="drawer-popup" id="nav-drawer">
+                        <ul class="menu">
+                            <li><a id="rankings-link" href="/?strongest" data-i18n="site.links.rankings">Attacker Rankings</a></li>
+                            <li><a id="moves-link" href="/?moves" data-i18n="site.links.moves">Move Data</a></li>
+                            <li><a id="typechart-link" href="/?typechart" data-i18n="site.links.types">Type Chart</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+    </div>
+</div></header>
+<div id="site" class="site-size">
+    
+    <div id="pokedex-page" class="page" style="display: none;"></div>
+    <div id="strongest" class="page" data-loaded="true" style="display: revert;"><div id="strongest-links" class="unselectable type-links">
+    <type-selector id="strongest-links-types">
+<li>&nbsp;</li><li class="span2"><a data-type="Any" class="type-text bg-Any" href="/?strongest&amp;t=Any">All types</a></li><li class="span2"><a data-type="Each" class="type-text bg-Each" href="/?strongest&amp;t=Each">Each type</a></li><li>&nbsp;</li><li><a data-type="Normal" class="type-text bg-Normal" href="/?strongest&amp;t=Normal">Normal</a></li><li><a data-type="Fire" class="type-text bg-Fire" href="/?strongest&amp;t=Fire">Fire</a></li><li><a data-type="Water" class="type-text bg-Water" href="/?strongest&amp;t=Water">Water</a></li><li><a data-type="Grass" class="type-text bg-Grass" href="/?strongest&amp;t=Grass">Grass</a></li><li><a data-type="Electric" class="type-text bg-Electric" href="/?strongest&amp;t=Electric">Electric</a></li><li><a data-type="Ice" class="type-text bg-Ice" href="/?strongest&amp;t=Ice">Ice</a></li><li><a data-type="Fighting" class="type-text bg-Fighting" href="/?strongest&amp;t=Fighting">Fighting</a></li><li><a data-type="Poison" class="type-text bg-Poison" href="/?strongest&amp;t=Poison">Poison</a></li><li><a data-type="Ground" class="type-text bg-Ground" href="/?strongest&amp;t=Ground">Ground</a></li><li><a data-type="Flying" class="type-text bg-Flying" href="/?strongest&amp;t=Flying">Flying</a></li><li><a data-type="Psychic" class="type-text bg-Psychic" href="/?strongest&amp;t=Psychic">Psychic</a></li><li><a data-type="Bug" class="type-text bg-Bug" href="/?strongest&amp;t=Bug">Bug</a></li><li><a data-type="Rock" class="type-text bg-Rock" href="/?strongest&amp;t=Rock">Rock</a></li><li><a data-type="Ghost" class="type-text bg-Ghost" href="/?strongest&amp;t=Ghost">Ghost</a></li><li><a data-type="Dragon" class="type-text bg-Dragon" href="/?strongest&amp;t=Dragon">Dragon</a></li><li><a data-type="Dark" class="type-text bg-Dark" href="/?strongest&amp;t=Dark">Dark</a></li><li><a data-type="Steel" class="type-text bg-Steel" href="/?strongest&amp;t=Steel">Steel</a></li><li><a data-type="Fairy" class="type-text bg-Fairy" href="/?strongest&amp;t=Fairy">Fairy</a></li></type-selector></div><div class="card">
+    <div id="strongest-header" class="card-header">
+        <div class="card-title" style="padding: 0.5rem 3rem" id="strongest-title" data-i18n-reorder="strongest.any.»order">
+            
+            
+            
+            
+            
+             <span data-i18n="strongest.best" id="strongest-best-span">Top</span> <span id="strongest-type-title" data-i18n="strongest.any.type-text">Overall</span> <span id="strongest-type-helper" data-i18n="strongest.any.helper-text"></span> <input type="checkbox" class="toggling" value="versus" id="chk-versus" unchecked="" disabled=""> <label class="togglebutton" for="chk-versus" id="strongest-vs-lbl">
+                <div class="action">
+                    <span class="option-1" data-i18n="strongest.attackers">Attackers</span>
+                    <span class="option-2" data-i18n="strongest.counters">Counters</span>
+                </div>
+            </label> </div>
+        <div class="absolute-right row">
+            <div class="drawer v-middle" id="search-string-icon">
+                <img class="drawer-icon" src="imgs/search-string.svg" alt="Magnifying glass button to open search string generator">
+            </div> 
+            <div class="drawer v-middle">
+                <img class="drawer-icon" src="imgs/filter.svg" alt="Funnel button to open filter and display options">
+                <div id="strongest-filters" class="drawer-popup"><div id="filter-settings" style="">
+    <div class="settings-list">
+        <div class="settings-subtitle" data-i18n="filters.species.title">Species Filters</div>
+        <span class="tooltip tooltip-bottom"><span data-i18n="filters.species.unreleased">Unreleased</span>
+            <span class="tooltiptext" data-i18n="filters.species.unreleased-tooltip">Include Pokémon found in the Game Master but not yet available in game</span>
+        </span>
+            <label class="switch">
+                <input type="checkbox" value="unreleased" unchecked="">
+                <span class="slider"></span>
+            </label>
+        <span data-i18n="filters.species.mega">Mega/Primal</span>
+            <label class="switch">
+                <input type="checkbox" value="mega" checked="">
+                <span class="slider"></span>
+            </label>
+        <span data-i18n="filters.species.shadow">Shadow</span>
+            <label class="switch">
+                <input type="checkbox" value="shadow" checked="">
+                <span class="slider"></span>
+            </label>
+        <span class="tooltip tooltip-bottom"><span data-i18n="filters.species.legendary">Legendary</span>
+            <span class="tooltiptext" data-i18n="filters.species.legendary-tooltip">Also includes Mythical Pokémon and Ultrabeasts</span>
+        </span>
+            <label class="switch">
+                <input type="checkbox" value="legendary" checked="">
+                <span class="slider"></span>
+            </label>
+    </div>
+    <div class="settings-list">
+        <div class="settings-subtitle" data-i18n="filters.moves.title">Move Filters</div>
+        <span class="tooltip tooltip-bottom"><span data-i18n="filters.moves.elite">Elite Moves*</span>
+            <span class="tooltiptext" data-i18n="filters.moves.elite-tooltip">Allow moves with limited availability<br>
+                (Requires Special event or Elite TMs)</span>
+        </span>
+            <label class="switch">
+                <input type="checkbox" value="elite" checked="">
+                <span class="slider"></span>
+            </label>
+        <span class="labeltext tooltip tooltip-bottom"><span data-i18n="filters.moves.mixed">Mixed Types</span>
+            <span class="tooltiptext" data-i18n="filters.moves.mixed-tooltip">Allow fast and charged moves with different types</span>
+        </span>
+            <label class="switch">
+                <input type="checkbox" value="mixed" id="chk-mixed" checked="">
+                <span class="slider"></span>
+            </label>
+        <span class="labeltext tooltip tooltip-bottom"><span data-i18n="filters.moves.off">Off Types</span>
+            <span class="tooltiptext" data-i18n="filters.moves.off-tooltip">Allow movesets where neither the fast nor charged move matches the target type</span>
+        </span>
+            <label class="switch">
+                <input type="checkbox" value="offtype" id="chk-offtype">
+                <span class="slider"></span>
+            </label>
+        <span class="tooltip tooltip-bottom"><span data-i18n="filters.moves.suboptimal">Suboptimal Moves</span>
+            <span class="tooltiptext" data-i18n="filters.moves.suboptimal-tooltip">Allow multiple movesets per Pokémon</span>
+        </span>
+            <label class="switch tooltip tooltip-bottom">
+                <input type="checkbox" value="suboptimal" id="chk-suboptimal" unchecked="">
+                <span class="slider"></span>
+            </label>
+    </div>
+    <div class="settings-list">
+        <div class="settings-subtitle" data-i18n="filters.display.title">Display Settings</div>
+        <span class="tooltip tooltip-bottom" id="settings-group-header"><span data-i18n="filters.display.group">Group Species</span>
+            <span class="tooltiptext"><div style="display: inline-grid; grid-template-columns: auto auto auto; column-gap: 5px;">
+                <span data-i18n="terms.enabled">Enabled</span><span>→</span><span data-i18n="filters.display.group-enabled">Compare suboptimal movesets to that Pokémon's best moveset</span>
+                <span data-i18n="terms.disabled">Unchecked</span><span>→</span><span data-i18n="filters.display.group-disabled">Compare all movesets to each other</span></div></span>
+        </span>
+            <label class="switch tooltip tooltip-bottom" id="settings-group">
+                <input type="checkbox" value="grouped" id="chk-grouped" disabled="">
+                <span class="slider"></span>
+            </label>
+        <span class="tooltip tooltip-bottom" id="settings-compare-header"><span data-i18n="filters.display.baseline">Baseline</span>
+            <span class="tooltiptext" data-i18n="filters.display.baseline-tooltip">Sets the "100%" reference Pokémon</span>
+        </span>
+            <div class="col" id="settings-compare">
+                <span id="cmp-budget" class="settings-opt settings-opt-sel unselectable tooltip"><span data-i18n="filters.display.budget">Budget</span>
+                    <span class="tooltiptext">
+                        <p data-i18n="filters.display.budget-tooltip.title">Compare to the top "cheap" Pokémon</p>
+                        <ul>
+                            <li data-i18n="filters.display.budget-tooltip.mega">No Megas</li>
+                            <li data-i18n="filters.display.budget-tooltip.shadow">No Shadows</li>
+                            <li data-i18n="filters.display.budget-tooltip.legendary">No Legendaries</li>
+                            <li data-i18n="filters.display.budget-tooltip.type">Must be on-type</li>
+                        </ul>
+                    </span>
+                </span>
+                <span id="cmp-espace" class="settings-opt unselectable tooltip">ESpace
+                    <span class="tooltiptext">
+                        <p data-i18n="filters.display.espace-tooltip.title">Compare to the top "available-ish" Pokémon</p>
+                        <ul>
+                            <li data-i18n="filters.display.espace-tooltip.slegend">No Shadow Legendaries</li>
+                            <li data-i18n="filters.display.espace-tooltip.rmythic">No Research Mythics</li>
+                            <li data-i18n="filters.display.espace-tooltip.energy">No Energy Gimmicks (Mega/Fusion/Crowned)</li>
+                            <li data-i18n="filters.display.espace-tooltip.ascent">No Dragon Ascent</li>
+                            <li data-i18n="filters.display.espace-tooltip.type">Must be on-type</li>
+                        </ul>
+                        <p><i><span data-i18n="filters.display.espace-tooltip.authorlink">Defined by</span> <a href="https://reddit.com/u/Elastic_Space">/u/Elastic_Space</a></i></p>
+                        <p><i><span data-i18n="filters.display.espace-tooltip.graphiclink">Used in infographics by</span> <a href="https://reddit.com/u/bulbavisual">/u/bulbavisual</a></i></p>
+                    </span>
+                </span>
+                <span id="cmp-top" class="settings-opt unselectable tooltip"><span data-i18n="filters.display.best">Best</span>
+                    <span class="tooltiptext" data-i18n="filters.display.best-tooltip">Compare to the absolute best Pokémon</span>
+                </span>
+            </div>
+        <span class="tooltip tooltip-bottom" id="settings-tiermethod-header"><span data-i18n="filters.display.tiers">Tiers</span>
+            <span class="tooltiptext" data-i18n="filters.display.tiers-tooltip">Determines how tiers are computed.<br>Depends on comparison Pokémon.</span>
+            </span>
+            <div class="col" id="settings-tiermethod">
+                <span id="tier-jenks" class="settings-opt settings-opt-sel unselectable tooltip">Jenks
+                    <span class="tooltiptext" data-i18n="filters.display.jenks-tooltip">Algorithmic tiers based on minimum variance</span></span>
+                <!--<span id=tier-broad class="settings-opt unselectable tooltip">Broad
+                    <span class="tooltiptext">Broad tiers based on hardcoded breakpoints</span></span>-->
+                <span id="tier-espace" class="settings-opt unselectable tooltip">ESpace
+                    <span class="tooltiptext">
+                        <p data-i18n="filters.display.espace-tiers">Tiers with hardcoded breakpoints at every 10%</p>
+                        <p><i><span data-i18n="filters.display.espace-tooltip.authorlink">Defined by</span> <a href="https://reddit.com/u/Elastic_Space">/u/Elastic_Space</a></i></p>
+                    </span></span>
+                <span id="tier-abs" class="settings-opt unselectable tooltip"><span data-i18n="filters.display.absolute">Absolute</span>
+                    <span class="tooltiptext">
+                        <p data-i18n="filters.display.absolute-tooltip.title">Absolute tiers based on only the displayed rating</p>
+                        <ul>
+                            <li data-i18n="filters.display.absolute-tooltip.contextless">Ignores context (comparison Pokémon, type)</li>
+                            <li data-i18n="filters.display.absolute-tooltip.baseline">Tuned to overall "All-type" rankings</li>
+                            <li data-i18n="filters.display.absolute-tooltip.purpose">Best for comparing across different types</li>
+                        </ul></span></span>
+            </div>
+    </div>
+</div></div>
+            </div> 
+        </div>
+    </div>
+    <div class="card-body" id="strongest-scroller">
+        <table class="table-bg" id="strongest-table">
+            <tbody><tr style="height: 0px" id="pad"><td id="tier-label-container" style="min-width: 5ch;"><div class="tier-label floating-label tier-MRay" style="top: 0px;">MRay</div><div class="tier-label floating-label" style="top: 75px;">SSSS</div><div class="tier-label floating-label" style="top: 240px;">SSS</div><div class="tier-label floating-label" style="top: 495px;">SS</div><div class="tier-label floating-label" style="top: 690px;">S</div></td></tr>
+        <tr class="even"><td class="tier-label tier-MRay"></td><td>1</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=384&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-240px -3390px"></span> <span class="strongest-name">Mega Rayquaza</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Flying">Dragon Ascent*</span></td><td>eDPS <b>25.01</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 151.7591639183245%;"><span class="bar-txt">151.8%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SSSS"></td><td>2</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=150&amp;f=MegaY" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-80px -3330px"></span> <span class="strongest-name">Mega Mewtwo Y</span></a></td><td><span class="type-text bg-Psychic">Psycho Cut</span></td><td><span class="type-text bg-Psychic">Psystrike*</span></td><td>eDPS <b>21.64</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 131.33054212394998%;"><span class="bar-txt">131.3%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SSSS"></td><td>3</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=800&amp;f=Dawn_wings" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-240px -2970px"></span> <span class="strongest-name">Necrozma</span><span class="poke-form-name"> (Dawn Wings)</span></a></td><td><span class="type-text bg-Psychic">Psycho Cut</span></td><td><span class="type-text bg-Ghost">Moongeist Beam*</span></td><td>eDPS <b>21.52</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 130.5896454145463%;"><span class="bar-txt">130.6%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SSSS"></td><td>4</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=150&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-40px -3330px"></span> <span class="strongest-name">Mega Mewtwo X</span></a></td><td><span class="type-text bg-Fighting">Counter*</span></td><td><span class="type-text bg-Psychic">Psystrike*</span></td><td>eDPS <b>21.39</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 129.76022646933905%;"><span class="bar-txt">129.8%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SSSS"></td><td>5</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=890&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-80px -2220px"></span> <span class="strongest-name">Eternatus</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Dragon">Dynamax Cannon*</span></td><td>eDPS <b>21.22</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 128.77914671334418%;"><span class="bar-txt">128.8%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SSS"></td><td>6</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=888&amp;f=Crowned_sword" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-80px -3060px"></span> <span class="strongest-name">Zacian</span><span class="poke-form-name"> (Crowned Sword)</span></a></td><td><span class="type-text bg-Steel">Metal Claw</span></td><td><span class="type-text bg-Steel">Behemoth Blade*</span></td><td>eDPS <b>20.46</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 124.13155546339554%;"><span class="bar-txt">124.1%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SSS"></td><td>7</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=646&amp;f=Black" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-360px -2730px"></span> <span class="strongest-name">Kyurem</span><span class="poke-form-name"> (Black Kyurem)</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Ice">Freeze Shock*</span></td><td>eDPS <b>20.17</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 122.35376631897384%;"><span class="bar-txt">122.4%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SSS"></td><td>8</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=383&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-200px -3390px"></span> <span class="strongest-name">Primal Groudon</span></a></td><td><span class="type-text bg-Ground">Mud Shot</span></td><td><span class="type-text bg-Ground">Precipice Blades*</span></td><td>eDPS <b>20.04</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 121.58605056870843%;"><span class="bar-txt">121.6%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SSS"></td><td>9</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=889&amp;f=Crowned_shield" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-120px -3060px"></span> <span class="strongest-name">Zamazenta</span><span class="poke-form-name"> (Crowned Shield)</span></a></td><td><span class="type-text bg-Steel">Metal Claw</span></td><td><span class="type-text bg-Steel">Behemoth Bash*</span></td><td>eDPS <b>20.02</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 121.47864106718515%;"><span class="bar-txt">121.5%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SSS"></td><td>10</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=800&amp;f=Dusk_mane" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-200px -2970px"></span> <span class="strongest-name">Necrozma</span><span class="poke-form-name"> (Dusk Mane)</span></a></td><td><span class="type-text bg-Psychic">Psycho Cut</span></td><td><span class="type-text bg-Steel">Sunsteel Strike*</span></td><td>eDPS <b>19.93</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 120.9514251323683%;"><span class="bar-txt">121.0%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SSS"></td><td>11</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=655&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-120px -3540px"></span> <span class="strongest-name">Mega Delphox</span></a></td><td><span class="type-text bg-Fire">Fire Spin</span></td><td><span class="type-text bg-Fire">Blast Burn*</span></td><td>eDPS <b>19.81</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 120.20209473634102%;"><span class="bar-txt">120.2%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SSS"></td><td>12</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=448&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-360px -3390px"></span> <span class="strongest-name">Mega Lucario</span></a></td><td><span class="type-text bg-Fighting">Force Palm*</span></td><td><span class="type-text bg-Fighting">Aura Sphere</span></td><td>eDPS <b>19.69</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 119.49850698910632%;"><span class="bar-txt">119.5%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SS"></td><td>13</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=257&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-400px -3330px"></span> <span class="strongest-name">Mega Blaziken</span></a></td><td><span class="type-text bg-Fire">Fire Spin</span></td><td><span class="type-text bg-Fighting">Aura Sphere</span></td><td>eDPS <b>19.51</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 118.38748042876492%;"><span class="bar-txt">118.4%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SS"></td><td>14</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=486&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-240px -1200px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Regigigas</span></a></td><td><span class="type-text bg-Ice">Hidden Power Ice</span></td><td><span class="type-text bg-Normal">Crush Grip*</span></td><td>eDPS <b>19.40</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 117.69212926749329%;"><span class="bar-txt">117.7%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SS"></td><td>15</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=646&amp;f=White" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-400px -2730px"></span> <span class="strongest-name">Kyurem</span><span class="poke-form-name"> (White Kyurem)</span></a></td><td><span class="type-text bg-Ice">Ice Fang</span></td><td><span class="type-text bg-Ice">Ice Burn*</span></td><td>eDPS <b>19.34</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 117.32132697410613%;"><span class="bar-txt">117.3%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SS"></td><td>16</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=94&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-320px -3300px"></span> <span class="strongest-name">Mega Gengar</span></a></td><td><span class="type-text bg-Ghost">Lick*</span></td><td><span class="type-text bg-Ghost">Shadow Ball</span></td><td>eDPS <b>19.18</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 116.35960408701345%;"><span class="bar-txt">116.4%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SS"></td><td>17</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=445&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-320px -3390px"></span> <span class="strongest-name">Mega Garchomp</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Dragon">Breaking Swipe</span></td><td>eDPS <b>19.10</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 115.90282275867598%;"><span class="bar-txt">115.9%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SS"></td><td>18</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=373&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-40px -930px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Salamence</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Flying">Fly</span></td><td>eDPS <b>19.07</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 115.71217983878897%;"><span class="bar-txt">115.7%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SS"></td><td>19</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=373&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:0px -3390px"></span> <span class="strongest-name">Mega Salamence</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Flying">Fly</span></td><td>eDPS <b>19.05</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 115.61593846659237%;"><span class="bar-txt">115.6%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SS"></td><td>20</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=6&amp;f=MegaY" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-80px -3300px"></span> <span class="strongest-name">Mega Charizard Y</span></a></td><td><span class="type-text bg-Fire">Fire Spin</span></td><td><span class="type-text bg-Fire">Blast Burn*</span></td><td>eDPS <b>19.04</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 115.50728967738164%;"><span class="bar-txt">115.5%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-SS"></td><td>21</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=643&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-280px -1590px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Reshiram</span></a></td><td><span class="type-text bg-Fire">Fire Fang</span></td><td><span class="type-text bg-Fire">Fusion Flare*</span></td><td>eDPS <b>18.89</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 114.61185160278266%;"><span class="bar-txt">114.6%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-SS"></td><td>22</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=384&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:0px -960px"></span> <span class="strongest-name">Rayquaza</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Flying">Dragon Ascent*</span></td><td>eDPS <b>18.40</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 111.6447817255452%;"><span class="bar-txt">111.6%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>23</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=382&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-160px -3390px"></span> <span class="strongest-name">Primal Kyogre</span></a></td><td><span class="type-text bg-Water">Waterfall</span></td><td><span class="type-text bg-Water">Origin Pulse*</span></td><td>eDPS <b>18.25</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 110.749855388346%;"><span class="bar-txt">110.7%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-S"></td><td>24</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=806&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-80px -2010px"></span> <span class="strongest-name">Blacephalon</span></a></td><td><span class="type-text bg-Ghost">Astonish</span></td><td><span class="type-text bg-Fire">Mind Blown*</span></td><td>eDPS <b>18.06</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 109.56138368873567%;"><span class="bar-txt">109.6%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>25</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=150&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-240px -360px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Mewtwo</span></a></td><td><span class="type-text bg-Psychic">Psycho Cut</span></td><td><span class="type-text bg-Psychic">Psystrike*</span></td><td>eDPS <b>18.04</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 109.45899712490277%;"><span class="bar-txt">109.5%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-S"></td><td>26</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=146&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-80px -360px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Moltres</span></a></td><td><span class="type-text bg-Fire">Fire Spin</span></td><td><span class="type-text bg-Flying">Fly</span></td><td>eDPS <b>17.97</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 109.05167657112813%;"><span class="bar-txt">109.1%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>27</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=381&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-120px -3390px"></span> <span class="strongest-name">Mega Latios</span></a></td><td><span class="type-text bg-Dragon">Dragon Breath</span></td><td><span class="type-text bg-Fighting">Aura Sphere</span></td><td>eDPS <b>17.67</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 107.18631746451905%;"><span class="bar-txt">107.2%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-S"></td><td>28</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=475&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-440px -3390px"></span> <span class="strongest-name">Mega Gallade</span></a></td><td><span class="type-text bg-Psychic">Psycho Cut</span></td><td><span class="type-text bg-Fighting">Sacred Sword</span></td><td>eDPS <b>17.66</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 107.16244797333077%;"><span class="bar-txt">107.2%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>29</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=282&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:0px -3360px"></span> <span class="strongest-name">Mega Gardevoir</span></a></td><td><span class="type-text bg-Fairy">Charm</span></td><td><span class="type-text bg-Fairy">Dazzling Gleam</span></td><td>eDPS <b>17.54</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 106.42491420188067%;"><span class="bar-txt">106.4%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-S"></td><td>30</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=376&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-40px -3390px"></span> <span class="strongest-name">Mega Metagross</span></a></td><td><span class="type-text bg-Bug">Fury Cutter</span></td><td><span class="type-text bg-Steel">Meteor Mash*</span></td><td>eDPS <b>17.50</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 106.17682488894931%;"><span class="bar-txt">106.2%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>31</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=376&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-160px -930px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Metagross</span></a></td><td><span class="type-text bg-Bug">Fury Cutter</span></td><td><span class="type-text bg-Steel">Meteor Mash*</span></td><td>eDPS <b>17.48</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 106.04783502564821%;"><span class="bar-txt">106.0%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-S"></td><td>32</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=485&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-200px -1200px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Heatran</span></a></td><td><span class="type-text bg-Fire">Fire Spin</span></td><td><span class="type-text bg-Fire">Magma Storm*</span></td><td>eDPS <b>17.44</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 105.81535177803177%;"><span class="bar-txt">105.8%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>33</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=383&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-440px -930px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Groudon</span></a></td><td><span class="type-text bg-Ground">Mud Shot</span></td><td><span class="type-text bg-Ground">Precipice Blades*</span></td><td>eDPS <b>17.43</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 105.76434417482731%;"><span class="bar-txt">105.8%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-S"></td><td>34</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=647&amp;f=Resolute" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-440px -2730px"></span> <span class="strongest-name">Keldeo</span><span class="poke-form-name"> (Resolute)</span></a></td><td><span class="type-text bg-Fighting">Low Kick</span></td><td><span class="type-text bg-Fighting">Secret Sword*</span></td><td>eDPS <b>17.42</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 105.68611402901792%;"><span class="bar-txt">105.7%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>35</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=445&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-40px -1110px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Garchomp</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Dragon">Breaking Swipe</span></td><td>eDPS <b>17.39</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 105.48947911340134%;"><span class="bar-txt">105.5%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-S"></td><td>36</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=248&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-320px -3330px"></span> <span class="strongest-name">Mega Tyranitar</span></a></td><td><span class="type-text bg-Rock">Smack Down*</span></td><td><span class="type-text bg-Dark">Brutal Swing</span></td><td>eDPS <b>17.36</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 105.3211031123447%;"><span class="bar-txt">105.3%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>37</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=612&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:0px -1530px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Haxorus</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Dragon">Breaking Swipe*</span></td><td>eDPS <b>17.32</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 105.0797617533656%;"><span class="bar-txt">105.1%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-S"></td><td>38</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=149&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-120px -3510px"></span> <span class="strongest-name">Mega Dragonite</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Dragon">Outrage+<sup>1</sup></span></td><td>eDPS <b>17.27</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 104.81155571071179%;"><span class="bar-txt">104.8%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>39</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=609&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-360px -1500px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Chandelure</span></a></td><td><span class="type-text bg-Fire">Fire Spin</span></td><td><span class="type-text bg-Ghost">Shadow Ball</span></td><td>eDPS <b>17.18</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 104.21718861194131%;"><span class="bar-txt">104.2%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-S"></td><td>40</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=483&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-120px -1200px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Dialga</span></a></td><td><span class="type-text bg-Steel">Metal Claw</span></td><td><span class="type-text bg-Dragon">Draco Meteor</span></td><td>eDPS <b>17.15</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 104.03535868046801%;"><span class="bar-txt">104.0%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-S"></td><td>41</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=483&amp;f=Origin" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-360px -3150px"></span> <span class="strongest-name">Dialga</span><span class="poke-form-name"> (Origin)</span></a></td><td><span class="type-text bg-Steel">Metal Claw</span></td><td><span class="type-text bg-Dragon">Roar of Time*</span></td><td>eDPS <b>17.04</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 103.36882762022128%;"><span class="bar-txt">103.4%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>42</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=491&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-440px -1200px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Darkrai</span></a></td><td><span class="type-text bg-Dark">Snarl</span></td><td><span class="type-text bg-Dark">Foul Play</span></td><td>eDPS <b>16.86</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 102.32269127982147%;"><span class="bar-txt">102.3%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>43</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=484&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-160px -1200px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Palkia</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Dragon">Draco Meteor</span></td><td>eDPS <b>16.83</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 102.12871721613277%;"><span class="bar-txt">102.1%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>44</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=486&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-240px -1200px"></span> <span class="strongest-name">Regigigas</span></a></td><td><span class="type-text bg-Ice">Hidden Power Ice</span></td><td><span class="type-text bg-Normal">Crush Grip*</span></td><td>eDPS <b>16.81</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 101.97079601878451%;"><span class="bar-txt">102.0%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>45</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=398&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-240px -3570px"></span> <span class="strongest-name">Mega Staraptor</span></a></td><td><span class="type-text bg-Flying">Gust*</span></td><td><span class="type-text bg-Flying">Fly</span></td><td>eDPS <b>16.71</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 101.38272936820269%;"><span class="bar-txt">101.4%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>46</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=658&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-160px -3540px"></span> <span class="strongest-name">Mega Greninja</span></a></td><td><span class="type-text bg-Water">Water Shuriken</span></td><td><span class="type-text bg-Water">Hydro Cannon*</span></td><td>eDPS <b>16.69</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 101.24044648082142%;"><span class="bar-txt">101.2%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>47</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=464&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-320px -1140px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Rhyperior</span></a></td><td><span class="type-text bg-Ground">Mud-Slap</span></td><td><span class="type-text bg-Rock">Rock Wrecker*</span></td><td>eDPS <b>16.68</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 101.18533166042786%;"><span class="bar-txt">101.2%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>48</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=260&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-440px -3330px"></span> <span class="strongest-name">Mega Swampert</span></a></td><td><span class="type-text bg-Ground">Mud Shot</span></td><td><span class="type-text bg-Water">Hydro Cannon*</span></td><td>eDPS <b>16.60</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 100.70265007519936%;"><span class="bar-txt">100.7%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>49</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=719&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-40px -3420px"></span> <span class="strongest-name">Mega Diancie</span></a></td><td><span class="type-text bg-Rock">Rock Throw</span></td><td><span class="type-text bg-Rock">Rock Slide</span></td><td>eDPS <b>16.53</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 100.32045889471833%;"><span class="bar-txt">100.3%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>50</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=373&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-40px -930px"></span> <span class="strongest-name">Salamence</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Flying">Fly</span></td><td>eDPS <b>16.48</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg contrast" style="width: 100%;"><span class="bar-txt">100.0%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>51</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=381&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-360px -930px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Latios</span></a></td><td><span class="type-text bg-Dragon">Dragon Breath</span></td><td><span class="type-text bg-Fighting">Aura Sphere</span></td><td>eDPS <b>16.48</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 99.96470635720793%;"><span class="bar-txt"> 100.0%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>52</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=65&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-240px -3300px"></span> <span class="strongest-name">Mega Alakazam</span></a></td><td><span class="type-text bg-Psychic">Confusion</span></td><td><span class="type-text bg-Ghost">Shadow Ball</span></td><td>eDPS <b>16.47</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 99.95965509453943%;"><span class="bar-txt"> 100.0%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>53</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=6&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-40px -3300px"></span> <span class="strongest-name">Mega Charizard X</span></a></td><td><span class="type-text bg-Fire">Fire Spin</span></td><td><span class="type-text bg-Fire">Blast Burn*</span></td><td>eDPS <b>16.42</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 99.60440272851895%;"><span class="bar-txt"> 99.6%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>54</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=248&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-320px -600px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Tyranitar</span></a></td><td><span class="type-text bg-Rock">Smack Down*</span></td><td><span class="type-text bg-Dark">Brutal Swing</span></td><td>eDPS <b>16.41</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 99.5624543195394%;"><span class="bar-txt"> 99.6%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>55</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=635&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-440px -1560px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Hydreigon</span></a></td><td><span class="type-text bg-Dark">Bite</span></td><td><span class="type-text bg-Dark">Brutal Swing*</span></td><td>eDPS <b>16.39</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 99.42491066203777%;"><span class="bar-txt"> 99.4%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>56</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=484&amp;f=Origin" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-400px -3150px"></span> <span class="strongest-name">Palkia</span><span class="poke-form-name"> (Origin)</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Dragon">Spacial Rend*</span></td><td>eDPS <b>16.36</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 99.2940678633909%;"><span class="bar-txt"> 99.3%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>57</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=905&amp;f=Incarnate" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-200px -2250px"></span> <span class="strongest-name">Enamorus</span><span class="poke-form-name"> (Incarnate)</span></a></td><td><span class="type-text bg-Fairy">Fairy Wind</span></td><td><span class="type-text bg-Flying">Fly</span></td><td>eDPS <b>16.32</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 99.02212791366023%;"><span class="bar-txt"> 99.0%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>58</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=643&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-280px -1590px"></span> <span class="strongest-name">Reshiram</span></a></td><td><span class="type-text bg-Fire">Fire Fang</span></td><td><span class="type-text bg-Fire">Fusion Flare*</span></td><td>eDPS <b>16.31</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 98.9484272963754%;"><span class="bar-txt"> 98.9%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>59</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=645&amp;f=Therian" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-320px -2730px"></span> <span class="strongest-name">Landorus</span><span class="poke-form-name"> (Therian)</span></a></td><td><span class="type-text bg-Ground">Mud Shot</span></td><td><span class="type-text bg-Ground">Sandsear Storm*</span></td><td>eDPS <b>16.29</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 98.8634143986157%;"><span class="bar-txt"> 98.9%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-A"></td><td>60</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=354&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-360px -3360px"></span> <span class="strongest-name">Mega Banette</span></a></td><td><span class="type-text bg-Ghost">Shadow Claw</span></td><td><span class="type-text bg-Ghost">Shadow Ball</span></td><td>eDPS <b>16.29</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 98.85913421483347%;"><span class="bar-txt"> 98.9%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-A"></td><td>61</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=998&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-80px -2490px"></span> <span class="strongest-name">Baxcalibur</span></a></td><td><span class="type-text bg-Ice">Ice Fang</span></td><td><span class="type-text bg-Dragon">Glaive Rush*</span></td><td>eDPS <b>16.23</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 98.48486439402888%;"><span class="bar-txt"> 98.5%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-B"></td><td>62</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=530&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-80px -1320px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Excadrill</span></a></td><td><span class="type-text bg-Ground">Mud-Slap</span></td><td><span class="type-text bg-Ground">Scorching Sands</span></td><td>eDPS <b>16.09</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 97.61447020189051%;"><span class="bar-txt"> 97.6%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-B"></td><td>63</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=229&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-280px -3330px"></span> <span class="strongest-name">Mega Houndoom</span></a></td><td><span class="type-text bg-Dark">Snarl</span></td><td><span class="type-text bg-Dark">Dark Pulse+<sup>1</sup></span></td><td>eDPS <b>16.03</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 97.25265818063698%;"><span class="bar-txt"> 97.3%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-B"></td><td>64</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=227&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-240px -3510px"></span> <span class="strongest-name">Mega Skarmory</span></a></td><td><span class="type-text bg-Steel">Steel Wing</span></td><td><span class="type-text bg-Flying">Drill Peck+<sup>1</sup></span></td><td>eDPS <b>16.02</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 97.19586811908582%;"><span class="bar-txt"> 97.2%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-B"></td><td>65</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=149&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-200px -360px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Dragonite</span></a></td><td><span class="type-text bg-Dragon">Dragon Tail</span></td><td><span class="type-text bg-Dragon">Outrage</span></td><td>eDPS <b>16.00</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 97.09365915199584%;"><span class="bar-txt"> 97.1%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-B"></td><td>66</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=254&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-360px -3330px"></span> <span class="strongest-name">Mega Sceptile</span></a></td><td><span class="type-text bg-Bug">Fury Cutter</span></td><td><span class="type-text bg-Dragon">Breaking Swipe</span></td><td>eDPS <b>15.98</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 96.98772699445493%;"><span class="bar-txt"> 97.0%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-B"></td><td>67</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=382&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-400px -930px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Kyogre</span></a></td><td><span class="type-text bg-Water">Waterfall</span></td><td><span class="type-text bg-Water">Origin Pulse*</span></td><td>eDPS <b>15.98</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 96.98398462088697%;"><span class="bar-txt"> 97.0%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-B"></td><td>68</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=645&amp;f=Incarnate" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-360px -1590px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Landorus</span><span class="poke-form-name"> (Incarnate)</span></a></td><td><span class="type-text bg-Ground">Mud Shot</span></td><td><span class="type-text bg-Ground">Earth Power</span></td><td>eDPS <b>15.89</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 96.39015493791975%;"><span class="bar-txt"> 96.4%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-B"></td><td>69</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=717&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-360px -1770px"></span> <span class="strongest-name">Yveltal</span></a></td><td><span class="type-text bg-Dark">Snarl</span></td><td><span class="type-text bg-Flying">Oblivion Wing*</span></td><td>eDPS <b>15.87</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 96.26289319977995%;"><span class="bar-txt"> 96.3%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-B"></td><td>70</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=655&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-280px -1620px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Delphox</span></a></td><td><span class="type-text bg-Fire">Fire Spin</span></td><td><span class="type-text bg-Fire">Blast Burn*</span></td><td>eDPS <b>15.86</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 96.23747513126992%;"><span class="bar-txt"> 96.2%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-B"></td><td>71</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=257&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-200px -630px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Blaziken</span></a></td><td><span class="type-text bg-Fire">Fire Spin</span></td><td><span class="type-text bg-Fighting">Aura Sphere</span></td><td>eDPS <b>15.78</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 95.75791630095831%;"><span class="bar-txt"> 95.8%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-B"></td><td>72</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=733&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-40px -1830px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Toucannon</span></a></td><td><span class="type-text bg-Flying">Peck</span></td><td><span class="type-text bg-Flying">Beak Blast*</span></td><td>eDPS <b>15.74</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 95.5039228178178%;"><span class="bar-txt"> 95.5%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-B"></td><td>73</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=473&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-200px -1170px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Mamoswine</span></a></td><td><span class="type-text bg-Ground">Mud-Slap</span></td><td><span class="type-text bg-Ice">Avalanche</span></td><td>eDPS <b>15.68</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 95.1660489173349%;"><span class="bar-txt"> 95.2%</span></div></div></td></tr><tr class="odd"><td class="tier-label tier-B"></td><td>74</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=380&amp;f=Mega" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-80px -3390px"></span> <span class="strongest-name">Mega Latias</span></a></td><td><span class="type-text bg-Dragon">Dragon Breath</span></td><td><span class="type-text bg-Fighting">Aura Sphere</span></td><td>eDPS <b>15.68</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 95.15310446362236%;"><span class="bar-txt"> 95.2%</span></div></div></td></tr><tr class="even"><td class="tier-label tier-B"></td><td>75</td><td class="td-poke-name"><a class="a-poke-name" href="/?p=145&amp;f=Normal" <="" a=""><span class="pokemon-icon" style="background-image:url(https://pokemon-resources.mgrann03.workers.dev/graphics/pokemonicons-sheet.png);background-position:-40px -360px"></span> <span class="strongest-name"><span class="shadow-text">Shadow</span> Zapdos</span></a></td><td><span class="type-text bg-Electric">Thunder Shock*</span></td><td><span class="type-text bg-Flying">Drill Peck</span></td><td>eDPS <b>15.65</b></td><td><div class="bar-bg" style="width: calc(65.8938791029576% - 10px);"><div class="bar-fg" style="width: 94.92906573368174%;"><span class="bar-txt"> 94.9%</span></div></div></td></tr><tr style="height: 48990px;" id="pad-btm"></tr></tbody>
+        </table>
+    </div>
+    <div class="card-footer">
+        <ul class="footnotes">
+            <li id="footnote-elite" data-i18n="strongest.notes.elite">* Elite fast or charged move</li>
+            <li id="footnote-supermega"><sup id="footnote-supermega-value">1</sup> <span data-i18n="strongest.notes.supermega">Super Mega move level</span></li>
+            <li id="footnote-typed-ranking" data-i18n="strongest.notes.typed" style="display: none;">Typed rankings are calculated using super-effective damage for the chosen type, and neutral damage for all other types.</li>
+            <li id="footnote-versus" data-i18n="strongest.notes.versus" style="display: none;">"Versus" rankings are calculated using appropriate effectiveness multiplier for attacking damage.</li>
+            <li id="footnote-affinity-ranking" data-i18n-reorder="strongest.notes.affinity.»order" style="display: block;">
+                
+                
+                
+            <span id="footnote-affinity-prefix" data-i18n="strongest.notes.affinity.prefix">Rankings are calculated based on an</span> <a href="#" id="type-affinity-link" data-i18n="strongest.notes.affinity.link">average of all raid bosses</a> <span id="footnote-affinity-suffix" data-i18n="strongest.notes.affinity.suffix">matching the scenario.</span> </li>
+        </ul>
+    </div>
+</div></div>
+    <div id="move-data" class="page" style="display: none;"></div>
+    <div id="type-matrix" class="page" style="display: none;"></div>
+    <div id="about" class="page" style="display: none;"></div>
+    <div id="faq" class="page" style="display: none;"></div>
+
+    <!-- footer -->
+    <div id="footer" style="display: revert;">
+        <p data-i18n="site.disclaimer">DialgaDex is not affiliated with The Pokémon Company, Niantic, Scopely, Pokémon Go, or any other such entities.<br>
+            Pokémon is a trademark of Nintendo. All such trademarks are the property of their respective owners.</p>
+        <nav id="footer-links">
+            <a id="faq-link" href="/?faq" data-i18n="site.links.FAQ">FAQ</a>
+            •
+            <a id="contact-link" href="/?about#contact" data-i18n="site.links.contact">Contact</a>
+            •
+            <a id="credits-link" href="/?about#credits" data-i18n="site.links.credits">Credits</a>
+            •
+            <a id="privacy-link" href="/?about#privacy" data-i18n="site.links.privacy">Privacy</a>
+        </nav>
+    </div>
+
+</div>
+
+
+
+
+</body></html>

@@ -22,6 +22,7 @@ Two columns are easy to misread, so worth calling out up front:
 import logging
 
 import pandas as pd
+import numpy as np
 
 from config.forms import (
     EVO_EXCEPTIONS,
@@ -87,6 +88,23 @@ def build_pvpoke_names(pok_df):
     pok_df["pvpoke_name"] = pok_df.apply(
         lambda row: f"{row['pvpoke_name']} (Shadow)" if row["shadow"] else row["pvpoke_name"],
         axis=1,
+    )
+
+    return pok_df
+
+def build_dialgadex_names(pok_df):
+    """Build DialgaDex names from Pokémon names, removing Mega/X/Y variants."""
+    pok_df["dialgadex_name"] = pok_df["name"].str.replace(
+        r"^Mega ", "", regex=True
+    ).str.replace(
+        r" [XY]$", "", regex=True
+    ).str.replace(
+        r"^Primal ", "", regex=True
+    )
+
+    pok_df["dialgadex_name"] = pok_df["dialgadex_name"].where(
+        ~pok_df["shadow"],
+        "Shadow " + pok_df["dialgadex_name"],
     )
 
     return pok_df
@@ -168,6 +186,7 @@ def build_lookup_table(forms_df, evo_cache):
     pok_df = build_base_table(pok_df)
     pok_df = build_pvpoke_names(pok_df)
     pok_df = apply_evo_ids(pok_df, evo_cache)
+    pok_df = build_dialgadex_names(pok_df)
     pok_df = build_search_strings(pok_df)
     return pok_df
 

@@ -1,13 +1,51 @@
-"""
-Combine several Pokémon GO in-game search strings (one per Pokémon,
-using only ',' for OR and '&' for AND) into a single optimized string
-that matches the union of all of them.
+ 
+import logging
+import sys
+from pathlib import Path
+import re
 
-Pure functions, no I/O — this module has no dependency on pandas or
-any data file, so it can be unit tested in isolation (see
-tests/test_search_optimizer.py).
-"""
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+logger = logging.getLogger(__name__)
+
+
+def lookup_search_strings(names, pok_df, mode="PVP"):
+    """
+    Return a list of search strings for the given Pokémon names, matched
+    against pok_df's pvpoke_name column (case-insensitive).
+    """
+    search_strings = []
+ 
+    for name in names:
+        
+        if mode == "PVP":
+            matches = pok_df.loc[
+                pok_df["pvpoke_name"].str.lower() == name.lower(), "search_string"
+            ]
+        
+        elif mode == "Raid":
+            name = re.sub(r"^Mega ", "", name)
+            name = re.sub(r" [XY]$", "", name)
+            name = re.sub(r"^Primal ", "", name)
+            
+            
+            matches = pok_df.loc[
+                pok_df["dialgadex_name"].str.lower() == name.lower(), "search_string"
+            ]
+ 
+        if matches.empty:
+            logger.warning("No match found for %s", name)
+            continue
+ 
+        search_string = matches.iloc[0]
+ 
+        if not search_string:
+            logger.warning("No search string for %s", name)
+            continue
+ 
+        search_strings.append(search_string)
+ 
+    return search_strings
 
 def parse_search_term(term):
     """

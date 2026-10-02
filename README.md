@@ -13,10 +13,10 @@ By using a CNF-based search string optimizer, these can be searched for and comb
    `(Pokémon, form, shadow)` combination to its PvPoke display name and
    the raw Pokémon GO search string that matches it (e.g.
    `957,958,959&!shadow`).
-2. **`scripts/generate_search_strings.py`** reads the current PvPoke
+2. **`scripts/generate_PvP_search_strings.py`** reads the current PvPoke
    rankings CSVs, looks up each top Pokémon's search string in `pok.csv`,
    and combines them all into one optimized string using a small CNF
-   (conjunctive normal form) simplifier — see `src/search_optimizer.py`.
+   (conjunctive normal form) simplifier — see `src/search_strings.py`.
 3. **`scripts/update_lookup_table.py`** rebuilds `pok.csv` from scratch.
    You only need this after a Pokémon GO content update adds new species
    or forms.
@@ -57,25 +57,25 @@ works — the most recently downloaded one is picked automatically).
 Generate search strings for the top 30 Pokémon in each league:
 
 ```bash
-python scripts/generate_search_strings.py
+python scripts/generate_PvP_search_strings.py
 ```
 
 Adjust how many Pokémon per league:
 
 ```bash
-python scripts/generate_search_strings.py --top 20
+python scripts/generate_PvP_search_strings.py --top 20
 ```
 
 Only generate a string for one league:
 
 ```bash
-python scripts/generate_search_strings.py --league GL
+python scripts/generate_PvP_search_strings.py --league GL
 ```
 
 ## Updating after a game update
 
 ```bash
-# Fetch a fresh forms list and rebuild pok.csv, only hitting PokeAPI
+# Fetch a fresh forms list and rebuild pok.csv, only hitting PogoAPI
 # for evolution lines of newly-added Pokémon.
 python scripts/update_lookup_table.py --fetch-forms
 
@@ -91,16 +91,15 @@ naming exception added to `config/forms.py`.
 
 ```
 config/forms.py                 # Static form/name/evolution exception data
-src/search_optimizer.py         # Pure CNF search-string combiner (tested)
+src/search_strings.py           # Pure CNF search-string combiner (tested)
 src/lookup_table.py             # Builds pok_df: naming + search strings
-src/league_search_strings.py    # Resolves a league's ranked list -> search strings
+src/PvP.py                      # Load PvP rankings and lookup search strings
 src/rankings.py                 # Loads PvPoke rankings CSVs
 src/data_files.py               # Shared "find latest dated file" helper
-src/fetch_pogoapi.py            # One-time pogoapi.net form fetch
-src/fetch_evolutions.py         # One-time PokeAPI evolution-line fetch
-scripts/generate_search_strings.py   # Main entry point
-scripts/update_lookup_table.py       # Maintenance entry point
-tests/test_search_optimizer.py       # Unit tests for the optimizer
+src/pogoapi.py                  # One-time pogoapi.net form fetch
+scripts/generate_PvP_search_strings.py   # Main entry point
+scripts/update_lookup_table.py  # Maintenance entry point
+tests/test_search_optimizer.py  # Unit tests for the optimizer
 data/raw/                       # Downloaded rankings + forms CSVs (gitignored by default)
 data/processed/pok.csv          # The lookup table
 ```
@@ -129,12 +128,12 @@ flowchart TD
         D1["Download 'overall rankings' CSV\nfrom pvpoke.com for each league"] --> D2["Save into data/raw/\nmatching cp*_overall_rankings_*.csv"]
     end
 
-    subgraph R["Regular use — generate_search_strings.py (every run, no network)"]
+    subgraph R["Regular use — generate_PvP_search_strings.py (every run, no network)"]
         B1["pd.read_csv()\nLoad pok.csv"] --> B4
-        B2["load_rankings()"] --> B2a["find_latest_file()\npicks newest CSV per league"]
+        B2["load_pvp_rankings()"] --> B2a["find_latest_file()\npicks newest CSV per league"]
         B2a --> B4
-        B4["make_search_strings()\nmatch Pokemon → search_string\n(region/shadow aware)"] --> B5
-        B5["optimize_pokemon_search()\nparse_search_term() · is_tautology()\nremove_redundant_clauses()"] --> B6["Print optimized search string"]
+        B4["lookup_search_strings()\nmatch Pokemon → search_string\n(region/shadow aware)"] --> B5
+        B5["optimize_pokemon_search()\nparse_search_term() · is_tautology()\nremove_redundant_clauses()"] --> B6["Print optimized search strings"]
     end
 
     A5 -.-> B1

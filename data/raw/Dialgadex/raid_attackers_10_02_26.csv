@@ -1,0 +1,1426 @@
+Type,Rank,Pokemon,Form,Fast Move,Charged Move,eDPS
+Any,1,Mega Rayquaza,,Dragon Tail,Dragon Ascent*,25.01
+Any,2,Mega Mewtwo Y,,Psycho Cut,Psystrike*,21.64
+Any,3,Necrozma,Dawn Wings,Psycho Cut,Moongeist Beam*,21.52
+Any,4,Mega Mewtwo X,,Counter*,Psystrike*,21.39
+Any,5,Eternatus,,Dragon Tail,Dynamax Cannon*,21.22
+Any,6,Zacian,Crowned Sword,Metal Claw,Behemoth Blade*,20.46
+Any,7,Kyurem,Black Kyurem,Dragon Tail,Freeze Shock*,20.17
+Any,8,Primal Groudon,,Mud Shot,Precipice Blades*,20.04
+Any,9,Zamazenta,Crowned Shield,Metal Claw,Behemoth Bash*,20.02
+Any,10,Necrozma,Dusk Mane,Psycho Cut,Sunsteel Strike*,19.93
+Any,11,Mega Delphox,,Fire Spin,Blast Burn*,19.81
+Any,12,Mega Lucario,,Force Palm*,Aura Sphere,19.69
+Any,13,Mega Blaziken,,Fire Spin,Aura Sphere,19.51
+Any,14,Shadow Regigigas,,Hidden Power Ice,Crush Grip*,19.4
+Any,15,Kyurem,White Kyurem,Ice Fang,Ice Burn*,19.34
+Any,16,Mega Gengar,,Lick*,Shadow Ball,19.18
+Any,17,Mega Garchomp,,Dragon Tail,Breaking Swipe,19.1
+Any,18,Shadow Salamence,,Dragon Tail,Fly,19.07
+Any,19,Mega Salamence,,Dragon Tail,Fly,19.05
+Any,20,Mega Charizard Y,,Fire Spin,Blast Burn*,19.04
+Any,21,Shadow Reshiram,,Fire Fang,Fusion Flare*,18.89
+Any,22,Rayquaza,,Dragon Tail,Dragon Ascent*,18.4
+Any,23,Primal Kyogre,,Waterfall,Origin Pulse*,18.25
+Any,24,Blacephalon,,Astonish,Mind Blown*,18.06
+Any,25,Shadow Mewtwo,,Psycho Cut,Psystrike*,18.04
+Any,26,Shadow Moltres,,Fire Spin,Fly,17.97
+Any,27,Mega Latios,,Dragon Breath,Aura Sphere,17.67
+Any,28,Mega Gallade,,Psycho Cut,Sacred Sword,17.66
+Any,29,Mega Gardevoir,,Charm,Dazzling Gleam,17.54
+Any,30,Mega Metagross,,Fury Cutter,Meteor Mash*,17.5
+Any,31,Shadow Metagross,,Fury Cutter,Meteor Mash*,17.48
+Any,32,Shadow Heatran,,Fire Spin,Magma Storm*,17.44
+Any,33,Shadow Groudon,,Mud Shot,Precipice Blades*,17.43
+Any,34,Keldeo,Resolute,Low Kick,Secret Sword*,17.42
+Any,35,Shadow Garchomp,,Dragon Tail,Breaking Swipe,17.39
+Any,36,Mega Tyranitar,,Smack Down*,Brutal Swing,17.36
+Any,37,Shadow Haxorus,,Dragon Tail,Breaking Swipe*,17.32
+Any,38,Mega Dragonite,,Dragon Tail,Outrage+1,17.27
+Any,39,Shadow Chandelure,,Fire Spin,Shadow Ball,17.18
+Any,40,Shadow Dialga,,Metal Claw,Draco Meteor,17.15
+Any,41,Dialga,Origin,Metal Claw,Roar of Time*,17.04
+Any,42,Shadow Darkrai,,Snarl,Foul Play,16.86
+Any,43,Shadow Palkia,,Dragon Tail,Draco Meteor,16.83
+Any,44,Regigigas,,Hidden Power Ice,Crush Grip*,16.81
+Any,45,Mega Staraptor,,Gust*,Fly,16.71
+Any,46,Mega Greninja,,Water Shuriken,Hydro Cannon*,16.69
+Any,47,Shadow Rhyperior,,Mud-Slap,Rock Wrecker*,16.68
+Any,48,Mega Swampert,,Mud Shot,Hydro Cannon*,16.6
+Any,49,Mega Diancie,,Rock Throw,Rock Slide,16.53
+Any,50,Salamence,,Dragon Tail,Fly,16.48
+Any,51,Shadow Latios,,Dragon Breath,Aura Sphere,16.48
+Any,52,Mega Alakazam,,Confusion,Shadow Ball,16.47
+Any,53,Mega Charizard X,,Fire Spin,Blast Burn*,16.42
+Any,54,Shadow Tyranitar,,Smack Down*,Brutal Swing,16.41
+Any,55,Shadow Hydreigon,,Bite,Brutal Swing*,16.39
+Any,56,Palkia,Origin,Dragon Tail,Spacial Rend*,16.36
+Any,57,Enamorus,Incarnate,Fairy Wind,Fly,16.32
+Any,58,Reshiram,,Fire Fang,Fusion Flare*,16.31
+Any,59,Landorus,Therian,Mud Shot,Sandsear Storm*,16.29
+Any,60,Mega Banette,,Shadow Claw,Shadow Ball,16.29
+Any,61,Baxcalibur,,Ice Fang,Glaive Rush*,16.23
+Any,62,Shadow Excadrill,,Mud-Slap,Scorching Sands,16.09
+Any,63,Mega Houndoom,,Snarl,Dark Pulse+1,16.03
+Any,64,Mega Skarmory,,Steel Wing,Drill Peck+1,16.02
+Any,65,Shadow Dragonite,,Dragon Tail,Outrage,16.0
+Any,66,Mega Sceptile,,Fury Cutter,Breaking Swipe,15.98
+Any,67,Shadow Kyogre,,Waterfall,Origin Pulse*,15.98
+Any,68,Shadow Landorus,Incarnate,Mud Shot,Earth Power,15.89
+Any,69,Yveltal,,Snarl,Oblivion Wing*,15.87
+Any,70,Shadow Delphox,,Fire Spin,Blast Burn*,15.86
+Any,71,Shadow Blaziken,,Fire Spin,Aura Sphere,15.78
+Any,72,Shadow Toucannon,,Peck,Beak Blast*,15.74
+Any,73,Shadow Mamoswine,,Mud-Slap,Avalanche,15.68
+Any,74,Mega Latias,,Dragon Breath,Aura Sphere,15.68
+Any,75,Shadow Zapdos,,Thunder Shock*,Drill Peck,15.65
+Normal,1,Shadow Regigigas,,Hidden Power Ice,Crush Grip*,19.4
+Normal,2,Mega Delphox,,Scratch,Blast Burn*,17.27
+Normal,3,Mega Mewtwo X,,Counter*,Hyper Beam*,17.26
+Normal,4,Mega Mewtwo Y,,Confusion,Hyper Beam*,17.07
+Normal,5,Regigigas,,Hidden Power Ice,Crush Grip*,16.81
+Normal,6,Zacian,Crowned Sword,Metal Claw,Giga Impact,16.32
+Normal,7,Mega Staraptor,,Quick Attack,Fly,15.74
+Normal,8,Shadow Gigalith,,Lock-On,Meteor Beam*,15.55
+Normal,9,Mega Garchomp,,Dragon Tail,Return*,15.32
+Normal,10,Primal Kyogre,,Waterfall,Return*,14.9
+Normal,11,Shadow Staraptor,,Quick Attack,Fly,14.88
+Normal,12,Regieleki,,Lock-On,Thunder Cage*,14.8
+Normal,13,Mega Gardevoir,,Charm,Return*,14.59
+Normal,14,Tapu Koko,,Quick Attack,Nature’s Madness*,14.49
+Normal,15,Mega Gengar,,Shadow Claw,Return*,14.44
+Normal,16,Shadow Ursaluna,,Scratch,High Horsepower*,14.41
+Normal,17,Victini,,Quick Attack,V-create,14.23
+Normal,18,Primal Groudon,,Dragon Tail,Return*,14.16
+Normal,19,Mega Salamence,,Dragon Tail,Return*,14.09
+Normal,20,Mega Charizard Y,,Fire Spin,Return*,14.09
+Normal,21,Mega Blaziken,,Fire Spin,Return*,14.05
+Normal,22,Shadow Mewtwo,,Confusion,Hyper Beam*,14.03
+Normal,23,Mega Diancie,,Tackle,Rock Slide,13.93
+Normal,24,Mega Tyranitar,,Smack Down*,Return*,13.89
+Normal,25,Shadow Delphox,,Scratch,Blast Burn*,13.83
+Normal,26,Mega Latios,,Dragon Breath,Return*,13.81
+Normal,27,Shadow Dragonite,,Dragon Tail,Hyper Beam,13.79
+Normal,28,Mega Dragonite,,Dragon Tail,Hyper Beam,13.76
+Normal,29,Mega Alakazam,,Confusion,Return*,13.69
+Normal,30,Gigalith,,Lock-On,Meteor Beam*,13.65
+Normal,31,Mega Starmie,,Tackle*,Liquidation+1,13.38
+Normal,32,Xerneas,,Geomancy*,Giga Impact,13.29
+Normal,33,Mega Lopunny,,Pound,Shadow Ball,13.28
+Normal,34,Staraptor,,Quick Attack,Fly,13.17
+Normal,35,Zacian,Hero of Many Battles,Quick Attack,Play Rough,13.15
+Normal,36,Mega Aerodactyl,,Rock Throw,Hyper Beam,12.94
+Normal,37,Shadow Rhyperior,,Mud-Slap,Skull Bash,12.91
+Normal,38,Mega Banette,,Shadow Claw,Return*,12.8
+Normal,39,Inteleon,,Pound,Snipe Shot,12.77
+Normal,40,Mega Gallade,,Confusion,Return*,12.71
+Normal,41,Mega Houndoom,,Fire Fang,Return*,12.7
+Normal,42,Mega Gyarados,,Bite,Return*,12.7
+Normal,43,Zamazenta,Crowned Shield,Metal Claw,Giga Impact,12.67
+Normal,44,Cinderace,,Tackle,Blast Burn*,12.56
+Normal,45,Mega Pidgeot,,Gust*,Return*,12.55
+Normal,46,Palkia,,Dragon Tail,Return*,12.5
+Normal,47,Ursaluna,,Scratch,High Horsepower*,12.46
+Normal,48,Reshiram,,Fire Fang,Return*,12.42
+Normal,49,Shadow Darmanitan,,Tackle,Overheat,12.38
+Normal,50,Mega Latias,,Dragon Breath,Return*,12.29
+Normal,51,Shadow Porygon-Z,,Lock-On,Blizzard,12.26
+Normal,52,Salamence,,Dragon Tail,Return*,12.26
+Normal,53,Haxorus,,Dragon Tail,Return*,12.22
+Normal,54,Mega Charizard X,,Fire Spin,Return*,12.19
+Normal,55,Shadow Tornadus,Incarnate,Air Slash,Hyper Beam,12.18
+Normal,56,Nihilego,,Pound,Rock Slide,12.16
+Normal,57,Mewtwo,,Confusion,Hyper Beam*,12.13
+Normal,58,Mega Raichu Y,,Charm,Skull Bash,12.09
+Normal,59,Delphox,,Scratch,Blast Burn*,12.05
+Normal,60,Meloetta,Aria,Quick Attack,Dazzling Gleam,11.99
+Normal,61,Mega Metagross,,Shadow Claw*,Return*,11.98
+Normal,62,Mega Skarmory,,Steel Wing,Return*,11.94
+Normal,63,Garchomp,,Dragon Tail,Return*,11.91
+Normal,64,Dialga,,Metal Claw,Return*,11.88
+Normal,65,Dragonite,,Dragon Tail,Hyper Beam,11.88
+Normal,66,Darmanitan,Galarian,Tackle,Avalanche,11.86
+Normal,67,Shadow Bewear,,Tackle,Superpower,11.82
+Normal,68,Rampardos,,Smack Down,Return*,11.81
+Normal,69,Mega Absol,,Snarl,Return*,11.75
+Normal,70,Darkrai,,Snarl,Return*,11.73
+Normal,71,Chandelure,,Fire Spin,Return*,11.69
+Normal,72,Heatran,,Fire Spin,Return*,11.57
+Normal,73,Mega Greninja,,Feint Attack,Return*,11.56
+Normal,74,Mega Pinsir,,Bug Bite,Return*,11.51
+Normal,75,Genesect,No Drive,Metal Claw,Techno Blast*,11.44
+Fire,1,Mega Delphox,,Fire Spin,Blast Burn*,32.03
+Fire,2,Mega Charizard Y,,Fire Spin,Blast Burn*,31.03
+Fire,3,Mega Blaziken,,Fire Spin,Blast Burn*,31.03
+Fire,4,Shadow Reshiram,,Fire Fang,Fusion Flare*,30.83
+Fire,5,Blacephalon,,Incinerate,Mind Blown*,30.41
+Fire,6,Shadow Heatran,,Fire Spin,Magma Storm*,28.17
+Fire,7,Shadow Chandelure,,Fire Spin,Overheat,26.53
+Fire,8,Mega Charizard X,,Fire Spin,Blast Burn*,26.51
+Fire,9,Reshiram,,Fire Fang,Fusion Flare*,26.36
+Fire,10,Shadow Moltres,,Fire Spin,Overheat,26.27
+Fire,11,Shadow Delphox,,Fire Spin,Blast Burn*,26.01
+Fire,12,Shadow Blaziken,,Fire Spin,Blast Burn*,25.87
+Fire,13,Shadow Charizard,,Fire Spin,Blast Burn*,25.47
+Fire,14,Shadow Emboar,,Ember,Blast Burn*,25.47
+Fire,15,Shadow Darmanitan,,Fire Fang,Overheat,25.38
+Fire,16,Shadow Ho-Oh,Apex,Incinerate,Sacred Fire+*,25.32
+Fire,17,Shadow Entei,,Fire Spin,Overheat,25.3
+Fire,18,Mega Mewtwo X,,Counter*,Flamethrower,24.51
+Fire,19,Shadow Typhlosion,,Incinerate,Blast Burn*,24.26
+Fire,20,Mega Mewtwo Y,,Psycho Cut,Flamethrower,24.15
+Fire,21,Shadow Infernape,,Fire Spin,Blast Burn*,24.1
+Fire,22,Shadow Ho-Oh,,Incinerate,Sacred Fire*,24.02
+Fire,23,Shadow Salamence,,Fire Fang,Fly,23.94
+Fire,24,Heatran,,Fire Spin,Magma Storm*,23.74
+Fire,25,Mega Salamence,,Fire Fang,Fly,23.55
+Fire,26,Primal Groudon,,Mud Shot,Fire Blast,23.53
+Fire,27,Volcarona,,Fire Spin,Overheat,23.38
+Fire,28,Mega Houndoom,,Fire Fang,Flamethrower,23.35
+Fire,29,Chandelure,,Fire Spin,Overheat,22.94
+Fire,30,Ho-Oh,Apex,Incinerate,Sacred Fire++*,22.92
+Fire,31,Cinderace,,Fire Spin,Blast Burn*,22.82
+Fire,32,Shadow Magmortar,,Fire Spin,Fire Blast,22.77
+Fire,33,Moltres,,Fire Spin,Overheat,22.46
+Fire,34,Blaziken,,Fire Spin,Blast Burn*,22.44
+Fire,35,Delphox,,Fire Spin,Blast Burn*,22.25
+Fire,36,Darmanitan,,Fire Fang,Overheat,22.22
+Fire,37,Shadow Arcanine,,Fire Fang,Flamethrower,22.11
+Fire,38,Shadow Arcanine,Hisuian,Fire Fang,Flamethrower,22.1
+Fire,39,Emboar,,Ember,Blast Burn*,21.91
+Fire,40,Shadow Regigigas,,Hidden Power Fire,Crush Grip*,21.78
+Fire,41,Charizard,,Fire Spin,Blast Burn*,21.75
+Fire,42,Victini,,Quick Attack,V-create,21.64
+Fire,43,Entei,,Fire Spin,Overheat,21.56
+Fire,44,Volcanion,,Incinerate,Overheat,21.34
+Fire,45,Incineroar,,Fire Fang,Blast Burn*,21.23
+Fire,46,Mega Lucario,,Force Palm*,Blaze Kick,21.07
+Fire,47,Infernape,,Fire Spin,Blast Burn*,20.88
+Fire,48,Typhlosion,,Incinerate,Blast Burn*,20.86
+Fire,49,Skeledirge,,Incinerate,Blast Burn*,20.65
+Fire,50,Flareon,,Fire Spin,Overheat,20.53
+Fire,51,Salamence,,Fire Fang,Fly,20.51
+Fire,52,Ho-Oh,,Incinerate,Sacred Fire*,20.34
+Fire,53,Shadow Houndoom,,Fire Fang,Flamethrower,20.33
+Fire,54,Shadow Mewtwo,,Psycho Cut,Flamethrower,20.29
+Fire,55,Mega Camerupt,,Incinerate,Overheat,20.15
+Fire,56,Kyurem,White Kyurem,Ice Fang,Fusion Flare,20.15
+Fire,57,Magmortar,,Fire Spin,Fire Blast,19.72
+Fire,58,Mega Garchomp,,Mud Shot,Fire Blast,19.45
+Fire,59,Ceruledge,,Incinerate,Flamethrower,19.34
+Fire,60,Mega Alakazam,,Psycho Cut,Fire Punch,19.03
+Fire,61,Arcanine,Hisuian,Fire Fang,Flamethrower,19.01
+Fire,62,Typhlosion,Hisuian,Ember,Overheat,18.99
+Fire,63,Armarouge,,Incinerate,Flamethrower,18.91
+Fire,64,Arcanine,,Fire Fang,Flamethrower,18.89
+Fire,65,Pyroar,Female,Fire Fang,Overheat,18.76
+Fire,66,Pyroar,Male,Fire Fang,Overheat,18.76
+Fire,67,Regigigas,,Hidden Power Fire,Crush Grip*,18.7
+Fire,68,Shadow Ninetales,,Fire Spin,Weather Ball,18.58
+Fire,69,Solgaleo,,Fire Spin,Flamethrower,18.48
+Fire,70,Shadow Rapidash,,Fire Spin,Fire Blast,18.44
+Fire,71,Shadow Groudon,,Mud Shot,Fire Blast,17.69
+Fire,72,Houndoom,,Fire Fang,Flamethrower,17.67
+Fire,73,Mewtwo,,Psycho Cut,Flamethrower,17.41
+Fire,74,Shadow Garchomp,,Mud Shot,Fire Blast,17.37
+Fire,75,Mega Tyranitar,,Bite,Fire Blast,17.29
+Water,1,Primal Kyogre,,Waterfall,Origin Pulse*,28.95
+Water,2,Mega Greninja,,Water Shuriken,Hydro Cannon*,26.42
+Water,3,Mega Swampert,,Water Gun,Hydro Cannon*,25.58
+Water,4,Shadow Kyogre,,Waterfall,Origin Pulse*,25.24
+Water,5,Mega Blastoise,,Water Gun,Hydro Cannon*,23.37
+Water,6,Mega Starmie,,Water Gun,Liquidation+1,23.03
+Water,7,Mega Gyarados,,Waterfall,Hydro Pump,22.27
+Water,8,Shadow Swampert,,Water Gun,Hydro Cannon*,21.83
+Water,9,Shadow Greninja,,Water Shuriken,Hydro Cannon*,21.77
+Water,10,Kyogre,,Waterfall,Origin Pulse*,21.76
+Water,11,Shadow Kingler,,Bubble,Crabhammer,21.56
+Water,12,Shadow Samurott,,Waterfall,Hydro Cannon*,21.11
+Water,13,Shadow Feraligatr,,Water Gun*,Hydro Cannon*,21.06
+Water,14,Shadow Gyarados,,Waterfall,Hydro Pump,20.77
+Water,15,Shadow Empoleon,,Waterfall,Hydro Cannon*,20.75
+Water,16,Inteleon,,Water Gun,Hydro Cannon*,20.53
+Water,17,Shadow Regigigas,,Hidden Power Water,Crush Grip*,20.3
+Water,18,Quaquaval,,Water Gun,Hydro Cannon*,20.23
+Water,19,Primarina,,Waterfall,Hydro Cannon*,20.1
+Water,20,Shadow Palkia,,Dragon Tail,Aqua Tail,19.83
+Water,21,Shadow Rhyperior,,Mud-Slap,Surf,19.45
+Water,22,Greninja,,Water Shuriken,Hydro Cannon*,19.32
+Water,23,Kingler,,Bubble,Crabhammer,19.13
+Water,24,Swampert,,Water Gun,Hydro Cannon*,18.85
+Water,25,Mega Sharpedo,,Waterfall,Hydro Pump,18.49
+Water,26,Samurott,,Waterfall,Hydro Cannon*,18.38
+Water,27,Shadow Crawdaunt,,Waterfall,Razor Shell,18.31
+Water,28,Feraligatr,,Water Gun*,Hydro Cannon*,18.24
+Water,29,Volcanion,,Water Gun,Hydro Pump,18.13
+Water,30,Empoleon,,Waterfall,Hydro Cannon*,18.05
+Water,31,Shadow Blastoise,,Water Gun,Hydro Cannon*,17.94
+Water,32,Shadow Milotic,,Waterfall,Surf,17.93
+Water,33,Gyarados,,Waterfall,Hydro Pump,17.91
+Water,34,Clawitzer,,Water Gun,Crabhammer,17.87
+Water,35,Golisopod,,Waterfall,Razor Shell,17.85
+Water,36,Shadow Haxorus,,Counter,Surf,17.78
+Water,37,Mega Salamence,,Dragon Tail,Hydro Pump,17.65
+Water,38,Samurott,Hisuian,Waterfall,Razor Shell,17.63
+Water,39,Regigigas,,Hidden Power Water,Crush Grip*,17.62
+Water,40,Mega Slowbro,,Water Gun,Surf*,17.5
+Water,41,Shadow Politoed,,Bubble,Weather Ball,17.49
+Water,42,Shadow Salamence,,Dragon Tail,Hydro Pump,17.35
+Water,43,Urshifu,Rapid Strike Style,Waterfall,Dynamic Punch,17.34
+Water,44,Palkia,Origin,Dragon Tail,Aqua Tail,17.31
+Water,45,Shadow Kingdra,,Waterfall,Surf,17.31
+Water,46,Shadow Rhydon,,Mud-Slap,Surf,17.29
+Water,47,Shadow Lapras,,Water Gun,Sparkling Aria,17.11
+Water,48,Palkia,,Dragon Tail,Aqua Tail,16.92
+Water,49,Shadow Starmie,,Water Gun,Surf,16.69
+Water,50,Keldeo,Resolute,Low Kick,Hydro Pump,16.69
+Water,51,Keldeo,Ordinary,Low Kick,Hydro Pump,16.69
+Water,52,Rhyperior,,Mud-Slap,Surf,16.67
+Water,53,Crawdaunt,,Waterfall,Crabhammer,16.53
+Water,54,Shadow Suicune,,Water Gun,Hydro Pump,16.45
+Water,55,Tatsugiri,Stretchy,Water Gun,Surf,16.17
+Water,56,Tatsugiri,Droopy,Water Gun,Surf,16.17
+Water,57,Tatsugiri,Curly,Water Gun,Surf,16.17
+Water,58,Shadow Ho-Oh,Apex,Hidden Power Water,Earthquake*,16.15
+Water,59,Shadow Ho-Oh,,Hidden Power Water,Earthquake*,16.15
+Water,60,Shadow Carracosta,,Water Gun,Surf,16.1
+Water,61,Shadow Omastar,,Water Gun,Hydro Pump,16.09
+Water,62,Mega Raichu Y,,Thunder Shock,Surf,16.04
+Water,63,Vaporeon,,Water Gun,Hydro Pump,15.91
+Water,64,Shadow Wailord,,Water Gun,Surf,15.87
+Water,65,Shadow Poliwrath,,Bubble,Hydro Pump,15.86
+Water,66,Shadow Slowking,,Water Gun,Surf*,15.85
+Water,67,Shadow Slowbro,,Water Gun,Surf*,15.85
+Water,68,Barbaracle,,Water Gun,Razor Shell,15.69
+Water,69,Shadow Golduck,,Water Gun,Liquidation,15.59
+Water,70,Haxorus,,Counter,Surf,15.53
+Water,71,Blastoise,,Water Gun,Hydro Cannon*,15.52
+Water,72,Shadow Kabutops,,Waterfall,Water Pulse,15.47
+Water,73,Milotic,,Waterfall,Surf,15.31
+Water,74,Salamence,,Dragon Tail,Hydro Pump,15.11
+Water,75,Politoed,,Bubble,Weather Ball,15.07
+Grass,1,Mega Sceptile,,Fury Cutter,Frenzy Plant*,26.01
+Grass,2,Mega Chesnaught,,Vine Whip,Seed Bomb+1,23.06
+Grass,3,Kartana,,Razor Leaf,Leaf Blade,23.0
+Grass,4,Mega Venusaur,,Vine Whip,Frenzy Plant*,22.09
+Grass,5,Shadow Chesnaught,,Vine Whip,Frenzy Plant*,21.86
+Grass,6,Shaymin,Sky,Magical Leaf,Grass Knot,21.67
+Grass,7,Zarude,,Vine Whip,Power Whip,21.23
+Grass,8,Shadow Regigigas,,Hidden Power Grass,Crush Grip*,21.18
+Grass,9,Shadow Tangrowth,,Vine Whip,Power Whip,21.17
+Grass,10,Shadow Sceptile,,Fury Cutter,Frenzy Plant*,21.05
+Grass,11,Primal Groudon,,Mud Shot,Solar Beam,20.89
+Grass,12,Shadow Venusaur,,Vine Whip,Frenzy Plant*,20.89
+Grass,13,Mega Victreebel,,Magical Leaf*,Leaf Blade,20.43
+Grass,14,Rillaboom,,Razor Leaf,Frenzy Plant*,20.42
+Grass,15,Xurkitree,,Thunder Shock,Power Whip,20.23
+Grass,16,Shadow Torterra,,Razor Leaf,Frenzy Plant*,20.13
+Grass,17,Mega Gallade,,Low Kick,Leaf Blade,19.47
+Grass,18,Meowscarada,,Leafage,Frenzy Plant*,19.15
+Grass,19,Tapu Bulu,,Bullet Seed,Grass Knot,18.92
+Grass,20,Roserade,,Magical Leaf,Grass Knot,18.91
+Grass,21,Chesnaught,,Vine Whip,Frenzy Plant*,18.68
+Grass,22,Decidueye,,Magical Leaf,Frenzy Plant*,18.64
+Grass,23,Mega Latios,,Dragon Breath,Solar Beam,18.54
+Grass,24,Mega Gardevoir,,Magical Leaf,Dazzling Gleam,18.47
+Grass,25,Shadow Groudon,,Mud Shot,Solar Beam,18.46
+Grass,26,Shadow Exeggutor,,Bullet Seed,Solar Beam,18.42
+Grass,27,Shadow Exeggutor,Alolan,Bullet Seed,Solar Beam,18.38
+Grass,28,Sceptile,,Fury Cutter,Frenzy Plant*,18.37
+Grass,29,Shadow Meganium,,Vine Whip,Frenzy Plant*,18.29
+Grass,30,Regigigas,,Hidden Power Grass,Crush Grip*,18.22
+Grass,31,Shaymin,Land,Magical Leaf,Grass Knot,18.17
+Grass,32,Tsareena,,Magical Leaf,Grass Knot,18.14
+Grass,33,Tangrowth,,Vine Whip,Power Whip,18.08
+Grass,34,Venusaur,,Vine Whip,Frenzy Plant*,17.99
+Grass,35,Breloom,,Force Palm,Grass Knot*,17.78
+Grass,36,Shadow Victreebel,,Magical Leaf*,Leaf Blade,17.73
+Grass,37,Shadow Porygon-Z,,Lock-On,Solar Beam,17.56
+Grass,38,Shadow Serperior,,Vine Whip,Frenzy Plant*,17.41
+Grass,39,Enamorus,Incarnate,Fairy Wind,Grass Knot,17.34
+Grass,40,Torterra,,Razor Leaf,Frenzy Plant*,17.29
+Grass,41,Shadow Tangela,,Vine Whip,Grass Knot,17.13
+Grass,42,Shadow Shiftry,,Razor Leaf,Leaf Blade,17.11
+Grass,43,Shadow Ho-Oh,Apex,Hidden Power Grass,Solar Beam,17.08
+Grass,44,Shadow Ho-Oh,,Hidden Power Grass,Solar Beam,17.08
+Grass,45,Celebi,,Magical Leaf*,Leaf Storm,17.08
+Grass,46,Shadow Latios,,Dragon Breath,Solar Beam,17.01
+Grass,47,Decidueye,Hisuian,Magical Leaf,Aura Sphere,16.91
+Grass,48,Mega Raichu Y,,Thunder Shock,Trailblaze,16.85
+Grass,49,Shadow Tornadus,Incarnate,Air Slash,Grass Knot,16.52
+Grass,50,Gogoat,,Vine Whip,Leaf Blade,16.47
+Grass,51,Shadow Gallade,,Low Kick,Leaf Blade,16.46
+Grass,52,Mega Scizor,,Fury Cutter,Trailblaze,16.45
+Grass,53,Shadow Vileplume,,Razor Leaf,Solar Beam,16.44
+Grass,54,Leafeon,,Razor Leaf,Leaf Blade,16.41
+Grass,55,Simisage,,Vine Whip,Grass Knot,16.34
+Grass,56,Mega Abomasnow,,Leafage,Energy Ball,16.21
+Grass,57,Exeggutor,,Bullet Seed,Solar Beam,16.19
+Grass,58,Mega Ampharos,,Volt Switch,Trailblaze,16.16
+Grass,59,Exeggutor,Alolan,Bullet Seed,Solar Beam,16.11
+Grass,60,Arboliva,,Magical Leaf,Seed Bomb,16.1
+Grass,61,Mega Starmie,,Hidden Power Grass,Liquidation+1,16.08
+Grass,62,Shadow Cacturne,,Sand Attack,Grass Knot,16.05
+Grass,63,Groudon,,Mud Shot,Solar Beam,16.03
+Grass,64,Dhelmise,,Astonish,Power Whip,15.96
+Grass,65,Mienshao,,Force Palm,Grass Knot,15.91
+Grass,66,Volcarona,,Bug Bite,Solar Beam,15.79
+Grass,67,Shadow Scizor,,Fury Cutter,Trailblaze,15.78
+Grass,68,Meganium,,Vine Whip,Frenzy Plant*,15.7
+Grass,69,Shadow Bellossom,,Magical Leaf,Leaf Blade,15.63
+Grass,70,Porygon-Z,,Lock-On,Solar Beam,15.59
+Grass,71,Shadow Gigalith,,Lock-On,Solar Beam,15.59
+Grass,72,Shadow Gardevoir,,Magical Leaf,Dazzling Gleam,15.56
+Grass,73,Victreebel,,Magical Leaf*,Leaf Blade,15.5
+Grass,74,Mega Houndoom,,Snarl,Trailblaze,15.45
+Grass,75,Lilligant,,Magical Leaf,Solar Beam,15.42
+Electric,1,Mega Raichu Y,,Thunder Shock,Wild Charge,25.28
+Electric,2,Mega Mewtwo Y,,Psycho Cut,Thunderbolt,24.52
+Electric,3,Zeraora,,Volt Switch,Plasma Fists,24.21
+Electric,4,Shadow Raikou,,Thunder Shock,Wild Charge,23.88
+Electric,5,Regieleki,,Lock-On,Thunder Cage*,23.71
+Electric,6,Mega Mewtwo X,,Psycho Cut,Thunderbolt,23.45
+Electric,7,Xurkitree,,Thunder Shock,Discharge,23.22
+Electric,8,Mega Manectric,,Thunder Fang,Wild Charge,23.11
+Electric,9,Shadow Electivire,,Thunder Shock,Wild Charge,22.89
+Electric,10,Shadow Regigigas,,Hidden Power Electric,Crush Grip*,22.89
+Electric,11,Thundurus,Therian,Volt Switch,Wildbolt Storm*,22.68
+Electric,12,Shadow Zapdos,,Thunder Shock*,Thunderbolt,22.68
+Electric,13,Zekrom,,Charge Beam,Fusion Bolt*,22.59
+Electric,14,Shadow Magnezone,,Volt Switch,Wild Charge,22.45
+Electric,15,Mega Raichu X,,Thunder Shock,Volt Tackle+1,22.34
+Electric,16,Mega Ampharos,,Volt Switch,Zap Cannon,21.28
+Electric,17,Shadow Luxray,,Spark,Wild Charge,20.59
+Electric,18,Raikou,,Thunder Shock,Wild Charge,20.43
+Electric,19,Shadow Mewtwo,,Psycho Cut,Thunderbolt,20.41
+Electric,20,Shadow Thundurus,Incarnate,Thunder Shock,Thunder Punch,20.38
+Electric,21,Shadow Vikavolt,,Volt Switch*,Discharge,20.04
+Electric,22,Electivire,,Thunder Shock,Wild Charge,19.94
+Electric,23,Shadow Golem,Alolan,Volt Switch,Wild Charge,19.81
+Electric,24,Regigigas,,Hidden Power Electric,Crush Grip*,19.78
+Electric,25,Zapdos,,Thunder Shock*,Thunderbolt,19.45
+Electric,26,Magnezone,,Volt Switch,Wild Charge,19.28
+Electric,27,Kyurem,Black Kyurem,Dragon Tail,Fusion Bolt,18.78
+Electric,28,Shadow Manectric,,Thunder Fang,Wild Charge,18.36
+Electric,29,Shadow Arcanine,,Thunder Fang,Wild Charge,18.31
+Electric,30,Tapu Koko,,Volt Switch,Thunderbolt,18.12
+Electric,31,Luxray,,Spark,Wild Charge,17.97
+Electric,32,Shadow Zebstrika,,Spark,Wild Charge,17.74
+Electric,33,Shadow Magneton,,Thunder Shock,Discharge,17.68
+Electric,34,Thundurus,Incarnate,Thunder Shock,Thunder Punch,17.61
+Electric,35,Mewtwo,,Psycho Cut,Thunderbolt,17.58
+Electric,36,Vikavolt,,Volt Switch*,Discharge,17.5
+Electric,37,Pawmot,,Thunder Shock,Wild Charge,17.38
+Electric,38,Shadow Ampharos,,Volt Switch,Zap Cannon,17.35
+Electric,39,Shadow Heliolisk,,Volt Switch,Thunderbolt,17.17
+Electric,40,Golem,Alolan,Volt Switch,Wild Charge,17.11
+Electric,41,Primal Kyogre,,Waterfall,Thunder,17.01
+Electric,42,Jolteon,,Thunder Shock,Thunderbolt,17.0
+Electric,43,Toxtricity,Low Key,Spark,Wild Charge,16.74
+Electric,44,Toxtricity,Amped,Spark,Wild Charge,16.74
+Electric,45,Shadow Dialga,,Metal Claw,Thunder,16.6
+Electric,46,Shadow Ursaluna,,Smack Down,Thunder Punch,16.6
+Electric,47,Shadow Arcanine,Hisuian,Snarl,Wild Charge,16.51
+Electric,48,Shadow Porygon-Z,,Lock-On,Zap Cannon,16.5
+Electric,49,Zacian,Hero of Many Battles,Snarl,Wild Charge,16.46
+Electric,50,Manectric,,Thunder Fang,Wild Charge,16.42
+Electric,51,Mega Gardevoir,,Charge Beam,Dazzling Gleam,16.29
+Electric,52,Shadow Electabuzz,,Thunder Shock,Thunderbolt,16.29
+Electric,53,Shadow Dragonite,,Dragon Tail,Thunder Punch,16.17
+Electric,54,Shadow Hippowdon,,Thunder Fang,Weather Ball,16.02
+Electric,55,Mega Lucario,,Force Palm*,Thunder Punch,15.97
+Electric,56,Mega Dragonite,,Dragon Tail,Thunder Punch,15.91
+Electric,57,Arcanine,,Thunder Fang,Wild Charge,15.87
+Electric,58,Eelektross,,Volt Switch*,Thunderbolt,15.84
+Electric,59,Shadow Ho-Oh,Apex,Hidden Power Electric,Brave Bird,15.77
+Electric,60,Shadow Ho-Oh,,Hidden Power Electric,Brave Bird,15.77
+Electric,61,Zebstrika,,Spark,Wild Charge,15.76
+Electric,62,Shadow Electrode,Hisuian,Thunder Shock,Wild Charge,15.72
+Electric,63,Raichu,Alolan,Thunder Shock,Wild Charge,15.54
+Electric,64,Magneton,,Thunder Shock,Discharge,15.47
+Electric,65,Meloetta,Aria,Quick Attack,Thunderbolt,15.47
+Electric,66,Kilowattrel,,Thunder Shock,Thunderbolt,15.46
+Electric,67,Melmetal,,Thunder Shock,Thunderbolt,15.38
+Electric,68,Rotom,Wash Rotom,Thunder Shock,Thunderbolt,15.31
+Electric,69,Mega Starmie,,Hidden Power Electric,Liquidation+1,15.18
+Electric,70,Shadow Magmortar,,Fire Spin,Thunderbolt*,15.17
+Electric,71,Heliolisk,,Volt Switch,Thunderbolt,15.14
+Electric,72,Ampharos,,Volt Switch,Zap Cannon,15.11
+Electric,73,Togedemaru,,Thunder Shock,Wild Charge,15.08
+Electric,74,Deoxys,Normal,Charge Beam,Psycho Boost,15.06
+Electric,75,Shadow Kyogre,,Waterfall,Thunder,15.04
+Ice,1,Kyurem,White Kyurem,Ice Fang,Ice Burn*,30.76
+Ice,2,Kyurem,Black Kyurem,Dragon Tail,Freeze Shock*,28.18
+Ice,3,Mega Mewtwo Y,,Psycho Cut,Ice Beam,27.23
+Ice,4,Mega Mewtwo X,,Psycho Cut,Ice Beam,26.17
+Ice,5,Shadow Regigigas,,Hidden Power Ice,Crush Grip*,24.67
+Ice,6,Shadow Mamoswine,,Powder Snow,Avalanche,23.78
+Ice,7,Zamazenta,Crowned Shield,Ice Fang,Behemoth Bash*,23.02
+Ice,8,Mega Gardevoir,,Charm,Triple Axel,22.81
+Ice,9,Shadow Mewtwo,,Psycho Cut,Ice Beam,22.68
+Ice,10,Baxcalibur,,Ice Fang,Avalanche,21.65
+Ice,11,Shadow Weavile,,Ice Shard,Triple Axel,21.37
+Ice,12,Primal Kyogre,,Waterfall,Avalanche,21.36
+Ice,13,Regigigas,,Hidden Power Ice,Crush Grip*,21.29
+Ice,14,Mega Abomasnow,,Powder Snow,Weather Ball,21.2
+Ice,15,Mamoswine,,Powder Snow,Avalanche,20.76
+Ice,16,Darmanitan,Galarian,Ice Fang,Avalanche,20.72
+Ice,17,Mega Glalie,,Frost Breath,Avalanche,20.57
+Ice,18,Kyurem,,Dragon Breath,Glaciate*,20.27
+Ice,19,Shadow Articuno,,Frost Breath,Triple Axel,20.14
+Ice,20,Shadow Aurorus,,Frost Breath,Weather Ball,20.09
+Ice,21,Mewtwo,,Psycho Cut,Ice Beam,19.49
+Ice,22,Glaceon,,Frost Breath,Avalanche,19.39
+Ice,23,Shadow Gardevoir,,Charm,Triple Axel,19.38
+Ice,24,Cetitan,,Ice Shard,Avalanche,19.33
+Ice,25,Weavile,,Ice Shard,Triple Axel,18.9
+Ice,26,Shadow Kyogre,,Waterfall,Avalanche,18.85
+Ice,27,Shadow Porygon-Z,,Lock-On,Blizzard,18.35
+Ice,28,Shadow Ho-Oh,Apex,Hidden Power Ice,Brave Bird,18.35
+Ice,29,Shadow Ho-Oh,,Hidden Power Ice,Brave Bird,18.35
+Ice,30,Mega Lopunny,,Pound,Triple Axel,18.01
+Ice,31,Genesect,Chill Drive,Fury Cutter,Techno Blast*,17.9
+Ice,32,Shadow Abomasnow,,Powder Snow,Weather Ball,17.85
+Ice,33,Vanilluxe,,Frost Breath,Avalanche*,17.83
+Ice,34,Shadow Regice,,Frost Breath,Blizzard,17.8
+Ice,35,Shadow Walrein,,Frost Breath,Icicle Spear*,17.7
+Ice,36,Avalugg,,Ice Fang,Avalanche,17.61
+Ice,37,Shadow Ninetales,Alolan,Powder Snow,Weather Ball,17.61
+Ice,38,Mr. Rime,,Ice Shard,Triple Axel,17.59
+Ice,39,Mega Starmie,,Hidden Power Ice,Ice Beam,17.48
+Ice,40,Shadow Cloyster,,Frost Breath,Avalanche,17.4
+Ice,41,Aurorus,,Frost Breath,Weather Ball,17.33
+Ice,42,Shadow Ursaluna,,Scratch,Ice Punch,17.19
+Ice,43,Shadow Piloswine,,Ice Shard,Avalanche,17.13
+Ice,44,Articuno,,Frost Breath,Triple Axel,17.11
+Ice,45,Jynx,,Frost Breath,Avalanche,17.03
+Ice,46,Shadow Lapras,,Frost Breath,Ice Beam*,16.87
+Ice,47,Avalugg,Hisuian,Powder Snow,Blizzard,16.8
+Ice,48,Mega Blastoise,,Rollout,Ice Beam,16.71
+Ice,49,Gardevoir,,Charm,Triple Axel,16.62
+Ice,50,Cryogonal,,Frost Breath,Triple Axel,16.43
+Ice,51,Frosmoth,,Powder Snow,Ice Beam,16.43
+Ice,52,Porygon-Z,,Lock-On,Blizzard,16.42
+Ice,53,Beartic,,Powder Snow,Ice Punch,16.33
+Ice,54,Shadow Nidoking,,Fury Cutter*,Avalanche,16.16
+Ice,55,Kyogre,,Waterfall,Avalanche,16.16
+Ice,56,Shadow Electivire,,Thunder Shock,Ice Punch,15.75
+Ice,57,Shadow Feraligatr,,Ice Fang,Ice Beam,15.75
+Ice,58,Ho-Oh,Apex,Hidden Power Ice,Brave Bird,15.65
+Ice,59,Ho-Oh,,Hidden Power Ice,Brave Bird,15.65
+Ice,60,Shadow Empoleon,,Metal Claw,Blizzard,15.64
+Ice,61,Abomasnow,,Powder Snow,Weather Ball,15.62
+Ice,62,Marshadow,,Shadow Claw,Ice Punch,15.6
+Ice,63,Shadow Froslass,,Powder Snow,Triple Axel,15.45
+Ice,64,Shadow Glalie,,Frost Breath,Avalanche,15.44
+Ice,65,Shadow Sandslash,Alolan,Powder Snow,Blizzard,15.36
+Ice,66,Togekiss,,Hidden Power Ice,Dazzling Gleam,15.26
+Ice,67,Regice,,Frost Breath,Blizzard,15.25
+Ice,68,Cloyster,,Frost Breath,Avalanche,15.23
+Ice,69,Walrein,,Frost Breath,Icicle Spear*,15.22
+Ice,70,Ninetales,Alolan,Powder Snow,Weather Ball,15.21
+Ice,71,Shadow Samurott,,Fury Cutter,Blizzard,15.14
+Ice,72,Piloswine,,Ice Shard,Avalanche,15.14
+Ice,73,Shadow Suicune,,Ice Fang,Ice Beam,15.01
+Ice,74,Mew,,Frost Breath,Ice Beam,14.93
+Ice,75,Shadow Annihilape,,Counter,Ice Punch,14.9
+Fighting,1,Mega Mewtwo X,,Counter*,Dynamic Punch+1,33.51
+Fighting,2,Mega Lucario,,Force Palm*,Aura Sphere,32.42
+Fighting,3,Mega Blaziken,,Counter,Aura Sphere,31.41
+Fighting,4,Keldeo,Resolute,Low Kick,Secret Sword*,28.72
+Fighting,5,Mega Mewtwo Y,,Counter*,Focus Blast,27.76
+Fighting,6,Mega Gallade,,Low Kick,Sacred Sword,27.68
+Fighting,7,Shadow Blaziken,,Counter,Aura Sphere,25.72
+Fighting,8,Shadow Conkeldurr,,Force Palm,Dynamic Punch,25.15
+Fighting,9,Mega Heracross,,Counter,Close Combat,24.92
+Fighting,10,Mega Falinks,,Counter,Brick Break+1,24.57
+Fighting,11,Terrakion,,Double Kick,Sacred Sword*,24.21
+Fighting,12,Lucario,,Force Palm*,Aura Sphere,24.16
+Fighting,13,Shadow Gallade,,Low Kick,Sacred Sword,23.37
+Fighting,14,Mega Latios,,Dragon Breath,Aura Sphere,23.21
+Fighting,15,Keldeo,Ordinary,Low Kick,Sacred Sword,23.09
+Fighting,16,Shadow Mewtwo,,Counter*,Focus Blast,22.61
+Fighting,17,Blaziken,,Counter,Aura Sphere,22.59
+Fighting,18,Shadow Raikou,,Thunder Shock,Aura Sphere,22.58
+Fighting,19,Shadow Machamp,,Counter,Dynamic Punch,22.53
+Fighting,20,Shadow Hariyama,,Force Palm,Dynamic Punch,22.25
+Fighting,21,Mega Alakazam,,Counter*,Focus Blast,21.88
+Fighting,22,Urshifu,Rapid Strike Style,Counter,Dynamic Punch,21.79
+Fighting,23,Urshifu,Single Strike Style,Counter,Dynamic Punch,21.63
+Fighting,24,Conkeldurr,,Force Palm,Dynamic Punch,21.57
+Fighting,25,Shadow Regigigas,,Hidden Power Fighting,Crush Grip*,21.55
+Fighting,26,Shadow Latios,,Dragon Breath,Aura Sphere,21.43
+Fighting,27,Kartana,,Fury Cutter,Sacred Sword,21.31
+Fighting,28,Mega Lopunny,,Double Kick,Focus Blast,20.95
+Fighting,29,Mega Latias,,Dragon Breath,Aura Sphere,20.61
+Fighting,30,Shadow Annihilape,,Counter,Close Combat,20.32
+Fighting,31,Gallade,,Low Kick,Sacred Sword,20.21
+Fighting,32,Marshadow,,Counter,Close Combat,20.19
+Fighting,33,Shadow Bewear,,Low Kick,Superpower,19.97
+Fighting,34,Shadow Emboar,,Low Kick,Focus Blast,19.82
+Fighting,35,Mewtwo,,Counter*,Focus Blast,19.62
+Fighting,36,Machamp,,Counter,Dynamic Punch,19.46
+Fighting,37,Raikou,,Thunder Shock,Aura Sphere,19.39
+Fighting,38,Shadow Haxorus,,Counter,Breaking Swipe*,19.21
+Fighting,39,Hariyama,,Force Palm,Dynamic Punch,19.12
+Fighting,40,Shadow Toxicroak,,Counter,Dynamic Punch,19.1
+Fighting,41,Decidueye,Hisuian,Psycho Cut,Aura Sphere,19.07
+Fighting,42,Zapdos,Galarian,Counter,Close Combat,19.04
+Fighting,43,Shadow Latias,,Dragon Breath,Aura Sphere,18.99
+Fighting,44,Buzzwole,,Counter,Superpower,18.95
+Fighting,45,Cobalion,,Double Kick,Sacred Sword*,18.87
+Fighting,46,Zacian,Crowned Sword,Metal Claw,Close Combat,18.75
+Fighting,47,Virizion,,Double Kick,Sacred Sword*,18.7
+Fighting,48,Breloom,,Force Palm,Dynamic Punch,18.61
+Fighting,49,Mega Chesnaught,,Low Kick,Superpower,18.61
+Fighting,50,Regigigas,,Hidden Power Fighting,Crush Grip*,18.59
+Fighting,51,Latios,,Dragon Breath,Aura Sphere,18.58
+Fighting,52,Shadow Poliwrath,,Counter*,Dynamic Punch,18.52
+Fighting,53,Shadow Sneasler,,Rock Smash,Close Combat,18.52
+Fighting,54,Hawlucha,,Low Kick,Flying Press,18.47
+Fighting,55,Shadow Rhyperior,,Mud-Slap,Superpower,18.02
+Fighting,56,Shadow Sawk,,Low Kick,Focus Blast,17.97
+Fighting,57,Mega Pinsir,,Fury Cutter,Superpower,17.94
+Fighting,58,Togekiss,,Hidden Power Fighting,Aura Sphere*,17.85
+Fighting,59,Shadow Chesnaught,,Low Kick,Superpower,17.82
+Fighting,60,Passimian,,Counter,Superpower,17.67
+Fighting,61,Shadow Dragonite,,Dragon Tail,Superpower,17.6
+Fighting,62,Mega Gengar,,Lick*,Focus Blast,17.58
+Fighting,63,Mega Dragonite,,Dragon Tail,Superpower,17.53
+Fighting,64,Shadow Darkrai,,Snarl,Focus Blast,17.51
+Fighting,65,Emboar,,Low Kick,Focus Blast,17.43
+Fighting,66,Shadow Landorus,Incarnate,Mud Shot,Focus Blast,17.41
+Fighting,67,Annihilape,,Counter,Close Combat,17.38
+Fighting,68,Shadow Ursaluna,,Rock Smash,High Horsepower*,17.34
+Fighting,69,Sirfetch'd,,Counter,Close Combat,17.27
+Fighting,70,Heracross,,Counter,Close Combat,17.26
+Fighting,71,Bewear,,Low Kick,Superpower,17.21
+Fighting,72,Mega Staraptor,,Sand Attack,Close Combat,17.15
+Fighting,73,Shadow Alakazam,,Counter*,Focus Blast,17.06
+Fighting,74,Kyurem,White Kyurem,Dragon Breath,Focus Blast,16.92
+Fighting,75,Landorus,Therian,Mud Shot,Superpower,16.89
+Poison,1,Mega Gengar,,Lick*,Sludge Bomb,25.48
+Poison,2,Eternatus,,Poison Jab,Sludge Bomb,25.37
+Poison,3,Shadow Regigigas,,Hidden Power Poison,Crush Grip*,24.48
+Poison,4,Mega Beedrill,,Poison Jab,Sludge Bomb,24.39
+Poison,5,Mega Victreebel,,Acid,Acid Spray+1,22.91
+Poison,6,Nihilego,,Poison Jab,Sludge Bomb,22.52
+Poison,7,Naganadel,,Poison Jab,Sludge Bomb,21.85
+Poison,8,Regigigas,,Hidden Power Poison,Crush Grip*,21.07
+Poison,9,Shadow Gengar,,Lick*,Sludge Bomb,21.02
+Poison,10,Roserade,,Poison Jab,Sludge Bomb,20.31
+Poison,11,Shadow Darkrai,,Snarl,Sludge Bomb*,20.03
+Poison,12,Shadow Scolipede,,Poison Jab,Sludge Bomb,19.7
+Poison,13,Shadow Ho-Oh,Apex,Hidden Power Poison,Brave Bird,19.59
+Poison,14,Shadow Ho-Oh,,Hidden Power Poison,Brave Bird,19.59
+Poison,15,Overqwil,,Poison Jab,Sludge Bomb,19.45
+Poison,16,Shadow Vileplume,,Acid,Sludge Bomb,19.34
+Poison,17,Revavroom,,Poison Jab,Gunk Shot,19.32
+Poison,18,Shadow Muk,Alolan,Poison Jab,Gunk Shot,19.27
+Poison,19,Shadow Muk,,Poison Jab,Gunk Shot,19.21
+Poison,20,Shadow Toxicroak,,Poison Jab,Sludge Bomb,19.21
+Poison,21,Shadow Victreebel,,Acid,Sludge Bomb,19.18
+Poison,22,Shadow Skuntank,,Poison Jab,Sludge Bomb,18.99
+Poison,23,Shadow Crobat,,Gust,Sludge Bomb,18.54
+Poison,24,Gengar,,Lick*,Sludge Bomb,18.5
+Poison,25,Shadow Sneasler,,Poison Jab,X-Scissor,17.55
+Poison,26,Genesect,Douse Drive,Metal Claw,Gunk Shot,17.48
+Poison,27,Darkrai,,Snarl,Sludge Bomb*,17.46
+Poison,28,Mega Venusaur,,Vine Whip,Sludge Bomb,17.4
+Poison,29,Shadow Drapion,,Poison Sting,Sludge Bomb,17.3
+Poison,30,Volcanion,,Incinerate,Sludge Bomb,17.17
+Poison,31,Keldeo,Resolute,Poison Jab,Secret Sword*,17.09
+Poison,32,Scolipede,,Poison Jab,Sludge Bomb,17.08
+Poison,33,Toxicroak,,Poison Jab,Sludge Bomb,17.04
+Poison,34,Shadow Nidoking,,Poison Jab,Sludge Wave,16.99
+Poison,35,Ho-Oh,Apex,Hidden Power Poison,Sacred Fire++*,16.92
+Poison,36,Victreebel,,Acid,Sludge Bomb,16.74
+Poison,37,Vileplume,,Acid,Sludge Bomb,16.71
+Poison,38,Ho-Oh,,Hidden Power Poison,Brave Bird,16.62
+Poison,39,Shadow Venusaur,,Vine Whip,Sludge Bomb,16.57
+Poison,40,Muk,Alolan,Poison Jab,Gunk Shot,16.53
+Poison,41,Muk,,Poison Jab,Gunk Shot,16.49
+Poison,42,Slowbro,Galarian,Poison Jab,Sludge Bomb,16.38
+Poison,43,Skuntank,,Poison Jab,Sludge Bomb,16.37
+Poison,44,Grafaiai,,Poison Jab,Sludge Bomb,16.29
+Poison,45,Salazzle,,Poison Jab,Sludge Wave,16.05
+Poison,46,Shadow Tangrowth,,Infestation,Sludge Bomb,16.03
+Poison,47,Shadow Nidoqueen,,Poison Jab,Sludge Wave,15.92
+Poison,48,Crobat,,Gust,Sludge Bomb,15.87
+Poison,49,Sneasler,,Poison Jab,Return*,15.79
+Poison,50,Shadow Beedrill,,Poison Jab,Sludge Bomb,15.63
+Poison,51,Shadow Porygon-Z,,Hidden Power Poison,Blizzard,15.44
+Poison,52,Qwilfish,Hisuian,Poison Jab,Sludge Bomb,15.37
+Poison,53,Shadow Conkeldurr,,Poison Jab,Stone Edge,15.28
+Poison,54,Keldeo,Ordinary,Poison Jab,Sacred Sword,15.15
+Poison,55,Shadow Tentacruel,,Poison Jab,Sludge Wave,15.07
+Poison,56,Marshadow,,Poison Jab,Ice Punch,15.04
+Poison,57,Drapion,,Poison Sting,Sludge Bomb,14.89
+Poison,58,Nidoking,,Poison Jab,Sludge Wave,14.87
+Poison,59,Dragalge,,Acid,Sludge Bomb,14.84
+Poison,60,Shadow Weezing,,Infestation,Sludge Bomb,14.81
+Poison,61,Mega Swampert,,Mud Shot,Sludge,14.73
+Poison,62,Mega Starmie,,Hidden Power Poison,Ice Beam,14.43
+Poison,63,Shadow Armaldo,,Fury Cutter,Cross Poison,14.38
+Poison,64,Venusaur,,Vine Whip,Sludge Bomb,14.26
+Poison,65,Roselia,,Poison Jab,Sludge Bomb,14.22
+Poison,66,Toxtricity,Low Key,Poison Jab,Wild Charge,14.02
+Poison,67,Toxtricity,Amped,Poison Jab,Wild Charge,14.02
+Poison,68,Shadow Haunter,,Lick*,Sludge Bomb,14.01
+Poison,69,Slowking,Galarian,Acid,Sludge Wave,13.98
+Poison,70,Guzzlord,,Snarl,Sludge Bomb,13.92
+Poison,71,Glimmora,,Rock Throw,Sludge Wave,13.88
+Poison,72,Mew,,Poison Jab,Blizzard,13.86
+Poison,73,Zoroark,Hisuian,Shadow Claw,Sludge Bomb,13.85
+Poison,74,Beedrill,,Poison Jab,Sludge Bomb,13.82
+Poison,75,Nidoqueen,,Poison Jab,Sludge Wave,13.79
+Ground,1,Primal Groudon,,Mud Shot,Precipice Blades*,29.66
+Ground,2,Mega Garchomp,,Mud Shot,Earth Power*,27.14
+Ground,3,Shadow Groudon,,Mud Shot,Precipice Blades*,25.94
+Ground,4,Shadow Garchomp,,Mud Shot,Earth Power*,24.8
+Ground,5,Landorus,Therian,Mud Shot,Sandsear Storm*,24.3
+Ground,6,Shadow Landorus,Incarnate,Mud Shot,Earth Power,23.77
+Ground,7,Shadow Excadrill,,Mud-Slap,Scorching Sands,23.66
+Ground,8,Shadow Rhyperior,,Mud-Slap,Drill Run,23.0
+Ground,9,Groudon,,Mud Shot,Precipice Blades*,22.33
+Ground,10,Mega Swampert,,Mud Shot,Earthquake,21.82
+Ground,11,Shadow Mamoswine,,Mud-Slap,High Horsepower,21.16
+Ground,12,Garchomp,,Mud Shot,Earth Power*,21.06
+Ground,13,Shadow Regigigas,,Hidden Power Ground,Crush Grip*,20.94
+Ground,14,Shadow Golurk,,Mud-Slap,Earth Power,20.91
+Ground,15,Excadrill,,Mud-Slap,Scorching Sands,20.47
+Ground,16,Landorus,Incarnate,Mud Shot,Earth Power,20.38
+Ground,17,Shadow Rhydon,,Mud-Slap,Earthquake,20.37
+Ground,18,Shadow Hippowdon,,Sand Attack,Earth Power,20.04
+Ground,19,Mega Heracross,,Counter,Earthquake,19.87
+Ground,20,Rhyperior,,Mud-Slap,Earthquake,19.69
+Ground,21,Shadow Donphan,,Mud-Slap,Earthquake,19.6
+Ground,22,Shadow Flygon,,Sand Attack,Earth Power*,19.06
+Ground,23,Shadow Golem,,Mud-Slap,Earthquake,18.82
+Ground,24,Mamoswine,,Mud-Slap,High Horsepower,18.75
+Ground,25,Shadow Torterra,,Mud-Slap,Earthquake,18.6
+Ground,26,Shadow Swampert,,Mud Shot,Earthquake,18.55
+Ground,27,Shadow Heatran,,Fire Spin,Earth Power,18.48
+Ground,28,Regigigas,,Hidden Power Ground,Crush Grip*,18.07
+Ground,29,Golurk,,Mud-Slap,Earth Power,18.0
+Ground,30,Mega Metagross,,Fury Cutter,Earthquake,17.96
+Ground,31,Krookodile,,Mud-Slap,Earthquake,17.72
+Ground,32,Shadow Ursaluna,,Tackle,High Horsepower*,17.66
+Ground,33,Rhydon,,Mud-Slap,Earthquake,17.64
+Ground,34,Shadow Ho-Oh,Apex,Hidden Power Ground,Earthquake*,17.57
+Ground,35,Shadow Ho-Oh,,Hidden Power Ground,Earthquake*,17.57
+Ground,36,Mega Starmie,,Hidden Power Ground,Liquidation+1,17.45
+Ground,37,Shadow Metagross,,Fury Cutter,Earthquake,17.44
+Ground,38,Shadow Entei,,Fire Spin,Scorching Sands,17.41
+Ground,39,Shadow Nidoqueen,,Mud-Slap,Earth Power,17.37
+Ground,40,Shadow Gliscor,,Sand Attack,Earthquake,17.32
+Ground,41,Mudsdale,,Mud-Slap,Earthquake,17.14
+Ground,42,Mega Aerodactyl,,Rock Throw,Earth Power,17.14
+Ground,43,Hippowdon,,Sand Attack,Earth Power,17.07
+Ground,44,Mega Sceptile,,Fury Cutter,Earthquake,17.06
+Ground,45,Shadow Haxorus,,Counter,Earthquake,17.06
+Ground,46,Donphan,,Mud-Slap,Earthquake,16.96
+Ground,47,Shadow Nidoking,,Fury Cutter*,Earth Power,16.88
+Ground,48,Shadow Magmortar,,Karate Chop,Scorching Sands,16.87
+Ground,49,Shadow Sandslash,,Sand Attack,Scorching Sands,16.74
+Ground,50,Mega Kangaskhan,,Mud-Slap,Earthquake,16.59
+Ground,51,Mega Camerupt,,Ember,Earth Power,16.58
+Ground,52,Flygon,,Sand Attack,Earth Power*,16.48
+Ground,53,Golem,,Mud-Slap,Earthquake,16.38
+Ground,54,Sandaconda,,Mud-Slap,Earth Power,16.37
+Ground,55,Shadow Kingler,,Mud Shot*,Crabhammer,16.27
+Ground,56,Shadow Arcanine,,Snarl,Scorching Sands,16.11
+Ground,57,Torterra,,Mud-Slap,Earthquake,16.1
+Ground,58,Volcanion,,Water Gun,Earth Power,16.08
+Ground,59,Swampert,,Mud Shot,Earthquake,16.06
+Ground,60,Shadow Gigalith,,Mud-Slap,Meteor Beam*,15.96
+Ground,61,Terrakion,,Double Kick,Earthquake,15.94
+Ground,62,Heatran,,Fire Spin,Earth Power,15.76
+Ground,63,Mega Staraptor,,Sand Attack,Brave Bird+1,15.53
+Ground,64,Shadow Lugia,Apex,Extrasensory,Earth Power,15.35
+Ground,65,Shadow Lugia,,Extrasensory,Earth Power,15.35
+Ground,66,Ursaluna,,Tackle,High Horsepower*,15.2
+Ground,67,Seismitoad,,Mud Shot,Earth Power,15.15
+Ground,68,Haxorus,,Counter,Earthquake,15.13
+Ground,69,Metagross,,Fury Cutter,Earthquake,15.13
+Ground,70,Ho-Oh,Apex,Hidden Power Ground,Earthquake*,15.05
+Ground,71,Ho-Oh,,Hidden Power Ground,Earthquake*,15.05
+Ground,72,Gliscor,,Sand Attack,Earthquake,14.99
+Ground,73,Nidoqueen,,Mud-Slap,Earth Power,14.93
+Ground,74,Shadow Vikavolt,,Mud-Slap,Fly,14.89
+Ground,75,Entei,,Fire Spin,Scorching Sands,14.88
+Flying,1,Mega Rayquaza,,Air Slash,Dragon Ascent*,40.73
+Flying,2,Rayquaza,,Air Slash,Dragon Ascent*,30.26
+Flying,3,Shadow Moltres,,Wing Attack,Fly,29.67
+Flying,4,Shadow Salamence,,Fire Fang,Fly,28.61
+Flying,5,Mega Staraptor,,Gust*,Fly,28.35
+Flying,6,Mega Salamence,,Fire Fang,Fly,27.79
+Flying,7,Shadow Toucannon,,Peck,Beak Blast*,27.09
+Flying,8,Mega Skarmory,,Air Slash,Drill Peck+1,26.0
+Flying,9,Shadow Staraptor,,Gust*,Fly,25.99
+Flying,10,Mega Charizard Y,,Air Slash,Blast Burn*,25.9
+Flying,11,Enamorus,Incarnate,Fairy Wind,Fly,25.8
+Flying,12,Yveltal,,Gust,Oblivion Wing*,25.4
+Flying,13,Moltres,,Wing Attack,Fly,25.17
+Flying,14,Shadow Ho-Oh,Apex,Hidden Power Flying,Brave Bird,25.11
+Flying,15,Shadow Ho-Oh,,Hidden Power Flying,Brave Bird,25.11
+Flying,16,Mega Pidgeot,,Gust*,Brave Bird,24.86
+Flying,17,Articuno,Galarian,Psycho Cut,Fly,24.72
+Flying,18,Shadow Lugia,Apex,Extrasensory,Aeroblast+*,24.53
+Flying,19,Shadow Regigigas,,Hidden Power Flying,Crush Grip*,24.52
+Flying,20,Shadow Zapdos,,Thunder Shock*,Drill Peck,24.44
+Flying,21,Salamence,,Fire Fang,Fly,24.4
+Flying,22,Toucannon,,Peck,Beak Blast*,23.72
+Flying,23,Enamorus,Therian,Fairy Wind,Fly,23.67
+Flying,24,Mega Blaziken,,Fire Spin,Brave Bird,23.43
+Flying,25,Zacian,Crowned Sword,Air Slash,Behemoth Blade*,23.28
+Flying,26,Shadow Lugia,,Extrasensory,Fly,23.13
+Flying,27,Shadow Tornadus,Incarnate,Air Slash,Hurricane,22.8
+Flying,28,Staraptor,,Gust*,Fly,22.69
+Flying,29,Shadow Honchkrow,,Peck,Sky Attack,22.64
+Flying,30,Lugia,Apex,Extrasensory,Aeroblast++*,22.52
+Flying,31,Tornadus,Therian,Gust,Bleakwind Storm*,22.52
+Flying,32,Braviary,,Air Slash,Fly,22.31
+Flying,33,Shadow Unfezant,,Air Slash,Sky Attack,22.21
+Flying,34,Shadow Vikavolt,,Bug Bite,Fly,22.03
+Flying,35,Shadow Charizard,,Air Slash,Blast Burn*,21.32
+Flying,36,Ho-Oh,Apex,Hidden Power Flying,Brave Bird,21.27
+Flying,37,Ho-Oh,,Hidden Power Flying,Brave Bird,21.27
+Flying,38,Regigigas,,Hidden Power Flying,Crush Grip*,21.27
+Flying,39,Braviary,Hisuian,Air Slash,Fly,21.08
+Flying,40,Mega Charizard X,,Wing Attack*,Blast Burn*,20.91
+Flying,41,Zapdos,Galarian,Low Kick,Fly,20.89
+Flying,42,Shadow Hydreigon,,Dragon Breath,Fly,20.83
+Flying,43,Zapdos,,Thunder Shock*,Drill Peck,20.74
+Flying,44,Moltres,Galarian,Wing Attack,Fly,20.61
+Flying,45,Honchkrow,,Peck,Sky Attack,20.1
+Flying,46,Shadow Swanna,,Gust,Fly,19.87
+Flying,47,Tornadus,Incarnate,Air Slash,Hurricane,19.78
+Flying,48,Shadow Talonflame,,Peck,Fly,19.77
+Flying,49,Shadow Dragonite,,Dragon Tail,Hurricane,19.49
+Flying,50,Lugia,,Extrasensory,Fly,19.39
+Flying,51,Unfezant,,Air Slash,Sky Attack,19.37
+Flying,52,Mega Dragonite,,Dragon Tail,Hurricane,19.29
+Flying,53,Vikavolt,,Bug Bite,Fly,19.16
+Flying,54,Flamigo,,Wing Attack,Brave Bird,19.08
+Flying,55,Shadow Blaziken,,Fire Spin,Brave Bird,18.86
+Flying,56,Bombirdier,,Wing Attack,Fly,18.81
+Flying,57,Shadow Scyther,,Air Slash,Aerial Ace,18.66
+Flying,58,Shadow Noivern,,Air Slash,Hurricane,18.46
+Flying,59,Shadow Corviknight,,Air Slash,Sky Attack,18.46
+Flying,60,Lunala,,Air Slash,Psychic,18.44
+Flying,61,Charizard,,Air Slash,Blast Burn*,18.2
+Flying,62,Hydreigon,,Dragon Breath,Fly,18.08
+Flying,63,Kartana,,Air Slash,Aerial Ace,18.03
+Flying,64,Shadow Sneasler,,Poison Jab,Aerial Ace,17.85
+Flying,65,Shadow Crobat,,Gust,Sludge Bomb,17.62
+Flying,66,Volcarona,,Fire Spin,Hurricane,17.55
+Flying,67,Swanna,,Gust,Fly,17.48
+Flying,68,Mega Starmie,,Hidden Power Flying,Psychic,17.41
+Flying,69,Mega Beedrill,,Poison Jab,Aerial Ace,17.38
+Flying,70,Togekiss,,Air Slash,Aerial Ace,17.26
+Flying,71,Shadow Empoleon,,Metal Claw,Drill Peck,17.17
+Flying,72,Mega Sceptile,,Fury Cutter,Aerial Ace,17.11
+Flying,73,Talonflame,,Peck,Fly,17.0
+Flying,74,Shadow Pidgeot,,Gust*,Brave Bird,16.95
+Flying,75,Shadow Gliscor,,Wing Attack,Acrobatics,16.87
+Psychic,1,Mega Mewtwo Y,,Confusion,Psystrike*,37.5
+Psychic,2,Mega Mewtwo X,,Confusion,Psystrike*,36.25
+Psychic,3,Shadow Mewtwo,,Psycho Cut,Psystrike*,31.15
+Psychic,4,Mega Alakazam,,Confusion,Psychic*,28.22
+Psychic,5,Mewtwo,,Psycho Cut,Psystrike*,26.75
+Psychic,6,Mega Gardevoir,,Confusion,Psychic,26.65
+Psychic,7,Mega Gallade,,Confusion,Psychic,26.6
+Psychic,8,Mega Latios,,Zen Headbutt,Psychic,26.57
+Psychic,9,Mega Delphox,,Zen Headbutt,Psychic,26.04
+Psychic,10,Deoxys,Normal,Zen Headbutt,Psycho Boost,24.98
+Psychic,11,Shadow Latios,,Zen Headbutt,Psychic,24.77
+Psychic,12,Necrozma,Dusk Mane,Psycho Cut,Sunsteel Strike*,24.63
+Psychic,13,Shadow Metagross,,Zen Headbutt,Psychic,24.54
+Psychic,14,Mega Metagross,,Zen Headbutt,Psychic,24.5
+Psychic,15,Hoopa,Hoopa Unbound,Confusion,Psychic,24.08
+Psychic,16,Shadow Lugia,Apex,Extrasensory,Aeroblast+*,23.61
+Psychic,17,Necrozma,Dawn Wings,Psycho Cut,Moongeist Beam*,23.59
+Psychic,18,Mega Latias,,Zen Headbutt,Psychic,23.48
+Psychic,19,Articuno,Galarian,Psycho Cut,Fly,22.92
+Psychic,20,Shadow Regigigas,,Zen Headbutt,Crush Grip*,22.76
+Psychic,21,Shadow Alakazam,,Confusion,Psychic*,22.71
+Psychic,22,Lunala,,Confusion,Psychic,22.66
+Psychic,23,Shadow Gardevoir,,Confusion,Psychic,22.32
+Psychic,24,Shadow Ho-Oh,Apex,Extrasensory,Brave Bird,22.31
+Psychic,25,Shadow Ho-Oh,,Extrasensory,Brave Bird,22.31
+Psychic,26,Shadow Lugia,,Extrasensory,Fly,22.3
+Psychic,27,Mega Gengar,,Lick*,Psychic*,22.26
+Psychic,28,Shadow Gallade,,Confusion,Psychic,22.23
+Psychic,29,Mega Starmie,,Psywave,Psychic,21.88
+Psychic,30,Shadow Latias,,Zen Headbutt,Psychic,21.75
+Psychic,31,Hoopa,Hoopa Confined,Confusion,Psychic,21.57
+Psychic,32,Lugia,Apex,Extrasensory,Aeroblast++*,21.56
+Psychic,33,Deoxys,Speed,Zen Headbutt,Psycho Boost,21.32
+Psychic,34,Enamorus,Incarnate,Zen Headbutt,Fly,21.28
+Psychic,35,Latios,,Zen Headbutt,Psychic,21.23
+Psychic,36,Shadow Exeggutor,,Confusion,Psychic,21.08
+Psychic,37,Enamorus,Therian,Extrasensory,Fly,20.99
+Psychic,38,Metagross,,Zen Headbutt,Psychic,20.86
+Psychic,39,Shadow Delphox,,Zen Headbutt,Psychic,20.85
+Psychic,40,Espeon,,Confusion,Psychic,20.31
+Psychic,41,Alakazam,,Confusion,Psychic*,20.14
+Psychic,42,Landorus,Therian,Extrasensory,Sandsear Storm*,19.94
+Psychic,43,Tapu Lele,,Confusion,Nature’s Madness*,19.9
+Psychic,44,Regigigas,,Zen Headbutt,Crush Grip*,19.77
+Psychic,45,Mega Slowbro,,Confusion,Psychic,19.6
+Psychic,46,Mega Malamar,,Psycho Cut,Psybeam+1,19.48
+Psychic,47,Gardevoir,,Confusion,Psychic,19.29
+Psychic,48,Gallade,,Confusion,Psychic,19.23
+Psychic,49,Meloetta,Aria,Confusion,Psyshock,19.19
+Psychic,50,Necrozma,,Psycho Cut,Future Sight,19.1
+Psychic,51,Ho-Oh,Apex,Extrasensory,Brave Bird,19.06
+Psychic,52,Ho-Oh,,Extrasensory,Brave Bird,19.06
+Psychic,53,Shadow Gengar,,Lick*,Psychic*,18.91
+Psychic,54,Azelf,,Confusion,Future Sight,18.88
+Psychic,55,Yveltal,,Gust,Psychic,18.86
+Psychic,56,Lugia,,Extrasensory,Fly,18.75
+Psychic,57,Shadow Starmie,,Psywave,Psychic,18.64
+Psychic,58,Braviary,Hisuian,Zen Headbutt,Fly,18.56
+Psychic,59,Exeggutor,,Confusion,Psychic,18.55
+Psychic,60,Latias,,Zen Headbutt,Psychic,18.54
+Psychic,61,Jirachi,,Confusion,Psychic,18.52
+Psychic,62,Shadow Darmanitan,,Fire Fang,Psychic,18.45
+Psychic,63,Hatterene,,Confusion,Psychic,18.44
+Psychic,64,Victini,,Confusion,Psychic,18.37
+Psychic,65,Shadow Reuniclus,,Zen Headbutt,Psyshock,18.15
+Psychic,66,Delphox,,Zen Headbutt,Psychic,18.01
+Psychic,67,Celebi,,Confusion,Psychic,18.0
+Psychic,68,Shadow Slowking,,Confusion,Psychic,17.75
+Psychic,69,Shadow Slowbro,,Confusion,Psychic,17.75
+Psychic,70,Shadow Magmortar,,Fire Spin,Psychic,17.71
+Psychic,71,Beheeyem,,Confusion,Psychic,17.65
+Psychic,72,Tornadus,Therian,Gust,Psychic,17.39
+Psychic,73,Mewtwo,Armored,Confusion,Psystrike*,17.36
+Psychic,74,Wyrdeer,,Confusion,Psychic,17.14
+Psychic,75,Shadow Gothitelle,,Confusion,Psychic,17.01
+Bug,1,Mega Heracross,,Fury Cutter,Megahorn,27.41
+Bug,2,Shadow Regigigas,,Hidden Power Bug,Crush Grip*,24.99
+Bug,3,Mega Beedrill,,Bug Bite*,Fell Stinger+1,24.45
+Bug,4,Mega Pinsir,,Fury Cutter,X-Scissor,24.3
+Bug,5,Shadow Vikavolt,,Bug Bite,X-Scissor,23.2
+Bug,6,Mega Scizor,,Fury Cutter,X-Scissor,23.18
+Bug,7,Shadow Scizor,,Fury Cutter,X-Scissor,22.57
+Bug,8,Volcarona,,Bug Bite,Bug Buzz,22.08
+Bug,9,Shadow Pinsir,,Fury Cutter,X-Scissor,21.72
+Bug,10,Regigigas,,Hidden Power Bug,Crush Grip*,21.52
+Bug,11,Shadow Escavalier,,Bug Bite,Megahorn,21.28
+Bug,12,Shadow Metagross,,Fury Cutter,Meteor Mash*,20.93
+Bug,13,Mega Metagross,,Fury Cutter,Meteor Mash*,20.86
+Bug,14,Genesect,Douse Drive,Fury Cutter,X-Scissor,20.77
+Bug,15,Genesect,Chill Drive,Fury Cutter,X-Scissor,20.77
+Bug,16,Genesect,Burn Drive,Fury Cutter,X-Scissor,20.77
+Bug,17,Genesect,Shock Drive,Fury Cutter,X-Scissor,20.77
+Bug,18,Genesect,No Drive,Fury Cutter,X-Scissor,20.77
+Bug,19,Kartana,,Fury Cutter,X-Scissor,20.77
+Bug,20,Shadow Scyther,,Fury Cutter,Bug Buzz*,20.22
+Bug,21,Mega Sceptile,,Fury Cutter,Breaking Swipe,20.2
+Bug,22,Vikavolt,,Bug Bite,X-Scissor,20.07
+Bug,23,Kleavor,,Fury Cutter,X-Scissor,19.87
+Bug,24,Scizor,,Fury Cutter,X-Scissor,19.34
+Bug,25,Pheromosa,,Bug Bite,Bug Buzz,19.03
+Bug,26,Heracross,,Fury Cutter,Megahorn,18.96
+Bug,27,Yanmega,,Bug Bite,Bug Buzz,18.85
+Bug,28,Shadow Heatran,,Bug Bite,Magma Storm*,18.83
+Bug,29,Pinsir,,Fury Cutter,X-Scissor,18.82
+Bug,30,Centiskorch,,Bug Bite,Bug Buzz,18.74
+Bug,31,Shadow Accelgor,,Infestation,Bug Buzz,18.53
+Bug,32,Mega Absol,,Snarl,Megahorn,18.49
+Bug,33,Escavalier,,Bug Bite,Megahorn,18.45
+Bug,34,Golisopod,,Fury Cutter,X-Scissor,18.16
+Bug,35,Frosmoth,,Bug Bite,Bug Buzz,17.99
+Bug,36,Shadow Crustle,,Fury Cutter,X-Scissor,17.93
+Bug,37,Metagross,,Fury Cutter,Meteor Mash*,17.81
+Bug,38,Shadow Scolipede,,Bug Bite,X-Scissor,17.75
+Bug,39,Shadow Galvantula,,Fury Cutter,Bug Buzz,17.71
+Bug,40,Xerneas,,Geomancy*,Megahorn,17.67
+Bug,41,Scyther,,Fury Cutter,Bug Buzz*,17.64
+Bug,42,Shadow Ho-Oh,Apex,Hidden Power Bug,Brave Bird,17.62
+Bug,43,Shadow Ho-Oh,,Hidden Power Bug,Brave Bird,17.62
+Bug,44,Durant,,Bug Bite,X-Scissor,17.49
+Bug,45,Shadow Samurott,,Fury Cutter,Megahorn,16.91
+Bug,46,Kingambit,,Snarl,X-Scissor,16.74
+Bug,47,Shadow Sneasler,,Poison Jab,X-Scissor,16.63
+Bug,48,Accelgor,,Infestation,Bug Buzz,16.49
+Bug,49,Leavanny,,Bug Bite,X-Scissor,16.4
+Bug,50,Lokix,,Bug Bite,Bug Buzz,16.36
+Bug,51,Shadow Sceptile,,Fury Cutter,Frenzy Plant*,16.16
+Bug,52,Heatran,,Bug Bite,Magma Storm*,15.98
+Bug,53,Shadow Absol,,Snarl,Megahorn,15.83
+Bug,54,Galvantula,,Fury Cutter,Bug Buzz,15.71
+Bug,55,Scolipede,,Bug Bite,X-Scissor,15.59
+Bug,56,Shadow Venomoth,,Bug Bite*,Bug Buzz,15.56
+Bug,57,Mega Starmie,,Hidden Power Bug,Liquidation+1,15.5
+Bug,58,Crustle,,Fury Cutter,X-Scissor,15.48
+Bug,59,Bisharp,,Snarl,X-Scissor,15.46
+Bug,60,Ho-Oh,Apex,Hidden Power Bug,Sacred Fire++*,15.4
+Bug,61,Keldeo,Resolute,Low Kick,X-Scissor,15.3
+Bug,62,Keldeo,Ordinary,Low Kick,X-Scissor,15.3
+Bug,63,Samurott,Hisuian,Fury Cutter,X-Scissor,15.13
+Bug,64,Shadow Porygon-Z,,Hidden Power Bug,Tri Attack*,15.08
+Bug,65,Ho-Oh,,Hidden Power Bug,Brave Bird,15.06
+Bug,66,Shaymin,Sky,Hidden Power Bug,Grass Knot,15.0
+Bug,67,Shadow Nidoking,,Fury Cutter*,Megahorn,14.98
+Bug,68,Mega Falinks,,Counter,Megahorn,14.93
+Bug,69,Buzzwole,,Counter,Fell Stinger,14.91
+Bug,70,Shadow Reuniclus,,Hidden Power Bug,Shadow Ball,14.9
+Bug,71,Samurott,,Fury Cutter,Megahorn,14.84
+Bug,72,Sneasler,,Poison Jab,X-Scissor,14.79
+Bug,73,Togekiss,,Hidden Power Bug,Dazzling Gleam,14.77
+Bug,74,Shadow Kingler,,Metal Claw,X-Scissor,14.75
+Bug,75,Shadow Tangrowth,,Infestation,Power Whip,14.73
+Rock,1,Mega Diancie,,Rock Throw,Rock Slide,26.74
+Rock,2,Shadow Rhyperior,,Smack Down,Rock Wrecker*,26.19
+Rock,3,Mega Tyranitar,,Smack Down*,Stone Edge,24.83
+Rock,4,Shadow Rampardos,,Smack Down,Rock Slide,24.51
+Rock,5,Shadow Regigigas,,Hidden Power Rock,Crush Grip*,24.36
+Rock,6,Shadow Gigalith,,Lock-On,Meteor Beam*,24.36
+Rock,7,Mega Aerodactyl,,Rock Throw,Rock Slide,23.79
+Rock,8,Shadow Tyrantrum,,Rock Throw,Meteor Beam,23.26
+Rock,9,Shadow Tyranitar,,Smack Down*,Stone Edge,23.17
+Rock,10,Rhyperior,,Smack Down,Rock Wrecker*,22.31
+Rock,11,Glimmora,,Rock Throw,Meteor Beam,22.03
+Rock,12,Mega Rayquaza,,Dragon Tail,Ancient Power,21.93
+Rock,13,Rampardos,,Smack Down,Rock Slide,21.8
+Rock,14,Gigalith,,Lock-On,Meteor Beam*,21.2
+Rock,15,Regigigas,,Hidden Power Rock,Crush Grip*,21.05
+Rock,16,Shadow Aggron,,Smack Down,Meteor Beam,21.04
+Rock,17,Terrakion,,Smack Down,Rock Slide,20.98
+Rock,18,Shadow Aurorus,,Rock Throw,Meteor Beam,20.63
+Rock,19,Tyrantrum,,Rock Throw,Meteor Beam,20.4
+Rock,20,Shadow Aerodactyl,,Rock Throw,Rock Slide,20.2
+Rock,21,Shadow Landorus,Incarnate,Rock Throw,Rock Slide,20.08
+Rock,22,Tyranitar,,Smack Down*,Stone Edge,19.87
+Rock,23,Shadow Omastar,,Rock Throw*,Rock Slide*,19.71
+Rock,24,Shadow Golem,Alolan,Rock Throw,Rock Blast,19.63
+Rock,25,Shadow Arcanine,Hisuian,Snarl,Rock Slide,19.49
+Rock,26,Shadow Golem,,Rock Throw,Rock Blast,19.23
+Rock,27,Shadow Archeops,,Wing Attack,Ancient Power,19.23
+Rock,28,Mega Aggron,,Smack Down,Meteor Beam,18.94
+Rock,29,Shadow Crustle,,Smack Down,Rock Wrecker,18.82
+Rock,30,Stonjourner,,Rock Throw,Rock Slide,18.75
+Rock,31,Mega Blastoise,,Rollout,Hydro Cannon*,18.58
+Rock,32,Mega Heracross,,Fury Cutter,Rock Blast,18.52
+Rock,33,Shadow Excadrill,,Metal Claw,Rock Slide,18.48
+Rock,34,Shadow Reshiram,,Fire Fang,Stone Edge,18.47
+Rock,35,Kyurem,Black Kyurem,Dragon Tail,Stone Edge,18.35
+Rock,36,Aggron,,Smack Down,Meteor Beam,18.11
+Rock,37,Nihilego,,Poison Jab,Rock Slide,18.09
+Rock,38,Shadow Darmanitan,,Fire Fang,Rock Slide,18.0
+Rock,39,Aurorus,,Rock Throw,Meteor Beam,17.94
+Rock,40,Shadow Regirock,,Rock Throw,Stone Edge,17.77
+Rock,41,Kyurem,White Kyurem,Dragon Breath,Ancient Power,17.76
+Rock,42,Mega Blaziken,,Fire Spin,Stone Edge*,17.67
+Rock,43,Aerodactyl,,Rock Throw,Rock Slide,17.6
+Rock,44,Mega Ampharos,,Volt Switch,Power Gem,17.58
+Rock,45,Shadow Heatran,,Fire Spin,Stone Edge,17.53
+Rock,46,Shadow Ursaluna,,Smack Down,High Horsepower*,17.47
+Rock,47,Landorus,Incarnate,Rock Throw,Rock Slide,17.43
+Rock,48,Stakataka,,Rock Throw,Stone Edge,17.36
+Rock,49,Shadow Ho-Oh,Apex,Hidden Power Rock,Brave Bird,17.35
+Rock,50,Shadow Ho-Oh,,Hidden Power Rock,Brave Bird,17.35
+Rock,51,Shadow Hippowdon,,Thunder Fang,Weather Ball,17.3
+Rock,52,Mega Starmie,,Hidden Power Rock,Liquidation+1,17.19
+Rock,53,Kleavor,,Fury Cutter,Rock Slide,17.14
+Rock,54,Archeops,,Wing Attack,Ancient Power,17.11
+Rock,55,Omastar,,Rock Throw*,Rock Slide*,16.98
+Rock,56,Shadow Zapdos,,Thunder Shock*,Ancient Power,16.9
+Rock,57,Shadow Moltres,,Fire Spin,Ancient Power,16.9
+Rock,58,Shadow Carracosta,,Rock Throw,Ancient Power,16.88
+Rock,59,Golem,Alolan,Rock Throw,Rock Blast,16.79
+Rock,60,Arcanine,Hisuian,Snarl,Rock Slide,16.74
+Rock,61,Lycanroc,Dusk,Rock Throw,Stone Edge,16.68
+Rock,62,Shadow Armaldo,,Fury Cutter,Rock Blast,16.68
+Rock,63,Golem,,Rock Throw,Rock Blast,16.54
+Rock,64,Lycanroc,Midday,Rock Throw,Stone Edge,16.52
+Rock,65,Shadow Sudowoodo,,Rock Throw,Meteor Beam,16.51
+Rock,66,Lycanroc,Midnight,Rock Throw,Stone Edge,16.51
+Rock,67,Crustle,,Smack Down,Rock Wrecker,16.38
+Rock,68,Shadow Conkeldurr,,Force Palm,Stone Edge,16.27
+Rock,69,Excadrill,,Metal Claw,Rock Slide,16.13
+Rock,70,Rayquaza,,Dragon Tail,Ancient Power,16.11
+Rock,71,Reshiram,,Fire Fang,Stone Edge,15.92
+Rock,72,Diancie,,Rock Throw,Rock Slide,15.83
+Rock,73,Shadow Kabutops,,Fury Cutter*,Ancient Power,15.82
+Rock,74,Shadow Luxray,,Hidden Power Rock,Wild Charge,15.8
+Rock,75,Darmanitan,,Fire Fang,Rock Slide,15.79
+Ghost,1,Necrozma,Dawn Wings,Psycho Cut,Moongeist Beam*,29.22
+Ghost,2,Mega Mewtwo Y,,Psycho Cut,Shadow Ball*,27.64
+Ghost,3,Mega Gengar,,Lick*,Shadow Ball,27.58
+Ghost,4,Mega Mewtwo X,,Psycho Cut,Shadow Ball*,26.47
+Ghost,5,Shadow Darkrai,,Snarl,Shadow Ball,25.69
+Ghost,6,Shadow Chandelure,,Hex,Shadow Ball,24.13
+Ghost,7,Mega Banette,,Shadow Claw,Shadow Ball,23.79
+Ghost,8,Shadow Mewtwo,,Psycho Cut,Shadow Ball*,23.06
+Ghost,9,Lunala,,Shadow Claw,Shadow Ball,22.72
+Ghost,10,Mega Alakazam,,Psycho Cut,Shadow Ball,22.17
+Ghost,11,Darkrai,,Snarl,Shadow Ball,22.01
+Ghost,12,Kyurem,Black Kyurem,Shadow Claw,Freeze Shock*,21.9
+Ghost,13,Blacephalon,,Astonish,Shadow Ball,21.71
+Ghost,14,Shadow Regigigas,,Hidden Power Ghost,Crush Grip*,21.44
+Ghost,15,Gholdengo,,Hex,Shadow Ball,21.38
+Ghost,16,Dragapult,,Astonish,Shadow Ball,21.25
+Ghost,17,Shadow Gengar,,Lick*,Shadow Ball,21.22
+Ghost,18,Shadow Giratina,Altered,Shadow Claw,Shadow Force*,21.18
+Ghost,19,Chandelure,,Hex,Shadow Ball,21.1
+Ghost,20,Giratina,Origin,Shadow Claw,Shadow Force*,20.99
+Ghost,21,Necrozma,Dusk Mane,Shadow Claw,Sunsteel Strike*,20.8
+Ghost,22,Hoopa,Hoopa Unbound,Astonish,Shadow Ball,20.65
+Ghost,23,Mega Gardevoir,,Charge Beam,Shadow Ball,20.45
+Ghost,24,Hoopa,Hoopa Confined,Astonish,Shadow Ball,20.19
+Ghost,25,Mewtwo,,Psycho Cut,Shadow Ball*,19.81
+Ghost,26,Mega Lucario,,Force Palm*,Shadow Ball,19.42
+Ghost,27,Shadow Raikou,,Thunder Shock,Shadow Ball,19.4
+Ghost,28,Shadow Metagross,,Shadow Claw*,Meteor Mash*,19.39
+Ghost,29,Mega Metagross,,Shadow Claw*,Meteor Mash*,19.36
+Ghost,30,Gengar,,Lick*,Shadow Ball,19.34
+Ghost,31,Polteageist,Antique,Hex,Shadow Ball,19.31
+Ghost,32,Polteageist,Phony,Hex,Shadow Ball,19.31
+Ghost,33,Typhlosion,Hisuian,Hex,Shadow Ball,19.16
+Ghost,34,Shadow Trevenant,,Shadow Claw,Shadow Ball,19.02
+Ghost,35,Shadow Mismagius,,Sucker Punch,Shadow Ball,18.91
+Ghost,36,Zoroark,Hisuian,Snarl,Shadow Ball,18.84
+Ghost,37,Dhelmise,,Shadow Claw,Shadow Ball,18.82
+Ghost,38,Regigigas,,Hidden Power Ghost,Crush Grip*,18.45
+Ghost,39,Shadow Drifblim,,Hex,Shadow Ball,18.16
+Ghost,40,Skeledirge,,Hex,Shadow Ball,18.04
+Ghost,41,Shadow Annihilape,,Low Kick,Shadow Ball,18.02
+Ghost,42,Giratina,Altered,Shadow Claw,Shadow Force*,18.0
+Ghost,43,Shadow Alakazam,,Psycho Cut,Shadow Ball,17.78
+Ghost,44,Sinistcha,Masterpiece,Astonish,Shadow Ball,17.65
+Ghost,45,Sinistcha,Unremarkable,Astonish,Shadow Ball,17.65
+Ghost,46,Shadow Banette,,Shadow Claw,Shadow Ball,17.42
+Ghost,47,Shadow Reuniclus,,Hidden Power Ghost,Shadow Ball,17.39
+Ghost,48,Ceruledge,,Ember,Shadow Ball,17.1
+Ghost,49,Shadow Gardevoir,,Charge Beam,Shadow Ball,17.1
+Ghost,50,Shadow Golurk,,Astonish,Poltergeist,16.92
+Ghost,51,Mega Lopunny,,Pound,Shadow Ball,16.7
+Ghost,52,Trevenant,,Shadow Claw,Shadow Ball,16.67
+Ghost,53,Raikou,,Thunder Shock,Shadow Ball,16.66
+Ghost,54,Shadow Dusknoir,,Hex,Shadow Ball*,16.65
+Ghost,55,Mismagius,,Sucker Punch,Shadow Ball,16.61
+Ghost,56,Metagross,,Shadow Claw*,Meteor Mash*,16.54
+Ghost,57,Shadow Ho-Oh,Apex,Hidden Power Ghost,Brave Bird,16.41
+Ghost,58,Shadow Ho-Oh,,Hidden Power Ghost,Brave Bird,16.41
+Ghost,59,Houndstone,,Lick,Shadow Ball,16.27
+Ghost,60,Shadow Cofagrigus,,Shadow Claw,Shadow Ball,16.08
+Ghost,61,Decidueye,,Astonish,Spirit Shackle,15.99
+Ghost,62,Banette,,Shadow Claw,Shadow Ball,15.94
+Ghost,63,Aegislash,Blade,Psycho Cut,Shadow Ball,15.91
+Ghost,64,Alakazam,,Psycho Cut,Shadow Ball,15.89
+Ghost,65,Shadow Thundurus,Incarnate,Astonish,Crunch,15.88
+Ghost,66,Drifblim,,Hex,Shadow Ball,15.82
+Ghost,67,Zoroark,,Shadow Claw,Foul Play,15.8
+Ghost,68,Mega Glalie,,Powder Snow,Shadow Ball,15.78
+Ghost,69,Mega Starmie,,Hidden Power Ghost,Liquidation+1,15.75
+Ghost,70,Shadow Typhlosion,,Shadow Claw,Blast Burn*,15.73
+Ghost,71,Necrozma,,Shadow Claw,Dark Pulse,15.66
+Ghost,72,Annihilape,,Low Kick,Shadow Ball,15.62
+Ghost,73,Enamorus,Incarnate,Astonish,Fly,15.6
+Ghost,74,Gourgeist,Super Size,Hex,Shadow Ball,15.53
+Ghost,75,Tapu Lele,,Astonish,Nature’s Madness*,15.32
+Dragon,1,Eternatus,,Dragon Tail,Dynamax Cannon*,33.38
+Dragon,2,Mega Rayquaza,,Dragon Tail,Breaking Swipe*,33.11
+Dragon,3,Mega Garchomp,,Dragon Tail,Breaking Swipe,30.32
+Dragon,4,Kyurem,Black Kyurem,Dragon Tail,Freeze Shock*,30.16
+Dragon,5,Kyurem,White Kyurem,Dragon Breath,Ice Burn*,27.68
+Dragon,6,Shadow Garchomp,,Dragon Tail,Breaking Swipe,27.19
+Dragon,7,Mega Dragonite,,Dragon Tail,Outrage+1,27.07
+Dragon,8,Shadow Haxorus,,Dragon Tail,Breaking Swipe*,26.58
+Dragon,9,Mega Salamence,,Dragon Tail,Draco Meteor,26.24
+Dragon,10,Shadow Palkia,,Dragon Tail,Draco Meteor,26.07
+Dragon,11,Shadow Dialga,,Dragon Breath,Draco Meteor,25.8
+Dragon,12,Palkia,Origin,Dragon Tail,Spacial Rend*,25.57
+Dragon,13,Shadow Salamence,,Dragon Tail,Outrage*,25.29
+Dragon,14,Dialga,Origin,Dragon Breath,Roar of Time*,25.16
+Dragon,15,Baxcalibur,,Ice Fang,Glaive Rush*,25.01
+Dragon,16,Shadow Dragonite,,Dragon Tail,Outrage,24.82
+Dragon,17,Mega Latios,,Dragon Breath,Dragon Claw,24.7
+Dragon,18,Regidrago,,Dragon Breath*,Dragon Energy*,24.47
+Dragon,19,Shadow Reshiram,,Dragon Breath,Draco Meteor,24.37
+Dragon,20,Rayquaza,,Dragon Tail,Breaking Swipe*,24.18
+Dragon,21,Primal Groudon,,Dragon Tail,Precipice Blades*,24.07
+Dragon,22,Shadow Regigigas,,Hidden Power Dragon,Crush Grip*,23.64
+Dragon,23,Haxorus,,Dragon Tail,Breaking Swipe*,23.36
+Dragon,24,Garchomp,,Dragon Tail,Breaking Swipe,23.34
+Dragon,25,Mega Latias,,Dragon Breath,Outrage,23.25
+Dragon,26,Mega Sceptile,,Fury Cutter,Breaking Swipe,22.93
+Dragon,27,Shadow Latios,,Dragon Breath,Dragon Claw,22.88
+Dragon,28,Dragapult,,Dragon Tail,Breaking Swipe,22.86
+Dragon,29,Palkia,,Dragon Tail,Draco Meteor,22.75
+Dragon,30,Dialga,,Dragon Breath,Draco Meteor,22.25
+Dragon,31,Salamence,,Dragon Tail,Outrage*,22.07
+Dragon,32,Shadow Hydreigon,,Dragon Breath,Dragon Pulse,21.69
+Dragon,33,Zekrom,,Dragon Breath,Outrage,21.69
+Dragon,34,Dragonite,,Dragon Tail,Outrage,21.46
+Dragon,35,Reshiram,,Dragon Breath,Draco Meteor,21.35
+Dragon,36,Shadow Latias,,Dragon Breath,Outrage,21.28
+Dragon,37,Kyurem,,Dragon Breath,Glaciate*,21.25
+Dragon,38,Shadow Groudon,,Dragon Tail,Precipice Blades*,21.04
+Dragon,39,Shadow Tyrantrum,,Dragon Tail,Outrage,20.89
+Dragon,40,Mega Gyarados,,Dragon Tail*,Outrage,20.84
+Dragon,41,Regigigas,,Hidden Power Dragon,Crush Grip*,20.47
+Dragon,42,Mega Charizard X,,Dragon Breath*,Dragon Claw,19.99
+Dragon,43,Mega Tyranitar,,Dragon Breath,Brutal Swing,19.88
+Dragon,44,Latios,,Dragon Breath,Dragon Claw,19.76
+Dragon,45,Shadow Exeggutor,Alolan,Dragon Tail,Draco Meteor*,19.68
+Dragon,46,Mega Charizard Y,,Dragon Breath*,Dragon Claw,19.59
+Dragon,47,Shadow Gyarados,,Dragon Tail*,Outrage,19.38
+Dragon,48,Hydreigon,,Dragon Breath,Dragon Pulse,18.8
+Dragon,49,Shadow Tyranitar,,Dragon Breath,Brutal Swing,18.8
+Dragon,50,Shadow Rhyperior,,Smack Down,Breaking Swipe,18.77
+Dragon,51,Giratina,Origin,Dragon Tail,Dragon Pulse,18.57
+Dragon,52,Latias,,Dragon Breath,Outrage,18.31
+Dragon,53,Shadow Landorus,Incarnate,Mud Shot,Outrage,18.23
+Dragon,54,Tyrantrum,,Dragon Tail,Outrage,18.21
+Dragon,55,Shadow Giratina,Altered,Dragon Breath,Dragon Claw,18.19
+Dragon,56,Groudon,,Dragon Tail,Precipice Blades*,18.15
+Dragon,57,Hydrapple,,Dragon Tail,Outrage,18.11
+Dragon,58,Necrozma,Dusk Mane,Psycho Cut,Outrage,18.0
+Dragon,59,Mega Ampharos,,Charge Beam,Dragon Pulse*,17.98
+Dragon,60,Mega Altaria,,Dragon Breath,Dazzling Gleam,17.96
+Dragon,61,Goodra,,Dragon Breath,Draco Meteor,17.91
+Dragon,62,Necrozma,Dawn Wings,Psycho Cut,Outrage,17.78
+Dragon,63,Exeggutor,Alolan,Dragon Tail,Draco Meteor*,17.74
+Dragon,64,Shadow Flygon,,Dragon Tail,Dragon Claw,17.67
+Dragon,65,Zygarde,,Dragon Tail,Outrage,17.63
+Dragon,66,Shadow Rampardos,,Smack Down,Outrage,17.58
+Dragon,67,Kommo-o,,Dragon Tail,Dragon Claw,17.57
+Dragon,68,Shadow Lugia,Apex,Dragon Tail,Aeroblast+*,17.41
+Dragon,69,Shadow Kingdra,,Dragon Breath,Outrage,17.34
+Dragon,70,Zygarde,Complete,Dragon Tail,Outrage,17.26
+Dragon,71,Mega Aggron,,Dragon Tail,Meteor Beam,17.04
+Dragon,72,Drampa,,Dragon Breath,Outrage,17.03
+Dragon,73,Mega Aerodactyl,,Dragon Breath,Rock Slide,16.83
+Dragon,74,Togekiss,,Hidden Power Dragon,Dazzling Gleam,16.75
+Dragon,75,Shadow Lugia,,Dragon Tail,Fly,16.67
+Dark,1,Shadow Darkrai,,Snarl,Foul Play,27.53
+Dark,2,Mega Tyranitar,,Bite,Brutal Swing,27.2
+Dark,3,Mega Gengar,,Sucker Punch,Shadow Ball,26.33
+Dark,4,Shadow Hydreigon,,Bite,Brutal Swing*,26.32
+Dark,5,Shadow Tyranitar,,Bite,Brutal Swing,26.17
+Dark,6,Mega Houndoom,,Snarl,Dark Pulse+1,26.1
+Dark,7,Mega Absol,,Snarl,Brutal Swing*,25.92
+Dark,8,Mega Greninja,,Feint Attack,Brutal Swing,24.94
+Dark,9,Darkrai,,Snarl,Foul Play,23.56
+Dark,10,Shadow Absol,,Snarl,Brutal Swing*,22.92
+Dark,11,Shadow Salamence,,Bite,Brutal Swing,22.82
+Dark,12,Mega Salamence,,Bite,Brutal Swing,22.51
+Dark,13,Shadow Weavile,,Snarl,Foul Play,22.46
+Dark,14,Hydreigon,,Bite,Brutal Swing*,22.35
+Dark,15,Tyranitar,,Bite,Brutal Swing,22.16
+Dark,16,Mega Gyarados,,Bite,Crunch,21.6
+Dark,17,Shadow Greninja,,Feint Attack,Brutal Swing,21.42
+Dark,18,Shadow Houndoom,,Snarl,Foul Play,21.32
+Dark,19,Shadow Regigigas,,Hidden Power Dark,Crush Grip*,21.31
+Dark,20,Shadow Muk,Alolan,Snarl,Brutal Swing,21.3
+Dark,21,Kingambit,,Snarl,Foul Play,20.86
+Dark,22,Shadow Honchkrow,,Snarl,Dark Pulse,20.84
+Dark,23,Mega Aerodactyl,,Bite,Brutal Swing,20.57
+Dark,24,Incineroar,,Snarl,Darkest Lariat,20.34
+Dark,25,Absol,,Snarl,Brutal Swing*,20.24
+Dark,26,Yveltal,,Snarl,Dark Pulse,20.22
+Dark,27,Hoopa,Hoopa Unbound,Astonish,Dark Pulse,20.09
+Dark,28,Shadow Gengar,,Sucker Punch,Shadow Ball,20.02
+Dark,29,Mega Sharpedo,,Bite,Crunch,19.72
+Dark,30,Salamence,,Bite,Brutal Swing,19.63
+Dark,31,Mega Ampharos,,Volt Switch,Brutal Swing,19.58
+Dark,32,Polteageist,Antique,Sucker Punch,Shadow Ball,19.52
+Dark,33,Polteageist,Phony,Sucker Punch,Shadow Ball,19.52
+Dark,34,Weavile,,Snarl,Foul Play,19.51
+Dark,35,Guzzlord,,Snarl,Brutal Swing,19.25
+Dark,36,Zoroark,Hisuian,Snarl,Shadow Ball,19.19
+Dark,37,Urshifu,Single Strike Style,Sucker Punch,Payback,19.18
+Dark,38,Shadow Mismagius,,Sucker Punch,Shadow Ball,19.14
+Dark,39,Zarude,,Bite,Dark Pulse,18.94
+Dark,40,Zoroark,,Snarl,Foul Play,18.89
+Dark,41,Shadow Trevenant,,Sucker Punch,Shadow Ball,18.85
+Dark,42,Necrozma,Dawn Wings,Shadow Claw,Dark Pulse,18.79
+Dark,43,Shadow Shiftry,,Snarl,Foul Play,18.75
+Dark,44,Shadow Conkeldurr,,Force Palm,Brutal Swing*,18.72
+Dark,45,Grimmsnarl,,Sucker Punch,Foul Play,18.64
+Dark,46,Greninja,,Feint Attack,Brutal Swing,18.53
+Dark,47,Houndoom,,Snarl,Foul Play,18.41
+Dark,48,Gengar,,Sucker Punch,Shadow Ball,18.38
+Dark,49,Regigigas,,Hidden Power Dark,Crush Grip*,18.3
+Dark,50,Shadow Tornadus,Incarnate,Bite,Dark Pulse,18.26
+Dark,51,Shadow Reshiram,,Fire Fang,Crunch,18.22
+Dark,52,Honchkrow,,Snarl,Dark Pulse,18.16
+Dark,53,Muk,Alolan,Snarl,Brutal Swing,18.08
+Dark,54,Bisharp,,Snarl,Dark Pulse,17.73
+Dark,55,Necrozma,Dusk Mane,Shadow Claw,Dark Pulse,17.63
+Dark,56,Shadow Aerodactyl,,Bite,Brutal Swing,17.6
+Dark,57,Shadow Reuniclus,,Hidden Power Dark,Shadow Ball,17.42
+Dark,58,Skeledirge,,Bite,Shadow Ball,17.31
+Dark,59,Shadow Crawdaunt,,Snarl,Night Slash,17.2
+Dark,60,Regidrago,,Bite,Dragon Energy*,17.19
+Dark,61,Dhelmise,,Shadow Claw,Brutal Swing,17.17
+Dark,62,Shadow Haxorus,,Dragon Tail,Night Slash,17.1
+Dark,63,Shadow Cacturne,,Sucker Punch,Dark Pulse,17.06
+Dark,64,Thundurus,Therian,Bite,Wildbolt Storm*,17.03
+Dark,65,Samurott,Hisuian,Snarl,Dark Pulse,17.02
+Dark,66,Krookodile,,Snarl,Crunch,17.0
+Dark,67,Mabosstiff,,Snarl,Crunch,16.86
+Dark,68,Mega Blastoise,,Bite,Hydro Cannon*,16.81
+Dark,69,Shadow Gyarados,,Bite,Crunch,16.8
+Dark,70,Mismagius,,Sucker Punch,Shadow Ball,16.8
+Dark,71,Trevenant,,Sucker Punch,Shadow Ball,16.52
+Dark,72,Shadow Vikavolt,,Bug Bite,Crunch,16.49
+Dark,73,Shadow Arcanine,Hisuian,Snarl,Crunch,16.46
+Dark,74,Shadow Thundurus,Incarnate,Astonish,Crunch,16.43
+Dark,75,Shiftry,,Snarl,Foul Play,16.36
+Steel,1,Zacian,Crowned Sword,Metal Claw,Behemoth Blade*,32.95
+Steel,2,Zamazenta,Crowned Shield,Metal Claw,Behemoth Bash*,32.0
+Steel,3,Necrozma,Dusk Mane,Metal Claw,Sunsteel Strike*,31.31
+Steel,4,Shadow Metagross,,Bullet Punch,Meteor Mash*,27.1
+Steel,5,Mega Lucario,,Force Palm*,Meteor Mash,27.09
+Steel,6,Mega Metagross,,Bullet Punch,Meteor Mash*,26.91
+Steel,7,Shadow Dialga,,Metal Claw,Iron Head,23.87
+Steel,8,Metagross,,Bullet Punch,Meteor Mash*,22.96
+Steel,9,Shadow Regigigas,,Hidden Power Steel,Crush Grip*,21.87
+Steel,10,Necrozma,Dawn Wings,Metal Claw,Moongeist Beam*,21.86
+Steel,11,Shadow Excadrill,,Metal Claw,Iron Head,21.75
+Steel,12,Tinkaton,,Fairy Wind,Gigaton Hammer*,21.03
+Steel,13,Mega Skarmory,,Steel Wing,Drill Peck+1,20.47
+Steel,14,Kyurem,White Kyurem,Steel Wing,Ice Burn*,20.4
+Steel,15,Dialga,,Metal Claw,Iron Head,20.33
+Steel,16,Lucario,,Force Palm*,Meteor Mash,20.27
+Steel,17,Dialga,Origin,Metal Claw,Iron Head,20.09
+Steel,18,Genesect,Douse Drive,Metal Claw,Magnet Bomb,19.66
+Steel,19,Genesect,Chill Drive,Metal Claw,Magnet Bomb,19.66
+Steel,20,Genesect,Burn Drive,Metal Claw,Magnet Bomb,19.66
+Steel,21,Genesect,Shock Drive,Metal Claw,Magnet Bomb,19.66
+Steel,22,Genesect,No Drive,Metal Claw,Magnet Bomb,19.66
+Steel,23,Melmetal,,Thunder Shock,Double Iron Bash*,19.51
+Steel,24,Mega Aggron,,Iron Tail,Heavy Slam,19.49
+Steel,25,Mega Scizor,,Bullet Punch,Iron Head,19.09
+Steel,26,Shadow Heatran,,Fire Spin,Iron Head,19.03
+Steel,27,Shadow Empoleon,,Steel Wing,Hydro Cannon*,18.97
+Steel,28,Regigigas,,Hidden Power Steel,Crush Grip*,18.87
+Steel,29,Excadrill,,Metal Claw,Iron Head,18.7
+Steel,30,Shadow Ho-Oh,Apex,Steel Wing,Sacred Fire+*,18.67
+Steel,31,Mega Tyranitar,,Iron Tail,Stone Edge,18.6
+Steel,32,Shadow Scizor,,Bullet Punch,Iron Head,18.5
+Steel,33,Jirachi,,Charge Beam,Doom Desire,18.42
+Steel,34,Shadow Aggron,,Iron Tail,Heavy Slam,18.2
+Steel,35,Shadow Ho-Oh,,Steel Wing,Brave Bird,18.19
+Steel,36,Kingambit,,Metal Claw,Iron Head,18.03
+Steel,37,Mega Aerodactyl,,Steel Wing,Rock Slide,17.97
+Steel,38,Shadow Magneton,,Metal Sound,Magnet Bomb,17.58
+Steel,39,Mega Dragonite,,Steel Wing,Outrage+1,17.52
+Steel,40,Shadow Magnezone,,Metal Sound,Flash Cannon,17.45
+Steel,41,Shadow Tyranitar,,Iron Tail,Stone Edge,17.15
+Steel,42,Shadow Archeops,,Steel Wing,Ancient Power,16.99
+Steel,43,Mega Steelix,,Iron Tail,Heavy Slam,16.94
+Steel,44,Ho-Oh,Apex,Steel Wing,Sacred Fire++*,16.87
+Steel,45,Mega Pidgeot,,Steel Wing,Brave Bird,16.59
+Steel,46,Shadow Kingler,,Metal Claw,Crabhammer,16.55
+Steel,47,Bisharp,,Metal Claw,Iron Head,16.52
+Steel,48,Shadow Dragonite,,Steel Wing,Hurricane,16.47
+Steel,49,Kyurem,,Steel Wing,Glaciate*,16.18
+Steel,50,Empoleon,,Steel Wing,Hydro Cannon*,16.16
+Steel,51,Heatran,,Fire Spin,Iron Head,16.11
+Steel,52,Shadow Hariyama,,Force Palm,Heavy Slam,16.1
+Steel,53,Shadow Entei,,Fire Spin,Iron Head,16.03
+Steel,54,Shadow Machamp,,Bullet Punch,Heavy Slam,16.0
+Steel,55,Shadow Gigalith,,Smack Down,Heavy Slam,15.99
+Steel,56,Mega Starmie,,Hidden Power Steel,Liquidation+1,15.96
+Steel,57,Scizor,,Bullet Punch,Iron Head,15.87
+Steel,58,Zacian,Hero of Many Battles,Metal Claw,Iron Head,15.72
+Steel,59,Durant,,Metal Claw,Iron Head,15.68
+Steel,60,Solgaleo,,Fire Spin,Iron Head,15.65
+Steel,61,Ho-Oh,,Steel Wing,Brave Bird,15.55
+Steel,62,Zamazenta,Hero of Many Battles,Metal Claw,Iron Head,15.52
+Steel,63,Necrozma,,Metal Claw,Iron Head,15.51
+Steel,64,Aggron,,Iron Tail,Heavy Slam,15.51
+Steel,65,Cobalion,,Metal Claw,Sacred Sword*,15.42
+Steel,66,Kyurem,Black Kyurem,Dragon Tail,Iron Head,15.37
+Steel,67,Magneton,,Metal Sound,Magnet Bomb,15.32
+Steel,68,Shadow Corviknight,,Steel Wing,Iron Head*,15.31
+Steel,69,Shadow Sandslash,Alolan,Metal Claw,Gyro Ball,15.25
+Steel,70,Revavroom,,Metal Sound,Gyro Ball,15.24
+Steel,71,Shadow Aerodactyl,,Steel Wing,Rock Slide,15.15
+Steel,72,Magnezone,,Metal Sound,Flash Cannon,15.11
+Steel,73,Archeops,,Steel Wing,Ancient Power,14.89
+Steel,74,Shadow Unfezant,,Steel Wing,Sky Attack,14.88
+Steel,75,Braviary,,Steel Wing,Fly,14.83
+Fairy,1,Mega Gardevoir,,Charm,Dazzling Gleam,26.48
+Fairy,2,Zacian,Crowned Sword,Metal Claw,Play Rough,24.74
+Fairy,3,Shadow Gardevoir,,Charm,Dazzling Gleam,22.41
+Fairy,4,Enamorus,Incarnate,Fairy Wind,Dazzling Gleam,22.18
+Fairy,5,Mega Gallade,,Charm,Sacred Sword,21.66
+Fairy,6,Mega Alakazam,,Psycho Cut,Dazzling Gleam*,21.26
+Fairy,7,Tapu Lele,,Astonish,Nature’s Madness*,20.66
+Fairy,8,Tapu Koko,,Quick Attack,Nature’s Madness*,20.62
+Fairy,9,Xerneas,,Geomancy*,Moonblast,20.46
+Fairy,10,Tapu Bulu,,Bullet Seed,Nature’s Madness*,20.02
+Fairy,11,Shadow Granbull,,Charm,Play Rough,19.8
+Fairy,12,Xurkitree,,Thunder Shock,Dazzling Gleam,19.35
+Fairy,13,Mega Latias,,Charm,Aura Sphere,19.33
+Fairy,14,Enamorus,Therian,Fairy Wind,Fly,19.3
+Fairy,15,Gardevoir,,Charm,Dazzling Gleam,19.24
+Fairy,16,Togekiss,,Charm,Dazzling Gleam,19.08
+Fairy,17,Zacian,Hero of Many Battles,Snarl,Play Rough,18.75
+Fairy,18,Hatterene,,Charm,Dazzling Gleam,18.52
+Fairy,19,Mega Diancie,,Rock Throw,Moonblast,18.43
+Fairy,20,Shadow Ursaluna,,Tackle,Play Rough,18.18
+Fairy,21,Shadow Gallade,,Charm,Sacred Sword,18.16
+Fairy,22,Shadow Latias,,Charm,Aura Sphere,17.73
+Fairy,23,Primarina,,Charm,Moonblast,17.66
+Fairy,24,Mega Raichu Y,,Charm,Wild Charge,17.56
+Fairy,25,Sylveon,,Charm,Dazzling Gleam,17.49
+Fairy,26,Mega Banette,,Hex,Dazzling Gleam,17.47
+Fairy,27,Granbull,,Charm,Play Rough,17.15
+Fairy,28,Mega Altaria,,Dragon Breath,Dazzling Gleam,17.01
+Fairy,29,Shadow Donphan,,Charm,Play Rough,16.87
+Fairy,30,Shadow Alakazam,,Psycho Cut,Dazzling Gleam*,16.8
+Fairy,31,Grimmsnarl,,Sucker Punch,Play Rough,16.61
+Fairy,32,Shadow Tyrantrum,,Charm,Outrage,16.59
+Fairy,33,Meloetta,Aria,Quick Attack,Dazzling Gleam,16.58
+Fairy,34,Tinkaton,,Fairy Wind,Gigaton Hammer*,16.56
+Fairy,35,Shadow Weezing,Galarian,Fairy Wind,Play Rough,16.53
+Fairy,36,Shadow Ninetales,Alolan,Charm,Dazzling Gleam,16.35
+Fairy,37,Rapidash,Galarian,Fairy Wind,Play Rough,16.14
+Fairy,38,Gholdengo,,Hex,Dazzling Gleam,15.98
+Fairy,39,Florges,White Flower,Fairy Wind,Moonblast,15.85
+Fairy,40,Florges,Blue Flower,Fairy Wind,Moonblast,15.85
+Fairy,41,Florges,Orange Flower,Fairy Wind,Moonblast,15.85
+Fairy,42,Florges,Yellow Flower,Fairy Wind,Moonblast,15.85
+Fairy,43,Florges,Red Flower,Fairy Wind,Moonblast,15.85
+Fairy,44,Tapu Fini,,Hidden Power Ice,Nature’s Madness*,15.72
+Fairy,45,Gallade,,Charm,Sacred Sword,15.71
+Fairy,46,Ursaluna,,Tackle,Play Rough,15.55
+Fairy,47,Shadow Ursaring,,Metal Claw,Play Rough,15.46
+Fairy,48,Mega Raichu X,,Charm,Volt Tackle+1,15.41
+Fairy,49,Shadow Slaking,,Yawn,Play Rough,15.29
+Fairy,50,Beartic,,Charm,Play Rough,15.23
+Fairy,51,Ribombee,,Charm,Dazzling Gleam,15.22
+Fairy,52,Latias,,Charm,Aura Sphere,15.2
+Fairy,53,Clefable,,Charm,Dazzling Gleam,15.2
+Fairy,54,Mega Mawile,,Fairy Wind,Play Rough,15.17
+Fairy,55,Alakazam,,Psycho Cut,Dazzling Gleam*,15.14
+Fairy,56,Zamazenta,Crowned Shield,Metal Claw,Moonblast,14.99
+Fairy,57,Meowscarada,,Charm,Play Rough,14.64
+Fairy,58,Glimmora,,Rock Throw,Dazzling Gleam,14.61
+Fairy,59,Donphan,,Charm,Play Rough,14.57
+Fairy,60,Tyrantrum,,Charm,Outrage,14.45
+Fairy,61,Shadow Mismagius,,Psywave,Dazzling Gleam,14.37
+Fairy,62,Lunala,,Shadow Claw,Moonblast,14.33
+Fairy,63,Weezing,Galarian,Fairy Wind,Play Rough,14.23
+Fairy,64,Mew,,Dragon Tail,Dazzling Gleam,14.16
+Fairy,65,Roserade,,Poison Jab,Dazzling Gleam,14.15
+Fairy,66,Shadow Reuniclus,,Charm*,Future Sight,14.1
+Fairy,67,Ninetales,Alolan,Charm,Dazzling Gleam,14.09
+Fairy,68,Slurpuff,,Charm,Play Rough,14.06
+Fairy,69,Ursaring,,Metal Claw,Play Rough,13.76
+Fairy,70,Braviary,Hisuian,Air Slash,Dazzling Gleam,13.76
+Fairy,71,Zamazenta,Hero of Many Battles,Metal Claw,Moonblast,13.7
+Fairy,72,Jirachi,,Confusion,Dazzling Gleam,13.66
+Fairy,73,Tsareena,,Charm,Triple Axel,13.51
+Fairy,74,Celebi,,Confusion,Dazzling Gleam,13.46
+Fairy,75,Aromatisse,,Charm,Moonblast,13.45

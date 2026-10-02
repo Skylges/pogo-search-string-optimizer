@@ -76,9 +76,15 @@ PVPOKE_NAME_EXCEPTIONS = {
 }
 
 # Evolution-line overrides for cases where the naive "evolves_from" walk
-# up PokeAPI gives the wrong answer for a specific form.
+# from PogoAPI gives the wrong answer for a specific form.
 EVO_EXCEPTIONS = {
     (26, "Alola"): [25, 26],     # Raichu (Alolan) can't be from Pichu
     (122, "Galarian"): [122],    # Galarian Mr. Mime can't be from Mime Jr.
     (866, "Galarian"): [122, 866],  # Galarian Mr. Rime can't be from Mime Jr.
+    (1000, "Normal"): [999, 1000], # Gholdengo CAN be from Gimmighoul
+}
+
+# Forms that are filterable in Pokemon Go search strings.
+DIALGADEX_RELEVANT_FORMS = {
+    "Galarian", "Hisuian", "Paldean", "Alolan"
 }

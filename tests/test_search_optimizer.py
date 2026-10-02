@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.search_optimizer import (
+from src.search_strings import (
     is_tautology,
     optimize_pokemon_search,
     parse_search_term,
